@@ -118,7 +118,7 @@ __webpack_require__.r(__webpack_exports__);
     stageControls.insertBefore(hideStageButton, smallStageButton);
     hideStageButton.appendChild(Object.assign(document.createElement("img"), {
       className: addon.tab.scratchClass("stage-header_stage-button-icon"),
-      src: addon.self.getResource("/icon.svg")
+      src: addon.self.getResource("./icon.svg")
       /* rewritten by pull.js */
       ,
       alt: msg("hide-stage"),

@@ -366,9 +366,9 @@ var DracoDecoderModule = (function () {
 				var a = {
 						USER: 'web_user',
 						LOGNAME: 'web_user',
-						PATH: '/',
-						PWD: '/',
-						HOME: '/home/web_user',
+						PATH: './',
+						PWD: './',
+						HOME: './home/web_user',
 						LANG:
 							(
 								('object' === typeof navigator && navigator.languages && navigator.languages[0]) ||
@@ -598,7 +598,7 @@ var DracoDecoderModule = (function () {
 			pa,
 			qa;
 		if (oa) {
-			M = __dirname + '/';
+			M = __dirname + './';
 			var ra = function (a, c) {
 				pa || (pa = require('fs'));
 				qa || (qa = require('path'));
@@ -611,7 +611,7 @@ var DracoDecoderModule = (function () {
 				t(a.buffer);
 				return a;
 			};
-			1 < process.argv.length && (na = process.argv[1].replace(/\\/g, '/'));
+			1 < process.argv.length && (na = process.argv[1].replace(/\\/g, './'));
 			process.argv.slice(2);
 			process.on('uncaughtException', function (a) {
 				throw a;
@@ -638,7 +638,7 @@ var DracoDecoderModule = (function () {
 		else if (ea || Z)
 			Z ? (M = self.location.href) : document.currentScript && (M = document.currentScript.src),
 				f && (M = f),
-				(M = 0 !== M.indexOf('blob:') ? M.substr(0, M.lastIndexOf('/') + 1) : ''),
+				(M = 0 !== M.indexOf('blob:') ? M.substr(0, M.lastIndexOf('./') + 1) : ''),
 				(ra = function (a) {
 					var c = new XMLHttpRequest();
 					c.open('GET', a, !1);

@@ -25,7 +25,7 @@ var _fgq = [];
 window.famobi_ts = 1634529563000;
 if ((new Date).getTime() > famobi_ts) {
 	window.famobi_gameJS.push(function() {
-		// window.location = '//play.famobi.com/';
+		// window.location = './/play.famobi.com/';
 	});
 }
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

@@ -169,7 +169,7 @@ var Chess = function(fen) {
         for (var i = 0; i < position.length; i++) {
             var piece = position.charAt(i);
 
-            if (piece === '/') {
+            if (piece === './') {
                 square += 8;
             } else if (is_digit(piece)) {
                 square += parseInt(piece, 10);
@@ -218,7 +218,7 @@ var Chess = function(fen) {
             4: '4th field (en-passant square) is invalid.',
             5: '3rd field (castling availability) is invalid.',
             6: '2nd field (side to move) is invalid.',
-            7: '1st field (piece positions) does not contain 8 \'/\'-delimited rows.',
+            7: '1st field (piece positions) does not contain 8 \'./\'-delimited rows.',
             8: '1st field (piece positions) is invalid [consecutive numbers].',
             9: '1st field (piece positions) is invalid [invalid piece].',
             10: '1st field (piece positions) is invalid [row too large].',
@@ -257,7 +257,7 @@ var Chess = function(fen) {
         }
 
         /* 7th criterion: 1st field contains 8 rows? */
-        var rows = tokens[0].split('/');
+        var rows = tokens[0].split('./');
         if (rows.length !== 8) {
             return {valid: false, error_number: 7, error: errors[7]};
         }
@@ -322,7 +322,7 @@ var Chess = function(fen) {
                 }
 
                 if (i !== SQUARES.h1) {
-                    fen += '/';
+                    fen += './';
                 }
 
                 empty = 0;

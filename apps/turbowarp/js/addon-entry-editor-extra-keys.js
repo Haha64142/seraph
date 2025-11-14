@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
       keys.splice(5, 0, [msg("enter-key"), "enter"]);
 
       if (addon.settings.get("experimentalKeys")) {
-        keys.push(...[["`", "`"], ["=", "="], ["[", "["], ["]", "]"], ["\\", "\\"], [";", ";"], ["'", "'"], ["/", "/"]]);
+        keys.push(...[["`", "`"], ["=", "="], ["[", "["], ["]", "]"], ["\\", "\\"], [";", ";"], ["'", "'"], ["./", "./"]]);
       }
 
       if (enableShiftKeys && addon.settings.get("shiftKeys")) {

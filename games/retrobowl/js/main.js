@@ -3301,7 +3301,7 @@ var _72 = {
 				{ _X9: 44, _Y9: ',', x: 66, y: 50, _Z9: 3, __9: 14, shift: 5, offset: 1 },
 				{ _X9: 45, _Y9: '-', x: 60, y: 50, _Z9: 4, __9: 14, shift: 6, offset: 1 },
 				{ _X9: 46, _Y9: '.', x: 56, y: 50, _Z9: 2, __9: 14, shift: 4, offset: 1 },
-				{ _X9: 47, _Y9: '/', x: 49, y: 50, _Z9: 5, __9: 14, shift: 7, offset: 1 },
+				{ _X9: 47, _Y9: './', x: 49, y: 50, _Z9: 5, __9: 14, shift: 7, offset: 1 },
 				{ _X9: 48, _Y9: '0', x: 41, y: 50, _Z9: 6, __9: 14, shift: 8, offset: 1 },
 				{ _X9: 49, _Y9: '1', x: 35, y: 50, _Z9: 4, __9: 14, shift: 6, offset: 1 },
 				{ _X9: 50, _Y9: '2', x: 27, y: 50, _Z9: 6, __9: 14, shift: 8, offset: 1 },
@@ -3413,7 +3413,7 @@ var _72 = {
 				{ _X9: 44, _Y9: ',', x: 48, y: 65, _Z9: 5, __9: 19, shift: 15, offset: 4 },
 				{ _X9: 45, _Y9: '-', x: 37, y: 65, _Z9: 9, __9: 19, shift: 15, offset: 4 },
 				{ _X9: 46, _Y9: '.', x: 32, y: 65, _Z9: 3, __9: 19, shift: 15, offset: 6 },
-				{ _X9: 47, _Y9: '/', x: 17, y: 65, _Z9: 13, __9: 19, shift: 15, offset: 2 },
+				{ _X9: 47, _Y9: './', x: 17, y: 65, _Z9: 13, __9: 19, shift: 15, offset: 2 },
 				{ _X9: 48, _Y9: '0', x: 2, y: 65, _Z9: 13, __9: 19, shift: 15, offset: 2 },
 				{ _X9: 49, _Y9: '1', x: 236, y: 44, _Z9: 11, __9: 19, shift: 15, offset: 4 },
 				{ _X9: 50, _Y9: '2', x: 221, y: 44, _Z9: 13, __9: 19, shift: 15, offset: 2 },
@@ -3525,7 +3525,7 @@ var _72 = {
 				{ _X9: 44, _Y9: ',', x: 205, y: 66, _Z9: 6, __9: 30, shift: 10, offset: 2 },
 				{ _X9: 45, _Y9: '-', x: 196, y: 66, _Z9: 7, __9: 30, shift: 11, offset: 2 },
 				{ _X9: 46, _Y9: '.', x: 190, y: 66, _Z9: 4, __9: 30, shift: 8, offset: 2 },
-				{ _X9: 47, _Y9: '/', x: 180, y: 66, _Z9: 8, __9: 30, shift: 12, offset: 2 },
+				{ _X9: 47, _Y9: './', x: 180, y: 66, _Z9: 8, __9: 30, shift: 12, offset: 2 },
 				{ _X9: 48, _Y9: '0', x: 167, y: 66, _Z9: 11, __9: 30, shift: 15, offset: 2 },
 				{ _X9: 49, _Y9: '1', x: 158, y: 66, _Z9: 7, __9: 30, shift: 11, offset: 2 },
 				{ _X9: 50, _Y9: '2', x: 145, y: 66, _Z9: 11, __9: 30, shift: 15, offset: 2 },
@@ -19085,7 +19085,7 @@ function _Q4(_3l, _4l) {
 	var _Ks = yyfplus(
 		yyfplus(
 			yyfplus(yyfplus(_sl(_Q8(_3l, _4l, 'ui_Page')), ' '), _sl(_ul(_0m(_3l, _4l, 42)._Io))),
-			'/'
+			'./'
 		),
 		_sl(_ul(_3l._Jo))
 	);
@@ -21722,7 +21722,7 @@ function _B5(_3l, _4l, _5l, _Bq) {
 						case 0: {
 							_ex = '-';
 							_fx = yyfplus(
-								yyfplus(_sl(_ul(_il(_Bl, 'stat_int'))), '/'),
+								yyfplus(_sl(_ul(_il(_Bl, 'stat_int'))), './'),
 								_sl(_ul(_il(_Bl, 'stat_sacks')))
 							);
 							break;
@@ -21730,7 +21730,7 @@ function _B5(_3l, _4l, _5l, _Bq) {
 						case 1: {
 							_dx = '-';
 							_fx = yyfplus(
-								yyfplus(_sl(_ul(_il(_Bl, 'stat_int'))), '/'),
+								yyfplus(_sl(_ul(_il(_Bl, 'stat_int'))), './'),
 								_sl(_ul(_il(_Bl, 'stat_sacks')))
 							);
 							break;
@@ -32389,7 +32389,7 @@ function _y7(_3l, _4l) {
 																			'  ',
 																			_sl(_ul(_il(_0m(_3l, _4l, _cL)._Bl, 'stat_complete')))
 																		),
-																		'/'
+																		'./'
 																	),
 																	_sl(_ul(_il(_0m(_3l, _4l, _cL)._Bl, 'stat_attempts')))
 																),
@@ -49115,7 +49115,7 @@ _W21.prototype._h31 = function (_i31, _j31, _k31, _l31, _m31) {
 	var _n31 = _l31;
 	var _o31 = _m31;
 	var _p31 = 0;
-	var _q31 = _i31 + '/';
+	var _q31 = _i31 + './';
 	var _r31 = this;
 	var _s31 = function (_t31) {
 		var _u31 = new _M21();
@@ -60289,15 +60289,15 @@ function _LJ1(e) {
 	debug(
 		'Audio_SoundReadyStateChange:targetid/readyState/status:' +
 			targetid +
-			'/' +
+			'./' +
 			e.target.readyState +
-			'/' +
+			'./' +
 			e.target.status
 	);
 }
 function _MJ1(e) {
 	var targetid = e.target.targetid;
-	debug('Audio_SoundProgress:targetid/loaded/total:' + targetid + '/' + e._NJ1 + '/' + e._OJ1);
+	debug('Audio_SoundProgress:targetid/loaded/total:' + targetid + './' + e._NJ1 + './' + e._OJ1);
 }
 function _PJ1(_kv1, _JJ1) {
 	_kv1 = _5I1(_kv1);
@@ -61129,7 +61129,7 @@ var _OL1 = function (_Ce1, _d21) {
 		('https:' != location.protocol
 			? 'http://jsd.supersonicads.com'
 			: 'https://a248.e.akamai.net/ssastatic.s3.amazonaws.com') +
-		'/inlineDelivery/delivery.min.gz.js';
+		'./inlineDelivery/delivery.min.gz.js';
 	_Wo1.parentNode.insertBefore(_k41, _Wo1);
 };
 var _QL1 = ads_engagement_launch;
@@ -84179,7 +84179,7 @@ var spine;
 			if (error === void 0) {
 				error = null;
 			}
-			var parent = path.lastIndexOf('/') >= 0 ? path.substring(0, path.lastIndexOf('/')) : '';
+			var parent = path.lastIndexOf('./') >= 0 ? path.substring(0, path.lastIndexOf('./')) : '';
 			path = this._FK2 + path;
 			this._HK2++;
 			_DK2._IK2(
@@ -84189,7 +84189,7 @@ var spine;
 					var _SK2 = new Array();
 					try {
 						var _TK2 = new spine._z31(_QK2, function (path) {
-							_SK2.push(parent + '/' + path);
+							_SK2.push(parent + './' + path);
 							var _N21 = document.createElement('img');
 							_N21.width = 16;
 							_N21.height = 16;
@@ -84213,7 +84213,7 @@ var spine;
 									if (!_WK2) {
 										try {
 											var _TK2 = new spine._z31(_QK2, function (path) {
-												return _3H2.get(parent + '/' + path);
+												return _3H2.get(parent + './' + path);
 											});
 											_3H2._6A1[path] = _TK2;
 											if (_JK2) _JK2(path, _TK2);
@@ -93706,7 +93706,7 @@ function _zc3() {
 		_x31 = g_GameMakerHTML5Dir;
 	} else {
 		if (_Ho1._ok && _Ho1._ok._Nk) {
-			_x31 = _Ho1._ok._Nk + '/';
+			_x31 = _Ho1._ok._Nk + './';
 		}
 	}
 	_KP1 = [];
@@ -97441,9 +97441,9 @@ function _Lk3(_IM1) {
 	this._Yk3 = 0;
 	this._Zk3 = 100;
 	this._be3 = 0;
-	this._ge3 = '/';
-	this.__k3 = '/';
-	this._0l3 = '/';
+	this._ge3 = './';
+	this.__k3 = './';
+	this._0l3 = './';
 	this._1l3 = 0;
 	this._2l3 = 0;
 	this._Ps = 0;
@@ -101072,7 +101072,7 @@ var _zs3 = {
 	107: '+',
 	109: '-',
 	110: '.',
-	111: '/',
+	111: './',
 	112: 0,
 	113: 0,
 	114: 0,
@@ -101093,7 +101093,7 @@ var _zs3 = {
 	188: ',',
 	189: '-',
 	190: '.',
-	191: '/',
+	191: './',
 	192: "'",
 	219: '[',
 	220: '\\',
@@ -101179,7 +101179,7 @@ var _As3 = {
 	107: '+',
 	109: '-',
 	110: '.',
-	111: '/',
+	111: './',
 	112: 0,
 	113: 0,
 	114: 0,
@@ -113620,7 +113620,7 @@ function _HO3(_kv1) {
 	_ub3 = [];
 	_cc3 = 0;
 	var _Wm1 = _kv1.search;
-	var _3I1 = _kv1.protocol + '//' + _kv1.host + _kv1.pathname;
+	var _3I1 = _kv1.protocol + './/' + _kv1.host + _kv1.pathname;
 	_tb3[0] = _3I1;
 	_ub3[0] = null;
 	if (_Wm1[0] == '?') _Wm1 = _Wm1.substring(1, _Wm1.length);

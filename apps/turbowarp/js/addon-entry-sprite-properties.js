@@ -170,7 +170,7 @@ __webpack_require__.r(__webpack_exports__);
 
   function injectInfoButton() {
     if (!infoButton) {
-      infoButton = createButton(PROPS_INFO_BTN_CLASS, "/info.svg", msg("open-properties-panel-tooltip"));
+      infoButton = createButton(PROPS_INFO_BTN_CLASS, "./info.svg", msg("open-properties-panel-tooltip"));
     }
 
     const selectedSprite = propertiesPanel.parentNode.querySelector('[class*="sprite-selector-item_is-selected"]');
@@ -186,7 +186,7 @@ __webpack_require__.r(__webpack_exports__);
 
   function injectCloseButton() {
     if (!closeButton) {
-      closeButton = createButton(PROPS_CLOSE_BTN_CLASS, "/collapse.svg", msg("close-properties-panel-tooltip"));
+      closeButton = createButton(PROPS_CLOSE_BTN_CLASS, "./collapse.svg", msg("close-properties-panel-tooltip"));
     }
 
     propertiesPanel.appendChild(closeButton);

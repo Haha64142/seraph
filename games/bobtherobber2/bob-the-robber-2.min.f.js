@@ -6463,7 +6463,7 @@ function() {
           , i = new Image;
         i.src = e + "AP804Oa6" + t;
         var r = new Image;
-        r.src = e + "/wCKxvRF" + t;
+        r.src = e + "./wCKxvRF" + t;
         var o = I.CanvasPool.create(this, 6, 1).getContext("2d");
         if (o.globalCompositeOperation = "multiply",
         o.drawImage(i, 0, 0),
@@ -32189,7 +32189,7 @@ function(e, t) {
         Object.defineProperty(n, "brandingLogoUrl", {
             get: function() {
                 var e;
-                switch (C.isOnDevice() || n.isAirfi() ? C.ASSET_LOCATION = "assets/" : "fbrq.io" === C.getSourceSite(!0) && (C.ASSET_LOCATION = "https://" + window.location.host + "/@azerion/splash/assets/"),
+                switch (C.isOnDevice() || n.isAirfi() ? C.ASSET_LOCATION = "assets/" : "fbrq.io" === C.getSourceSite(!0) && (C.ASSET_LOCATION = "https://" + window.location.host + "./@azerion/splash/assets/"),
                 C.getBrandingDomain()) {
                 case h.BrandingDomain.Spele:
                     e = "spele";
@@ -32263,7 +32263,7 @@ function(e, t) {
         }),
         n.openCampaignLink = function(e, t) {
             if (!C.isOnDevice() && !n.isSpecial() && n.outGoingLinksAllowed()) {
-                var i, r, o = C.getSourceSite(), s = C.isOnDevice() ? "https://" : "//";
+                var i, r, o = C.getSourceSite(), s = C.isOnDevice() ? "https://" : ".//";
                 switch (C.getBrandingDomain()) {
                 case h.BrandingDomain.Spele:
                     i = s + "www.spele.nl";
@@ -32290,7 +32290,7 @@ function(e, t) {
                     i = s + "www.funnygames.nu"
                 }
                 var a = "string" == typeof t ? t : h.UtmTargets[t];
-                (r = window.open(i + "/?utm_source=" + o + "&utm_medium=html5&utm_term=" + e + "&utm_content=" + a + "&utm_campaign=Gamedistribution", "_blank")) && r.focus && r.focus()
+                (r = window.open(i + "./?utm_source=" + o + "&utm_medium=html5&utm_term=" + e + "&utm_content=" + a + "&utm_campaign=Gamedistribution", "_blank")) && r.focus && r.focus()
             }
         }
         ,
@@ -32385,7 +32385,7 @@ function(e, t) {
             if (z.isBip())
                 return "bipgaming.com";
             z.isSpil() && (t = r.getReferrer(t)),
-            t = (t = -1 < t.indexOf("://") ? t.split("/")[2] : t.split("/")[0]).split(":")[0];
+            t = (t = -1 < t.indexOf("://") ? t.split("./")[2] : t.split("./")[0]).split(":")[0];
             var i = s.getDomain(t);
             return null !== i ? i : (3 === t.split(".").length && (t = t.substr(t.indexOf(".") + 1)),
             t)
@@ -32487,7 +32487,7 @@ function(e, t) {
         function e() {}
         return e.preload = function() {
             return z.analyticsEnabled ? new Promise(function(e, t) {
-                var i, r, o, s, a, n = C.isOnDevice() ? "https://" : "//";
+                var i, r, o, s, a, n = C.isOnDevice() ? "https://" : ".//";
                 i = window,
                 r = document,
                 o = "js/null.js?"+n + "www.google-analytics.com/analytics.js",
@@ -33027,7 +33027,7 @@ function(e, t) {
         ,
         l.decode64 = function(e) {
             var t, i, r, o, s = "", a = 0, n = 0, h = 0;
-            for (/[^A-Za-z0-9\+\/\=]/g.exec(e) && D.w("There were invalid base64 characters in the input text. Valid base64 characters are A-Z, a-z, 0-9, '+', '/',and '='. Expect errors in decoding."),
+            for (/[^A-Za-z0-9\+\/\=]/g.exec(e) && D.w("There were invalid base64 characters in the input text. Valid base64 characters are A-Z, a-z, 0-9, '+', './',and '='. Expect errors in decoding."),
             e = e.replace(/[^A-Za-z0-9\+\/\=]/g, ""); t = l.keyStr.indexOf(e.charAt(h++)) << 2 | (r = l.keyStr.indexOf(e.charAt(h++))) >> 4,
             i = (15 & r) << 4 | (o = l.keyStr.indexOf(e.charAt(h++))) >> 2,
             a = (3 & o) << 6 | (n = l.keyStr.indexOf(e.charAt(h++))),
@@ -33402,7 +33402,7 @@ function(e, t) {
             }
             ,
             o.sdkWrapperVersion = "javascript 3.1.2",
-            o.osVersionPair = o.matchItem([navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor].join(" "), [new t("windows_phone","Windows Phone","OS"), new t("windows","Win","NT"), new t("ios","iPhone","OS"), new t("ios","iPad","OS"), new t("ios","iPod","OS"), new t("android","Android","Android"), new t("blackBerry","BlackBerry","/"), new t("mac_osx","Mac","OS X"), new t("tizen","Tizen","Tizen"), new t("linux","Linux","rv")]),
+            o.osVersionPair = o.matchItem([navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor].join(" "), [new t("windows_phone","Windows Phone","OS"), new t("windows","Win","NT"), new t("ios","iPhone","OS"), new t("ios","iPad","OS"), new t("ios","iPod","OS"), new t("android","Android","Android"), new t("blackBerry","BlackBerry","./"), new t("mac_osx","Mac","OS X"), new t("tizen","Tizen","Tizen"), new t("linux","Linux","rv")]),
             o.buildPlatform = o.runtimePlatformToString(),
             o.deviceModel = o.getDeviceModel(),
             o.deviceManufacturer = o.getDeviceManufacturer(),
@@ -34198,7 +34198,7 @@ function(e, t) {
             this.protocol = "https",
             this.hostName = "api.gameanalytics.com",
             this.version = "v2",
-            this.baseUrl = "json/null.json?"+ this.protocol + "://" + this.hostName + "/" + this.version,
+            this.baseUrl = "json/null.json?"+ this.protocol + "://" + this.hostName + "./" + this.version,
             this.initializeUrlPath = "init",
             this.eventsUrlPath = "events",
             this.useGzip = !1
@@ -34222,7 +34222,7 @@ function(e, t) {
         l.prototype.sendEventsInArray = function(e, t, i) {
             if (0 != e.length) {
                 var r = le.getGameKey()
-                  , o = this.baseUrl + "/" + r + "/" + this.eventsUrlPath
+                  , o = this.baseUrl + "./" + r + "./" + this.eventsUrlPath
                   , s = JSON.stringify(e);
                 if (s) {
                     var a = this.createPayloadData(s, this.useGzip)
@@ -34241,7 +34241,7 @@ function(e, t) {
                 var t = le.getGameKey()
                   , i = le.getGameSecret();
                 if (de.validateSdkErrorEvent(t, i, e)) {
-                    var r, o = this.baseUrl + "/" + t + "/" + this.eventsUrlPath, s = le.getSdkErrorEventAnnotations(), a = l.sdkErrorTypeToString(e);
+                    var r, o = this.baseUrl + "./" + t + "./" + this.eventsUrlPath, s = le.getSdkErrorEventAnnotations(), a = l.sdkErrorTypeToString(e);
                     s.type = a;
                     var n = [];
                     n.push(s),
@@ -38183,7 +38183,7 @@ function() {
           , e = t.a.version;
         if (n) {
             var h = t.c.o;
-            u(this.c, (t.a.api || "https://fast.fonts.net/jsapi") + "/" + n + ".js" + (e ? "?v=" + e : ""), function(e) {
+            u(this.c, (t.a.api || "https://fast.fonts.net/jsapi") + "./" + n + ".js" + (e ? "?v=" + e : ""), function(e) {
                 e ? a([]) : (h["__MonotypeConfiguration__" + n] = function() {
                     return t.a
                 }
@@ -38360,7 +38360,7 @@ function() {
     J.prototype.load = function(a) {
         var e = this.a.id
           , n = this.c.o;
-        e ? u(this.c, (this.a.api || "https://use.typekit.net") + "/" + e + ".js", function(e) {
+        e ? u(this.c, (this.a.api || "https://use.typekit.net") + "./" + e + ".js", function(e) {
             if (e)
                 a([]);
             else if (n.Typekit && n.Typekit.config && n.Typekit.config.fn) {
@@ -38399,7 +38399,7 @@ function() {
             c(l.a)
         }
         ,
-        u(this.c, (this.f.api || "https://f.fontdeck.com/s/css/js/") + ((e = this.c).o.location.hostname || e.a.location.hostname) + "/" + t + ".js", function(e) {
+        u(this.c, (this.f.api || "https://f.fontdeck.com/s/css/js/") + ((e = this.c).o.location.hostname || e.a.location.hostname) + "./" + t + ".js", function(e) {
             e && c([])
         })) : c([])
     }

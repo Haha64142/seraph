@@ -900,12 +900,12 @@ var UnityLoader = UnityLoader || {
                         }
                     }
                 };
-                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("/") + 1);
+                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("./") + 1);
                 var n = function(e) {
                         var r = [];
-                        return e = e.split("/").every(function(e) {
+                        return e = e.split("./").every(function(e) {
                             return ".." == e ? r.pop() : "." == e || "" == e || r.push(e)
-                        }) ? r.join("/") : null, e ? t[e] || t[e + ".js"] || t[e + "/index.js"] : null
+                        }) ? r.join("./") : null, e ? t[e] || t[e + ".js"] || t[e + "./index.js"] : null
                     },
                     o = function(e, t) {
                         return e ? n(e.folder + "node_modules/" + t) || o(e.parent, t) : null
@@ -1455,12 +1455,12 @@ var UnityLoader = UnityLoader || {
                         u["-".charCodeAt(0)] = 62, u["_".charCodeAt(0)] = 63
                     }
                 };
-                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("/") + 1);
+                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("./") + 1);
                 var n = function(e) {
                         var r = [];
-                        return e = e.split("/").every(function(e) {
+                        return e = e.split("./").every(function(e) {
                             return ".." == e ? r.pop() : "." == e || "" == e || r.push(e)
-                        }) ? r.join("/") : null, e ? t[e] || t[e + ".js"] || t[e + "/index.js"] : null
+                        }) ? r.join("./") : null, e ? t[e] || t[e + ".js"] || t[e + "./index.js"] : null
                     },
                     o = function(e, t) {
                         return e ? n(e.folder + "node_modules/" + t) || o(e.parent, t) : null
@@ -1760,13 +1760,13 @@ var UnityLoader = UnityLoader || {
                     n = r[7].match(this.blobParseRegExp),
                     o = t.demangleSymbol ? t.demangleSymbol(r[4]) : r[4],
                     i = n && UnityLoader.Blobs[n[1]] && UnityLoader.Blobs[n[1]].url ? UnityLoader.Blobs[n[1]].url : "blob";
-                return r[1] + o + (r[2] != o ? " [" + r[2] + "]" : "") + " (" + (n ? i.substr(i.lastIndexOf("/") + 1) + n[2] : r[7]) + ")"
+                return r[1] + o + (r[2] != o ? " [" + r[2] + "]" : "") + " (" + (n ? i.substr(i.lastIndexOf("./") + 1) + n[2] : r[7]) + ")"
             }.bind(this)), t.useWasm && (r = r.replace(new RegExp(this.stackTraceFormatWasm, "g"), function(e) {
                 var r = e.match(new RegExp("^" + this.stackTraceFormatWasm + "$")),
                     n = t.demangleSymbol ? t.demangleSymbol(r[3]) : r[3],
                     o = r[4].match(this.blobParseRegExp),
                     i = o && UnityLoader.Blobs[o[1]] && UnityLoader.Blobs[o[1]].url ? UnityLoader.Blobs[o[1]].url : "blob";
-                return (n == r[3] ? r[1] : r[2] + n + " [wasm:" + r[3] + "]") + (r[4] ? " (" + (o ? i.substr(i.lastIndexOf("/") + 1) + o[2] : r[4]) + ")" : "")
+                return (n == r[3] ? r[1] : r[2] + n + " [wasm:" + r[3] + "]") + (r[4] ? " (" + (o ? i.substr(i.lastIndexOf("./") + 1) + o[2] : r[4]) + ")" : "")
             }.bind(this))), r) : r
         },
         handler: function(e, t) {
@@ -1848,7 +1848,7 @@ var UnityLoader = UnityLoader || {
         update: function(e, t, r) {
             if (r && !r.lengthComputable) {
                 var n = r.target.responseURL,
-                    o = n.split("/Build/")[1];
+                    o = n.split("./Build/")[1];
                 o = o.split("?")[0];
                 var a = window.config.cachedDecompressedFileSizes ? window.config.cachedDecompressedFileSizes[o] : 0;
                 if (navigator.userAgent.toLowerCase().indexOf("firefox") > -1) {
@@ -1880,7 +1880,7 @@ var UnityLoader = UnityLoader || {
             i = navigator.userAgent,
             a = navigator.appName,
             s = navigator.appVersion,
-            d = parseInt(navigator.appVersion, 10); - 1 != (t = i.indexOf("Opera")) ? (a = "Opera", s = i.substring(t + 6), -1 != (t = i.indexOf("Version")) && (s = i.substring(t + 8))) : -1 != (t = i.indexOf("MSIE")) ? (a = "Microsoft Internet Explorer", s = i.substring(t + 5)) : -1 != (t = i.indexOf("Edge")) ? (a = "Edge", s = i.substring(t + 5)) : -1 != (t = i.indexOf("Chrome")) ? (a = "Chrome", s = i.substring(t + 7)) : -1 != (t = i.indexOf("Safari")) ? (a = "Safari", s = i.substring(t + 7), -1 != (t = i.indexOf("Version")) && (s = i.substring(t + 8))) : -1 != (t = i.indexOf("Firefox")) ? (a = "Firefox", s = i.substring(t + 8)) : -1 != i.indexOf("Trident/") ? (a = "Microsoft Internet Explorer", s = i.substring(i.indexOf("rv:") + 3)) : (e = i.lastIndexOf(" ") + 1) < (t = i.lastIndexOf("/")) && (a = i.substring(e, t), s = i.substring(t + 1), a.toLowerCase() == a.toUpperCase() && (a = navigator.appName)), -1 != (r = s.indexOf(";")) && (s = s.substring(0, r)), -1 != (r = s.indexOf(" ")) && (s = s.substring(0, r)), -1 != (r = s.indexOf(")")) && (s = s.substring(0, r)), d = parseInt("" + s, 10), isNaN(d) ? (s = "" + parseFloat(navigator.appVersion), d = parseInt(navigator.appVersion, 10)) : s = "" + parseFloat(s);
+            d = parseInt(navigator.appVersion, 10); - 1 != (t = i.indexOf("Opera")) ? (a = "Opera", s = i.substring(t + 6), -1 != (t = i.indexOf("Version")) && (s = i.substring(t + 8))) : -1 != (t = i.indexOf("MSIE")) ? (a = "Microsoft Internet Explorer", s = i.substring(t + 5)) : -1 != (t = i.indexOf("Edge")) ? (a = "Edge", s = i.substring(t + 5)) : -1 != (t = i.indexOf("Chrome")) ? (a = "Chrome", s = i.substring(t + 7)) : -1 != (t = i.indexOf("Safari")) ? (a = "Safari", s = i.substring(t + 7), -1 != (t = i.indexOf("Version")) && (s = i.substring(t + 8))) : -1 != (t = i.indexOf("Firefox")) ? (a = "Firefox", s = i.substring(t + 8)) : -1 != i.indexOf("Trident/") ? (a = "Microsoft Internet Explorer", s = i.substring(i.indexOf("rv:") + 3)) : (e = i.lastIndexOf(" ") + 1) < (t = i.lastIndexOf("./")) && (a = i.substring(e, t), s = i.substring(t + 1), a.toLowerCase() == a.toUpperCase() && (a = navigator.appName)), -1 != (r = s.indexOf(";")) && (s = s.substring(0, r)), -1 != (r = s.indexOf(" ")) && (s = s.substring(0, r)), -1 != (r = s.indexOf(")")) && (s = s.substring(0, r)), d = parseInt("" + s, 10), isNaN(d) ? (s = "" + parseFloat(navigator.appVersion), d = parseInt(navigator.appVersion, 10)) : s = "" + parseFloat(s);
         var l = /Mobile|mini|Fennec|Android|iP(ad|od|hone)/.test(o),
             u = "-",
             c = [{
@@ -2082,7 +2082,7 @@ var UnityLoader = UnityLoader || {
         }
         try {
             var n = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB,
-                o = n.open("/idbfs-test");
+                o = n.open("./idbfs-test");
             o.onerror = function(e) {
                 e.preventDefault(), r()
             }, o.onsuccess = function() {
@@ -2145,7 +2145,7 @@ var UnityLoader = UnityLoader || {
             o += 4;
             var u = String.fromCharCode.apply(null, r.subarray(o, o + l));
             o += l;
-            for (var c = 0, f = u.indexOf("/", c) + 1; f > 0; c = f, f = u.indexOf("/", c) + 1) e.FS_createPath(u.substring(0, c), u.substring(c, f - 1), !0, !0);
+            for (var c = 0, f = u.indexOf("./", c) + 1; f > 0; c = f, f = u.indexOf("./", c) + 1) e.FS_createPath(u.substring(0, c), u.substring(c, f - 1), !0, !0);
             e.FS_createDataFile(u, null, r.subarray(s, s + d), !0, !0, !0)
         }
         e.removeRunDependency("processDataJob"), t.complete()
@@ -2269,7 +2269,7 @@ var UnityLoader = UnityLoader || {
                 Jobs: {},
                 buildDownloadProgress: {},
                 resolveBuildUrl: function(e) {
-                    return e.match(/(http|https|ftp|file):\/\//) ? e : t.substring(0, t.lastIndexOf("/") + 1) + e
+                    return e.match(/(http|https|ftp|file):\/\//) ? e : t.substring(0, t.lastIndexOf("./") + 1) + e
                 },
                 streamingAssetsUrl: function() {
                     return o(this.resolveBuildUrl("../StreamingAssets"))

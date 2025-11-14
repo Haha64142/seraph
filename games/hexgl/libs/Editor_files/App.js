@@ -114,7 +114,7 @@ pgli.App = gamecore.Base.extend("App",
 			var jsonData = {file :'files/'+name ,obj: fileToSave};
 
 			$.ajax({
-			url:"/",
+			url:"./",
 			type:"POST",
 			data: JSON.stringify(jsonData),
     		contentType: "application/json; charset=utf-8",

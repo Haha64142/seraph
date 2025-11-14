@@ -39,7 +39,7 @@ function validFen(fen) {
   fen = fen.replace(/ .+$/, '');
 
   // FEN should be 8 sections separated by slashes
-  var chunks = fen.split('/');
+  var chunks = fen.split('./');
   if (chunks.length !== 8) return false;
 
   // check the piece sections
@@ -103,7 +103,7 @@ function fenToObj(fen) {
   // we're only interested in position information
   fen = fen.replace(/ .+$/, '');
 
-  var rows = fen.split('/');
+  var rows = fen.split('./');
   var position = {};
 
   var currentRow = 8;
@@ -158,7 +158,7 @@ function objToFen(obj) {
     }
 
     if (i !== 7) {
-      fen += '/';
+      fen += './';
     }
 
     currentRow--;

@@ -1549,7 +1549,7 @@ function parseId (current/*: Context */, isTag/*:: ?: boolean */)/*: string */ {
     if (
       char === ARG_OPN || char === ARG_CLS || char === ARG_SEP ||
       char === NUM_ARG || char === ESC || isWhitespace(char.charCodeAt(0)) ||
-      (isTag && (char === TAG_OPN || char === TAG_CLS || char === '/'))
+      (isTag && (char === TAG_OPN || char === TAG_CLS || char === './'))
     ) break
     id += char
     ++current.index

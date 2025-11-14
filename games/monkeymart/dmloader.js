@@ -339,7 +339,7 @@ var GameArchiveLoader = {
 
         var total = 0;
         var downloaded = 0;
-        var url = this._archiveLocationFilter('/' + piece.name);
+        var url = this._archiveLocationFilter('./' + piece.name);
 
         FileLoader.load(
             url, "arraybuffer", undefined,
@@ -680,7 +680,7 @@ var Module = {
             GameArchiveLoader.addFileLoadedListener(Module.onArchiveFileLoaded);
             GameArchiveLoader.addArchiveLoadedListener(Module.onArchiveLoaded);
             GameArchiveLoader.setFileLocationFilter(params["archive_location_filter"]);
-            GameArchiveLoader.loadArchiveDescription('/archive_files.json');
+            GameArchiveLoader.loadArchiveDescription('./archive_files.json');
         } else {
             Progress.updateProgress(100, "Unable to start game, WebGL not supported");
             Module.setStatus = function(text) {

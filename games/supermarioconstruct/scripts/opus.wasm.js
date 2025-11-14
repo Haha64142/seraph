@@ -285,7 +285,7 @@ if (ENVIRONMENT_IS_NODE) {
     };
     if (!Module["thisProgram"]) {
         if (process["argv"].length > 1) {
-            Module["thisProgram"] = process["argv"][1].replace(/\\/g, "/")
+            Module["thisProgram"] = process["argv"][1].replace(/\\/g, "./")
         } else {
             Module["thisProgram"] = "unknown-program"
         }

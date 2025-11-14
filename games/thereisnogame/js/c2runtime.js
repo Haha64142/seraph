@@ -17438,7 +17438,7 @@ cr.plugins_.Audio = function(runtime)
 		if (api === API_CORDOVA)
 		{
 			appPath = location.href;
-			var i = appPath.lastIndexOf("/");
+			var i = appPath.lastIndexOf("./");
 			if (i > -1)
 				appPath = appPath.substr(0, i + 1);
 			appPath = appPath.replace("file://", "");
@@ -20144,7 +20144,7 @@ cr.plugins_.Keyboard = function(runtime)
 		case 188:	return ",";
 		case 189:	return "-";
 		case 190:	return ".";
-		case 191:	return "/";
+		case 191:	return "./";
 		case 192:	return "'";
 		case 219:	return "[";
 		case 220:	return "\\";

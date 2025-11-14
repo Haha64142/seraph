@@ -81,7 +81,7 @@ var charToCodeMap = {
 "'": {code: "Quote"},
 ",": {code: "Comma"},
 ".": {code: "Period"},
-"/": {code: "Slash"},
+"./": {code: "Slash"},
 "~": {code: "Backquote", shift: true},
 "_": {code: "Minus", shift: true},
 "+": {code: "Equal", shift: true},

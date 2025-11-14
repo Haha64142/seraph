@@ -1020,7 +1020,7 @@ M.launch=function()
 			{
 				var me=M.goodsById[i];
 				var val=M.goodDelta(me.id);
-				me.symbolNumL.innerHTML=val+''+(val==Math.floor(val)?'.00':(val*10)==Math.floor(val*10)?'0':'')+'%'/*+', '+['stable','slow rise','slow fall','fast rise','fast fall','chaotic'][me.mode]*/;
+				me.symbolNumL.innerHTML=val+''+(val==Math.floor(val)?'.00':(val*10)==Math.floor(val*10)?'0':'')+'%'./*+', '+['stable','slow rise','slow fall','fast rise','fast fall','chaotic'][me.mode]*/;
 				if (val>=0) {me.symbolNumL.classList.add('bankSymbolUp');me.symbolNumL.classList.remove('bankSymbolDown');}
 				else if (val<0) {me.symbolNumL.classList.remove('bankSymbolUp');me.symbolNumL.classList.add('bankSymbolDown');}
 				else {me.symbolNumL.classList.remove('bankSymbolUp');me.symbolNumL.classList.remove('bankSymbolDown');}
@@ -1031,7 +1031,7 @@ M.launch=function()
 				//else me.stockL.style.removeProperty('color');
 				if (me.stock>0) me.stockBoxL.classList.add('green');
 				else me.stockBoxL.classList.remove('green');
-				me.stockMaxL.innerHTML='/'+Beautify(M.getGoodMaxStock(me));
+				me.stockMaxL.innerHTML='./'+Beautify(M.getGoodMaxStock(me));
 				
 				me.graphIconL.style.transform='translate(-8px,'+Math.floor((M.graph.height-me.vals[0]*M.graphScale))+'px) scale(0.5)';
 			}

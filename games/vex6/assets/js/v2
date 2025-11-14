@@ -2338,7 +2338,7 @@ var YaGames;
                         run(e.data);
                     },
                     post = function (e) {
-                        i.postMessage(e + "", f.protocol + "//" + f.host);
+                        i.postMessage(e + "", f.protocol + ".//" + f.host);
                     };
                 (h && g) ||
                     ((h = function setImmediate(e) {
@@ -3016,7 +3016,7 @@ var YaGames;
                         !w ||
                             E ||
                             f(function () {
-                                return (b[v] = !1), _(m) != m || _(b) == b || "/a/i" != _(m, "i");
+                                return (b[v] = !1), _(m) != m || _(b) == b || "./a/i" != _(m, "i");
                             })
                     )
                 ) {
@@ -3606,7 +3606,7 @@ var YaGames;
                     B = {},
                     H = d({}, B, { " ": 1, '"': 1, "<": 1, ">": 1, "`": 1 }),
                     Y = d({}, H, { "#": 1, "?": 1, "{": 1, "}": 1 }),
-                    q = d({}, Y, { "/": 1, ":": 1, ";": 1, "=": 1, "@": 1, "[": 1, "\\": 1, "]": 1, "^": 1, "|": 1 }),
+                    q = d({}, Y, { "./": 1, ":": 1, ";": 1, "=": 1, "@": 1, "[": 1, "\\": 1, "]": 1, "^": 1, "|": 1 }),
                     percentEncode = function (e, t) {
                         var r = h(e, 0);
                         return r > 32 && r < 127 && !p(t, e) ? e : encodeURIComponent(e);
@@ -3627,7 +3627,7 @@ var YaGames;
                     },
                     startsWithWindowsDriveLetter = function (e) {
                         var t;
-                        return e.length > 1 && isWindowsDriveLetter(e.slice(0, 2)) && (2 == e.length || "/" === (t = e.charAt(2)) || "\\" === t || "?" === t || "#" === t);
+                        return e.length > 1 && isWindowsDriveLetter(e.slice(0, 2)) && (2 == e.length || "./" === (t = e.charAt(2)) || "\\" === t || "?" === t || "#" === t);
                     },
                     shortenURLsPath = function (e) {
                         var t = e.path,
@@ -3703,7 +3703,7 @@ var YaGames;
                                                 ? (l = z)
                                                 : isSpecial(e)
                                                 ? (l = Q)
-                                                : "/" == a[d + 1]
+                                                : "./" == a[d + 1]
                                                 ? ((l = $), d++)
                                                 : ((e.cannotBeABaseURL = !0), e.path.push(""), (l = le));
                                     }
@@ -3717,14 +3717,14 @@ var YaGames;
                                     l = "file" == o.scheme ? ae : J;
                                     continue;
                                 case z:
-                                    if ("/" != i || "/" != a[d + 1]) {
+                                    if ("./" != i || "./" != a[d + 1]) {
                                         l = J;
                                         continue;
                                     }
                                     (l = ee), d++;
                                     break;
                                 case $:
-                                    if ("/" == i) {
+                                    if ("./" == i) {
                                         l = te;
                                         break;
                                     }
@@ -3732,7 +3732,7 @@ var YaGames;
                                     continue;
                                 case J:
                                     if (((e.scheme = o.scheme), i == n)) (e.username = o.username), (e.password = o.password), (e.host = o.host), (e.port = o.port), (e.path = o.path.slice()), (e.query = o.query);
-                                    else if ("/" == i || ("\\" == i && isSpecial(e))) l = X;
+                                    else if ("./" == i || ("\\" == i && isSpecial(e))) l = X;
                                     else if ("?" == i) (e.username = o.username), (e.password = o.password), (e.host = o.host), (e.port = o.port), (e.path = o.path.slice()), (e.query = ""), (l = pe);
                                     else {
                                         if ("#" != i) {
@@ -3743,8 +3743,8 @@ var YaGames;
                                     }
                                     break;
                                 case X:
-                                    if (!isSpecial(e) || ("/" != i && "\\" != i)) {
-                                        if ("/" != i) {
+                                    if (!isSpecial(e) || ("./" != i && "\\" != i)) {
+                                        if ("./" != i) {
                                             (e.username = o.username), (e.password = o.password), (e.host = o.host), (e.port = o.port), (l = ue);
                                             continue;
                                         }
@@ -3752,11 +3752,11 @@ var YaGames;
                                     } else l = ee;
                                     break;
                                 case Q:
-                                    if (((l = ee), "/" != i || "/" != h.charAt(d + 1))) continue;
+                                    if (((l = ee), "./" != i || "./" != h.charAt(d + 1))) continue;
                                     d++;
                                     break;
                                 case ee:
-                                    if ("/" != i && "\\" != i) {
+                                    if ("./" != i && "\\" != i) {
                                         l = te;
                                         continue;
                                     }
@@ -3772,7 +3772,7 @@ var YaGames;
                                             } else _ = !0;
                                         }
                                         h = "";
-                                    } else if (i == n || "/" == i || "?" == i || "#" == i || ("\\" == i && isSpecial(e))) {
+                                    } else if (i == n || "./" == i || "?" == i || "#" == i || ("\\" == i && isSpecial(e))) {
                                         if (g && "" == h) return "Invalid authority";
                                         (d -= f(h).length + 1), (h = ""), (l = re);
                                     } else h += i;
@@ -3784,7 +3784,7 @@ var YaGames;
                                         continue;
                                     }
                                     if (":" != i || v) {
-                                        if (i == n || "/" == i || "?" == i || "#" == i || ("\\" == i && isSpecial(e))) {
+                                        if (i == n || "./" == i || "?" == i || "#" == i || ("\\" == i && isSpecial(e))) {
                                             if (isSpecial(e) && "" == h) return O;
                                             if (r && "" == h && (includesCredentials(e) || null !== e.port)) return;
                                             if ((c = parseHost(e, h))) return c;
@@ -3800,7 +3800,7 @@ var YaGames;
                                     break;
                                 case oe:
                                     if (!I.test(i)) {
-                                        if (i == n || "/" == i || "?" == i || "#" == i || ("\\" == i && isSpecial(e)) || r) {
+                                        if (i == n || "./" == i || "?" == i || "#" == i || ("\\" == i && isSpecial(e)) || r) {
                                             if ("" != h) {
                                                 var w = parseInt(h, 10);
                                                 if (w > 65535) return T;
@@ -3815,7 +3815,7 @@ var YaGames;
                                     h += i;
                                     break;
                                 case ae:
-                                    if (((e.scheme = "file"), "/" == i || "\\" == i)) l = ie;
+                                    if (((e.scheme = "file"), "./" == i || "\\" == i)) l = ie;
                                     else {
                                         if (!o || "file" != o.scheme) {
                                             l = ue;
@@ -3833,14 +3833,14 @@ var YaGames;
                                     }
                                     break;
                                 case ie:
-                                    if ("/" == i || "\\" == i) {
+                                    if ("./" == i || "\\" == i) {
                                         l = se;
                                         break;
                                     }
                                     o && "file" == o.scheme && !startsWithWindowsDriveLetter(a.slice(d).join("")) && (isWindowsDriveLetter(o.path[0], !0) ? e.path.push(o.path[0]) : (e.host = o.host)), (l = ue);
                                     continue;
                                 case se:
-                                    if (i == n || "/" == i || "\\" == i || "?" == i || "#" == i) {
+                                    if (i == n || "./" == i || "\\" == i || "?" == i || "#" == i) {
                                         if (!r && isWindowsDriveLetter(h)) l = ue;
                                         else if ("" == h) {
                                             if (((e.host = ""), r)) return;
@@ -3856,20 +3856,20 @@ var YaGames;
                                     break;
                                 case ce:
                                     if (isSpecial(e)) {
-                                        if (((l = ue), "/" != i && "\\" != i)) continue;
+                                        if (((l = ue), "./" != i && "\\" != i)) continue;
                                     } else if (r || "?" != i)
                                         if (r || "#" != i) {
-                                            if (i != n && ((l = ue), "/" != i)) continue;
+                                            if (i != n && ((l = ue), "./" != i)) continue;
                                         } else (e.fragment = ""), (l = de);
                                     else (e.query = ""), (l = pe);
                                     break;
                                 case ue:
-                                    if (i == n || "/" == i || ("\\" == i && isSpecial(e)) || (!r && ("?" == i || "#" == i))) {
+                                    if (i == n || "./" == i || ("\\" == i && isSpecial(e)) || (!r && ("?" == i || "#" == i))) {
                                         if (
                                             (".." === (u = (u = h).toLowerCase()) || "%2e." === u || ".%2e" === u || "%2e%2e" === u
-                                                ? (shortenURLsPath(e), "/" == i || ("\\" == i && isSpecial(e)) || e.path.push(""))
+                                                ? (shortenURLsPath(e), "./" == i || ("\\" == i && isSpecial(e)) || e.path.push(""))
                                                 : isSingleDot(h)
-                                                ? "/" == i || ("\\" == i && isSpecial(e)) || e.path.push("")
+                                                ? "./" == i || ("\\" == i && isSpecial(e)) || e.path.push("")
                                                 : ("file" == e.scheme && !e.path.length && isWindowsDriveLetter(h) && (e.host && (e.host = ""), (h = h.charAt(0) + ":")), e.path.push(h)),
                                             (h = ""),
                                             "file" == e.scheme && (i == n || "?" == i || "#" == i))
@@ -3934,8 +3934,8 @@ var YaGames;
                             c = e.fragment,
                             u = t + ":";
                         return (
-                            null !== o ? ((u += "//"), includesCredentials(e) && (u += r + (n ? ":" + n : "") + "@"), (u += serializeHost(o)), null !== a && (u += ":" + a)) : "file" == t && (u += "//"),
-                            (u += e.cannotBeABaseURL ? i[0] : i.length ? "/" + i.join("/") : ""),
+                            null !== o ? ((u += ".//"), includesCredentials(e) && (u += r + (n ? ":" + n : "") + "@"), (u += serializeHost(o)), null !== a && (u += ":" + a)) : "file" == t && (u += ".//"),
+                            (u += e.cannotBeABaseURL ? i[0] : i.length ? "./" + i.join("./") : ""),
                             null !== s && (u += "?" + s),
                             null !== c && (u += "#" + c),
                             u
@@ -3979,7 +3979,7 @@ var YaGames;
                     getPathname = function () {
                         var e = S(this),
                             t = e.path;
-                        return e.cannotBeABaseURL ? t[0] : t.length ? "/" + t.join("/") : "";
+                        return e.cannotBeABaseURL ? t[0] : t.length ? "./" + t.join("./") : "";
                     },
                     getSearch = function () {
                         var e = S(this).query;
@@ -5826,8 +5826,8 @@ var YaGames;
         const te = "0/0-0",
             re = { small: ee.ISLANDS_RETINA_SMALL, medium: ee.ISLANDS_RETINA_MEDIUM, large: ee.ISLANDS_200 },
             ne = { small: ee.ISLANDS_200, medium: ee.ISLANDS_200, large: ee.BIG },
-            oe = "".concat(w, "/player"),
-            ae = "".concat(E, "/get-yapic/");
+            oe = "".concat(w, "./player"),
+            ae = "".concat(E, "./get-yapic/");
         var ie = __webpack_require__(208);
         function getRequestURL(e, t = "", r = {}) {
             Object.keys(r).forEach((e) => {
@@ -5859,7 +5859,7 @@ var YaGames;
                     .catch(s);
             });
         }
-        const se = "".concat(w, "/leaderboard"),
+        const se = "".concat(w, "./leaderboard"),
             fetch_fetchData = (e, t = {}) => commonFetchData(se, 3e3, e, t),
             ce = (function throttle(e, t) {
                 let r, n;
@@ -5874,18 +5874,18 @@ var YaGames;
                 this._appId = (0, i.rh)();
             }
             getLeaderboardDescription(e) {
-                return fetch_fetchData("/descr", { "app-id": this._appId, name: e });
+                return fetch_fetchData("./descr", { "app-id": this._appId, name: e });
             }
             getLeaderboardStat(e) {
-                return fetch_fetchData("/stat", { "app-id": this._appId, name: e });
+                return fetch_fetchData("./stat", { "app-id": this._appId, name: e });
             }
             transformLeaderboardEntry(e) {
                 const { avatarIdHash: t, lang: r, publicName: n, scopePermissions: o, uniqueID: a } = e.player,
-                    i = "".concat(oe, "/avatar/").concat(t);
+                    i = "".concat(oe, "./avatar/").concat(t);
                 return Object.assign(Object.assign({}, e), {
                     player: {
-                        getAvatarSrc: (e = "medium") => (re[e] || (e = "medium"), "".concat(i, "/").concat(re[e])),
-                        getAvatarSrcSet: (e = "medium") => (re[e] || (e = "medium"), "".concat(i, "/").concat(re[e], " 1x, ").concat(i, "/").concat(ne[e], " 2x")),
+                        getAvatarSrc: (e = "medium") => (re[e] || (e = "medium"), "".concat(i, "./").concat(re[e])),
+                        getAvatarSrcSet: (e = "medium") => (re[e] || (e = "medium"), "".concat(i, "./").concat(re[e], " 1x, ").concat(i, "./").concat(ne[e], " 2x")),
                         lang: r,
                         publicName: n,
                         scopePermissions: o,
@@ -5897,20 +5897,20 @@ var YaGames;
                 return e.map(this.transformLeaderboardEntry);
             }
             getLeaderboardEntries(e, { includeUser: t = !1, quantityAround: r = 5, quantityTop: n = 5 }) {
-                return fetch_fetchData("/entries", { "app-id": this._appId, include_user: t, name: e, quantity_around: r, quantity_top: n }).then((e) => {
+                return fetch_fetchData("./entries", { "app-id": this._appId, include_user: t, name: e, quantity_around: r, quantity_top: n }).then((e) => {
                     const { entries: t, leaderboard: r, ranges: n, userRank: o } = e;
                     return { entries: this.transformLeaderboardEntries(t), leaderboard: r, ranges: n, userRank: o };
                 });
             }
             getLeaderboardPlayerEntry(e) {
-                return fetch_fetchData("/player-entry", { "app-id": this._appId, name: e }).then((e) => {
+                return fetch_fetchData("./player-entry", { "app-id": this._appId, name: e }).then((e) => {
                     if (!e) throw new X.Z({ code: "LEADERBOARD_PLAYER_NOT_PRESENT", httpStatus: 204, message: "Player is not present in leaderboard" });
                     return this.transformLeaderboardEntry(e);
                 });
             }
             setLeaderboardScore(e, t, r) {
                 const n = { "app-id": this._appId, name: e, score: t };
-                return r && (n.extraData = r), ce("/score", n);
+                return r && (n.extraData = r), ce("./score", n);
             }
         }
         const leaderboards = () => {
@@ -6155,7 +6155,7 @@ var YaGames;
                 (this[_e] = new ge(e)), (this.fullscreen = new FullscreenManager(this[_e]));
             }
         }
-        const ye = ["passport.yandex", "an.yandex.ru", "avatars.mds.yandex.net", "/api/"];
+        const ye = ["passport.yandex", "an.yandex.ru", "avatars.mds.yandex.net", "./api/"];
         function overrideCacheMethod(e) {
             const t = Cache.prototype[e];
             Cache.prototype[e] = function (e, r) {
@@ -6260,7 +6260,7 @@ var YaGames;
         !(function (e) {
             (e.MEDIUM = "medium"), (e.SMALL = "small"), (e.SVG = "svg");
         })(Ie || (Ie = {}));
-        const Le = "//yastatic.net/s3/games-static/static-data/images/payments/sdk";
+        const Le = ".//yastatic.net/s3/games-static/static-data/images/payments/sdk";
         let sendOnceCurrencyCodeStat = function () {
             (sendOnceCurrencyCodeStat = () => {}), Q.params({ borrowParams: { payments: { appId: (0, i.rh)(), productCurrencyCodeGet: !0 } } });
         };
@@ -6282,7 +6282,7 @@ var YaGames;
                 return e && "object" == typeof e && "url_prefix" in e
                     ? /\.(png|jpg|svg)$/.test(String(e.url_prefix))
                         ? e.url_prefix
-                        : "".concat(e.url_prefix, "/default256x256")
+                        : "".concat(e.url_prefix, "./default256x256")
                     : "https://yastatic.net/s3/games-static/static-data/images/payments/default-product-image.png";
             }
             get price() {
@@ -6296,7 +6296,7 @@ var YaGames;
                 return sendOnceCurrencyCodeStat(), "YAN";
             }
             getPriceCurrencyImage(e = Ie.SMALL) {
-                if (e === Ie.SVG) return "".concat(Le, "/currency-icon-m.svg");
+                if (e === Ie.SVG) return "".concat(Le, "./currency-icon-m.svg");
                 let t = "s";
                 switch (e) {
                     case Ie.MEDIUM:
@@ -6308,7 +6308,7 @@ var YaGames;
                 }
                 const r = window.devicePixelRatio >= 2;
                 return ""
-                    .concat(Le, "/currency-icon-")
+                    .concat(Le, "./currency-icon-")
                     .concat(t)
                     .concat(r ? "@2x" : "", ".png");
             }
@@ -6479,7 +6479,7 @@ var YaGames;
                 });
             },
             v2_payments = (e = {}) => je(e),
-            Ue = "".concat(w, "/player"),
+            Ue = "".concat(w, "./player"),
             player_fetch_fetchData = (e, t = {}) => commonFetchData(Ue, 3e3, e, t),
             fetch_postData = (e, t, r = {}) => commonPostData(Ue, 3e3, e, t, r),
             Me = 204800;
@@ -6576,7 +6576,7 @@ var YaGames;
             getPhoto(e = "medium") {
                 const t = re[e];
                 if (!t) throw new Error("Unknown size value ('".concat(e, "')"));
-                return this._personalInfo.avatarIdHash ? "".concat(oe, "/avatar/").concat(this._personalInfo.avatarIdHash, "/").concat(t) : "".concat(ae).concat(te, "/").concat(t);
+                return this._personalInfo.avatarIdHash ? "".concat(oe, "./avatar/").concat(this._personalInfo.avatarIdHash, "./").concat(t) : "".concat(ae).concat(te, "./").concat(t);
             }
         } {
             constructor(e, t) {
@@ -6586,7 +6586,7 @@ var YaGames;
                 return this._fetchData("-ids-per-game");
             }
             getData(e) {
-                return void 0 === this[Ne] ? this._fetchData("/data").then((t) => ((this[Ne] = t), filterDataByKeys(t, e))) : Promise.resolve(filterDataByKeys(this[Ne], e));
+                return void 0 === this[Ne] ? this._fetchData("./data").then((t) => ((this[Ne] = t), filterDataByKeys(t, e))) : Promise.resolve(filterDataByKeys(this[Ne], e));
             }
             setData(e, t = !1) {
                 if (
@@ -6607,7 +6607,7 @@ var YaGames;
                               let o = t ? 0 : Be.getWaitTime();
                               (Be.timestamp = Date.now()),
                                   (Fe = window.setTimeout(() => {
-                                      fetch_postData("/data", e)
+                                      fetch_postData("./data", e)
                                           .then(() => {
                                               (Be.dataHash = e), r(!0);
                                           })
@@ -6620,13 +6620,13 @@ var YaGames;
                 return t ? r : Promise.resolve(!0);
             }
             getStats(e) {
-                return this._fetchData("/stats").then((t) => filterDataByKeys(t, e));
+                return this._fetchData("./stats").then((t) => filterDataByKeys(t, e));
             }
             setStats(e) {
-                return isValidStats(e) ? fetch_postData("/stats", e) : Promise.reject(new Error("Stats is not valid"));
+                return isValidStats(e) ? fetch_postData("./stats", e) : Promise.reject(new Error("Stats is not valid"));
             }
             incrementStats(e) {
-                return isValidStats(e) ? this._postData("/stats/increment", e) : Promise.reject(new Error("Increments is not valid"));
+                return isValidStats(e) ? this._postData("./stats/increment", e) : Promise.reject(new Error("Increments is not valid"));
             }
             _fetchData(e) {
                 return player_fetch_fetchData("".concat(e).concat(this[Ge].signed ? "-signed" : "")).then(convertResponseData);

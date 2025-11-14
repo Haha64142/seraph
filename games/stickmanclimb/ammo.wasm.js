@@ -23,7 +23,7 @@ var Ammo = (function() {
             fa = !ca && !ea && !da;
             var ha = "",
                 ja, ka, la, ma;
-            if (ea) ha = da ? require("path").dirname(ha) + "/" : __dirname + "/", ja = function(a, c) {
+            if (ea) ha = da ? require("path").dirname(ha) + "./" : __dirname + "./", ja = function(a, c) {
                 la || (la = require("fs"));
                 ma || (ma = require("path"));
                 a = ma.normalize(a);
@@ -33,7 +33,7 @@ var Ammo = (function() {
                 a.buffer || (a = new Uint8Array(a));
                 assert(a.buffer);
                 return a
-            }, 1 < process.argv.length && process.argv[1].replace(/\\/g, "/"), process.argv.slice(2), process.on("uncaughtException", function(a) {
+            }, 1 < process.argv.length && process.argv[1].replace(/\\/g, "./"), process.argv.slice(2), process.on("uncaughtException", function(a) {
                 throw a;
             }), process.on("unhandledRejection", na), b.inspect = function() {
                 return "[Emscripten Module object]"
@@ -48,7 +48,7 @@ var Ammo = (function() {
                     return a
                 }, "undefined" !== typeof print && ("undefined" === typeof console && (console = {}), console.log = print, console.warn = console.error = "undefined" !== typeof printErr ? printErr : print);
             else if (ca || da) da ? ha = self.location.href : document.currentScript && (ha = document.currentScript.src), _scriptDir && (ha = _scriptDir), ha = 0 !== ha.indexOf("blob:") ?
-                ha.substr(0, ha.lastIndexOf("/") + 1) : "", ja = function(a) {
+                ha.substr(0, ha.lastIndexOf("./") + 1) : "", ja = function(a) {
                     var c = new XMLHttpRequest;
                     c.open("GET", a, !1);
                     c.send(null);

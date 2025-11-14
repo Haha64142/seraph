@@ -5397,7 +5397,7 @@
                     }
                     loadNewTheme(e) {
                         const t = pe.allThemes[e];
-                        this.objectsTemp = new Image, this.objectsTemp.src = t.folder + "/objects.png", this.playerTemp = new Image, this.playerTemp.src = t.folder + "/player.png", this.bgTemp = new Image, this.bgTemp.src = t.folder + "/bg.png"
+                        this.objectsTemp = new Image, this.objectsTemp.src = t.folder + "./objects.png", this.playerTemp = new Image, this.playerTemp.src = t.folder + "./player.png", this.bgTemp = new Image, this.bgTemp.src = t.folder + "./bg.png"
                     }
                     setNewTheme(e) {
                         const t = pe.allThemes[e];

@@ -66,7 +66,7 @@ function cssWithMappingToString(item, useSourceMap) {
 	if (useSourceMap && typeof btoa === 'function') {
 		var sourceMapping = toComment(cssMapping);
 		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+			return './*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
 		});
 
 		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
@@ -81,7 +81,7 @@ function toComment(sourceMap) {
 	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
-	return '/*# ' + data + ' */';
+	return './*# ' + data + ' */';
 }
 
 
@@ -15622,7 +15622,7 @@ function createElement$1(type, props, rootContainerElement, parentNamespace) {
       // Create the script via .innerHTML so its "parser-inserted" flag is
       // set to true and it does not execute
       var div = ownerDocument.createElement('div');
-      div.innerHTML = '<script><' + '/script>'; // eslint-disable-line
+      div.innerHTML = '<script><' + './script>'; // eslint-disable-line
       // This is guaranteed to yield a script element.
       var firstChild = div.firstChild;
       domElement = div.removeChild(firstChild);
@@ -18365,7 +18365,7 @@ function mapSingleChildIntoContext(bookKeeping, child, childKey) {
       mappedChild = cloneAndReplaceKey(mappedChild,
       // Keep both the (mapped) and old keys if they differ, just as
       // traverseAllChildren used to do for objects as children
-      keyPrefix + (mappedChild.key && (!child || child.key !== mappedChild.key) ? escapeUserProvidedKey(mappedChild.key) + '/' : '') + childKey);
+      keyPrefix + (mappedChild.key && (!child || child.key !== mappedChild.key) ? escapeUserProvidedKey(mappedChild.key) + './' : '') + childKey);
     }
     result.push(mappedChild);
   }
@@ -18374,7 +18374,7 @@ function mapSingleChildIntoContext(bookKeeping, child, childKey) {
 function mapIntoWithKeyPrefixInternal(children, array, prefix, func, context) {
   var escapedPrefix = '';
   if (prefix != null) {
-    escapedPrefix = escapeUserProvidedKey(prefix) + '/';
+    escapedPrefix = escapeUserProvidedKey(prefix) + './';
   }
   var traverseContext = getPooledTraverseContext(array, escapedPrefix, func, context);
   traverseAllChildren(children, mapSingleChildIntoContext, traverseContext);
@@ -19299,8 +19299,8 @@ module.exports = function (css) {
 	  return css;
   }
 
-  var baseUrl = location.protocol + "//" + location.host;
-  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+  var baseUrl = location.protocol + ".//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "./");
 
 	// convert each url(...)
 	/*
@@ -19343,12 +19343,12 @@ module.exports = function (css) {
 		// convert the url to a full url
 		var newUrl;
 
-		if (unquotedOrigUrl.indexOf("//") === 0) {
+		if (unquotedOrigUrl.indexOf(".//") === 0) {
 		  	//TODO: should we add protocol?
 			newUrl = unquotedOrigUrl;
-		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+		} else if (unquotedOrigUrl.indexOf("./") === 0) {
 			// path should be relative to the base url
-			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with './'
 		} else {
 			// path should be relative to current directory
 			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'

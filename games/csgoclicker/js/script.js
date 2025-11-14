@@ -746,7 +746,7 @@ function itemDisp(name, price, img) {
 function drawItem(array, rarity) {
     var name = array[0];
     var price = "$" + array[1].toFixed(2);
-    var img = array[2] + "/70fx70f";
+    var img = array[2] + "./70fx70f";
 
     $(".inventoryItemContainer").append('<div class="inventoryItem ' + rarity + '" id="'+ 'item' + itemCounter +'" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
 }
@@ -768,7 +768,7 @@ function drawInventory() {
     var item = eval(atob(inventory[keys[i]]));
     var name = item["name"];
     var price = "$" + item["price"].toFixed(2);
-    var img = item["img"] + "/70fx70f";
+    var img = item["img"] + "./70fx70f";
 
     $(".inventoryItemContainer").append('<div class="inventoryItem ' + rarity + '" id="'+ keys[i] +'" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
   }
@@ -930,7 +930,7 @@ $(".clearGameState").click(function() {
 /*===============DOM MANIP===============*/
 
 function caseInfo() {
-  $('#caseDisplayImage').attr("src", operationCases[currentCase]["img"] + "/240fx182f");
+  $('#caseDisplayImage').attr("src", operationCases[currentCase]["img"] + "./240fx182f");
   $('#caseName').html(operationCases[currentCase]["name"]);
   $('#casePrice').html("Case Price: $" + (operationCases[currentCase]["price"] - caseDiscount).toFixed(2) + "  |");
   $('#keyPrice').html("Key Price: $" + (keyPrice - keyDiscount).toFixed(2));
@@ -938,7 +938,7 @@ function caseInfo() {
 
 function update() {
   $('#money').html("$" + money.toFixed(2));
-  $('#inventorySpace').html(inventoryCurrent + "/" + inventoryMax);
+  $('#inventorySpace').html(inventoryCurrent + "./" + inventoryMax);
 }
 
 function caseModalDraw(name, img) {
@@ -948,7 +948,7 @@ function caseModalDraw(name, img) {
   }
   $(".modalMain").addClass("unbox");
   $(".modalMain").append('<img src="" id="modalImage"/> <div class="modalSkinName" id="modalSkinName"></div> <div class="modalClose unbox button" id="modalClose">Continue</div>');
-  $("#modalImage").attr("src", img + "/360fx360f");
+  $("#modalImage").attr("src", img + "./360fx360f");
   $("#modalSkinName").html(name);
 }
 
@@ -1105,7 +1105,7 @@ function drawJackpotSwapItem(name, price, img, id) {
 
       var name = name;
       var price = "$" + price.toFixed(2);
-      var img = img + "/70fx70f";
+      var img = img + "./70fx70f";
 
       $(".jackpotRightPlayer").append('<div class="inventorySwapItem ' + rarity + '" id="' + id +'" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
 }
@@ -1119,7 +1119,7 @@ function drawSwappedItem(name, price, img, id) {
 
       var name = name;
       var price = "$" + price.toFixed(2);
-      var img = img + "/70fx70f";
+      var img = img + "./70fx70f";
 
       $(".jackpotRightToBet").append('<div class="swappedItem ' + rarity + '" id="' + id +'" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
 }
@@ -1142,7 +1142,7 @@ function drawSwapInventory() {
     var item = eval(atob(inventory[keys[i]]));
     var name = item["name"];
     var price = "$" + item["price"].toFixed(2);
-    var img = item["img"] + "/70fx70f";
+    var img = item["img"] + "./70fx70f";
 
     $(".jackpotRightPlayer").append('<div class="inventorySwapItem ' + rarity + '" id="'+ keys[i] +'" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
   }
@@ -1150,7 +1150,7 @@ function drawSwapInventory() {
 
 function updateSwapInfo() {
   $(".jackpotRightValueTotal").html("$" + swapSkinsValue.toFixed(2))
-  $(".jackpotRightSkinsTotal").html(swapSkins + "/" + maxSwapSkins);
+  $(".jackpotRightSkinsTotal").html(swapSkins + "./" + maxSwapSkins);
 }
 
 
@@ -1288,7 +1288,7 @@ function jackpotStart() {
       var item = eval(atob(pot[keys[i]]));
       var name = item["name"];
       var price = item["price"].toFixed(2);
-      var img = item["img"] + "/70fx70f";
+      var img = item["img"] + "./70fx70f";
 
       $("#playerDeposit").append('<div class="depositorSkin ' + rarity + '" id="'+ keys[i] +'" title="' + name + '"><div class="itemPrice">$' + price + '</div> <img src=' + img + '> </div>');
     }
@@ -1408,7 +1408,7 @@ function jackpotStart() {
       function drawBotItem(array, rarity) {
           var name = array[0];
           var price = "$" + array[1].toFixed(2);
-          var img = array[2] + "/70fx70f";
+          var img = array[2] + "./70fx70f";
           var rarity = rarity;
           var botSelector = "deposit" + depositTicker;
 
@@ -1511,7 +1511,7 @@ function jackpotStart() {
       var item = eval(atob(pot[keys[i]]));
       var name = item["name"];
       var price = "$" + item["price"].toFixed(2);
-      var img = item["img"] + "/70fx70f";
+      var img = item["img"] + "./70fx70f";
 
       $(".winnerModalSkinContainer").append('<div class="inventoryItem ' + rarity + '" id="'+ keys[i] +'" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
     }

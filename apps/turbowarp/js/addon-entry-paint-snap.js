@@ -770,7 +770,7 @@ function initUI({
     const el = document.createElement("img");
     el.className = "sa-paint-snap-image";
     el.draggable = false;
-    el.src = addon.self.getResource("/icons/" + name + ".svg")
+    el.src = addon.self.getResource("./icons/" + name + ".svg")
     /* rewritten by pull.js */
     ;
     return el;

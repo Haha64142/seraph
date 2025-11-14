@@ -1408,21 +1408,21 @@
 			var X = 'rewarded',
 				Z = 'video',
 				K = {
-					'728x90': '/21682198607/' + F + '_ingame_728x90/' + Q + '_' + F + '_ingame_728x90',
-					'300x250': '/21682198607/' + F + '_ingame_300x250/' + Q + '_' + F + '_ingame_300x250',
-					'970x250': '/21682198607/' + F + '_ingame_970x250/' + Q + '_' + F + '_ingame_970x250',
-					'160x600': '/21682198607/' + F + '_ingame_160x600/' + Q + '_' + F + '_ingame_160x600',
-					'320x50': '/21682198607/' + F + '_ingame_320x50/' + Q + '_' + F + '_ingame_320x50',
+					'728x90': './21682198607/' + F + '_ingame_728x90/' + Q + '_' + F + '_ingame_728x90',
+					'300x250': './21682198607/' + F + '_ingame_300x250/' + Q + '_' + F + '_ingame_300x250',
+					'970x250': './21682198607/' + F + '_ingame_970x250/' + Q + '_' + F + '_ingame_970x250',
+					'160x600': './21682198607/' + F + '_ingame_160x600/' + Q + '_' + F + '_ingame_160x600',
+					'320x50': './21682198607/' + F + '_ingame_320x50/' + Q + '_' + F + '_ingame_320x50',
 					'728x90_external':
-						'/21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_728x90',
+						'./21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_728x90',
 					'300x250_external':
-						'/21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_300x250',
+						'./21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_300x250',
 					'970x250_external':
-						'/21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_970x250',
+						'./21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_970x250',
 					'160x600_external':
-						'/21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_160x600',
+						'./21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_160x600',
 					'320x50_external':
-						'/21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_320x50'
+						'./21682198607/external_' + F + '_display_ingame/external_' + F + '_ingame_320x50'
 				},
 				H = parseInt(_('site_id'), 10) || 0,
 				W = function (e) {
@@ -2130,7 +2130,7 @@
 					}),
 					(e.prototype.buildAdUnitPaths = function (e) {
 						if (r.debug) {
-							var t = '/21682198607/debug-video/';
+							var t = './21682198607/debug-video/';
 							return e === n.ads.position.rewarded
 								? [t + 'debug-video-rewarded']
 								: e === n.ads.position.preroll
@@ -2141,7 +2141,7 @@
 							a = 'midroll';
 						S() ? (i = 'mobile') : E() && (i = 'tablet'),
 							e === n.ads.position.rewarded && (a = 'rewarded');
-						var o = '/21682198607/';
+						var o = './21682198607/';
 						return nt.GetIsPokiIFrame()
 							? [
 									'' +
@@ -3334,7 +3334,7 @@
 									return (
 										(e = n.sent()) &&
 											(((t = document.createElement('script')).src =
-												'//game-cdn.poki.com/scripts/touchOverlayController.js'),
+												'.//game-cdn.poki.com/scripts/touchOverlayController.js'),
 											(t.onload = function () {
 												new window.OverlayController(document.body, e);
 											}),
@@ -3387,15 +3387,15 @@
 						var t = e.split('x').map(function (e) {
 								return parseInt(e, 10);
 							}),
-							i = '/21682198607/debug-display/debug-display-' + e,
+							i = './21682198607/debug-display/debug-display-' + e,
 							n = 'desktop';
 						S() && (n = 'mobile'), E() && (n = 'tablet');
 						var a = parseInt(_('site_id'), 10) || 0;
 						return (
 							r.debug ||
 								(i = nt.GetIsPokiIFrame()
-									? '/21682198607/' + n + '_ingame_' + e + '/' + a + '_' + n + '_ingame_' + e
-									: '/21682198607/external_' +
+									? './21682198607/' + n + '_ingame_' + e + './' + a + '_' + n + '_ingame_' + e
+									: './21682198607/external_' +
 									  n +
 									  '_display_ingame/external_' +
 									  n +

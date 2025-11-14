@@ -72,7 +72,7 @@
           t[r - 1] = arguments[r];
         for (
           var n = t[0] || {},
-            o = this.service + "/" + e,
+            o = this.service + "./" + e,
             i = this.errors[e],
             a = i
               ? (function(e, n) {

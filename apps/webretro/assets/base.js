@@ -122,10 +122,10 @@ var installedSystems = allSystems.filter(i => installedCores.some(j => allCores.
 var installedFileExts = installedSystems.map(i => fileExts[i]).filter(i => i).join(", ");
 var coreGithub = document.getElementById("coregithub");
 var coreGithubLinks = {"81": "libretro/81-libretro", "dosbox": "libretro/dosbox-libretro", "dosbox_pure": "schellingb/dosbox-pure", "opera": "libretro/opera-libretro", "fsuae": "libretro/libretro-fsuae", "puae": "libretro/libretro-uae", "cap32": "libretro/libretro-cap32", "fbalpha2012": "libretro/fbalpha2012", "fbneo": "libretro/FBNeo", "mame2003_plus": "libretro/mame2003-plus-libretro", "stella": "stella-emu/stella", "stella2014": "libretro/stella2014-libretro", "atari800": "libretro/libretro-atari800", "a5200": "libretro/a5200", "prosystem": "libretro/prosystem-libretro", "virtualjaguar": "libretro/virtualjaguar-libretro", "handy": "libretro/libretro-handy", "mednafen_lynx": "libretro/beetle-lynx-libretro", "hatari": "libretro/hatari", "gearcoleco": "drhelius/Gearcoleco", "vice_x64": "libretro/vice-libretro", "bk": "libretro/bk-emulator", "freechaf": "libretro/FreeChaF", "gw": "libretro/gw-libretro", "vba_next": "libretro/vba-next", "vbam": "libretro/vbam-libretro", "meteor": "libretro/meteor-libretro", "mednafen_gba": "libretro/beetle-gba-libretro", "gpsp": "libretro/gpsp", "mgba": "libretro/mgba", "gambatte": "libretro/gambatte-libretro", "gearboy": "drhelius/Gearboy", "tgbdual": "libretro/tgbdual-libretro", "sameboy": "libretro/SameBoy", "o2em": "libretro/libretro-o2em", "freeintv": "libretro/FreeIntv", "fmsx": "libretro/fmsx-libretro", "bluemsx": "libretro/blueMSX-libretro", "neocd": "libretro/neocd_libretro", "mednafen_ngp": "libretro/beetle-ngp-libretro", "bnes": "libretro/bnes-libretro", "fceumm": "libretro/libretro-fceumm", "quicknes": "libretro/QuickNES_Core", "mesen": "libretro/Mesen", "nestopia": "libretro/nestopia", "citra": "libretro/citra", "mupen64plus_next": "libretro/mupen64plus-libretro-nx", "parallel_n64": "libretro/parallel-n64", "desmume2015": "libretro/desmume2015", "desmume": "libretro/desmume", "melonds": "libretro/melonds", "dolphin": "libretro/dolphin", "mednafen_pce_fast": "libretro/beetle-pce-fast-libretro", "mednafen_supergrafx": "libretro/beetle-supergrafx-libretro", "quasi88": "libretro/quasi88-libretro", "np2kai": "AZO234/NP2kai", "mednafen_pcfx": "libretro/beetle-pcfx-libretro", "mednafen_psx": "libretro/beetle-psx-libretro", "mednafen_psx_hw": "libretro/beetle-psx-libretro", "pcsx2": "libretro/pcsx2", "ppsspp": "hrydgard/ppsspp", "scummvm": "libretro/scummvm", "flycast": "flyinghead/flycast", "mednafen_saturn": "libretro/beetle-saturn-libretro", "mednafen_saturn_hw": "libretro/beetle-saturn-libretro", "yabause": "libretro/yabause", "yabasanshiro": "libretro/yabause/tree/yabasanshiro", "kronos": "libretro/yabause/tree/kronos", "picodrive": "libretro/picodrive", "genesis_plus_gx": "libretro/Genesis-Plus-GX", "blastem": "libretro/blastem", "px68k": "libretro/px68k-libretro", "fuse": "libretro/fuse-libretro", "bsnes": "libretro/bsnes-libretro", "bsnes_mercury_performance": "libretro/bsnes-mercury", "bsnes_mercury_balanced": "libretro/bsnes-mercury", "bsnes_mercury_accuracy": "libretro/bsnes-mercury", "mednafen_snes": "libretro/beetle-bsnes-libretro", "mesen-s": "libretro/Mesen-S", "snes9x": "libretro/snes9x", "theodore": "Zlika/theodore", "vecx": "libretro/libretro-vecx", "mednafen_vb": "libretro/beetle-vb-libretro", "mednafen_wswan": "libretro/beetle-wswan-libretro"};
-var baseFsBundleDir = "/home/web_user/retroarch/bundle";
-var baseFsSystemDir = "/home/web_user/retroarch/userdata/system/";
-var baseFsConfigDir = "/home/web_user/retroarch/userdata/config/";
-var baseFsSaveDir = "/home/web_user/retroarch/userdata/saves/";
+var baseFsBundleDir = "./home/web_user/retroarch/bundle";
+var baseFsSystemDir = "./home/web_user/retroarch/userdata/system/";
+var baseFsConfigDir = "./home/web_user/retroarch/userdata/config/";
+var baseFsSaveDir = "./home/web_user/retroarch/userdata/saves/";
 var FSTracking = new EventTarget();
 var writeToFileCooldown = {};
 var saveObj = {};
@@ -503,7 +503,7 @@ function uploadFileMulti(accept, callback) {
 	input.onchange = async function() {
 		let datas = [];
 		for (var i = 0; i < this.files.length; i++) {
-			var name = directoryUpload ? (this.files[i].relativePath || this.files[i].webkitRelativePath || "").split("/").slice(1).join("/") : this.files[i].name;
+			var name = directoryUpload ? (this.files[i].relativePath || this.files[i].webkitRelativePath || "").split("./").slice(1).join("./") : this.files[i].name;
 			var data = await readFile(this.files[i]);
 			datas.push({path: name, data: data});
 			if (i == this.files.length - 1 && callback) callback(datas);
@@ -554,7 +554,7 @@ function checkForUpdates() {
 function downloadStandaloneWebretro() {
 	grab(standaloneDownloadUrl, "text", function(data) {
 		alert("Downloading standalone webretro. Internet is required for operation.");
-		downloadFile(data, standaloneDownloadUrl.split("/").slice(-1)[0], "text/html");
+		downloadFile(data, standaloneDownloadUrl.split("./").slice(-1)[0], "text/html");
 	}, function() {
 		alert("Failed to fetch file.");
 	});
@@ -720,7 +720,7 @@ function readyRomUploads(exts) {
 			// extract inside if only 1 directory is dropped
 			if (fileTree.length == 1 && fileTree[0].isDirectory) {
 				for (var i = 0; i < datas.length; i++) {
-					datas[i].path = datas[i].path.split("/").slice(1).join("/");
+					datas[i].path = datas[i].path.split("./").slice(1).join("./");
 				}
 			}
 			
@@ -757,7 +757,7 @@ function readyLaunchQueue() {
 // rom fetch
 function readyRomFetch() {
 	var romloc = (/^(https?:)?\/\//i).test(queries.rom) ? queries.rom : relativeBase + "roms/" + queries.rom;
-	var romFilename = queries.rom.split("/").slice(-1)[0];
+	var romFilename = queries.rom.split("./").slice(-1)[0];
 	grab(romloc, "arraybuffer", function(data) {
 		log("Succesfully fetched ROM from " + romloc);
 		romMode = "querystring";
@@ -771,13 +771,13 @@ function readyRomFetch() {
 
 // safe writeFile
 function safeWriteFile(path, data) {
-	FS.createPath("/", path.split("/").slice(1, -1).join("/"), true, true);
+	FS.createPath("./", path.split("./").slice(1, -1).join("./"), true, true);
 	return FS.writeFile(path, data);
 }
 
 function uploadNCreate() {
 	uploadFile("", function(file) {
-		FS.writeFile("/" + file.name, new Uint8Array(file.data));
+		FS.writeFile("./" + file.name, new Uint8Array(file.data));
 	});
 }
 
@@ -956,7 +956,7 @@ keybindTable.onclick = function(e) {
 
 function tryApplyConfig() {
 	if (mainCompleted) {
-		FS.writeFile("/home/web_user/retroarch/userdata/retroarch.cfg", nulKeys + configObjToStr(savedKeybindsObj) + extraConfig);
+		FS.writeFile("./home/web_user/retroarch/userdata/retroarch.cfg", nulKeys + configObjToStr(savedKeybindsObj) + extraConfig);
 		Module._cmd_reload_config();
 	}
 }
@@ -994,11 +994,11 @@ downloadAllScreenshots.onclick = function() {
 
 // update the screenshot list
 function createScreenshotList() {
-	var screenshots = FS.analyzePath("/home/web_user/retroarch/userdata/screenshots/").exists ? FS.readdir("/home/web_user/retroarch/userdata/screenshots/").filter(k => ![".", ".."].includes(k)) : [];
+	var screenshots = FS.analyzePath("./home/web_user/retroarch/userdata/screenshots/").exists ? FS.readdir("./home/web_user/retroarch/userdata/screenshots/").filter(k => ![".", ".."].includes(k)) : [];
 	screenshotsDiv.innerHTML = "";
 	
 	for (var i = 0; i < screenshots.length; i++) {
-		var screenshotData = FS.readFile("/home/web_user/retroarch/userdata/screenshots/" + screenshots[i]);
+		var screenshotData = FS.readFile("./home/web_user/retroarch/userdata/screenshots/" + screenshots[i]);
 		var blobUrl = window.URL.createObjectURL(new Blob([screenshotData], {type: "image/png"}));
 		screenshotDatas[i] = {path: screenshots[i], data: screenshotData.buffer};
 		screenshotObjUrls[i] = blobUrl;
@@ -1018,7 +1018,7 @@ screenshotsDiv.onclick = function(e) {
 				if (confirm("Are you sure you want to delete this screenshot?")) {
 					// doing all this is probably more efficient then reloading all of the screenshots
 					window.URL.revokeObjectURL(screenshotObjUrls[screenshotNo]);
-					FS.unlink("/home/web_user/retroarch/userdata/screenshots/" + screenshotDatas[screenshotNo].path);
+					FS.unlink("./home/web_user/retroarch/userdata/screenshots/" + screenshotDatas[screenshotNo].path);
 					screenshotObjUrls.splice(screenshotNo, 1);
 					screenshotDatas.splice(screenshotNo, 1);
 					e.target.parentElement.remove();
@@ -1362,7 +1362,7 @@ function readyForInit(files) {
 	
 	// set the romName now if using single-file rom
 	if (files.length == 1) {
-		romName = files[0].path.split("/").slice(-1)[0].split(".")[0];
+		romName = files[0].path.split("./").slice(-1)[0].split(".")[0];
 		document.title = romName + (appIsPwa ? "" : " | webretro");
 	}
 	
@@ -1405,7 +1405,7 @@ function prepareBundle() {
 			fsBundleFiles = splitData[1].split("\n");
 			
 			// make the paths
-			FS.createPath("/", baseFsBundleDir.substring(1), true, true);
+			FS.createPath("./", baseFsBundleDir.substring(1), true, true);
 			for (var i = 0; i < fsBundleDirs.length; i++) {
 				FS.createPath(baseFsBundleDir + fsBundleDirs[i][0], fsBundleDirs[i][1], true, true);
 			}
@@ -1454,7 +1454,7 @@ function prepareBios() {
 		let bios = bioses[core];
 		let num = 0;
 		
-		FS.createPath("/", baseFsSystemDir.substring(1) + bios.path, true, true);
+		FS.createPath("./", baseFsSystemDir.substring(1) + bios.path, true, true);
 		for (let i = 0; i < bios.files.length; i++) {
 			grab(biosCdn + bios.files[i], "arraybuffer", function(data) {
 				FS.writeFile(baseFsSystemDir + bios.path + bios.files[i], new Uint8Array(data));
@@ -1519,8 +1519,8 @@ function saveSRAMHandler(path) {
 
 // save state
 function saveStateHandler() {
-	if (FS.analyzePath("/home/web_user/retroarch/userdata/states/rom.state").exists) {
-		setIdbItem("RetroArch_states_" + romName, FS.readFile("/home/web_user/retroarch/userdata/states/rom.state"));
+	if (FS.analyzePath("./home/web_user/retroarch/userdata/states/rom.state").exists) {
+		setIdbItem("RetroArch_states_" + romName, FS.readFile("./home/web_user/retroarch/userdata/states/rom.state"));
 		
 		doNotRename();
 	} else {
@@ -1545,8 +1545,8 @@ function writeToFileHandler(path) {
 	
 	if (path.startsWith(baseFsSaveDir)) {
 		saveSRAMHandler(path);
-	} else if (path.startsWith("/home/web_user/retroarch/userdata/states/")) {
-		if (path == "/home/web_user/retroarch/userdata/states/rom.state") saveStateHandler();
+	} else if (path.startsWith("./home/web_user/retroarch/userdata/states/")) {
+		if (path == "./home/web_user/retroarch/userdata/states/rom.state") saveStateHandler();
 	}
 }
 
@@ -1573,7 +1573,7 @@ function afterStart() {
 		} else {
 			uploadFile(".bin, .state", function(file) {
 				setIdbItem("RetroArch_states_" + romName, new Uint8Array(file.data));
-				FS.writeFile("/home/web_user/retroarch/userdata/states/rom.state", new Uint8Array(file.data));
+				FS.writeFile("./home/web_user/retroarch/userdata/states/rom.state", new Uint8Array(file.data));
 				new sideAlert("Imported state (press load state)", 3000);
 			});
 		}
@@ -1586,8 +1586,8 @@ function afterStart() {
 	
 	exportState.classList.remove("disabled");
 	exportState.onclick = function() {
-		if (FS.analyzePath("/home/web_user/retroarch/userdata/states/rom.state").exists) {
-			downloadFile(FS.readFile("/home/web_user/retroarch/userdata/states/rom.state"), "game-state-" + romName + "-" + getTime() + ".state");
+		if (FS.analyzePath("./home/web_user/retroarch/userdata/states/rom.state").exists) {
+			downloadFile(FS.readFile("./home/web_user/retroarch/userdata/states/rom.state"), "game-state-" + romName + "-" + getTime() + ".state");
 		} else {
 			alert("No state to export.");
 		}
@@ -1796,40 +1796,40 @@ function initFromData(data) {
 				// single-rom mode
 				
 				realRomExt = data[0].path.split(".").slice(-1)[0] || "bin";
-				FS.createPath("/", "rom", true, true);
-				FS.writeFile("/rom/rom." + realRomExt, new Uint8Array(data[0].data));
-				Module.arguments[0] = "/rom/rom." + realRomExt;
+				FS.createPath("./", "rom", true, true);
+				FS.writeFile("./rom/rom." + realRomExt, new Uint8Array(data[0].data));
+				Module.arguments[0] = "./rom/rom." + realRomExt;
 			} else {
 				// multi-rom mode
 				
 				var masterIndex = await getMasterRom(data);
 				
 				// now set the romName for multi-file roms
-				romName = data[masterIndex].path.split("/").slice(-1)[0].split(".")[0];
+				romName = data[masterIndex].path.split("./").slice(-1)[0].split(".")[0];
 				document.title = romName + (appIsPwa ? "" : " | webretro");
 				
 				realRomExt = data[masterIndex].path.split(".").slice(-1)[0] || "bin";
 				data[masterIndex].path = "rom." + realRomExt;
-				Module.arguments[0] = "/rom/" + data[masterIndex].path;
+				Module.arguments[0] = "./rom/" + data[masterIndex].path;
 				
 				// optionally rename any direct dependencies to "rom"
 				if (exclusiveMultiFileCores.includes(core) && confirm('Rename similar files? (Use if you get "Unable to find rom" errors. Otherwise don\'t use.)')) {
 					for (var i = 0; i < data.length; i++) {
-						if (!data[i].path.includes("/")) data[i].path = data[i].path.replace(romName, "rom");
+						if (!data[i].path.includes("./")) data[i].path = data[i].path.replace(romName, "rom");
 					}
 				}
 				
-				FS.createPath("/", "rom", true, true);
-				var parentDirs = Array.from(new Set(data.map(i => i.path.split("/").slice(0, -1).join("/")))).filter(i => i);
+				FS.createPath("./", "rom", true, true);
+				var parentDirs = Array.from(new Set(data.map(i => i.path.split("./").slice(0, -1).join("./")))).filter(i => i);
 				
 				// create directories
 				for (var i = 0; i < parentDirs.length; i++) {
-					FS.createPath("/rom/", parentDirs[i], true, true);
+					FS.createPath("./rom/", parentDirs[i], true, true);
 				}
 				
 				// create files
 				for (var i = 0; i < data.length; i++) {
-					FS.writeFile("/rom/" + data[i].path, new Uint8Array(data[i].data));
+					FS.writeFile("./rom/" + data[i].path, new Uint8Array(data[i].data));
 				}
 			}
 			
@@ -1837,7 +1837,7 @@ function initFromData(data) {
 			var cSave = await getIdbItem("RetroArch_saves_" + romName);
 			if (cSave) {
 				saveObj = saveArrToObj(cSave);
-				FS.createPath("/", baseFsSaveDir.substring(1), true, true);
+				FS.createPath("./", baseFsSaveDir.substring(1), true, true);
 				for (var i = 0; i < cSave.length; i++) {
 					safeWriteFile(baseFsSaveDir + cSave[i].dir + "rom" + cSave[i].ext, cSave[i].data);
 				}
@@ -1848,14 +1848,14 @@ function initFromData(data) {
 			// import state
 			var cState = await getIdbItem("RetroArch_states_" + romName);
 			if (cState) {
-				FS.createPath("/", "home/web_user/retroarch/userdata/states", true, true);
-				FS.writeFile("/home/web_user/retroarch/userdata/states/rom.state", cState);
+				FS.createPath("./", "home/web_user/retroarch/userdata/states", true, true);
+				FS.writeFile("./home/web_user/retroarch/userdata/states/rom.state", cState);
 				new sideAlert("State imported for " + romName + " (press load state)", 5000);
 				log("State imported for " + romName);
 			}
 			
 			// config
-			safeWriteFile("/home/web_user/retroarch/userdata/retroarch.cfg", nulKeys + configObjToStr(savedKeybindsObj) + extraConfig);
+			safeWriteFile("./home/web_user/retroarch/userdata/retroarch.cfg", nulKeys + configObjToStr(savedKeybindsObj) + extraConfig);
 			
 			// get the core options
 			var coreOptionsString = "";
@@ -1928,7 +1928,7 @@ function initFromData(data) {
 				case "SNES":
 					var hash = md5(u8atoutf8(new Uint8Array(data[0].data)));
 					if (smasBrickFix.hasOwnProperty(hash)) {
-						FS.writeFile("/rom/rom.ips", new Uint8Array(smasBrickFix[hash]));
+						FS.writeFile("./rom/rom.ips", new Uint8Array(smasBrickFix[hash]));
 						new sideAlert("SMAS Bricks Fixed!", 5000);
 					}
 					break;
@@ -1936,7 +1936,7 @@ function initFromData(data) {
 			
 			// writeToFile tracking (needs some extra stuff since it frequently fires in groups)
 			FS.trackingDelegate.onWriteToFile = function(path) {
-				if (!path.startsWith("/dev/")) {
+				if (!path.startsWith("./dev/")) {
 					if (writeToFileCooldown[path]) window.clearTimeout(writeToFileCooldown[path]);
 					writeToFileCooldown[path] = window.setTimeout(function() {
 						delete writeToFileCooldown[path];
@@ -1977,7 +1977,7 @@ function initFromData(data) {
 var Module = {
 	canvas: canvas,
 	noInitialRun: true,
-	arguments: ["/rom/rom.bin", "--verbose"],
+	arguments: ["./rom/rom.bin", "--verbose"],
 	onRuntimeInitialized: function() {
 		wasmReady = true;
 		log("WASM ready");

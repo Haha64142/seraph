@@ -31,20 +31,20 @@ class EJS_GameManager {
             toggleSlowMotion: this.Module.cwrap('toggle_slow_motion', 'null', ['number']),
             setSlowMotionRatio: this.Module.cwrap('set_sm_ratio', 'null', ['number'])
         }
-        this.mkdir("/home");
-        this.mkdir("/home/web_user");
-        this.mkdir("/home/web_user/retroarch");
-        this.mkdir("/home/web_user/retroarch/userdata");
-        this.mkdir("/home/web_user/retroarch/userdata/config");
-        this.mkdir("/home/web_user/retroarch/userdata/config/Beetle PSX HW");
-        this.FS.writeFile("/home/web_user/retroarch/userdata/config/Beetle PSX HW/Beetle PSX HW.opt", 'beetle_psx_hw_renderer = "software"\n');
+        this.mkdir("./home");
+        this.mkdir("./home/web_user");
+        this.mkdir("./home/web_user/retroarch");
+        this.mkdir("./home/web_user/retroarch/userdata");
+        this.mkdir("./home/web_user/retroarch/userdata/config");
+        this.mkdir("./home/web_user/retroarch/userdata/config/Beetle PSX HW");
+        this.FS.writeFile("./home/web_user/retroarch/userdata/config/Beetle PSX HW/Beetle PSX HW.opt", 'beetle_psx_hw_renderer = "software"\n');
         
-        this.mkdir("/data");
-        this.mkdir("/data/saves");
+        this.mkdir("./data");
+        this.mkdir("./data/saves");
         
-        this.FS.writeFile("/home/web_user/retroarch/userdata/retroarch.cfg", this.getRetroArchCfg());
+        this.FS.writeFile("./home/web_user/retroarch/userdata/retroarch.cfg", this.getRetroArchCfg());
         
-        this.FS.mount(IDBFS, {}, '/data/saves');
+        this.FS.mount(IDBFS, {}, './data/saves');
         this.FS.syncfs(true, () => {});
         
         this.initShaders();
@@ -61,7 +61,7 @@ class EJS_GameManager {
     }
     getRetroArchCfg() {
         return "autosave_interval = 60\n" +
-               "screenshot_directory = \"/\"\n" +
+               "screenshot_directory = \"./\"\n" +
                "block_sram_overwrite = false\n" +
                "video_gpu_screenshot = false\n" +
                "audio_latency = 64\n" +
@@ -72,13 +72,13 @@ class EJS_GameManager {
                "slowmotion_ratio = 3.0\n" +
                 (this.EJS.rewindEnabled ? "rewind_enable = true\n" : "") +
                 (this.EJS.rewindEnabled ? "rewind_granularity = 6\n" : "") +
-               "savefile_directory = \"/data/saves\"\n";
+               "savefile_directory = \"./data/saves\"\n";
     }
     initShaders() {
         if (!window.EJS_SHADERS) return;
-        this.mkdir("/shader");
+        this.mkdir("./shader");
         for (const shader in window.EJS_SHADERS) {
-            this.FS.writeFile('/shader/'+shader, window.EJS_SHADERS[shader]);
+            this.FS.writeFile('./shader/'+shader, window.EJS_SHADERS[shader]);
         }
     }
     restart() {
@@ -114,7 +114,7 @@ class EJS_GameManager {
         try {
             this.FS.unlink('game.state');
         } catch(e){}
-        this.FS.writeFile('/game.state', state);
+        this.FS.writeFile('./game.state', state);
         this.functions.loadState("game.state", 0);
         setTimeout(() => {
             try {
@@ -134,7 +134,7 @@ class EJS_GameManager {
                 this.FS.unlink(name);
             } catch (e) {}
             let data = await this.getState();
-            this.FS.writeFile('/'+name, data);
+            this.FS.writeFile('./'+name, data);
         })();
     }
     quickLoad(slot) {
@@ -220,20 +220,20 @@ class EJS_GameManager {
             console.warn("Could not auto-create cue file(s).");
             return null;
         }
-        let baseFileName = fileNames[0].split("/").pop();
+        let baseFileName = fileNames[0].split("./").pop();
         if (baseFileName.includes(".")) {
             baseFileName = baseFileName.substring(0, baseFileName.length - baseFileName.split(".").pop().length - 1);
         }
         for (let i=0; i<fileNames.length; i++) {
             const contents = " FILE \""+fileNames[i]+"\" BINARY\n  TRACK 01 MODE1/2352\n   INDEX 01 00:00:00";
-            FS.writeFile("/"+baseFileName+"-"+i+".cue", contents);
+            FS.writeFile("./"+baseFileName+"-"+i+".cue", contents);
         }
         if (fileNames.length > 1) {
             let contents = "";
             for (let i=0; i<fileNames.length; i++) {
-                contents += "/"+baseFileName+"-"+i+".cue\n";
+                contents += "./"+baseFileName+"-"+i+".cue\n";
             }
-            FS.writeFile("/"+baseFileName+".m3u", contents);
+            FS.writeFile("./"+baseFileName+".m3u", contents);
         }
         return (fileNames.length === 1) ? baseFileName+"-0.cue" : baseFileName+".m3u";
     }
@@ -246,16 +246,16 @@ class EJS_GameManager {
                         this.EJS.textElem.style.color = "red";
                         return;
                     }
-                    this.mkdir("/PPSSPP");
+                    this.mkdir("./PPSSPP");
                     
                     for (const file in pspassets) {
                         const data = pspassets[file];
-                        const path = "/PPSSPP/"+file;
-                        const paths = path.split("/");
+                        const path = "./PPSSPP/"+file;
+                        const paths = path.split("./");
                         let cp = "";
                         for (let i=0; i<paths.length-1; i++) {
                             if (paths[i] === "") continue;
-                            cp += "/"+paths[i];
+                            cp += "./"+paths[i];
                             if (!FS.analyzePath(cp).exists) {
                                 FS.mkdir(cp);
                             }

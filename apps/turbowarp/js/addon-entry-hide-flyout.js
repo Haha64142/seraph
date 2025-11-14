@@ -136,7 +136,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   function updateLockDisplay() {
     lockObject.classList.toggle("locked", flyoutLock);
     lockButton.title = flyoutLock ? msg("unlock") : msg("lock");
-    lockIcon.src = addon.self.getResource("/".concat(flyoutLock ? "" : "un", "lock.svg"))
+    lockIcon.src = addon.self.getResource("./".concat(flyoutLock ? "" : "un", "lock.svg"))
     /* rewritten by pull.js */
     ;
   }

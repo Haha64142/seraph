@@ -281,7 +281,7 @@
     ".": ".",
     "<": "<",
     ">": ">",
-    "/": "/",
+    "./": "./",
     "?": "?",
     "LEFT_STICK_X": "ANALÓGICO ESQUERDO - EIXO HORIZONTAL",
     "LEFT_STICK_Y": "ANALÓGICO ESQUERDO - EIXO VERTICAL",

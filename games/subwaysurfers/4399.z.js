@@ -9,8 +9,8 @@ var my4399UnityModule = (function() {
                     if (!Module.indexedDB) {
                         console.log("IndexedDB is not available. Data will not persist in cache and PlayerPrefs will not be saved.")
                     }
-                    FS.mkdir("/idbfs");
-                    FS.mount(IDBFS, {}, "/idbfs");
+                    FS.mkdir("./idbfs");
+                    FS.mount(IDBFS, {}, "./idbfs");
                     Module.addRunDependency("JS_FileSystem_Mount");
                     FS.syncfs(true, (function(err) {
                         Module.removeRunDependency("JS_FileSystem_Mount")
@@ -117,7 +117,7 @@ var my4399UnityModule = (function() {
             }
         }
         if (ENVIRONMENT_IS_NODE) {
-            scriptDirectory = __dirname + "/";
+            scriptDirectory = __dirname + "./";
             var nodeFS;
             var nodePath;
             Module["read"] = function shell_read(filename, binary) {
@@ -137,7 +137,7 @@ var my4399UnityModule = (function() {
                 return ret
             };
             if (process["argv"].length > 1) {
-                Module["thisProgram"] = process["argv"][1].replace(/\\/g, "/")
+                Module["thisProgram"] = process["argv"][1].replace(/\\/g, "./")
             }
             Module["arguments"] = process["argv"].slice(2);
             process["on"]("uncaughtException", (function(ex) {
@@ -191,7 +191,7 @@ var my4399UnityModule = (function() {
                 scriptDirectory = _scriptDir
             }
             if (scriptDirectory.indexOf("blob:") !== 0) {
-                scriptDirectory = scriptDirectory.split("/").slice(0, -1).join("/") + "/"
+                scriptDirectory = scriptDirectory.split("./").slice(0, -1).join("./") + "./"
             } else {
                 scriptDirectory = ""
             }
@@ -2721,9 +2721,9 @@ var my4399UnityModule = (function() {
             if (!___buildEnvironment.called) {
                 ___buildEnvironment.called = true;
                 ENV["USER"] = ENV["LOGNAME"] = "web_user";
-                ENV["PATH"] = "/";
-                ENV["PWD"] = "/";
-                ENV["HOME"] = "/home/web_user";
+                ENV["PATH"] = "./";
+                ENV["PWD"] = "./";
+                ENV["HOME"] = "./home/web_user";
                 ENV["LANG"] = "C.UTF-8";
                 ENV["_"] = Module["thisProgram"];
                 poolPtr = getMemory(TOTAL_ENV_SIZE);
@@ -3194,18 +3194,18 @@ var my4399UnityModule = (function() {
                 return parts
             }),
             normalize: (function(path) {
-                var isAbsolute = path.charAt(0) === "/",
-                    trailingSlash = path.substr(-1) === "/";
-                path = PATH.normalizeArray(path.split("/").filter((function(p) {
+                var isAbsolute = path.charAt(0) === "./",
+                    trailingSlash = path.substr(-1) === "./";
+                path = PATH.normalizeArray(path.split("./").filter((function(p) {
                     return !!p
-                })), !isAbsolute).join("/");
+                })), !isAbsolute).join("./");
                 if (!path && !isAbsolute) {
                     path = "."
                 }
                 if (path && trailingSlash) {
-                    path += "/"
+                    path += "./"
                 }
-                return (isAbsolute ? "/" : "") + path
+                return (isAbsolute ? "./" : "") + path
             }),
             dirname: (function(path) {
                 var result = PATH.splitPath(path),
@@ -3220,8 +3220,8 @@ var my4399UnityModule = (function() {
                 return root + dir
             }),
             basename: (function(path) {
-                if (path === "/") return "/";
-                var lastSlash = path.lastIndexOf("/");
+                if (path === "./") return "./";
+                var lastSlash = path.lastIndexOf("./");
                 if (lastSlash === -1) return path;
                 return path.substr(lastSlash + 1)
             }),
@@ -3230,10 +3230,10 @@ var my4399UnityModule = (function() {
             }),
             join: (function() {
                 var paths = Array.prototype.slice.call(arguments, 0);
-                return PATH.normalize(paths.join("/"))
+                return PATH.normalize(paths.join("./"))
             }),
             join2: (function(l, r) {
-                return PATH.normalize(l + "/" + r)
+                return PATH.normalize(l + "./" + r)
             }),
             resolve: (function() {
                 var resolvedPath = "",
@@ -3245,13 +3245,13 @@ var my4399UnityModule = (function() {
                     } else if (!path) {
                         return ""
                     }
-                    resolvedPath = path + "/" + resolvedPath;
-                    resolvedAbsolute = path.charAt(0) === "/"
+                    resolvedPath = path + "./" + resolvedPath;
+                    resolvedAbsolute = path.charAt(0) === "./"
                 }
-                resolvedPath = PATH.normalizeArray(resolvedPath.split("/").filter((function(p) {
+                resolvedPath = PATH.normalizeArray(resolvedPath.split("./").filter((function(p) {
                     return !!p
-                })), !resolvedAbsolute).join("/");
-                return (resolvedAbsolute ? "/" : "") + resolvedPath || "."
+                })), !resolvedAbsolute).join("./");
+                return (resolvedAbsolute ? "./" : "") + resolvedPath || "."
             }),
             relative: (function(from, to) {
                 from = PATH.resolve(from).substr(1);
@@ -3269,8 +3269,8 @@ var my4399UnityModule = (function() {
                     if (start > end) return [];
                     return arr.slice(start, end - start + 1)
                 }
-                var fromParts = trim(from.split("/"));
-                var toParts = trim(to.split("/"));
+                var fromParts = trim(from.split("./"));
+                var toParts = trim(to.split("./"));
                 var length = Math.min(fromParts.length, toParts.length);
                 var samePartsLength = length;
                 for (var i = 0; i < length; i++) {
@@ -3284,7 +3284,7 @@ var my4399UnityModule = (function() {
                     outputParts.push("..")
                 }
                 outputParts = outputParts.concat(toParts.slice(samePartsLength));
-                return outputParts.join("/")
+                return outputParts.join("./")
             })
         };
         var TTY = {
@@ -3368,7 +3368,7 @@ var my4399UnityModule = (function() {
                             if (isPosixPlatform) {
                                 var usingDevice = false;
                                 try {
-                                    fd = fs.openSync("/dev/stdin", "r");
+                                    fd = fs.openSync("./dev/stdin", "r");
                                     usingDevice = true
                                 } catch (e) {}
                             }
@@ -3439,7 +3439,7 @@ var my4399UnityModule = (function() {
         var MEMFS = {
             ops_table: null,
             mount: (function(mount) {
-                return MEMFS.createNode(null, "/", 16384 | 511, 0)
+                return MEMFS.createNode(null, "./", 16384 | 511, 0)
             }),
             createNode: (function(parent, name, mode, dev) {
                 if (FS.isBlkdev(mode) || FS.isFIFO(mode)) {
@@ -4069,7 +4069,7 @@ var my4399UnityModule = (function() {
             }),
             mount: (function(mount) {
                 assert(ENVIRONMENT_IS_NODE);
-                return NODEFS.createNode(null, "/", NODEFS.getMode(mount.opts.root), 0)
+                return NODEFS.createNode(null, "./", NODEFS.getMode(mount.opts.root), 0)
             }),
             createNode: (function(parent, name, mode, dev) {
                 if (!FS.isDir(mode) && !FS.isFile(mode) && !FS.isLink(mode)) {
@@ -4317,14 +4317,14 @@ var my4399UnityModule = (function() {
             mount: (function(mount) {
                 assert(ENVIRONMENT_IS_WORKER);
                 if (!WORKERFS.reader) WORKERFS.reader = new FileReaderSync;
-                var root = WORKERFS.createNode(null, "/", WORKERFS.DIR_MODE, 0);
+                var root = WORKERFS.createNode(null, "./", WORKERFS.DIR_MODE, 0);
                 var createdParents = {};
 
                 function ensureParent(path) {
-                    var parts = path.split("/");
+                    var parts = path.split("./");
                     var parent = root;
                     for (var i = 0; i < parts.length - 1; i++) {
-                        var curr = parts.slice(0, i + 1).join("/");
+                        var curr = parts.slice(0, i + 1).join("./");
                         if (!createdParents[curr]) {
                             createdParents[curr] = WORKERFS.createNode(parent, parts[i], WORKERFS.DIR_MODE, 0)
                         }
@@ -4334,7 +4334,7 @@ var my4399UnityModule = (function() {
                 }
 
                 function base(path) {
-                    var parts = path.split("/");
+                    var parts = path.split("./");
                     return parts[parts.length - 1]
                 }
                 Array.prototype.forEach.call(mount.opts["files"] || [], (function(file) {
@@ -4465,7 +4465,7 @@ var my4399UnityModule = (function() {
             streams: [],
             nextInode: 1,
             nameTable: null,
-            currentPath: "/",
+            currentPath: "./",
             initialized: false,
             ignorePermissions: true,
             trackingDelegate: {},
@@ -4502,11 +4502,11 @@ var my4399UnityModule = (function() {
                 if (opts.recurse_count > 8) {
                     throw new FS.ErrnoError(ERRNO_CODES.ELOOP)
                 }
-                var parts = PATH.normalizeArray(path.split("/").filter((function(p) {
+                var parts = PATH.normalizeArray(path.split("./").filter((function(p) {
                     return !!p
                 })), false);
                 var current = FS.root;
-                var current_path = "/";
+                var current_path = "./";
                 for (var i = 0; i < parts.length; i++) {
                     var islast = i === parts.length - 1;
                     if (islast && opts.parent) {
@@ -4545,9 +4545,9 @@ var my4399UnityModule = (function() {
                     if (FS.isRoot(node)) {
                         var mount = node.mount.mountpoint;
                         if (!path) return mount;
-                        return mount[mount.length - 1] !== "/" ? mount + "/" + path : mount + path
+                        return mount[mount.length - 1] !== "./" ? mount + "./" + path : mount + path
                     }
-                    path = path ? node.name + "/" + path : node.name;
+                    path = path ? node.name + "./" + path : node.name;
                     node = node.parent
                 }
             }),
@@ -4903,7 +4903,7 @@ var my4399UnityModule = (function() {
                 }))
             }),
             mount: (function(type, opts, mountpoint) {
-                var root = mountpoint === "/";
+                var root = mountpoint === "./";
                 var pseudo = !mountpoint;
                 var node;
                 if (root && FS.root) {
@@ -4999,11 +4999,11 @@ var my4399UnityModule = (function() {
                 return FS.mknod(path, mode, 0)
             }),
             mkdirTree: (function(path, mode) {
-                var dirs = path.split("/");
+                var dirs = path.split("./");
                 var d = "";
                 for (var i = 0; i < dirs.length; ++i) {
                     if (!dirs[i]) continue;
-                    d += "/" + dirs[i];
+                    d += "./" + dirs[i];
                     try {
                         FS.mkdir(d, mode)
                     } catch (e) {
@@ -5603,12 +5603,12 @@ var my4399UnityModule = (function() {
                 FS.currentPath = lookup.path
             }),
             createDefaultDirectories: (function() {
-                FS.mkdir("/tmp");
-                FS.mkdir("/home");
-                FS.mkdir("/home/web_user")
+                FS.mkdir("./tmp");
+                FS.mkdir("./home");
+                FS.mkdir("./home/web_user")
             }),
             createDefaultDevices: (function() {
-                FS.mkdir("/dev");
+                FS.mkdir("./dev");
                 FS.registerDevice(FS.makedev(1, 3), {
                     read: (function() {
                         return 0
@@ -5617,11 +5617,11 @@ var my4399UnityModule = (function() {
                         return length
                     })
                 });
-                FS.mkdev("/dev/null", FS.makedev(1, 3));
+                FS.mkdev("./dev/null", FS.makedev(1, 3));
                 TTY.register(FS.makedev(5, 0), TTY.default_tty_ops);
                 TTY.register(FS.makedev(6, 0), TTY.default_tty1_ops);
-                FS.mkdev("/dev/tty", FS.makedev(5, 0));
-                FS.mkdev("/dev/tty1", FS.makedev(6, 0));
+                FS.mkdev("./dev/tty", FS.makedev(5, 0));
+                FS.mkdev("./dev/tty1", FS.makedev(6, 0));
                 var random_device;
                 if (typeof crypto !== "undefined") {
                     var randomBuffer = new Uint8Array(1);
@@ -5638,18 +5638,18 @@ var my4399UnityModule = (function() {
                         return Math.random() * 256 | 0
                     })
                 }
-                FS.createDevice("/dev", "random", random_device);
-                FS.createDevice("/dev", "urandom", random_device);
-                FS.mkdir("/dev/shm");
-                FS.mkdir("/dev/shm/tmp")
+                FS.createDevice("./dev", "random", random_device);
+                FS.createDevice("./dev", "urandom", random_device);
+                FS.mkdir("./dev/shm");
+                FS.mkdir("./dev/shm/tmp")
             }),
             createSpecialDirectories: (function() {
-                FS.mkdir("/proc");
-                FS.mkdir("/proc/self");
-                FS.mkdir("/proc/self/fd");
+                FS.mkdir("./proc");
+                FS.mkdir("./proc/self");
+                FS.mkdir("./proc/self/fd");
                 FS.mount({
                     mount: (function() {
-                        var node = FS.createNode("/proc/self", "fd", 16384 | 511, 73);
+                        var node = FS.createNode("./proc/self", "fd", 16384 | 511, 73);
                         node.node_ops = {
                             lookup: (function(parent, name) {
                                 var fd = +name;
@@ -5672,29 +5672,29 @@ var my4399UnityModule = (function() {
                         };
                         return node
                     })
-                }, {}, "/proc/self/fd")
+                }, {}, "./proc/self/fd")
             }),
             createStandardStreams: (function() {
                 if (Module["stdin"]) {
-                    FS.createDevice("/dev", "stdin", Module["stdin"])
+                    FS.createDevice("./dev", "stdin", Module["stdin"])
                 } else {
-                    FS.symlink("/dev/tty", "/dev/stdin")
+                    FS.symlink("./dev/tty", "./dev/stdin")
                 }
                 if (Module["stdout"]) {
-                    FS.createDevice("/dev", "stdout", null, Module["stdout"])
+                    FS.createDevice("./dev", "stdout", null, Module["stdout"])
                 } else {
-                    FS.symlink("/dev/tty", "/dev/stdout")
+                    FS.symlink("./dev/tty", "./dev/stdout")
                 }
                 if (Module["stderr"]) {
-                    FS.createDevice("/dev", "stderr", null, Module["stderr"])
+                    FS.createDevice("./dev", "stderr", null, Module["stderr"])
                 } else {
-                    FS.symlink("/dev/tty1", "/dev/stderr")
+                    FS.symlink("./dev/tty1", "./dev/stderr")
                 }
-                var stdin = FS.open("/dev/stdin", "r");
+                var stdin = FS.open("./dev/stdin", "r");
                 assert(stdin.fd === 0, "invalid handle for stdin (" + stdin.fd + ")");
-                var stdout = FS.open("/dev/stdout", "w");
+                var stdout = FS.open("./dev/stdout", "w");
                 assert(stdout.fd === 1, "invalid handle for stdout (" + stdout.fd + ")");
-                var stderr = FS.open("/dev/stderr", "w");
+                var stderr = FS.open("./dev/stderr", "w");
                 assert(stderr.fd === 2, "invalid handle for stderr (" + stderr.fd + ")")
             }),
             ensureErrnoError: (function() {
@@ -5727,7 +5727,7 @@ var my4399UnityModule = (function() {
             staticInit: (function() {
                 FS.ensureErrnoError();
                 FS.nameTable = new Array(4096);
-                FS.mount(MEMFS, {}, "/");
+                FS.mount(MEMFS, {}, "./");
                 FS.createDefaultDirectories();
                 FS.createDefaultDevices();
                 FS.createSpecialDirectories();
@@ -5767,7 +5767,7 @@ var my4399UnityModule = (function() {
             }),
             joinPath: (function(parts, forceRelative) {
                 var path = PATH.join.apply(null, parts);
-                if (forceRelative && path[0] == "/") path = path.substr(1);
+                if (forceRelative && path[0] == "./") path = path.substr(1);
                 return path
             }),
             absolutePath: (function(relative, base) {
@@ -5818,7 +5818,7 @@ var my4399UnityModule = (function() {
                     ret.path = lookup.path;
                     ret.object = lookup.node;
                     ret.name = lookup.node.name;
-                    ret.isRoot = lookup.path === "/"
+                    ret.isRoot = lookup.path === "./"
                 } catch (e) {
                     ret.error = e.errno
                 }
@@ -5831,7 +5831,7 @@ var my4399UnityModule = (function() {
             }),
             createPath: (function(parent, path, canRead, canWrite) {
                 parent = typeof parent === "string" ? parent : FS.getPath(parent);
-                var parts = path.split("/").reverse();
+                var parts = path.split("./").reverse();
                 while (parts.length) {
                     var part = parts.pop();
                     if (!part) continue;
@@ -6220,7 +6220,7 @@ var my4399UnityModule = (function() {
             mappings: {},
             umask: 511,
             calculateAt: (function(dirfd, path) {
-                if (path[0] !== "/") {
+                if (path[0] !== "./") {
                     var dir;
                     if (dirfd === -100) {
                         dir = FS.cwd()
@@ -6269,7 +6269,7 @@ var my4399UnityModule = (function() {
             }),
             doMkdir: (function(path, mode) {
                 path = PATH.normalize(path);
-                if (path[path.length - 1] === "/") path = path.substr(0, path.length - 1);
+                if (path[path.length - 1] === "./") path = path.substr(0, path.length - 1);
                 FS.mkdir(path, mode, 0);
                 return 0
             }),
@@ -6409,7 +6409,7 @@ var my4399UnityModule = (function() {
                         this._callbacks[event].call(this, param)
                     }
                 });
-                return FS.createNode(null, "/", 16384 | 511, 0)
+                return FS.createNode(null, "./", 16384 | 511, 0)
             }),
             createSocket: (function(family, type, protocol) {
                 var streaming = type == 1;
@@ -6503,15 +6503,15 @@ var my4399UnityModule = (function() {
                     } else {
                         try {
                             var runtimeConfig = Module["websocket"] && "object" === typeof Module["websocket"];
-                            var url = "ws:#".replace("#", "//");
+                            var url = "ws:#".replace("#", ".//");
                             if (runtimeConfig) {
                                 if ("string" === typeof Module["websocket"]["url"]) {
                                     url = Module["websocket"]["url"]
                                 }
                             }
                             if (url === "ws://" || url === "wss://") {
-                                var parts = addr.split("/");
-                                url = url + parts[0] + ":" + port + "/" + parts.slice(1).join("/")
+                                var parts = addr.split("./");
+                                url = url + parts[0] + ":" + port + "./" + parts.slice(1).join("./")
                             }
                             var subProtocols = "binary";
                             if (runtimeConfig) {
@@ -7791,7 +7791,7 @@ var my4399UnityModule = (function() {
         var PIPEFS = {
             BUCKET_BUFFER_SIZE: 8192,
             mount: (function(mount) {
-                return FS.createNode(null, "/", 16384 | 511, 0)
+                return FS.createNode(null, "./", 16384 | 511, 0)
             }),
             createPipe: (function() {
                 var pipe = {
@@ -8467,7 +8467,7 @@ var my4399UnityModule = (function() {
                         var expected = Browser.mainLoop.expectedBlockers;
                         if (remaining) {
                             if (remaining < expected) {
-                                Module["setStatus"](message + " (" + (expected - remaining) + "/" + expected + ")")
+                                Module["setStatus"](message + " (" + (expected - remaining) + "./" + expected + ")")
                             } else {
                                 Module["setStatus"](message)
                             }
@@ -10528,14 +10528,14 @@ var my4399UnityModule = (function() {
                     haveSourceMap = orig && orig.source;
                     if (haveSourceMap) {
                         if (flags & 64) {
-                            orig.source = orig.source.substring(orig.source.replace(/\\/g, "/").lastIndexOf("/") + 1)
+                            orig.source = orig.source.substring(orig.source.replace(/\\/g, "./").lastIndexOf("./") + 1)
                         }
                         callstack += "    at " + cSymbolName + " (" + orig.source + ":" + orig.line + ":" + orig.column + ")\n"
                     }
                 }
                 if (flags & 16 || !haveSourceMap) {
                     if (flags & 64) {
-                        file = file.substring(file.replace(/\\/g, "/").lastIndexOf("/") + 1)
+                        file = file.substring(file.replace(/\\/g, "./").lastIndexOf("./") + 1)
                     }
                     callstack += (haveSourceMap ? "     = " + jsSymbolName : "    at " + cSymbolName) + " (" + file + ":" + lineno + ":" + column + ")\n"
                 }

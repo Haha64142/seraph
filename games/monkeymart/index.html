@@ -275,13 +275,13 @@
                 var dir = DMSYS.GetUserPersistentDataRoot();
                 var resDir = _HashSHA1("MonkeyMart");
                 try {
-                    FS.unlink(dir + "/." + resDir + "/liveupdate.arcd");
+                    FS.unlink(dir + "./." + resDir + "./liveupdate.arcd");
                 } catch (e) {}
                 try {
-                    FS.unlink(dir + "/." + resDir + "/liveupdate.arci");
+                    FS.unlink(dir + "./." + resDir + "./liveupdate.arci");
                 } catch (e) {}
                 try {
-                    FS.unlink(dir + "/." + resDir + "/liveupdate.arci.tmp");
+                    FS.unlink(dir + "./." + resDir + "./liveupdate.arci.tmp");
                 } catch (e) {}
                 old_preloadAndCallMain();
 

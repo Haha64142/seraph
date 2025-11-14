@@ -37,7 +37,7 @@ var UnityLoader = UnityLoader || {
         }
         try {
             var n = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB,
-                o = n.open("/idbfs-test");
+                o = n.open("./idbfs-test");
             o.onerror = function(e) {
                 e.preventDefault(), r()
             }, o.onsuccess = function() {
@@ -95,7 +95,7 @@ var UnityLoader = UnityLoader || {
             o += 4;
             var u = String.fromCharCode.apply(null, r.subarray(o, o + l));
             o += l;
-            for (var f = 0, c = u.indexOf("/", f) + 1; c > 0; f = c, c = u.indexOf("/", f) + 1) e.FS_createPath(u.substring(0, f), u.substring(f, c - 1), !0, !0);
+            for (var f = 0, c = u.indexOf("./", f) + 1; c > 0; f = c, c = u.indexOf("./", f) + 1) e.FS_createPath(u.substring(0, f), u.substring(f, c - 1), !0, !0);
             e.FS_createDataFile(u, null, r.subarray(s, s + d), !0, !0, !0)
         }
         e.removeRunDependency("processDataJob"), t.complete()
@@ -180,7 +180,7 @@ var UnityLoader = UnityLoader || {
                 Jobs: {},
                 buildDownloadProgress: {},
                 resolveBuildUrl: function(e) {
-                    return e.match(/(http|https|ftp|file):\/\//) ? e : t.substring(0, t.lastIndexOf("/") + 1) + e
+                    return e.match(/(http|https|ftp|file):\/\//) ? e : t.substring(0, t.lastIndexOf("./") + 1) + e
                 }
             },
             SetFullscreen: function() {
@@ -210,7 +210,7 @@ var UnityLoader = UnityLoader || {
             i = navigator.appName,
             s = navigator.appVersion,
             d = parseInt(navigator.appVersion, 10);
-        (t = a.indexOf("Opera")) != -1 ? (i = "Opera", s = a.substring(t + 6), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("MSIE")) != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(t + 5)) : (t = a.indexOf("Chrome")) != -1 ? (i = "Chrome", s = a.substring(t + 7)) : (t = a.indexOf("Safari")) != -1 ? (i = "Safari", s = a.substring(t + 7), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("Firefox")) != -1 ? (i = "Firefox", s = a.substring(t + 8)) : a.indexOf("Trident/") != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(a.indexOf("rv:") + 3)) : (e = a.lastIndexOf(" ") + 1) < (t = a.lastIndexOf("/")) && (i = a.substring(e, t), s = a.substring(t + 1), i.toLowerCase() == i.toUpperCase() && (i = navigator.appName)), (r = s.indexOf(";")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(" ")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(")")) != -1 && (s = s.substring(0, r)), d = parseInt("" + s, 10), isNaN(d) ? (s = "" + parseFloat(navigator.appVersion), d = parseInt(navigator.appVersion, 10)) : s = "" + parseFloat(s);
+        (t = a.indexOf("Opera")) != -1 ? (i = "Opera", s = a.substring(t + 6), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("MSIE")) != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(t + 5)) : (t = a.indexOf("Chrome")) != -1 ? (i = "Chrome", s = a.substring(t + 7)) : (t = a.indexOf("Safari")) != -1 ? (i = "Safari", s = a.substring(t + 7), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("Firefox")) != -1 ? (i = "Firefox", s = a.substring(t + 8)) : a.indexOf("Trident/") != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(a.indexOf("rv:") + 3)) : (e = a.lastIndexOf(" ") + 1) < (t = a.lastIndexOf("./")) && (i = a.substring(e, t), s = a.substring(t + 1), i.toLowerCase() == i.toUpperCase() && (i = navigator.appName)), (r = s.indexOf(";")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(" ")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(")")) != -1 && (s = s.substring(0, r)), d = parseInt("" + s, 10), isNaN(d) ? (s = "" + parseFloat(navigator.appVersion), d = parseInt(navigator.appVersion, 10)) : s = "" + parseFloat(s);
         var l = /Mobile|mini|Fennec|Android|iP(ad|od|hone)/.test(o),
             u = n,
             f = [{
@@ -381,13 +381,13 @@ var UnityLoader = UnityLoader || {
                     n = r[7].match(this.blobParseRegExp),
                     o = t.demangleSymbol ? t.demangleSymbol(r[4]) : r[4],
                     a = n && UnityLoader.Blobs[n[1]] && UnityLoader.Blobs[n[1]].url ? UnityLoader.Blobs[n[1]].url : "blob";
-                return r[1] + o + (r[2] != o ? " [" + r[2] + "]" : "") + " (" + (n ? a.substr(a.lastIndexOf("/") + 1) + n[2] : r[7]) + ")"
+                return r[1] + o + (r[2] != o ? " [" + r[2] + "]" : "") + " (" + (n ? a.substr(a.lastIndexOf("./") + 1) + n[2] : r[7]) + ")"
             }.bind(this)), t.useWasm && (r = r.replace(new RegExp(this.stackTraceFormatWasm, "g"), function(e) {
                 var r = e.match(new RegExp("^" + this.stackTraceFormatWasm + "$")),
                     n = t.demangleSymbol ? t.demangleSymbol(r[3]) : r[3],
                     o = r[4].match(this.blobParseRegExp),
                     a = o && UnityLoader.Blobs[o[1]] && UnityLoader.Blobs[o[1]].url ? UnityLoader.Blobs[o[1]].url : "blob";
-                return (n == r[3] ? r[1] : r[2] + n + " [wasm:" + r[3] + "]") + (r[4] ? " (" + (o ? a.substr(a.lastIndexOf("/") + 1) + o[2] : r[4]) + ")" : "")
+                return (n == r[3] ? r[1] : r[2] + n + " [wasm:" + r[3] + "]") + (r[4] ? " (" + (o ? a.substr(a.lastIndexOf("./") + 1) + o[2] : r[4]) + ")" : "")
             }.bind(this))), r) : r
         },
         handler: function(e, t) {
@@ -1764,12 +1764,12 @@ var UnityLoader = UnityLoader || {
                         }
                     }
                 };
-                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("/") + 1);
+                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("./") + 1);
                 var n = function(e) {
                         var r = [];
-                        return e = e.split("/").every(function(e) {
+                        return e = e.split("./").every(function(e) {
                             return ".." == e ? r.pop() : "." == e || "" == e || r.push(e)
-                        }) ? r.join("/") : null, e ? t[e] || t[e + ".js"] || t[e + "/index.js"] : null
+                        }) ? r.join("./") : null, e ? t[e] || t[e + ".js"] || t[e + "./index.js"] : null
                     },
                     o = function(e, t) {
                         return e ? n(e.folder + "node_modules/" + t) || o(e.parent, t) : null
@@ -2340,12 +2340,12 @@ var UnityLoader = UnityLoader || {
                         u["-".charCodeAt(0)] = 62, u["_".charCodeAt(0)] = 63
                     }
                 };
-                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("/") + 1);
+                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("./") + 1);
                 var n = function(e) {
                         var r = [];
-                        return e = e.split("/").every(function(e) {
+                        return e = e.split("./").every(function(e) {
                             return ".." == e ? r.pop() : "." == e || "" == e || r.push(e)
-                        }) ? r.join("/") : null, e ? t[e] || t[e + ".js"] || t[e + "/index.js"] : null
+                        }) ? r.join("./") : null, e ? t[e] || t[e + ".js"] || t[e + "./index.js"] : null
                     },
                     o = function(e, t) {
                         return e ? n(e.folder + "node_modules/" + t) || o(e.parent, t) : null

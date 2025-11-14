@@ -1978,7 +1978,7 @@
       payloadType: parseInt(parts.shift(), 10) // was: id
     };
   
-    parts = parts[0].split('/');
+    parts = parts[0].split('./');
   
     parsed.name = parts[0];
     parsed.clockRate = parseInt(parts[1], 10); // was: clockrate
@@ -1996,8 +1996,8 @@
       pt = codec.preferredPayloadType;
     }
     var channels = codec.channels || codec.numChannels || 1;
-    return 'a=rtpmap:' + pt + ' ' + codec.name + '/' + codec.clockRate +
-        (channels !== 1 ? '/' + channels : '') + '\r\n';
+    return 'a=rtpmap:' + pt + ' ' + codec.name + './' + codec.clockRate +
+        (channels !== 1 ? './' + channels : '') + '\r\n';
   };
   
   // Parses an a=extmap line (headerextension from RFC 5285). Sample input:
@@ -2007,7 +2007,7 @@
     var parts = line.substr(9).split(' ');
     return {
       id: parseInt(parts[0], 10),
-      direction: parts[0].indexOf('/') > 0 ? parts[0].split('/')[1] : 'sendrecv',
+      direction: parts[0].indexOf('./') > 0 ? parts[0].split('./')[1] : 'sendrecv',
       uri: parts[1]
     };
   };
@@ -2017,7 +2017,7 @@
   SDPUtils.writeExtmap = function(headerExtension) {
     return 'a=extmap:' + (headerExtension.id || headerExtension.preferredId) +
         (headerExtension.direction && headerExtension.direction !== 'sendrecv'
-            ? '/' + headerExtension.direction
+            ? './' + headerExtension.direction
             : '') +
         ' ' + headerExtension.uri + '\r\n';
   };

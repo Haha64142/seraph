@@ -433,7 +433,7 @@ var MobileAdInGameEnd = {
     }
 
     function Gc(b) {
-        return b.type = (null !== b.getAttribute("type")) + "/" + b.type, b
+        return b.type = (null !== b.getAttribute("type")) + "./" + b.type, b
     }
 
     function Hc(b) {
@@ -3331,10 +3331,10 @@ var MobileAdInGameEnd = {
                         return e && e.abort(b), g(0, b), this
                     }
                 };
-            if (D.promise(L), t.url = ((c || t.url || Ka.href) + "").replace(Fd, Ka.protocol + "//"), t.type = d.method || d.type || t.method || t.type, t.dataTypes = (t.dataType || "*").toLowerCase().match(V) || [""], null == t.crossDomain) {
+            if (D.promise(L), t.url = ((c || t.url || Ka.href) + "").replace(Fd, Ka.protocol + ".//"), t.type = d.method || d.type || t.method || t.type, t.dataTypes = (t.dataType || "*").toLowerCase().match(V) || [""], null == t.crossDomain) {
                 p = A.createElement("a");
                 try {
-                    p.href = t.url, p.href = p.href, t.crossDomain = yb.protocol + "//" + yb.host != p.protocol + "//" + p.host
+                    p.href = t.url, p.href = p.href, t.crossDomain = yb.protocol + ".//" + yb.host != p.protocol + ".//" + p.host
                 } catch (H) {
                     t.crossDomain = !0
                 }
@@ -4174,7 +4174,7 @@ jukebox.Manager.prototype = {
             if (!d || "function" !== typeof d.canPlayType) return b;
             var f = d.canPlayType("audio/mpeg;").replace(/^no$/, ""),
                 l = b._navigator && b._navigator.userAgent.match(/OPR\/([0-6].)/g),
-                l = l && 33 > parseInt(l[0].split("/")[1], 10);
+                l = l && 33 > parseInt(l[0].split("./")[1], 10);
             b._codecs = {
                 mp3: !(l || !f && !d.canPlayType("audio/mp3;").replace(/^no$/, "")),
                 mpeg: !!f,
@@ -5226,7 +5226,7 @@ jukebox.Manager.prototype = {
                 body: null
             };
             ig._waitForOnload++;
-            var d = ig.prefix + ig.lib + b.replace(/\./g, "/") + ".js" + ig.nocache,
+            var d = ig.prefix + ig.lib + b.replace(/\./g, "./") + ".js" + ig.nocache,
                 e = ig.$new("script");
             e.type = "text/javascript";
             e.src = d;
@@ -8607,7 +8607,7 @@ ig.module("game.entities.home-control").requires("impact.entity", "game.entities
             var b = ig.system.context.measureText(str).width,
                 c = ig.system.context.measureText("m").width;
             ig.system.context.fillText(str, 170, 10 + c);
-            ig.global.wm || (ig.game.currentPlayerLevel < ig.game.requiredXP.length && (ig.system.context.fillStyle = "#FFFFFF", ig.system.context.font = "12px ariel", str = "/", b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 64 - b / 2, 6 + c), ig.system.context.fillStyle = "#FFFFFF", ig.system.context.font = "10px avenger", str = ig.game.currentXP, b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 58 - b, 6 + c), str = ig.game.requiredXP[ig.game.currentPlayerLevel], ig.system.context.measureText(str), c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 68, 6 + c)), ig.system.context.fillStyle = "#FFFFFF", ig.system.context.font = "20px avenger", str = "LV", b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 63 - b / 2, 28 + c), ig.system.context.font = "40px avenger", str = ig.game.currentPlayerLevel, b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 60 - b / 2, 55 + c), this.editTeamImage.draw(this.editTeamBox.x, this.editTeamBox.y), this.upgradeImage.draw(this.upgradeBox.x, this.upgradeBox.y), this.moregames && this.moregamesImage.draw(this.moregames.pos.x - this.moregames.offset.x, this.moregames.pos.y - this.moregames.offset.y), this.showUpgrade && this.drawUpgrade(), this.showEditTeam && this.drawEditTeam())
+            ig.global.wm || (ig.game.currentPlayerLevel < ig.game.requiredXP.length && (ig.system.context.fillStyle = "#FFFFFF", ig.system.context.font = "12px ariel", str = "./", b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 64 - b / 2, 6 + c), ig.system.context.fillStyle = "#FFFFFF", ig.system.context.font = "10px avenger", str = ig.game.currentXP, b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 58 - b, 6 + c), str = ig.game.requiredXP[ig.game.currentPlayerLevel], ig.system.context.measureText(str), c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 68, 6 + c)), ig.system.context.fillStyle = "#FFFFFF", ig.system.context.font = "20px avenger", str = "LV", b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 63 - b / 2, 28 + c), ig.system.context.font = "40px avenger", str = ig.game.currentPlayerLevel, b = ig.system.context.measureText(str).width, c = ig.system.context.measureText("m").width, ig.system.context.fillText(str, 60 - b / 2, 55 + c), this.editTeamImage.draw(this.editTeamBox.x, this.editTeamBox.y), this.upgradeImage.draw(this.upgradeBox.x, this.upgradeBox.y), this.moregames && this.moregamesImage.draw(this.moregames.pos.x - this.moregames.offset.x, this.moregames.pos.y - this.moregames.offset.y), this.showUpgrade && this.drawUpgrade(), this.showEditTeam && this.drawEditTeam())
         },
         drawEditTeam: function() {
             ig.system.context.globalAlpha = 0.4;

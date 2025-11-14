@@ -180,7 +180,7 @@ __webpack_require__.r(__webpack_exports__);
     saColorPicker.style.background = "#" + convertToGeneralColor(defaultColor || "ff0000");
     const saColorPickerImage = Object.assign(document.createElement("img"), {
       className: "sa-2dcolor-picker-image",
-      src: addon.self.getResource("/assets/sv-gr.png")
+      src: addon.self.getResource("./assets/sv-gr.png")
       /* rewritten by pull.js */
       ,
       draggable: false

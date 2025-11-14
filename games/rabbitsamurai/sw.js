@@ -12,9 +12,9 @@ function GetCacheBaseName()
 {return GetAvailableCacheNames().then(availableCacheNames=>availableCacheNames.length>=2);};function GetMainPageUrl()
 {return clients.matchAll({includeUncontrolled:true,type:"window"}).then(clients=>{for(let c of clients)
 {let url=c.url;if(url.startsWith(self.registration.scope))
-url=url.substring(self.registration.scope.length);if(url&&url!=="/")
+url=url.substring(self.registration.scope.length);if(url&&url!=="./")
 {if(url.startsWith("?"))
-url="/"+url;return url;}}
+url="./"+url;return url;}}
 return "";});};function fetchWithBypass(request,bypassCache)
 {if(typeof request==="string")
 request=new Request(request);if(bypassCache)

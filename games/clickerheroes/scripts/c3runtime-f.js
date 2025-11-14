@@ -4946,7 +4946,7 @@
     runTest("isChrome", !Flags.edge && !Flags.opera && Versions.chrome, CHR=>{
         browser = "Chrome";
         engine = "Chromium";
-        const ver_str = CHR.split("/")[1];
+        const ver_str = CHR.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -4954,7 +4954,7 @@
     runTest("isOpera", Versions.opera, OPR=>{
         browser = "Opera";
         engine = "Chromium";
-        const ver_str = OPR.split("/")[1];
+        const ver_str = OPR.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -4962,7 +4962,7 @@
     runTest("isChromium", Versions.chromium, CHR=>{
         browser = "Chromium";
         engine = "Chromium";
-        const ver_str = CHR.split("/")[1];
+        const ver_str = CHR.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -4970,7 +4970,7 @@
     runTest("isFirefox", Versions.firefox, FIR=>{
         browser = "Firefox";
         engine = "Gecko";
-        const ver_str = FIR.split("/")[1];
+        const ver_str = FIR.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -4997,7 +4997,7 @@
     runTest("isEdge", Versions.edge, EDGE=>{
         browser = "Edge";
         engine = "Edge";
-        const ver_str = EDGE.split("/")[1];
+        const ver_str = EDGE.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -5005,7 +5005,7 @@
     runTest("isEdgeChromium", Versions.edgeChromium, EDGECHR=>{
         browser = "Edge";
         engine = "Chromium";
-        const ver_str = EDGECHR.split("/")[1];
+        const ver_str = EDGECHR.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -5017,19 +5017,19 @@
         const rChromeiOS = /crios\/[0-9.]+/i.exec(UA);
         const rFirefoxiOS = /fxios\/[0-9.]+/i.exec(UA);
         if (rVersion && rVersion.length) {
-            const ver_str = rVersion[0].split("/")[1];
+            const ver_str = rVersion[0].split("./")[1];
             if (ver_str)
                 browser_version = ver_str
         }
         if (rChromeiOS && rChromeiOS.length) {
             browser = "Chrome for iOS";
-            const ver_str = rChromeiOS[0].split("/")[1];
+            const ver_str = rChromeiOS[0].split("./")[1];
             if (ver_str)
                 browser_version = ver_str
         }
         if (rFirefoxiOS && rFirefoxiOS.length) {
             browser = "Firefox for iOS";
-            const ver_str = rFirefoxiOS[0].split("/")[1];
+            const ver_str = rFirefoxiOS[0].split("./")[1];
             if (ver_str)
                 browser_version = ver_str
         }
@@ -5037,7 +5037,7 @@
     );
     runTest("isSilk", Versions.silk, SILK=>{
         browser = "Silk";
-        const ver_str = SILK.split("/")[1];
+        const ver_str = SILK.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -5048,7 +5048,7 @@
         context = "nwjs";
         browser = "NW.js";
         engine = "Chromium";
-        const ver_str = NWJS.split("/")[1];
+        const ver_str = NWJS.split("./")[1];
         if (ver_str)
             browser_version = ver_str
     }
@@ -6953,10 +6953,10 @@
         const baseElem = document.querySelector("base");
         baseHref = baseElem && baseElem.hasAttribute("href") ? baseElem.getAttribute("href") : "";
         if (baseHref) {
-            if (baseHref.startsWith("/"))
+            if (baseHref.startsWith("./"))
                 baseHref = baseHref.substr(1);
-            if (!baseHref.endsWith("/"))
-                baseHref += "/"
+            if (!baseHref.endsWith("./"))
+                baseHref += "./"
         }
     }
     C3.GetBaseHref = function GetBaseHref() {
@@ -6973,9 +6973,9 @@
     C3.GetPathFromURL = function GetPathFromURL(url) {
         if (!url.length)
             return url;
-        if (url.endsWith("/") || url.endsWith("\\"))
+        if (url.endsWith("./") || url.endsWith("\\"))
             return url;
-        const lastSlash = Math.max(url.lastIndexOf("/"), url.lastIndexOf("\\"));
+        const lastSlash = Math.max(url.lastIndexOf("./"), url.lastIndexOf("\\"));
         if (lastSlash === -1)
             return "";
         return url.substr(0, lastSlash + 1)
@@ -6984,9 +6984,9 @@
     C3.GetFilenameFromURL = function GetFilenameFromURL(url) {
         if (!url.length)
             return url;
-        if (url.endsWith("/") || url.endsWith("\\"))
+        if (url.endsWith("./") || url.endsWith("\\"))
             return "";
-        const lastSlash = Math.max(url.lastIndexOf("/"), url.lastIndexOf("\\"));
+        const lastSlash = Math.max(url.lastIndexOf("./"), url.lastIndexOf("\\"));
         if (lastSlash === -1)
             return url;
         return url.substr(lastSlash + 1)
@@ -7056,7 +7056,7 @@
     }
     ;
     C3.NormalizeFileSeparator = function NormalizeFileSeparator(path) {
-        return path.replace(/\\/g, "/")
+        return path.replace(/\\/g, "./")
     }
     ;
     C3.ParseFilePath = function ParseFilePath(path) {
@@ -7065,14 +7065,14 @@
         if (root) {
             root = root[0];
             path = path.slice(3);
-            if (path[0] !== "/")
-                path = "/" + path
+            if (path[0] !== "./")
+                path = "./" + path
         } else
             root = "";
-        path = path.replace(/\/{2,}/g, "/");
-        if (path.length > 1 && path.slice(-1) === "/")
+        path = path.replace(/\/{2,}/g, "./");
+        if (path.length > 1 && path.slice(-1) === "./")
             path = path.slice(0, -1);
-        const start = path.lastIndexOf("/") + 1;
+        const start = path.lastIndexOf("./") + 1;
         let dir = "", base = path, name, ext = "";
         if (start > 0) {
             dir = path.slice(0, start);
@@ -40612,7 +40612,7 @@ function forge() {
                   , a = e.indexOf("?");
                 a > 0 && (t = e.substring(0, a),
                 r = e.substring(a + 1));
-                var n = t.split("/");
+                var n = t.split("./");
                 return n.length > 0 && "" === n[0] && n.shift(),
                 {
                     pathString: t,
@@ -40644,7 +40644,7 @@ function forge() {
             }
             ,
             c.makeLink = function(e, t, r) {
-                e = jQuery.isArray(e) ? e.join("/") : e;
+                e = jQuery.isArray(e) ? e.join("./") : e;
                 var a = jQuery.param(t || {});
                 return r = r || "",
                 e + (a.length > 0 ? "?" + a : "") + (r.length > 0 ? "#" + r : "")
@@ -59457,7 +59457,7 @@ globalThis.Aekiro.button = class aekiro_button extends C3.SDKBehaviorInstanceBas
     parseFrameAnim(frameAnim, defaults) {
         if (frameAnim == undefined)
             frameAnim = "";
-        frameAnim = frameAnim.split('/');
+        frameAnim = frameAnim.split('./');
         var frame, anim;
         if (isNaN(parseInt(frameAnim[0]))) {
             anim = frameAnim[0];
@@ -61551,7 +61551,7 @@ globalThis.aekiro_dialogManager = {
         case 190:
             return ".";
         case 191:
-            return "/";
+            return "./";
         case 192:
             return "'";
         case 219:
@@ -72617,7 +72617,7 @@ var to_clamped_degrees = function(x) {
     , ()=>"bg", ()=>"RequireMonster", p=>{
         const v0 = p._GetNode(0).GetVar();
         const v1 = p._GetNode(1).GetVar();
-        return ()=>and(and(v0.GetValue(), "/"), v1.GetValue());
+        return ()=>and(and(v0.GetValue(), "./"), v1.GetValue());
     }
     , p=>{
         const f0 = p._GetNode(0).GetBoundMethod();

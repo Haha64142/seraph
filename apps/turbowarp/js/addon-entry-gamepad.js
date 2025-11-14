@@ -188,8 +188,8 @@ button: 0, 1, 2, etc. controls which button to press
 type: "virtual_cursor" maps a button to control the "virtual cursor"
 deadZone: 0.5 again controls the minimum value to trigger a movement
 sensitivity: 10 controls the speed
-high: "+y"/"-y"/"+x"/"-x" defines what happens when an axis reads high
-low: "+y"/"-y"/"+x"/"-x" defines what happens when an axis reads low
+high: "+y"./"-y"./"+x"./"-x" defines what happens when an axis reads high
+low: "+y"./"-y"./"+x"./"-x" defines what happens when an axis reads low
 +y increases y, -y decreases y, +x increases x, -x decreases x.
 */
 
@@ -1573,7 +1573,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   const buttonImage = document.createElement("img");
   buttonImage.className = addon.tab.scratchClass("stage-header_stage-button-icon");
   buttonImage.draggable = false;
-  buttonImage.src = addon.self.getResource("/gamepad.svg")
+  buttonImage.src = addon.self.getResource("./gamepad.svg")
   /* rewritten by pull.js */
   ;
   buttonContent.appendChild(buttonImage);
@@ -1751,7 +1751,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   const virtualCursorElement = document.createElement("img");
   virtualCursorElement.hidden = true;
   virtualCursorElement.className = "sa-gamepad-cursor";
-  virtualCursorElement.src = addon.self.getResource("/cursor.png")
+  virtualCursorElement.src = addon.self.getResource("./cursor.png")
   /* rewritten by pull.js */
   ;
   addon.self.addEventListener("disabled", () => {

@@ -2,13 +2,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="/images/ico.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./images/ico.ico" type="image/x-icon">
         <title>Offline | Seraph</title>
 
         <style>
             @font-face {
                 font-family: 'Ubuntu';
-                src: url('/storage/fonts/ubuntu/Ubuntu.woff2') format('woff2'),
+                src: url('./storage/fonts/ubuntu/Ubuntu.woff2') format('woff2'),
             }
 
             body {
@@ -23,7 +23,7 @@
                 text-align: center;
                 animation: mainHeaderAnimation 2s forwards;
 
-                background-image: url('/images/backgrounds/seraph/offlinebg.jpg');
+                background-image: url('./images/backgrounds/seraph/offlinebg.jpg');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -204,7 +204,7 @@
                 const container = document.querySelector('.button-container'); 
                 games.forEach(game => {
                     const gameButton = document.createElement('a');
-                    gameButton.setAttribute('href', '/games/' + game.directory);
+                    gameButton.setAttribute('href', './games/' + game.directory);
                     gameButton.innerHTML = `
                         <div class="button" style="background-image: url('${game.thumbnail}');" data-genre="platformer">
                             <h2>${game.name}</h2>
@@ -229,7 +229,7 @@
                 localStorage.setItem('downloadedGames', JSON.stringify(updatedGames));
 
                 const cache = await caches.open('game-cache');
-                const response = await fetch('/storage/js/directories.json'); 
+                const response = await fetch('./storage/js/directories.json'); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch directory list');
                 }
@@ -292,35 +292,35 @@
 
                 const presets = {
                     google: {
-                        favicon: "/images/icons/google.ico",
+                        favicon: "./images/icons/google.ico",
                         title: "Google"
                     },
                     bing: {
-                        favicon: "/images/icons/bing.ico",
+                        favicon: "./images/icons/bing.ico",
                         title: "Bing"
                     },
                     gmail: {
-                        favicon: "/images/icons/gmail.ico",
+                        favicon: "./images/icons/gmail.ico",
                         title: "Gmail"
                     },
                     desmos: {
-                        favicon: "/images/icons/desmos.ico",
+                        favicon: "./images/icons/desmos.ico",
                         title: "Desmos | Graphing Calculator"
                     },
                     googleclassroom: {
-                        favicon: "/images/icons/googleclassroom.ico",
+                        favicon: "./images/icons/googleclassroom.ico",
                         title: "Home"
                     },
                     wikipedia: {
-                        favicon: "/images/icons/wikipedia.ico",
+                        favicon: "./images/icons/wikipedia.ico",
                         title: "Wikipedia"
                     },
                     chrometab: {
-                        favicon: "/images/icons/chromenewtab.ico",
+                        favicon: "./images/icons/chromenewtab.ico",
                         title: "New Tab"
                     },
                     googledrive: {
-                        favicon: "/images/icons/googledrive.ico",
+                        favicon: "./images/icons/googledrive.ico",
                         title: "My Drive"
                     }
                 };

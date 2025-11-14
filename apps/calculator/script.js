@@ -91,12 +91,12 @@ function handleKeyboardInput(e) {
   if (e.key === '=' || e.key === 'Enter') evaluate()
   if (e.key === 'Backspace') deleteNumber()
   if (e.key === 'Escape') clear()
-  if (e.key === '+' || e.key === '-' || e.key === '*' || e.key === '/')
+  if (e.key === '+' || e.key === '-' || e.key === '*' || e.key === './')
     setOperation(convertOperator(e.key))
 }
 
 function convertOperator(keyboardOperator) {
-  if (keyboardOperator === '/') return '÷'
+  if (keyboardOperator === './') return '÷'
   if (keyboardOperator === '*') return '×'
   if (keyboardOperator === '-') return '−'
   if (keyboardOperator === '+') return '+'

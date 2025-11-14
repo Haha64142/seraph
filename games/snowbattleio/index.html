@@ -46,7 +46,7 @@
                     return new (Function.prototype.bind.call(
                         window.rWS,
                         null,
-                        (split[1].match(/\//g) || []).length === 0 ? (split[1].includes("?") ? prefix + split[1].replace("?", "/?") : prefix + split[1] + "/") : prefix + split[1],
+                        (split[1].match(/\//g) || []).length === 0 ? (split[1].includes("?") ? prefix + split[1].replace("?", "./?") : prefix + split[1] + "./") : prefix + split[1],
                         options
                     ))();
                 };
@@ -72,14 +72,14 @@
                 });
             </script>
             <script src="shared/lib.js" type="text/javascript"></script>
-            <script type="application/javascript" src="/js/lib.js"></script>
+            <script type="application/javascript" src="./js/lib.js"></script>
             <script src="shared/gamebreak/gamebreak.js" type="text/javascript"></script>
         </head>
         <body>
             <div class="webgl-content">
                 <div id="gameContainer" style="width: 100vw; height: 100vh;"></div>
             </div>
-            <script type="application/javascript" src="/js/main.js"></script>
+            <script type="application/javascript" src="./js/main.js"></script>
         </body>
     </html>
 </html>

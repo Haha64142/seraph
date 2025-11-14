@@ -6,7 +6,7 @@ if (/bot|crawler|spider|crawling/i.test(userAgent)) {
 
 // Windows Phone
 else if (/windows phone/i.test(userAgent)) {
-  //window.location.replace("/mobile");
+  //window.location.replace("./mobile");
 }
 
 // Android

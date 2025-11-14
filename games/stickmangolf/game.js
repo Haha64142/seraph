@@ -952,7 +952,7 @@ var MobileAdInGameEnd = {};
   var Eb = m,
       Qa, ea, Da, ra, wa, Ea, ga, sa, Fa, Ra, ua, hb, Y = J.createElement("div");
   Y.setAttribute("className", "t");
-  Y.innerHTML = "  <link/><table></table><a href='/a'>a</a><input type='checkbox'/>";
+  Y.innerHTML = "  <link/><table></table><a href='./a'>a</a><input type='checkbox'/>";
   Da = Y.getElementsByTagName("*");
   ra = Y.getElementsByTagName("a")[0];
   ra.style.cssText = "top:1px;float:left;opacity:.5";
@@ -966,7 +966,7 @@ var MobileAdInGameEnd = {};
           tbody: !Y.getElementsByTagName("tbody").length,
           htmlSerialize: !!Y.getElementsByTagName("link").length,
           style: /top/.test(ra.getAttribute("style")),
-          hrefNormalized: "/a" === ra.getAttribute("href"),
+          hrefNormalized: "./a" === ra.getAttribute("href"),
           opacity: /^0.5/.test(ra.style.opacity),
           cssFloat: !!ra.style.cssFloat,
           checkOn: "on" === ga.value,
@@ -2626,7 +2626,7 @@ var MobileAdInGameEnd = {};
       }
   });
   var kc = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|header|hgroup|mark|meter|nav|output|progress|section|summary|time|video",
-      jd = / jQuery\d+="(?:null|\d+)"/g,
+      jd = / jQuery\d+="(?:null|\d+)"./g,
       ec = /^\s+/,
       zc = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi,
       Ac = /<([\w:]+)/,
@@ -3387,7 +3387,7 @@ var MobileAdInGameEnd = {};
               }
               return this
           };
-          F.url = ((b || F.url) + "").replace(zd, "").replace(Cd, $a[1] + "//");
+          F.url = ((b || F.url) + "").replace(zd, "").replace(Cd, $a[1] + ".//");
           F.dataTypes = m.trim(F.dataType || "*").toLowerCase().split(qa);
           null == F.crossDomain && (r = Hc.exec(F.url.toLowerCase()) || !1, F.crossDomain = r && r.join(":") + (r[3] ? "" : "http:" === r[1] ? 80 : 443) !== $a.join(":") + ($a[3] ? "" : "http:" === $a[1] ? 80 : 443));
           F.data && F.processData && "string" != typeof F.data && (F.data = m.param(F.data, F.traditional));
@@ -4293,7 +4293,7 @@ jukebox.Manager.prototype = {
           if (!d || "function" !== typeof d.canPlayType) return b;
           var f = d.canPlayType("audio/mpeg;").replace(/^no$/, ""),
               j = b._navigator && b._navigator.userAgent.match(/OPR\/([0-6].)/g),
-              j = j && 33 > parseInt(j[0].split("/")[1], 10);
+              j = j && 33 > parseInt(j[0].split("./")[1], 10);
           b._codecs = {
               mp3: !(j || !f && !d.canPlayType("audio/mp3;").replace(/^no$/, "")),
               mpeg: !!f,
@@ -5352,7 +5352,7 @@ jukebox.Manager.prototype = {
               body: null
           };
           ig._waitForOnload++;
-          var d = ig.prefix + ig.lib + b.replace(/\./g, "/") + ".js" + ig.nocache,
+          var d = ig.prefix + ig.lib + b.replace(/\./g, "./") + ".js" + ig.nocache,
               e = ig.$new("script");
           e.type = "text/javascript";
           e.src = d;

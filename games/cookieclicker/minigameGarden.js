@@ -2003,9 +2003,9 @@ M.launch=function()
 			if (M.freeze) l('gardenNextTick').innerHTML='Garden is frozen. Unfreeze to resume.';
 			else l('gardenNextTick').innerHTML='Next tick in '+Game.sayTime((M.nextStep-Date.now())/1000*30+30,-1)+'';
 			l('gardenStats').innerHTML='Mature plants harvested : '+Beautify(M.harvests)+' (total : '+Beautify(M.harvestsTotal)+')';
-			if (M.parent.level<M.plotLimits.length) l('gardenPlotSize').innerHTML='<small>Plot size : '+Math.max(1,Math.min(M.plotLimits.length,M.parent.level))+'/'+M.plotLimits.length+'<br>(Upgrades with farm level)</small>';
+			if (M.parent.level<M.plotLimits.length) l('gardenPlotSize').innerHTML='<small>Plot size : '+Math.max(1,Math.min(M.plotLimits.length,M.parent.level))+'./'+M.plotLimits.length+'<br>(Upgrades with farm level)</small>';
 			else l('gardenPlotSize').innerHTML='';
-			l('gardenSeedsUnlocked').innerHTML='Seeds<small> ('+M.plantsUnlockedN+'/'+M.plantsN+')</small>';
+			l('gardenSeedsUnlocked').innerHTML='Seeds<small> ('+M.plantsUnlockedN+'./'+M.plantsN+')</small>';
 			for (var i in M.soils)
 			{
 				var me=M.soils[i];

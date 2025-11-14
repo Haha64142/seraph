@@ -8,7 +8,7 @@ var scripts = document.getElementsByTagName("script"),
 if (0 <= window.location.href.indexOf("pokiForceLocalLoader") 
 	&& (loaders.unity = "./unity.js", 
 		
-		root = "/loaders"), !window.config) throw Error("window.config not found");
+		root = "./loaders"), !window.config) throw Error("window.config not found");
 var loader = loaders[window.config.loader];
 if (!loader) throw Error('Loader "' + window.config.loader + '" not found');
 if (!window.config.unityWebglLoaderUrl) {

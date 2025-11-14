@@ -2594,7 +2594,7 @@ const level = {
         // level.difficultyIncrease(10 * 4);
         // m.maxHealth = m.health = 100
         // color.map = "#333" //custom map color
-        document.body.style.backgroundColor = "#e3e3e3"//"#e3e3e3"//color.map//"#333"//"#000"
+        document.body.style.backgroundColor = "#e3e3e3".//"#e3e3e3".//color.map//"#333".//"#000"
         level.defaultZoom = 1400
         simulation.zoomTransition(level.defaultZoom)
         level.setPosToSpawn(450 * (Math.random() < 0.5 ? 1 : -1), -300); //normal spawn
@@ -3425,7 +3425,7 @@ const level = {
 
         level.custom = () => {
             for (let i = 0; i < train.length; i++)  train[i].trainStop()
-            ctx.fillStyle = "rgba(0,0,0,0.1)"//"#ddd"
+            ctx.fillStyle = "rgba(0,0,0,0.1)".//"#ddd"
             ctx.fillRect(m.pos.x - 4000, m.pos.y - 4000, 8000, 8000)
             level.exit.drawAndCheck();
             // level.enter.draw();
@@ -16677,7 +16677,7 @@ const level = {
             //spawn.mapRect(22330, -804.25, 400, 800);//-46.25*3
 
 
-            ctx.fillStyle = "rgba(250,250,250,0.8)"//lights
+            ctx.fillStyle = "rgba(250,250,250,0.8)".//lights
             ctx.beginPath()
             ctx.moveTo(1124, -628)
             ctx.lineTo(496, 0)
@@ -16771,7 +16771,7 @@ const level = {
             boost5.query();
             level.exit.drawAndCheck();
             level.enter.draw();
-            ctx.fillStyle = "rgba(0,0,0,0.2)"//shadows
+            ctx.fillStyle = "rgba(0,0,0,0.2)".//shadows
             ctx.fillRect(2773, -682, 469, 500)
             ctx.fillRect(3947, -851, 469, 700)
             ctx.fillRect(4818, -1006, 400, 400)
@@ -16819,7 +16819,7 @@ const level = {
             waterFallX = waterFallSmoothX + 15900
 
 
-            ctx.fillStyle = "rgba(0,0,0,0.4)"//wires
+            ctx.fillStyle = "rgba(0,0,0,0.4)".//wires
             ctx.fillRect(20990, -2672, 20, 112)
             ctx.fillRect(21090, -2506, 72, 20)
             ctx.fillRect(21090, -1970, 72, 20)
@@ -19393,7 +19393,7 @@ const level = {
 
             //caves
 
-            ctx.fillStyle = "rgba(30,150,117,255)"//fake slime
+            ctx.fillStyle = "rgba(30,150,117,255)".//fake slime
             //87,189,146,255
             ctx.fillRect(6100, -1900, 100, 1050)
             ctx.fillRect(6400, -1900, 100, 1050)
@@ -26162,7 +26162,7 @@ const level = {
                 V: [" #   # ", " #   # ", " #   # ", " #   # ", " #   # ", "  # #  ", "   #   "],
                 E: [" ##### ", " #     ", " #     ", " ##### ", " #     ", " #     ", " ##### "],
                 ".": ["       ", "       ", "       ", "       ", "       ", "   ##  ", "   ##  "],
-                "/": ["      #", "     # ", "    #  ", "   #   ", "  #    ", " #     ", "#      "],
+                "./": ["      #", "     # ", "    #  ", "   #   ", "  #    ", " #     ", "#      "],
                 G: [" ###### ", " #      ", " #      ", " #  ### ", " #    # ", " #    # ", " ###### "],
                 Q: ["  ######   ", " #      #  ", " #      #  ", " #      #  ", " #    # #  ", "  #    #   ", "   #### #  ", "         # "],
                 8: ["  #####  ", " #     # ", " #     # ", "  #####  ", " #     # ", " #     # ", "  #####  "],

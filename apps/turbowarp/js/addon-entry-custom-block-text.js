@@ -31,7 +31,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/** Makes block text a little easier to read. **/\n.blocklyDraggable > .blocklyText,\n.blocklyDraggable > g > text {\n  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);\n}\n", ""]);
+exports.push([module.i, "./** Makes block text a little easier to read. **/\n.blocklyDraggable > .blocklyText,\n.blocklyDraggable > g > text {\n  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);\n}\n", ""]);
 
 // exports
 

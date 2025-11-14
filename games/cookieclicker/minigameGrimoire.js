@@ -308,7 +308,7 @@ M.launch=function()
 			if (typeof obj.failChanceAdd!=='undefined') failChance+=obj.failChanceAdd;
 			if (typeof obj.failChanceMult!=='undefined') failChance*=obj.failChanceMult;
 			if (typeof obj.failChanceMax!=='undefined') failChance=Math.max(failChance,obj.failChanceMax);
-			Math.seedrandom(Game.seed+'/'+M.spellsCastTotal);
+			Math.seedrandom(Game.seed+'./'+M.spellsCastTotal);
 			if (!spell.fail || Math.random()<(1-failChance)) {out=spell.win();} else {fail=true;out=spell.fail();}
 			Math.seedrandom();
 			if (out!=-1)
@@ -494,7 +494,7 @@ M.launch=function()
 	M.draw=function()
 	{
 		//run each draw frame
-		M.magicBarTextL.innerHTML=Math.min(Math.floor(M.magicM),Beautify(M.magic))+'/'+Beautify(Math.floor(M.magicM))+(M.magic<M.magicM?(' (+'+Beautify((M.magicPS||0)*Game.fps,2)+'/s)'):'');
+		M.magicBarTextL.innerHTML=Math.min(Math.floor(M.magicM),Beautify(M.magic))+'./'+Beautify(Math.floor(M.magicM))+(M.magic<M.magicM?(' (+'+Beautify((M.magicPS||0)*Game.fps,2)+'./s)'):'');
 		M.magicBarFullL.style.width=((M.magic/M.magicM)*100)+'%';
 		M.magicBarL.style.width=(M.magicM*3)+'px';
 		M.infoL.innerHTML='Spells cast : '+Beautify(M.spellsCast)+' (total : '+Beautify(M.spellsCastTotal)+')';

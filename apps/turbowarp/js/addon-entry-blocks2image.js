@@ -132,18 +132,18 @@ __webpack_require__.r(__webpack_exports__);
 
     let scratchURL = window.location.origin;
     svg.querySelectorAll("image").forEach(item => {
-      let builtinSvgData = blocksMedia.get(item.getAttribute("xlink:href").substring(item.getAttribute("xlink:href").lastIndexOf("/") + 1));
+      let builtinSvgData = blocksMedia.get(item.getAttribute("xlink:href").substring(item.getAttribute("xlink:href").lastIndexOf("./") + 1));
 
       if (builtinSvgData) {
         // replace svg file path (official) to inline svg
         item.setAttribute("xlink:href", builtinSvgData);
-      } else if (item.getAttribute("xlink:href").indexOf("/static/") === 0) {
+      } else if (item.getAttribute("xlink:href").indexOf("./static/") === 0) {
         // replace link path for third party website
         item.setAttribute("xlink:href", scratchURL + item.getAttribute("xlink:href").slice(0));
       } else if (item.getAttribute("xlink:href").indexOf("./static/") === 0) {
         item.setAttribute("xlink:href", scratchURL + item.getAttribute("xlink:href").slice(1));
       } else if (item.getAttribute("xlink:href").indexOf("static/") === 0) {
-        item.setAttribute("xlink:href", scratchURL + "/" + item.getAttribute("xlink:href"));
+        item.setAttribute("xlink:href", scratchURL + "./" + item.getAttribute("xlink:href"));
       }
     });
 

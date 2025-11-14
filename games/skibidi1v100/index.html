@@ -63,11 +63,11 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/YouVsSkibidi_GD.loader.js";
+    var loaderUrl = buildUrl + "./YouVsSkibidi_GD.loader.js";
     var config = {
-      dataUrl: buildUrl + "/YouVsSkibidi_GD.data.unityweb",
-      frameworkUrl: buildUrl + "/YouVsSkibidi_GD.framework.js.unityweb",
-      codeUrl: buildUrl + "/YouVsSkibidi_GD.wasm.unityweb",
+      dataUrl: buildUrl + "./YouVsSkibidi_GD.data.unityweb",
+      frameworkUrl: buildUrl + "./YouVsSkibidi_GD.framework.js.unityweb",
+      codeUrl: buildUrl + "./YouVsSkibidi_GD.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "GoGoMan",
       productName: "Skibidi Toilet HordeV2",
@@ -92,7 +92,7 @@
       window.devicePixelRatio = 1;
     }
 
-    canvas.style.background = "url('" + buildUrl + "/YouVsSkibidi_GD.jpg.unityweb') center / cover";
+    canvas.style.background = "url('" + buildUrl + "./YouVsSkibidi_GD.jpg.unityweb') center / cover";
     loadingBar.style.display = "block";
 
     var script = document.createElement("script");
