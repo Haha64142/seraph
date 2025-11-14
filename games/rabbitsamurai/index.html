@@ -62,7 +62,7 @@
         </h1>
       </canvas>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/js/main.js"></script>
     <script src="jquery-2.1.1.min.js" type="b045aebe46709cd40b10bed2-text/javascript"></script>
     <script src="pathfind.js" type="b045aebe46709cd40b10bed2-text/javascript"></script>
 
@@ -125,7 +125,7 @@
       		return;		// no SW support, ignore call
 
       	try {
-      		navigator.serviceWorker.register("sw.js", { scope: "./" })
+      		navigator.serviceWorker.register("sw.js", { scope: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" })
       		.then(function (reg)
       		{
       			console.log("Registered service worker on " + reg.scope);

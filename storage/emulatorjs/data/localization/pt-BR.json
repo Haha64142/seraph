@@ -281,7 +281,7 @@
     ".": ".",
     "<": "<",
     ">": ">",
-    "./": "./",
+    "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
     "?": "?",
     "LEFT_STICK_X": "ANALÓGICO ESQUERDO - EIXO HORIZONTAL",
     "LEFT_STICK_Y": "ANALÓGICO ESQUERDO - EIXO VERTICAL",

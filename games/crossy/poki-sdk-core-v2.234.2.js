@@ -1365,16 +1365,16 @@
         var X = "rewarded",
             Z = "video",
             K = {
-                "728x90": "./21682198607/" + F + "_ingame_728x90/" + Q + "_" + F + "_ingame_728x90",
-                "300x250": "./21682198607/" + F + "_ingame_300x250/" + Q + "_" + F + "_ingame_300x250",
-                "970x250": "./21682198607/" + F + "_ingame_970x250/" + Q + "_" + F + "_ingame_970x250",
-                "160x600": "./21682198607/" + F + "_ingame_160x600/" + Q + "_" + F + "_ingame_160x600",
-                "320x50": "./21682198607/" + F + "_ingame_320x50/" + Q + "_" + F + "_ingame_320x50",
-                "728x90_external": "./21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_728x90",
-                "300x250_external": "./21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_300x250",
-                "970x250_external": "./21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_970x250",
-                "160x600_external": "./21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_160x600",
-                "320x50_external": "./21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_320x50"
+                "728x90": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + F + "_ingame_728x90/" + Q + "_" + F + "_ingame_728x90",
+                "300x250": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + F + "_ingame_300x250/" + Q + "_" + F + "_ingame_300x250",
+                "970x250": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + F + "_ingame_970x250/" + Q + "_" + F + "_ingame_970x250",
+                "160x600": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + F + "_ingame_160x600/" + Q + "_" + F + "_ingame_160x600",
+                "320x50": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + F + "_ingame_320x50/" + Q + "_" + F + "_ingame_320x50",
+                "728x90_external": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_728x90",
+                "300x250_external": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_300x250",
+                "970x250_external": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_970x250",
+                "160x600_external": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_160x600",
+                "320x50_external": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + F + "_display_ingame/external_" + F + "_ingame_320x50"
             },
             H = parseInt(_("site_id"), 10) || 0,
             W = function(e) {
@@ -2513,13 +2513,13 @@
                 this.ima.tearDown(), this.moveThroughWaterfall()
             }, e.prototype.buildAdUnitPaths = function(e) {
                 if (r.debug) {
-                    var t = "./21682198607/debug-video/";
+                    var t = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/debug-video/";
                     return e === n.ads.position.rewarded ? [t + "debug-video-rewarded"] : e === n.ads.position.preroll ? [t + "debug-video-preroll"] : [t + "debug-video-midroll"]
                 }
                 var i = "desktop",
                     a = "midroll";
                 S() ? i = "mobile" : E() && (i = "tablet"), e === n.ads.position.rewarded && (a = "rewarded");
-                var o = "./21682198607/";
+                var o = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/";
                 return nt.GetIsPokiIFrame() ? ["" + o + i + "_ingame_" + a + "_1/" + this.siteID + "_" + i + "_ingame_" + a + "_1", "" + o + i + "_ingame_" + a + "_2/" + this.siteID + "_" + i + "_ingame_" + a + "_2"] : [o + "external_" + i + "_video_1/external_" + i + "_ingame_" + a + "_1", o + "external_" + i + "_video_2/external_" + i + "_ingame_" + a + "_2"]
             }, e.prototype.start = function(e, t) {
                 void 0 === e && (e = {}), this.running = !0, this.retries = 0, this.criteria = e, this.timing.resetWaterfallTimerIdx(), this.rewarded = t === n.ads.position.rewarded, this.adUnitPaths = this.buildAdUnitPaths(t), this.requestAd()
@@ -3290,11 +3290,11 @@
                                 if (Xe) return [2];
                                 n.label = 1;
                             case 1:
-                                return n.trys.push([1, 4, , 5]), [4, fetch("./touchControllerConfig.json")];
+                                return n.trys.push([1, 4, , 5]), [4, fetch("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/touchControllerConfig.json")];
                             case 2:
                                 return [4, n.sent().json()];
                             case 3:
-                                return (e = n.sent()) && ((t = document.createElement("script")).src = ".//game-cdn.poki.com/scripts/touchOverlayController.js", t.onload = function() {
+                                return (e = n.sent()) && ((t = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//game-cdn.poki.com/scripts/touchOverlayController.js", t.onload = function() {
                                     new window.OverlayController(document.body, e)
                                 }, document.head.appendChild(t), Xe = !0), [3, 5];
                             case 4:
@@ -3336,11 +3336,11 @@
                 var t = e.split("x").map((function(e) {
                         return parseInt(e, 10)
                     })),
-                    i = "./21682198607/debug-display/debug-display-" + e,
+                    i = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/debug-display/debug-display-" + e,
                     n = "desktop";
                 S() && (n = "mobile"), E() && (n = "tablet");
                 var a = parseInt(_("site_id"), 10) || 0;
-                return r.debug || (i = nt.GetIsPokiIFrame() ? "./21682198607/" + n + "_ingame_" + e + "./" + a + "_" + n + "_ingame_" + e : "./21682198607/external_" + n + "_display_ingame/external_" + n + "_ingame_" + e), {
+                return r.debug || (i = nt.GetIsPokiIFrame() ? "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + n + "_ingame_" + e + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + a + "_" + n + "_ingame_" + e : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + n + "_display_ingame/external_" + n + "_ingame_" + e), {
                     id: "poki-" + Ke(),
                     adUnitPath: i,
                     size: e,

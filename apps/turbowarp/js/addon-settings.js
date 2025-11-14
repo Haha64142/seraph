@@ -149,14 +149,14 @@ var GUI =
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./src/playground/addon-settings.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","addon-settings~addons~editor~fullscreen~player"]);
+/******/ 	deferredModules.push(["https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/addon-settings.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","addon-settings~addons~editor~fullscreen~player"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/classnames/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js":
 /*!******************************************!*\
   !*** ./node_modules/classnames/index.js ***!
   \******************************************/
@@ -218,20 +218,20 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/settings/settings.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/settings/settings.css":
 /*!*************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/addons/settings/settings.css ***!
   \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./**\n * Copyright (C) 2021 Thomas Weber\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License version 3 as\n * published by the Free Software Foundation.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program.  If not, see <https://www.gnu.org/licenses/>.\n */\n\n/* #E5F0FF */\n\n/* #E9F1FC */\n\n/* #D9E3F2 */\n\n/* 90% transparent version of motion-primary */\n\n/* #FFFFFF */\n\n/* 25% transparent version of ui-white */\n\n/* 25% transparent version of ui-white */\n\n/* 25% transparent version of ui-white */\n\n/* 15% transparent version of black */\n\n/* #575E75 */\n\n/* 35% transparent version of motion-primary */\n\n/* 15% transparent version of motion-primary */\n\n/* opt-in theme overrides */\n\n/* #FF661A */\n\n/* #E64D00 */\n\n/* #CF63CF */\n\n/* #BD42BD */\n\n/* #FFAB19 */\n\n/* #FF8C1A */\n\n/* #0FBD8C */\n\n/* #0FBD8C */\n\n/* #FF8C1A */\n\n/* #FFB366 */\n\n/* #FF8C1A */\n\n/* 35% transparent version of extensions-primary */\n\n/* opaque version of extensions-transparent, on white bg */\n\n/* lighter than motion-primary */\n\nbody {\n    background-color: white;\n    color: black;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n}\n\nbody[theme=\"dark\"] {\n    background-color: #222222;\n    color: white;\n    color-scheme: dark;\n}\n\na[href] {\n    color: #2a67eb;\n    text-decoration: underline;\n}\n\n[theme=\"dark\"] a[href] {\n    color: #6d9bff;\n}\n\na:active, a:focus {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_container_1qNQ3 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n}\n\n.settings_section_31t4Q {\n    max-width: 1280px;\n    margin: auto;\n}\n\n.settings_header_Y9USz {\n    position: relative;\n    padding: 8px 20px;\n    background-color: #fcfcfc;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n}\n\n[theme=\"dark\"] .settings_header_Y9USz {\n    background-color: #222222;\n}\n\n@media (max-width: 700px) {\n    .settings_header_Y9USz {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_header_Y9USz .settings_section_31t4Q {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings_button_2ovv0 {\n    color: #000;\n    background: #efefef;\n    border: 1px solid #acacac;\n    padding: 8px 12px;\n    border-radius: 4px;\n    outline: none;\n    height: 32px;\n    font-family: inherit;\n    font-size: 14px;\n    transition: 0.25s ease;\n    transition-property: background;\n    display: flex;\n    align-items: center;\n}\n\n[theme=\"dark\"] .settings_button_2ovv0 {\n    color: #fff;\n    background: #222222;\n    border-color: #000;\n}\n\n.settings_button_2ovv0:hover {\n    background: #aaaaaa;\n}\n\n[theme=\"dark\"] .settings_button_2ovv0:hover {\n    background: #151515;\n}\n\n.settings_button_2ovv0:active, .settings_button_2ovv0:focus-within {\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_search-container_24OhB {\n    display: flex;\n    background-color: #f0f0f0;\n    color: #222;\n    border: 1px solid #cecece;\n    border-radius: 4px;\n}\n\n.settings_search-container_24OhB:focus-within {\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_search-input_9LNCl {\n    color: inherit;\n    width: 150px;\n    height: 16px;\n    padding: 10px 0 10px 15px;\n    border: none;\n    outline: none;\n    background-color: transparent;\n    font-size: 14px;\n}\n\n/* legacy edge */\n\n.settings_search-input_9LNCl::-ms-clear {\n    display: none;\n}\n\n.settings_search-button_LceHy {\n    height: 36px;\n    width: 36px;\n    border: none;\n    outline: none;\n    cursor: pointer;\n    background-color: transparent;\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/search.svg */ "./src/addons/settings/icons/search.svg")) + ");\n    background-repeat: no-repeat;\n    background-position: center;\n}\n\n[theme=\"dark\"] .settings_search-container_24OhB {\n    color: white;\n    background-color: #111111;\n    border-color: #222222;\n}\n\n.settings_search-input_9LNCl:not([value=\"\"]) ~ .settings_search-button_LceHy {\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/clear.svg */ "./src/addons/settings/icons/clear.svg")) + ") !important;\n}\n\n.settings_feedback-button-outer_3RXeq {\n    background: #f0f0f0;\n    border: 1px solid #cecece;\n    color: #333 !important;\n    height: 36px;\n    box-sizing: border-box;\n    border-radius: 4px;\n    padding: 0 12px;\n    margin-left: 10px;\n    font-size: 12px;\n    outline: none;\n    display: flex;\n    align-items: center;\n    text-decoration: none !important;\n}\n\n[theme=\"dark\"] .settings_feedback-button-outer_3RXeq {\n    background-color: white;\n    border-color: white;\n}\n\n.settings_feedback-button-outer_3RXeq:active, .settings_feedback-button-outer_3RXeq:focus-within {\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_feedback-button-inner_2h_ch {\n    text-decoration: none;\n    font-weight: bold;\n    text-align: center;\n}\n\n[theme=\"dark\"] .settings_search-button_LceHy,\n[theme=\"dark\"] .settings_addon-group-expand_1G6_X,\n[theme=\"dark\"] .settings_extension-image_1HlEn,\n[theme=\"dark\"] .settings_reset-button_1onc- img,\n[theme=\"dark\"] .settings_reset-setting-button_-WLwd img {\n    filter: invert(100%);\n}\n\n.settings_addons_2LLFF {\n    overflow-y: auto;\n    overflow-x: hidden;\n    padding: 10px 20px;\n    height: 100%;\n}\n\n@media (max-width: 700px) {\n    .settings_addons_2LLFF {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_addon-group_3d-ZB {\n    margin: 0 0 10px 0;\n}\n\n.settings_addon-group-name_1h56B {\n    background: none;\n    border: none;\n    width: 100%;\n    display: flex;\n    align-items: center;\n}\n\n.settings_addon-group-name_1h56B::after {\n    margin-left: 16px;\n    content: '';\n    border-top: 1px solid #cfcfcf;\n    width: 100px;\n    flex: 1;\n}\n\n[theme=\"dark\"] .settings_addon-group-name_1h56B::after {\n    border-color: #333;\n}\n\n.settings_addon-group-expand_1G6_X {\n    width: 24px;\n    height: 24px;\n    margin-right: 8px;\n    border-radius: 5px;\n}\n\n.settings_addon-group-expand_1G6_X[data-open=\"true\"] {\n    transform: scaleY(-1);\n}\n\n.settings_addon-group-name_1h56B:hover .settings_addon-group-expand_1G6_X {\n    background: #ccc;\n}\n\n.settings_addon_3Oi_z {\n    background: #f7f7f7;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    border: 1px solid #cfcfcf;\n    border-radius: 5px;\n    margin: 10px 0 10px 0;\n    font-size: 14px;\n}\n\n.settings_addon-dirty_2o20T {\n    background: #ffeedf;\n}\n\n[theme=\"dark\"] .settings_addon_3Oi_z {\n    background-color: #2a2a2a;\n    border-color: #333;\n}\n\n[theme=\"dark\"] .settings_addon-dirty_2o20T {\n    background: rgb(39, 50, 53);\n}\n\n.settings_addon-header_271wJ {\n    padding: 0 10px;\n    height: 50px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_extension-image_1HlEn {\n    height: 16px;\n    width: 16px;\n    margin-right: 8px;\n}\n\n.settings_addon-title_6MhRl {\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    white-space: nowrap;\n}\n\n.settings_addon-switch_2bf3g {\n    margin-right: 8px;\n}\n\n.settings_addon-title-text_3QjlP {\n\n}\n\n.settings_addon-id_2EeZw {\n    margin-left: 10px;\n}\n\n.settings_inline-description_SovV9 {\n    margin-left: 10px;\n    color: gray;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}\n\n.settings_addon-operations_28nBd {\n    margin-left: auto;\n    padding-left: 4px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_reset-button_1onc- {\n    display: flex;\n    border-radius: 4px;\n    cursor: pointer;\n    border: none;\n    background-color: transparent;\n}\n\n.settings_reset-button_1onc-:hover {\n    background: rgba(0, 0, 0, 0.05);\n}\n\n.settings_reset-button_1onc-:active, .settings_reset-button_1onc-:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_reset-button-image_2Tgqe {\n    padding: 1px 0;\n    height: 16px;\n    width: 16px;\n}\n\n[theme=\"dark\"] .settings_reset-button_1onc-:hover {\n    background: rgba(255, 255, 255, 0.05);\n}\n\n.settings_switch_2V1f5 {\n    display: block;\n    background: #111;\n    width: 40px;\n    height: 20px;\n    border: none;\n    border-radius: 10px;\n    position: relative;\n    cursor: pointer;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n.settings_switch_2V1f5[state=\"on\"] {\n    background: hsla(0, 100%, 65%, 1);\n}\n\n.settings_switch_2V1f5::before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    width: 10px;\n    height: 10px;\n    background: #fff;\n    border-radius: 5px;\n    top: 5px;\n    left: 5px;\n    transition: 0.25s ease;\n    transition-property: background, left;\n}\n\n[theme=\"dark\"] .settings_switch_2V1f5::before {\n    background: #aaa;\n}\n\n.settings_switch_2V1f5[state=\"on\"]::before {\n    background: #fff;\n    left: 25px;\n}\n\n.settings_switch_2V1f5:active, .settings_switch_2V1f5:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_tag-container_3yFc4 {\n    display: flex;\n    align-items: center;\n}\n\n.settings_tag_1c-GO {\n    border-radius: 4px;\n    padding: 2px 5px;\n    margin-left: 10px;\n    border-bottom: 2px solid #111;\n    white-space: nowrap;\n}\n\n.settings_tag-recommended_2k7Kt {\n    color: white;\n    background-color: #175ef8;\n    border-color: #0e44b8;\n}\n\n.settings_tag-theme_PbNiB {\n    color: black;\n    background-color: #9ad4cf;\n    border-color: #628f8c;\n}\n\n.settings_tag-beta_26ywj {\n    color: white;\n    background-color: #fd662b;\n    border-color: #d84a12;\n}\n\n.settings_tag-easter-egg_2M8qE {\n    color: black;\n    background-color: #b9f38d;\n    border-color: #8fce5e;\n}\n\n.settings_tag-new_1g9ff {\n    color: white;\n    background: #b117f8;\n    border-color: #6f0073;\n}\n\n.settings_tag-danger_2g6El {\n    color: white;\n    background: #fd2b2b;\n    border-color: #d81212;\n}\n\n@media (max-width: 550px) {\n    .settings_tag_1c-GO:not(.settings_tag-beta_26ywj) {\n        display: none;\n    }\n}\n\n.settings_addon-details_2CKwd {\n    padding: 0 20px;\n    margin-bottom: 10px;\n    color: #111;\n}\n\n[theme=\"dark\"] .settings_addon-details_2CKwd {\n    color: #ddd;\n}\n\n.settings_credit-container_2mHq7 {\n\n}\n\n.settings_credit-title_3f-yX {\n    padding-right: 5px;\n}\n\n.settings_credit_3grR6 {\n\n}\n\n.settings_description_2MbZo {\n\n}\n\n.settings_notice_2q6Z2 {\n    color: black;\n    padding: 10px;\n    border-radius: 5px;\n    font-weight: bold;\n    margin: 10px 0;\n    display: flex;\n    align-items: center;\n    background: rgba(154, 212, 207, 0.7);\n}\n\n.settings_notice-icon_2lAT7 {\n    height: 16px;\n    width: 16px;\n    margin-right: 10px;\n}\n\n.settings_setting-container_2BA7o {\n    margin-top: 10px;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.settings_setting_2i2j- {\n    margin: 10px;\n    margin-right: 30px;\n    min-height: 35px;\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n}\n\n.settings_setting-label_2w3mJ {\n    font-weight: bold;\n    text-transform: uppercase;\n    color: #555;\n    font-size: 12px;\n    margin-right: 10px;\n}\n\n[theme=\"dark\"] .settings_setting-label_2w3mJ {\n    color: #aaa;\n}\n\n.settings_setting_2i2j- input {\n    color: #000;\n    background: #efefef;\n    border: 1px solid #acacac;\n    padding: 8px 12px;\n    border-radius: 4px;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n[theme=\"dark\"] .settings_setting_2i2j- input {\n    color: #fff;\n    background: #222222;\n    border: 1px solid #000;\n}\n\n.settings_setting_2i2j- input:focus, .settings_setting_2i2j- input:active {\n    outline: none;\n    border-color: hsla(0, 100%, 65%, 1);\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"] {\n    height: 20px;\n    width: 20px;\n    padding: 0;\n    appearance: none;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    background-color: white;\n    background-size: 20px 20px;\n    background-position: center center;\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"]:checked {\n    border-color: hsla(0, 100%, 65%, 1);\n    background-color: hsla(0, 100%, 65%, 1);\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/check.svg */ "./src/addons/settings/icons/check.svg")) + ");\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"]:hover:not(:focus) {\n    border-color: hsla(0, 60%, 50%, 1);\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"]:checked:hover {\n    border-color: hsla(0, 60%, 50%, 1);\n}\n\n.settings_setting_2i2j- input[type=\"number\"] {\n    border-radius: 20px 0 0 20px;\n    font-size: 14px;\n    width: 75px;\n    height: 35px;\n    box-sizing: border-box;\n}\n\n.settings_setting_2i2j- input[type=\"color\"] {\n    height: 30px;\n    width: 100px;\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n    outline: none;\n    border: 1px solid transparent;\n    border-radius: 4px 0px 0px 4px;\n}\n\n.settings_reset-setting-button_-WLwd {\n    border-radius: 0 4px 4px 0px;\n    box-sizing: border-box;\n    height: 30px;\n}\n\n.settings_reset-setting-button_-WLwd img {\n    width: 20px;\n    height: 20px;\n}\n\n.settings_reset-setting-button_-WLwd[data-for-text-input=\"true\"] {\n    height: 35px;\n    border-radius: 0 20px 20px 0;\n}\n\n.settings_select_sIZno {\n    display: flex;\n}\n\n.settings_select-option_32Zqa {\n    cursor: pointer;\n    padding: 10px;\n    margin: 0;\n    background: transparent;\n    border: none;\n    background: #f0f0f0;\n    color: #000;\n    border: 1px solid #aaa;\n    border-right-width: 0;\n    transition: 0.25s ease;\n    transition-property: color, background, border;\n}\n\n[theme=\"dark\"] .settings_select-option_32Zqa {\n    color: #fff;\n    background: #222222;\n    border-color: #000000;\n}\n\n.settings_select-option_32Zqa:first-child {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n.settings_select-option_32Zqa:last-child {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-right-width: 1px;\n}\n\n.settings_select-option_32Zqa.settings_selected_38WtW {\n    color: white;\n    background: hsla(0, 100%, 65%, 1);\n}\n\n.settings_select-option_32Zqa:active, .settings_select-option_32Zqa:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n    z-index: 10;\n}\n\n.settings_presets_3zawV {\n    width: 100%;\n}\n\n.settings_preset-button_3zYV3 {\n    margin-right: 10px;\n}\n\n.settings_footer_jjys0 {\n    color: #444;\n}\n\n[theme=\"dark\"] .settings_footer_jjys0 {\n    color: #aaa;\n}\n\n.settings_unsupported-container_2vhiH {\n    margin-bottom: 10px;\n}\n\n.settings_unsupported-addon_1p57c {\n    padding-left: 5px;\n}\n\n.settings_version_2_cDA {\n    margin-bottom: 10px;\n    cursor: pointer;\n}\n\n.settings_footer-buttons_xTSXH {\n    margin-bottom: 10px;\n    display: flex;\n}\n\n.settings_footer-buttons_xTSXH > .settings_button_2ovv0 {\n    margin-right: 10px;\n}\n\n.settings_reset-all-button_2Q-Zi {\n\n}\n\n.settings_export-button_2PWOM {\n\n}\n\n.settings_import-button_1NMJN {\n\n}\n\n.settings_no-results_3bDSs {\n    text-align: center;\n    font-style: italic;\n}\n\n.settings_dirty-outer_WmNYy {\n    display: flex;\n    position: absolute;\n    top: calc(100% - 8px);\n    left: 0;\n    width: calc(100% - 20px);\n    margin-left: 10px;\n    z-index: 10;\n    justify-content: center;\n    animation: settings_dirty-appear_2Rcif 0.2s ease;\n    pointer-events: none;\n}\n\n.settings_dirty-inner_2tglM {\n    padding: 8px;\n    background: #ffeedf;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    border: 1px solid #cfcfcf;\n    border-radius: 4px;\n    pointer-events: auto;\n    display: flex;\n    align-items: center;\n    text-align: center;\n}\n\n[theme=\"dark\"] .settings_dirty-inner_2tglM {\n    background: rgb(39, 50, 53);\n    border-color: #222;\n}\n\n.settings_dirty-button_2adjE {\n    margin-left: 6px;\n}\n\n@keyframes settings_dirty-appear_2Rcif {\n    from {\n        transform: translateY(-100%);\n    }\n    to {\n        transform: translateY(0);\n    }\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/**\n * Copyright (C) 2021 Thomas Weber\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License version 3 as\n * published by the Free Software Foundation.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program.  If not, see <https://www.gnu.org/licenses/>.\n */\n\n/* #E5F0FF */\n\n/* #E9F1FC */\n\n/* #D9E3F2 */\n\n/* 90% transparent version of motion-primary */\n\n/* #FFFFFF */\n\n/* 25% transparent version of ui-white */\n\n/* 25% transparent version of ui-white */\n\n/* 25% transparent version of ui-white */\n\n/* 15% transparent version of black */\n\n/* #575E75 */\n\n/* 35% transparent version of motion-primary */\n\n/* 15% transparent version of motion-primary */\n\n/* opt-in theme overrides */\n\n/* #FF661A */\n\n/* #E64D00 */\n\n/* #CF63CF */\n\n/* #BD42BD */\n\n/* #FFAB19 */\n\n/* #FF8C1A */\n\n/* #0FBD8C */\n\n/* #0FBD8C */\n\n/* #FF8C1A */\n\n/* #FFB366 */\n\n/* #FF8C1A */\n\n/* 35% transparent version of extensions-primary */\n\n/* opaque version of extensions-transparent, on white bg */\n\n/* lighter than motion-primary */\n\nbody {\n    background-color: white;\n    color: black;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    margin: 0;\n}\n\nbody[theme=\"dark\"] {\n    background-color: #222222;\n    color: white;\n    color-scheme: dark;\n}\n\na[href] {\n    color: #2a67eb;\n    text-decoration: underline;\n}\n\n[theme=\"dark\"] a[href] {\n    color: #6d9bff;\n}\n\na:active, a:focus {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_container_1qNQ3 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n}\n\n.settings_section_31t4Q {\n    max-width: 1280px;\n    margin: auto;\n}\n\n.settings_header_Y9USz {\n    position: relative;\n    padding: 8px 20px;\n    background-color: #fcfcfc;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n}\n\n[theme=\"dark\"] .settings_header_Y9USz {\n    background-color: #222222;\n}\n\n@media (max-width: 700px) {\n    .settings_header_Y9USz {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_header_Y9USz .settings_section_31t4Q {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.settings_button_2ovv0 {\n    color: #000;\n    background: #efefef;\n    border: 1px solid #acacac;\n    padding: 8px 12px;\n    border-radius: 4px;\n    outline: none;\n    height: 32px;\n    font-family: inherit;\n    font-size: 14px;\n    transition: 0.25s ease;\n    transition-property: background;\n    display: flex;\n    align-items: center;\n}\n\n[theme=\"dark\"] .settings_button_2ovv0 {\n    color: #fff;\n    background: #222222;\n    border-color: #000;\n}\n\n.settings_button_2ovv0:hover {\n    background: #aaaaaa;\n}\n\n[theme=\"dark\"] .settings_button_2ovv0:hover {\n    background: #151515;\n}\n\n.settings_button_2ovv0:active, .settings_button_2ovv0:focus-within {\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_search-container_24OhB {\n    display: flex;\n    background-color: #f0f0f0;\n    color: #222;\n    border: 1px solid #cecece;\n    border-radius: 4px;\n}\n\n.settings_search-container_24OhB:focus-within {\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_search-input_9LNCl {\n    color: inherit;\n    width: 150px;\n    height: 16px;\n    padding: 10px 0 10px 15px;\n    border: none;\n    outline: none;\n    background-color: transparent;\n    font-size: 14px;\n}\n\n/* legacy edge */\n\n.settings_search-input_9LNCl::-ms-clear {\n    display: none;\n}\n\n.settings_search-button_LceHy {\n    height: 36px;\n    width: 36px;\n    border: none;\n    outline: none;\n    cursor: pointer;\n    background-color: transparent;\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/search.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/search.svg")) + ");\n    background-repeat: no-repeat;\n    background-position: center;\n}\n\n[theme=\"dark\"] .settings_search-container_24OhB {\n    color: white;\n    background-color: #111111;\n    border-color: #222222;\n}\n\n.settings_search-input_9LNCl:not([value=\"\"]) ~ .settings_search-button_LceHy {\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/clear.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/clear.svg")) + ") !important;\n}\n\n.settings_feedback-button-outer_3RXeq {\n    background: #f0f0f0;\n    border: 1px solid #cecece;\n    color: #333 !important;\n    height: 36px;\n    box-sizing: border-box;\n    border-radius: 4px;\n    padding: 0 12px;\n    margin-left: 10px;\n    font-size: 12px;\n    outline: none;\n    display: flex;\n    align-items: center;\n    text-decoration: none !important;\n}\n\n[theme=\"dark\"] .settings_feedback-button-outer_3RXeq {\n    background-color: white;\n    border-color: white;\n}\n\n.settings_feedback-button-outer_3RXeq:active, .settings_feedback-button-outer_3RXeq:focus-within {\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_feedback-button-inner_2h_ch {\n    text-decoration: none;\n    font-weight: bold;\n    text-align: center;\n}\n\n[theme=\"dark\"] .settings_search-button_LceHy,\n[theme=\"dark\"] .settings_addon-group-expand_1G6_X,\n[theme=\"dark\"] .settings_extension-image_1HlEn,\n[theme=\"dark\"] .settings_reset-button_1onc- img,\n[theme=\"dark\"] .settings_reset-setting-button_-WLwd img {\n    filter: invert(100%);\n}\n\n.settings_addons_2LLFF {\n    overflow-y: auto;\n    overflow-x: hidden;\n    padding: 10px 20px;\n    height: 100%;\n}\n\n@media (max-width: 700px) {\n    .settings_addons_2LLFF {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n.settings_addon-group_3d-ZB {\n    margin: 0 0 10px 0;\n}\n\n.settings_addon-group-name_1h56B {\n    background: none;\n    border: none;\n    width: 100%;\n    display: flex;\n    align-items: center;\n}\n\n.settings_addon-group-name_1h56B::after {\n    margin-left: 16px;\n    content: '';\n    border-top: 1px solid #cfcfcf;\n    width: 100px;\n    flex: 1;\n}\n\n[theme=\"dark\"] .settings_addon-group-name_1h56B::after {\n    border-color: #333;\n}\n\n.settings_addon-group-expand_1G6_X {\n    width: 24px;\n    height: 24px;\n    margin-right: 8px;\n    border-radius: 5px;\n}\n\n.settings_addon-group-expand_1G6_X[data-open=\"true\"] {\n    transform: scaleY(-1);\n}\n\n.settings_addon-group-name_1h56B:hover .settings_addon-group-expand_1G6_X {\n    background: #ccc;\n}\n\n.settings_addon_3Oi_z {\n    background: #f7f7f7;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    border: 1px solid #cfcfcf;\n    border-radius: 5px;\n    margin: 10px 0 10px 0;\n    font-size: 14px;\n}\n\n.settings_addon-dirty_2o20T {\n    background: #ffeedf;\n}\n\n[theme=\"dark\"] .settings_addon_3Oi_z {\n    background-color: #2a2a2a;\n    border-color: #333;\n}\n\n[theme=\"dark\"] .settings_addon-dirty_2o20T {\n    background: rgb(39, 50, 53);\n}\n\n.settings_addon-header_271wJ {\n    padding: 0 10px;\n    height: 50px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_extension-image_1HlEn {\n    height: 16px;\n    width: 16px;\n    margin-right: 8px;\n}\n\n.settings_addon-title_6MhRl {\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    white-space: nowrap;\n}\n\n.settings_addon-switch_2bf3g {\n    margin-right: 8px;\n}\n\n.settings_addon-title-text_3QjlP {\n\n}\n\n.settings_addon-id_2EeZw {\n    margin-left: 10px;\n}\n\n.settings_inline-description_SovV9 {\n    margin-left: 10px;\n    color: gray;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}\n\n.settings_addon-operations_28nBd {\n    margin-left: auto;\n    padding-left: 4px;\n    display: flex;\n    align-items: center;\n}\n\n.settings_reset-button_1onc- {\n    display: flex;\n    border-radius: 4px;\n    cursor: pointer;\n    border: none;\n    background-color: transparent;\n}\n\n.settings_reset-button_1onc-:hover {\n    background: rgba(0, 0, 0, 0.05);\n}\n\n.settings_reset-button_1onc-:active, .settings_reset-button_1onc-:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_reset-button-image_2Tgqe {\n    padding: 1px 0;\n    height: 16px;\n    width: 16px;\n}\n\n[theme=\"dark\"] .settings_reset-button_1onc-:hover {\n    background: rgba(255, 255, 255, 0.05);\n}\n\n.settings_switch_2V1f5 {\n    display: block;\n    background: #111;\n    width: 40px;\n    height: 20px;\n    border: none;\n    border-radius: 10px;\n    position: relative;\n    cursor: pointer;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n.settings_switch_2V1f5[state=\"on\"] {\n    background: hsla(0, 100%, 65%, 1);\n}\n\n.settings_switch_2V1f5::before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    width: 10px;\n    height: 10px;\n    background: #fff;\n    border-radius: 5px;\n    top: 5px;\n    left: 5px;\n    transition: 0.25s ease;\n    transition-property: background, left;\n}\n\n[theme=\"dark\"] .settings_switch_2V1f5::before {\n    background: #aaa;\n}\n\n.settings_switch_2V1f5[state=\"on\"]::before {\n    background: #fff;\n    left: 25px;\n}\n\n.settings_switch_2V1f5:active, .settings_switch_2V1f5:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_tag-container_3yFc4 {\n    display: flex;\n    align-items: center;\n}\n\n.settings_tag_1c-GO {\n    border-radius: 4px;\n    padding: 2px 5px;\n    margin-left: 10px;\n    border-bottom: 2px solid #111;\n    white-space: nowrap;\n}\n\n.settings_tag-recommended_2k7Kt {\n    color: white;\n    background-color: #175ef8;\n    border-color: #0e44b8;\n}\n\n.settings_tag-theme_PbNiB {\n    color: black;\n    background-color: #9ad4cf;\n    border-color: #628f8c;\n}\n\n.settings_tag-beta_26ywj {\n    color: white;\n    background-color: #fd662b;\n    border-color: #d84a12;\n}\n\n.settings_tag-easter-egg_2M8qE {\n    color: black;\n    background-color: #b9f38d;\n    border-color: #8fce5e;\n}\n\n.settings_tag-new_1g9ff {\n    color: white;\n    background: #b117f8;\n    border-color: #6f0073;\n}\n\n.settings_tag-danger_2g6El {\n    color: white;\n    background: #fd2b2b;\n    border-color: #d81212;\n}\n\n@media (max-width: 550px) {\n    .settings_tag_1c-GO:not(.settings_tag-beta_26ywj) {\n        display: none;\n    }\n}\n\n.settings_addon-details_2CKwd {\n    padding: 0 20px;\n    margin-bottom: 10px;\n    color: #111;\n}\n\n[theme=\"dark\"] .settings_addon-details_2CKwd {\n    color: #ddd;\n}\n\n.settings_credit-container_2mHq7 {\n\n}\n\n.settings_credit-title_3f-yX {\n    padding-right: 5px;\n}\n\n.settings_credit_3grR6 {\n\n}\n\n.settings_description_2MbZo {\n\n}\n\n.settings_notice_2q6Z2 {\n    color: black;\n    padding: 10px;\n    border-radius: 5px;\n    font-weight: bold;\n    margin: 10px 0;\n    display: flex;\n    align-items: center;\n    background: rgba(154, 212, 207, 0.7);\n}\n\n.settings_notice-icon_2lAT7 {\n    height: 16px;\n    width: 16px;\n    margin-right: 10px;\n}\n\n.settings_setting-container_2BA7o {\n    margin-top: 10px;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.settings_setting_2i2j- {\n    margin: 10px;\n    margin-right: 30px;\n    min-height: 35px;\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n}\n\n.settings_setting-label_2w3mJ {\n    font-weight: bold;\n    text-transform: uppercase;\n    color: #555;\n    font-size: 12px;\n    margin-right: 10px;\n}\n\n[theme=\"dark\"] .settings_setting-label_2w3mJ {\n    color: #aaa;\n}\n\n.settings_setting_2i2j- input {\n    color: #000;\n    background: #efefef;\n    border: 1px solid #acacac;\n    padding: 8px 12px;\n    border-radius: 4px;\n    transition: 0.25s ease;\n    transition-property: background;\n}\n\n[theme=\"dark\"] .settings_setting_2i2j- input {\n    color: #fff;\n    background: #222222;\n    border: 1px solid #000;\n}\n\n.settings_setting_2i2j- input:focus, .settings_setting_2i2j- input:active {\n    outline: none;\n    border-color: hsla(0, 100%, 65%, 1);\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"] {\n    height: 20px;\n    width: 20px;\n    padding: 0;\n    appearance: none;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    background-color: white;\n    background-size: 20px 20px;\n    background-position: center center;\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"]:checked {\n    border-color: hsla(0, 100%, 65%, 1);\n    background-color: hsla(0, 100%, 65%, 1);\n    background-image: url(" + escape(__webpack_require__(/*! ./icons/check.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/check.svg")) + ");\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"]:hover:not(:focus) {\n    border-color: hsla(0, 60%, 50%, 1);\n}\n\n.settings_setting_2i2j- input[type=\"checkbox\"]:checked:hover {\n    border-color: hsla(0, 60%, 50%, 1);\n}\n\n.settings_setting_2i2j- input[type=\"number\"] {\n    border-radius: 20px 0 0 20px;\n    font-size: 14px;\n    width: 75px;\n    height: 35px;\n    box-sizing: border-box;\n}\n\n.settings_setting_2i2j- input[type=\"color\"] {\n    height: 30px;\n    width: 100px;\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n    outline: none;\n    border: 1px solid transparent;\n    border-radius: 4px 0px 0px 4px;\n}\n\n.settings_reset-setting-button_-WLwd {\n    border-radius: 0 4px 4px 0px;\n    box-sizing: border-box;\n    height: 30px;\n}\n\n.settings_reset-setting-button_-WLwd img {\n    width: 20px;\n    height: 20px;\n}\n\n.settings_reset-setting-button_-WLwd[data-for-text-input=\"true\"] {\n    height: 35px;\n    border-radius: 0 20px 20px 0;\n}\n\n.settings_select_sIZno {\n    display: flex;\n}\n\n.settings_select-option_32Zqa {\n    cursor: pointer;\n    padding: 10px;\n    margin: 0;\n    background: transparent;\n    border: none;\n    background: #f0f0f0;\n    color: #000;\n    border: 1px solid #aaa;\n    border-right-width: 0;\n    transition: 0.25s ease;\n    transition-property: color, background, border;\n}\n\n[theme=\"dark\"] .settings_select-option_32Zqa {\n    color: #fff;\n    background: #222222;\n    border-color: #000000;\n}\n\n.settings_select-option_32Zqa:first-child {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n.settings_select-option_32Zqa:last-child {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-right-width: 1px;\n}\n\n.settings_select-option_32Zqa.settings_selected_38WtW {\n    color: white;\n    background: hsla(0, 100%, 65%, 1);\n}\n\n.settings_select-option_32Zqa:active, .settings_select-option_32Zqa:focus-within {\n    outline: none;\n    box-shadow: 0 0 0 3px hsla(0, 100%, 65%, 0.35);\n    z-index: 10;\n}\n\n.settings_presets_3zawV {\n    width: 100%;\n}\n\n.settings_preset-button_3zYV3 {\n    margin-right: 10px;\n}\n\n.settings_footer_jjys0 {\n    color: #444;\n}\n\n[theme=\"dark\"] .settings_footer_jjys0 {\n    color: #aaa;\n}\n\n.settings_unsupported-container_2vhiH {\n    margin-bottom: 10px;\n}\n\n.settings_unsupported-addon_1p57c {\n    padding-left: 5px;\n}\n\n.settings_version_2_cDA {\n    margin-bottom: 10px;\n    cursor: pointer;\n}\n\n.settings_footer-buttons_xTSXH {\n    margin-bottom: 10px;\n    display: flex;\n}\n\n.settings_footer-buttons_xTSXH > .settings_button_2ovv0 {\n    margin-right: 10px;\n}\n\n.settings_reset-all-button_2Q-Zi {\n\n}\n\n.settings_export-button_2PWOM {\n\n}\n\n.settings_import-button_1NMJN {\n\n}\n\n.settings_no-results_3bDSs {\n    text-align: center;\n    font-style: italic;\n}\n\n.settings_dirty-outer_WmNYy {\n    display: flex;\n    position: absolute;\n    top: calc(100% - 8px);\n    left: 0;\n    width: calc(100% - 20px);\n    margin-left: 10px;\n    z-index: 10;\n    justify-content: center;\n    animation: settings_dirty-appear_2Rcif 0.2s ease;\n    pointer-events: none;\n}\n\n.settings_dirty-inner_2tglM {\n    padding: 8px;\n    background: #ffeedf;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    border: 1px solid #cfcfcf;\n    border-radius: 4px;\n    pointer-events: auto;\n    display: flex;\n    align-items: center;\n    text-align: center;\n}\n\n[theme=\"dark\"] .settings_dirty-inner_2tglM {\n    background: rgb(39, 50, 53);\n    border-color: #222;\n}\n\n.settings_dirty-button_2adjE {\n    margin-left: 6px;\n}\n\n@keyframes settings_dirty-appear_2Rcif {\n    from {\n        transform: translateY(-100%);\n    }\n    to {\n        transform: translateY(0);\n    }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -348,26 +348,26 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/normalize.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/normalize.css":
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/lib/normalize.css ***!
   \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\nhtml{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}\nbody{margin:0}\narticle,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}\naudio,canvas,progress,video{display:inline-block;vertical-align:baseline}\naudio:not([controls]){display:none;height:0}\n[hidden],template{display:none}\na{background-color:transparent}\na:active,a:hover{outline:0}\nabbr[title]{border-bottom:1px dotted}\nb,strong{font-weight:bold}\ndfn{font-style:italic}\nh1{font-size:2em;margin:.67em 0}\nmark{background:#ff0;color:#000}\nsmall{font-size:80%}\nsub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}\nsup{top:-0.5em}\nsub{bottom:-0.25em}\nimg{border:0}\nsvg:not(:root){overflow:hidden}\nfigure{margin:1em 40px}\nhr{box-sizing:content-box;height:0}\npre{overflow:auto}\ncode,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}\nbutton,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}\nbutton{overflow:visible}\nbutton,select{text-transform:none}\nbutton,html input[type=\"button\"],input[type=\"reset\"],input[type=\"submit\"]{-webkit-appearance:button;cursor:pointer}\nbutton[disabled],html input[disabled]{cursor:default}\nbutton::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}\ninput{line-height:normal}\ninput[type=\"checkbox\"],input[type=\"radio\"]{box-sizing:border-box;padding:0}\ninput[type=\"number\"]::-webkit-inner-spin-button,input[type=\"number\"]::-webkit-outer-spin-button{height:auto}\ninput[type=\"search\"]{-webkit-appearance:textfield;box-sizing:content-box}\ninput[type=\"search\"]::-webkit-search-cancel-button,input[type=\"search\"]::-webkit-search-decoration{-webkit-appearance:none}\nfieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}\nlegend{border:0;padding:0}\ntextarea{overflow:auto}\noptgroup{font-weight:bold}\ntable{border-collapse:collapse;border-spacing:0}\ntd,th{padding:0}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\nhtml{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}\nbody{margin:0}\narticle,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}\naudio,canvas,progress,video{display:inline-block;vertical-align:baseline}\naudio:not([controls]){display:none;height:0}\n[hidden],template{display:none}\na{background-color:transparent}\na:active,a:hover{outline:0}\nabbr[title]{border-bottom:1px dotted}\nb,strong{font-weight:bold}\ndfn{font-style:italic}\nh1{font-size:2em;margin:.67em 0}\nmark{background:#ff0;color:#000}\nsmall{font-size:80%}\nsub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}\nsup{top:-0.5em}\nsub{bottom:-0.25em}\nimg{border:0}\nsvg:not(:root){overflow:hidden}\nfigure{margin:1em 40px}\nhr{box-sizing:content-box;height:0}\npre{overflow:auto}\ncode,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}\nbutton,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}\nbutton{overflow:visible}\nbutton,select{text-transform:none}\nbutton,html input[type=\"button\"],input[type=\"reset\"],input[type=\"submit\"]{-webkit-appearance:button;cursor:pointer}\nbutton[disabled],html input[disabled]{cursor:default}\nbutton::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}\ninput{line-height:normal}\ninput[type=\"checkbox\"],input[type=\"radio\"]{box-sizing:border-box;padding:0}\ninput[type=\"number\"]::-webkit-inner-spin-button,input[type=\"number\"]::-webkit-outer-spin-button{height:auto}\ninput[type=\"search\"]{-webkit-appearance:textfield;box-sizing:content-box}\ninput[type=\"search\"]::-webkit-search-cancel-button,input[type=\"search\"]::-webkit-search-decoration{-webkit-appearance:none}\nfieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}\nlegend{border:0;padding:0}\ntextarea{overflow:auto}\noptgroup{font-weight:bold}\ntable{border-collapse:collapse;border-spacing:0}\ntd,th{padding:0}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/lib/url/escape.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/url/escape.js":
 /*!***************************************************!*\
   !*** ./node_modules/css-loader/lib/url/escape.js ***!
   \***************************************************/
@@ -385,7 +385,7 @@ module.exports = function escape(url) {
     // Should url be wrapped?
     // See https://drafts.csswg.org/css-values-3/#urls
     if (/["'() \t\n]/.test(url)) {
-        return '"' + url.replace(/"./g, '\\"').replace(/\n/g, '\\n') + '"'
+        return '"' + url.replace(/"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, '\\"').replace(/\n/g, '\\n') + '"'
     }
 
     return url
@@ -394,7 +394,7 @@ module.exports = function escape(url) {
 
 /***/ }),
 
-/***/ "./node_modules/decode-uri-component/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/decode-uri-component/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/decode-uri-component/index.js ***!
   \****************************************************/
@@ -500,7 +500,7 @@ module.exports = function (encodedURI) {
 
 /***/ }),
 
-/***/ "./node_modules/query-string/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/query-string/index.js":
 /*!********************************************!*\
   !*** ./node_modules/query-string/index.js ***!
   \********************************************/
@@ -509,9 +509,9 @@ module.exports = function (encodedURI) {
 
 "use strict";
 
-var strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "./node_modules/strict-uri-encode/index.js");
-var objectAssign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
-var decodeComponent = __webpack_require__(/*! decode-uri-component */ "./node_modules/decode-uri-component/index.js");
+var strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/strict-uri-encode/index.js");
+var objectAssign = __webpack_require__(/*! object-assign */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/object-assign/index.js");
+var decodeComponent = __webpack_require__(/*! decode-uri-component */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/decode-uri-component/index.js");
 
 function encoderForArrayFormat(opts) {
 	switch (opts.arrayFormat) {
@@ -736,18 +736,18 @@ exports.parseUrl = function (str, opts) {
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css":
 /*!*************************************************************!*\
   !*** ./node_modules/raw-loader!./src/lib/tw-theme-dark.css ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "./* GUI */\n:root {\n    background: #111;\n    color: #eee;\n    color-scheme: dark;\n    /* see colors.csss */\n    --ui-primary: rgb(17, 17, 17);\n    --ui-secondary: rgb(30, 30, 30);\n    --ui-tertiary: rgb(46, 46, 46);\n    --ui-modal-overlay: #333a;\n    --ui-black-transparent: rgba(255, 255, 255, 0.15);\n    --text-primary: #eee;\n    /* scratch-paint */\n    --paint-ui-pane-border: var(--ui-black-transparent);\n    --paint-text-primary: #eee;\n    --paint-form-border: var(--ui-black-transparent);\n}\n\n/* Blockly */\n.blocklySvg {\n    background-color: var(--ui-secondary) !important;\n    color-scheme: light;\n}\n[id^=\"blocklyGridPattern\"] > line {\n    stroke: #484848;\n}\n.blocklyFlyoutBackground {\n    fill: #111;\n}\n.blocklyFlyoutLabelText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton .blocklyText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton:hover {\n    fill: #111;\n}\n/* blocklyFlyoutCheckboxPath stroke and blocklyFlyoutCheckbox fill must match */\n.blocklyFlyoutCheckboxPath {\n    stroke: #111;\n}\n.blocklyFlyoutCheckbox {\n    fill: #111;\n}\n.checked > .blocklyFlyoutCheckbox {\n    stroke: #a1c6fa;\n}\n.checked > .blocklyFlyoutCheckboxPath {\n    stroke: white;\n}\n.scratchCategoryMenu {\n    color: #ccc;\n}\n.blocklyToolboxDiv,\n.scratchCategoryMenu {\n    background: #111 !important;\n}\n.blocklyScrollbarHandle {\n    fill: #666;\n}\n.blocklyZoom {\n    filter: invert(100%);\n}\n.scratchCategoryMenuItem.categorySelected {\n    background: var(--ui-secondary);\n}\n.valueReportBox {\n    color: black;\n}\n.blocklyWidgetDiv {\n    color-scheme: light;\n}\n.blocklyWidgetDiv .goog-menu {\n    background: var(--ui-primary);\n    border-color: var(--ui-black-transparent);\n}\n.blocklyWidgetDiv .goog-menuitem {\n    color: var(--text-primary);\n}\n.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content {\n    color: #666 !important;\n}\n.sa-blockly-menu-item-border {\n    border-top-color: var(--ui-black-transparent) !important;\n}\n.blocklyWidgetDiv .goog-menuitem.goog-menuitem-highlight {\n    background-color: var(--ui-tertiary);\n    border-color: transparent; /* remove border */\n}\n.scratchCommentText {\n    color: black;\n}\n.blocklyInsertionMarker > .blocklyPath {\n    fill: #ccc;\n}\n\n/* Other / Multipurpose */\n.Popover {\n    /* weird Chrome bug displays white bar above popovers with color-scheme: dark */\n    color-scheme: light;\n}\n.Popover-body {\n    background: var(--ui-secondary);\n    border-color: var(--ui-black-transparent);\n    color: var(--text-primary);\n}\n.Popover-tipShape {\n    fill: var(--ui-secondary);\n    stroke: var(--ui-black-transparent);\n}\n"
+module.exports = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* GUI */\n:root {\n    background: #111;\n    color: #eee;\n    color-scheme: dark;\n    /* see colors.csss */\n    --ui-primary: rgb(17, 17, 17);\n    --ui-secondary: rgb(30, 30, 30);\n    --ui-tertiary: rgb(46, 46, 46);\n    --ui-modal-overlay: #333a;\n    --ui-black-transparent: rgba(255, 255, 255, 0.15);\n    --text-primary: #eee;\n    /* scratch-paint */\n    --paint-ui-pane-border: var(--ui-black-transparent);\n    --paint-text-primary: #eee;\n    --paint-form-border: var(--ui-black-transparent);\n}\n\n/* Blockly */\n.blocklySvg {\n    background-color: var(--ui-secondary) !important;\n    color-scheme: light;\n}\n[id^=\"blocklyGridPattern\"] > line {\n    stroke: #484848;\n}\n.blocklyFlyoutBackground {\n    fill: #111;\n}\n.blocklyFlyoutLabelText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton .blocklyText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton:hover {\n    fill: #111;\n}\n/* blocklyFlyoutCheckboxPath stroke and blocklyFlyoutCheckbox fill must match */\n.blocklyFlyoutCheckboxPath {\n    stroke: #111;\n}\n.blocklyFlyoutCheckbox {\n    fill: #111;\n}\n.checked > .blocklyFlyoutCheckbox {\n    stroke: #a1c6fa;\n}\n.checked > .blocklyFlyoutCheckboxPath {\n    stroke: white;\n}\n.scratchCategoryMenu {\n    color: #ccc;\n}\n.blocklyToolboxDiv,\n.scratchCategoryMenu {\n    background: #111 !important;\n}\n.blocklyScrollbarHandle {\n    fill: #666;\n}\n.blocklyZoom {\n    filter: invert(100%);\n}\n.scratchCategoryMenuItem.categorySelected {\n    background: var(--ui-secondary);\n}\n.valueReportBox {\n    color: black;\n}\n.blocklyWidgetDiv {\n    color-scheme: light;\n}\n.blocklyWidgetDiv .goog-menu {\n    background: var(--ui-primary);\n    border-color: var(--ui-black-transparent);\n}\n.blocklyWidgetDiv .goog-menuitem {\n    color: var(--text-primary);\n}\n.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content {\n    color: #666 !important;\n}\n.sa-blockly-menu-item-border {\n    border-top-color: var(--ui-black-transparent) !important;\n}\n.blocklyWidgetDiv .goog-menuitem.goog-menuitem-highlight {\n    background-color: var(--ui-tertiary);\n    border-color: transparent; /* remove border */\n}\n.scratchCommentText {\n    color: black;\n}\n.blocklyInsertionMarker > .blocklyPath {\n    fill: #ccc;\n}\n\n/* Other / Multipurpose */\n.Popover {\n    /* weird Chrome bug displays white bar above popovers with color-scheme: dark */\n    color-scheme: light;\n}\n.Popover-body {\n    background: var(--ui-secondary);\n    border-color: var(--ui-black-transparent);\n    color: var(--text-primary);\n}\n.Popover-tipShape {\n    fill: var(--ui-secondary);\n    stroke: var(--ui-black-transparent);\n}\n"
 
 /***/ }),
 
-/***/ "./node_modules/strict-uri-encode/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/strict-uri-encode/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/strict-uri-encode/index.js ***!
   \*************************************************/
@@ -765,7 +765,7 @@ module.exports = function (str) {
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/de.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/de.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/de.json ***!
   \*************************************************/
@@ -776,7 +776,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Fügt die Katzenstar
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/es.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/es.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/es.json ***!
   \*************************************************/
@@ -787,7 +787,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Regresa los cat bloc
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/fr.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/fr.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/fr.json ***!
   \*************************************************/
@@ -798,7 +798,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Ramène les blocs ch
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/hu.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/hu.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/hu.json ***!
   \*************************************************/
@@ -809,7 +809,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Visszahozza a szerke
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/it.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/it.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/it.json ***!
   \*************************************************/
@@ -820,7 +820,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Mostra nell'editor i
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/ja.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ja.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/ja.json ***!
   \*************************************************/
@@ -831,7 +831,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"2020年のエイプ�
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/ko.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ko.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/ko.json ***!
   \*************************************************/
@@ -842,7 +842,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"2020년 만우절의
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/nl.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/nl.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/nl.json ***!
   \*************************************************/
@@ -853,7 +853,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Brengt de kat-blokke
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/pl.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/pl.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/pl.json ***!
   \*************************************************/
@@ -864,7 +864,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Przywraca do edytora
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/pt.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/pt.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/pt.json ***!
   \*************************************************/
@@ -875,7 +875,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Adiciona de volta os
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/ro.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ro.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/ro.json ***!
   \*************************************************/
@@ -886,7 +886,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Aduce înapoi în ed
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/ru.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ru.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/ru.json ***!
   \*************************************************/
@@ -897,7 +897,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Возвращает
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/sl.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/sl.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/sl.json ***!
   \*************************************************/
@@ -908,7 +908,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Vrne mačje bloke iz
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/tr.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/tr.json":
 /*!*************************************************!*\
   !*** ./src/addons/addons-l10n-settings/tr.json ***!
   \*************************************************/
@@ -919,7 +919,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"Bir Nisan Şaka Gün
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n-settings/zh-tw.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/zh-tw.json":
 /*!****************************************************!*\
   !*** ./src/addons/addons-l10n-settings/zh-tw.json ***!
   \****************************************************/
@@ -930,7 +930,7 @@ module.exports = JSON.parse("{\"cat-blocks/@description\":\"顯示來自 2020 �
 
 /***/ }),
 
-/***/ "./src/addons/channels.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/channels.js":
 /*!********************************!*\
   !*** ./src/addons/channels.js ***!
   \********************************/
@@ -954,7 +954,7 @@ if (typeof BroadcastChannel !== 'undefined') {
 
 /***/ }),
 
-/***/ "./src/addons/generated/l10n-settings-entries.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/l10n-settings-entries.js":
 /*!*******************************************************!*\
   !*** ./src/addons/generated/l10n-settings-entries.js ***!
   \*******************************************************/
@@ -965,26 +965,26 @@ if (typeof BroadcastChannel !== 'undefined') {
 __webpack_require__.r(__webpack_exports__);
 /* generated by pull.js */
 /* harmony default export */ __webpack_exports__["default"] = ({
-  "de": () => __webpack_require__(/*! ../addons-l10n-settings/de.json */ "./src/addons/addons-l10n-settings/de.json"),
-  "es": () => __webpack_require__(/*! ../addons-l10n-settings/es.json */ "./src/addons/addons-l10n-settings/es.json"),
-  "fr": () => __webpack_require__(/*! ../addons-l10n-settings/fr.json */ "./src/addons/addons-l10n-settings/fr.json"),
-  "hu": () => __webpack_require__(/*! ../addons-l10n-settings/hu.json */ "./src/addons/addons-l10n-settings/hu.json"),
-  "it": () => __webpack_require__(/*! ../addons-l10n-settings/it.json */ "./src/addons/addons-l10n-settings/it.json"),
-  "ja": () => __webpack_require__(/*! ../addons-l10n-settings/ja.json */ "./src/addons/addons-l10n-settings/ja.json"),
-  "ko": () => __webpack_require__(/*! ../addons-l10n-settings/ko.json */ "./src/addons/addons-l10n-settings/ko.json"),
-  "nl": () => __webpack_require__(/*! ../addons-l10n-settings/nl.json */ "./src/addons/addons-l10n-settings/nl.json"),
-  "pl": () => __webpack_require__(/*! ../addons-l10n-settings/pl.json */ "./src/addons/addons-l10n-settings/pl.json"),
-  "pt": () => __webpack_require__(/*! ../addons-l10n-settings/pt.json */ "./src/addons/addons-l10n-settings/pt.json"),
-  "ro": () => __webpack_require__(/*! ../addons-l10n-settings/ro.json */ "./src/addons/addons-l10n-settings/ro.json"),
-  "ru": () => __webpack_require__(/*! ../addons-l10n-settings/ru.json */ "./src/addons/addons-l10n-settings/ru.json"),
-  "sl": () => __webpack_require__(/*! ../addons-l10n-settings/sl.json */ "./src/addons/addons-l10n-settings/sl.json"),
-  "tr": () => __webpack_require__(/*! ../addons-l10n-settings/tr.json */ "./src/addons/addons-l10n-settings/tr.json"),
-  "zh-tw": () => __webpack_require__(/*! ../addons-l10n-settings/zh-tw.json */ "./src/addons/addons-l10n-settings/zh-tw.json")
+  "de": () => __webpack_require__(/*! ../addons-l10n-settings/de.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/de.json"),
+  "es": () => __webpack_require__(/*! ../addons-l10n-settings/es.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/es.json"),
+  "fr": () => __webpack_require__(/*! ../addons-l10n-settings/fr.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/fr.json"),
+  "hu": () => __webpack_require__(/*! ../addons-l10n-settings/hu.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/hu.json"),
+  "it": () => __webpack_require__(/*! ../addons-l10n-settings/it.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/it.json"),
+  "ja": () => __webpack_require__(/*! ../addons-l10n-settings/ja.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ja.json"),
+  "ko": () => __webpack_require__(/*! ../addons-l10n-settings/ko.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ko.json"),
+  "nl": () => __webpack_require__(/*! ../addons-l10n-settings/nl.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/nl.json"),
+  "pl": () => __webpack_require__(/*! ../addons-l10n-settings/pl.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/pl.json"),
+  "pt": () => __webpack_require__(/*! ../addons-l10n-settings/pt.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/pt.json"),
+  "ro": () => __webpack_require__(/*! ../addons-l10n-settings/ro.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ro.json"),
+  "ru": () => __webpack_require__(/*! ../addons-l10n-settings/ru.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/ru.json"),
+  "sl": () => __webpack_require__(/*! ../addons-l10n-settings/sl.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/sl.json"),
+  "tr": () => __webpack_require__(/*! ../addons-l10n-settings/tr.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/tr.json"),
+  "zh-tw": () => __webpack_require__(/*! ../addons-l10n-settings/zh-tw.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n-settings/zh-tw.json")
 });
 
 /***/ }),
 
-/***/ "./src/addons/polyfill.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/polyfill.js":
 /*!********************************!*\
   !*** ./src/addons/polyfill.js ***!
   \********************************/
@@ -1036,7 +1036,7 @@ if (typeof queueMicrotask !== 'function') {
 
 /***/ }),
 
-/***/ "./src/addons/settings/en.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/en.json":
 /*!*************************************!*\
   !*** ./src/addons/settings/en.json ***!
   \*************************************/
@@ -1047,7 +1047,7 @@ module.exports = JSON.parse("{\"title\":\"Addon Settings\",\"credits\":\"Credits
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/brush.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/brush.svg":
 /*!*********************************************!*\
   !*** ./src/addons/settings/icons/brush.svg ***!
   \*********************************************/
@@ -1058,7 +1058,7 @@ module.exports = __webpack_require__.p + "static/assets/969aaca3d7c0ff67b664b24c
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/check.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/check.svg":
 /*!*********************************************!*\
   !*** ./src/addons/settings/icons/check.svg ***!
   \*********************************************/
@@ -1069,7 +1069,7 @@ module.exports = __webpack_require__.p + "static/assets/70f8bee49a78f131d8dc8765
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/clear.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/clear.svg":
 /*!*********************************************!*\
   !*** ./src/addons/settings/icons/clear.svg ***!
   \*********************************************/
@@ -1080,7 +1080,7 @@ module.exports = __webpack_require__.p + "static/assets/e997e36ade408c75ef4424b9
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/expand.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/expand.svg":
 /*!**********************************************!*\
   !*** ./src/addons/settings/icons/expand.svg ***!
   \**********************************************/
@@ -1091,7 +1091,7 @@ module.exports = __webpack_require__.p + "static/assets/7c9434c4f1f44e3d198db3bc
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/extension.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/extension.svg":
 /*!*************************************************!*\
   !*** ./src/addons/settings/icons/extension.svg ***!
   \*************************************************/
@@ -1102,7 +1102,7 @@ module.exports = __webpack_require__.p + "static/assets/6f52bcc0310181641bac6fec
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/info.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/info.svg":
 /*!********************************************!*\
   !*** ./src/addons/settings/icons/info.svg ***!
   \********************************************/
@@ -1113,7 +1113,7 @@ module.exports = __webpack_require__.p + "static/assets/b987c9e2c37b17bd7c97f1fa
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/search.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/search.svg":
 /*!**********************************************!*\
   !*** ./src/addons/settings/icons/search.svg ***!
   \**********************************************/
@@ -1124,7 +1124,7 @@ module.exports = __webpack_require__.p + "static/assets/6fb602003b4d9e845e84f771
 
 /***/ }),
 
-/***/ "./src/addons/settings/icons/undo.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/undo.svg":
 /*!********************************************!*\
   !*** ./src/addons/settings/icons/undo.svg ***!
   \********************************************/
@@ -1135,7 +1135,7 @@ module.exports = __webpack_require__.p + "static/assets/1640b6d968e0a0e13bc3c309
 
 /***/ }),
 
-/***/ "./src/addons/settings/search.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/search.js":
 /*!***************************************!*\
   !*** ./src/addons/settings/search.js ***!
   \***************************************/
@@ -1247,7 +1247,7 @@ class Search {
 
 /***/ }),
 
-/***/ "./src/addons/settings/settings.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/settings.css":
 /*!******************************************!*\
   !*** ./src/addons/settings/settings.css ***!
   \******************************************/
@@ -1255,7 +1255,7 @@ class Search {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./settings.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/settings/settings.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./settings.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/settings/settings.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -1269,7 +1269,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -1277,7 +1277,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/addons/settings/settings.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/settings.jsx":
 /*!******************************************!*\
   !*** ./src/addons/settings/settings.jsx ***!
   \******************************************/
@@ -1286,40 +1286,40 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./search */ "./src/addons/settings/search.js");
-/* harmony import */ var _generated_addon_manifests__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../generated/addon-manifests */ "./src/addons/generated/addon-manifests.js");
-/* harmony import */ var _generated_l10n_settings_entries__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../generated/l10n-settings-entries */ "./src/addons/generated/l10n-settings-entries.js");
-/* harmony import */ var _en_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./en.json */ "./src/addons/settings/en.json");
-var _en_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./en.json */ "./src/addons/settings/en.json", 1);
-/* harmony import */ var _translations_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./translations.json */ "./src/addons/settings/translations.json");
-var _translations_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./translations.json */ "./src/addons/settings/translations.json", 1);
-/* harmony import */ var _generated_upstream_meta_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../generated/upstream-meta.json */ "./src/addons/generated/upstream-meta.json");
-var _generated_upstream_meta_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../generated/upstream-meta.json */ "./src/addons/generated/upstream-meta.json", 1);
-/* harmony import */ var _lib_detect_locale__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../lib/detect-locale */ "./src/lib/detect-locale.js");
-/* harmony import */ var _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../lib/tw-theme-hoc.jsx */ "./src/lib/tw-theme-hoc.jsx");
-/* harmony import */ var _settings_store_singleton__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../settings-store-singleton */ "./src/addons/settings-store-singleton.js");
-/* harmony import */ var _channels__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../channels */ "./src/addons/channels.js");
-/* harmony import */ var _icons_extension_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./icons/extension.svg */ "./src/addons/settings/icons/extension.svg");
+/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./search */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/search.js");
+/* harmony import */ var _generated_addon_manifests__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../generated/addon-manifests */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/addon-manifests.js");
+/* harmony import */ var _generated_l10n_settings_entries__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../generated/l10n-settings-entries */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/l10n-settings-entries.js");
+/* harmony import */ var _en_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./en.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/en.json");
+var _en_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./en.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/en.json", 1);
+/* harmony import */ var _translations_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./translations.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/translations.json");
+var _translations_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./translations.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/translations.json", 1);
+/* harmony import */ var _generated_upstream_meta_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../generated/upstream-meta.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/upstream-meta.json");
+var _generated_upstream_meta_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../generated/upstream-meta.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/upstream-meta.json", 1);
+/* harmony import */ var _lib_detect_locale__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../lib/detect-locale */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/detect-locale.js");
+/* harmony import */ var _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../lib/tw-theme-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-theme-hoc.jsx");
+/* harmony import */ var _settings_store_singleton__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../settings-store-singleton */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings-store-singleton.js");
+/* harmony import */ var _channels__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../channels */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/channels.js");
+/* harmony import */ var _icons_extension_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./icons/extension.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/extension.svg");
 /* harmony import */ var _icons_extension_svg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_icons_extension_svg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _icons_brush_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./icons/brush.svg */ "./src/addons/settings/icons/brush.svg");
+/* harmony import */ var _icons_brush_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./icons/brush.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/brush.svg");
 /* harmony import */ var _icons_brush_svg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_icons_brush_svg__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _icons_undo_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./icons/undo.svg */ "./src/addons/settings/icons/undo.svg");
+/* harmony import */ var _icons_undo_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./icons/undo.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/undo.svg");
 /* harmony import */ var _icons_undo_svg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_icons_undo_svg__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _icons_expand_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./icons/expand.svg */ "./src/addons/settings/icons/expand.svg");
+/* harmony import */ var _icons_expand_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./icons/expand.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/expand.svg");
 /* harmony import */ var _icons_expand_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_icons_expand_svg__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _icons_info_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./icons/info.svg */ "./src/addons/settings/icons/info.svg");
+/* harmony import */ var _icons_info_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./icons/info.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/icons/info.svg");
 /* harmony import */ var _icons_info_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_icons_info_svg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _settings_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./settings.css */ "./src/addons/settings/settings.css");
+/* harmony import */ var _settings_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./settings.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/settings.css");
 /* harmony import */ var _settings_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_settings_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../polyfill */ "./src/addons/polyfill.js");
+/* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../polyfill */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/polyfill.js");
 /* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_polyfill__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _lib_normalize_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../lib/normalize.css */ "./src/lib/normalize.css");
+/* harmony import */ var _lib_normalize_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../lib/normalize.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/normalize.css");
 /* harmony import */ var _lib_normalize_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_lib_normalize_css__WEBPACK_IMPORTED_MODULE_20__);
 const _excluded = ["onChange", "value"];
 
@@ -1689,8 +1689,8 @@ const Setting = ({
   }
 
   const settingId = setting.id;
-  const settingName = addonTranslations["".concat(addonId, "./@settings-name-").concat(settingId)] || setting.name;
-  const uniqueId = "setting/".concat(addonId, "./").concat(settingId);
+  const settingName = addonTranslations["".concat(addonId, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@settings-name-").concat(settingId)] || setting.name;
+  const uniqueId = "setting/".concat(addonId, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").concat(settingId);
   const label = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: uniqueId,
     className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.settingLabel
@@ -1728,7 +1728,7 @@ const Setting = ({
       name
     }) => ({
       id,
-      name: addonTranslations["".concat(addonId, "./@settings-select-").concat(settingId, "-").concat(id)] || name
+      name: addonTranslations["".concat(addonId, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@settings-select-").concat(settingId, "-").concat(id)] || name
     })),
     onChange: v => _settings_store_singleton__WEBPACK_IMPORTED_MODULE_11__["default"].setAddonSetting(addonId, settingId, v),
     setting: setting
@@ -1784,8 +1784,8 @@ const Presets = ({
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.settingLabel
 }, settingsTranslations.presets), presets.map(preset => {
   const presetId = preset.id;
-  const name = addonTranslations["".concat(addonId, "./@preset-name-").concat(presetId)] || preset.name;
-  const description = addonTranslations["".concat(addonId, "./@preset-description-").concat(presetId)] || preset.description;
+  const name = addonTranslations["".concat(addonId, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@preset-name-").concat(presetId)] || preset.name;
+  const description = addonTranslations["".concat(addonId, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@preset-description-").concat(presetId)] || preset.description;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     key: presetId,
     title: description,
@@ -1838,13 +1838,13 @@ const Addon = ({
   alt: ""
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.addonTitleText
-}, addonTranslations["".concat(id, "./@name")] || manifest.name), extended && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+}, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@name")] || manifest.name), extended && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.addonId
 }, "(".concat(id, ")"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tags, {
   manifest: manifest
 }), !settings.enabled && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.inlineDescription
-}, addonTranslations["".concat(id, "./@description")] || manifest.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+}, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@description")] || manifest.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.addonOperations
 }, settings.enabled && manifest.settings && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.resetButton,
@@ -1859,7 +1859,7 @@ const Addon = ({
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.addonDetails
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.description
-}, addonTranslations["".concat(id, "./@description")] || manifest.description), manifest.credits && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+}, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@description")] || manifest.description), manifest.credits && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.creditContainer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.creditTitle
@@ -1868,7 +1868,7 @@ const Addon = ({
 })), manifest.info && manifest.info.map(info => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Notice, {
   key: info.id,
   type: info.type,
-  text: addonTranslations["".concat(id, "./@info-").concat(info.id)] || info.text
+  text: addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@info-").concat(info.id)] || info.text
 })), manifest.noCompiler && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Notice, {
   type: "warning",
   text: settingsTranslations.noCompiler
@@ -1932,7 +1932,7 @@ const UnsupportedAddons = ({
 }, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
   key: id,
   className: _settings_css__WEBPACK_IMPORTED_MODULE_18___default.a.unsupportedAddon
-}, addonTranslations["".concat(id, "./@name")] || manifest.name, index !== addonList.length - 1 && ', ')));
+}, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@name")] || manifest.name, index !== addonList.length - 1 && ', ')));
 
 UnsupportedAddons.propTypes = {
   addons: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -2021,23 +2021,23 @@ const addonToSearchItem = ({
 
   addText(1, id);
   addText(1, manifest.name);
-  addText(1, addonTranslations["".concat(id, "./@name")]);
+  addText(1, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@name")]);
   addText(0.5, manifest.description);
-  addText(0.5, addonTranslations["".concat(id, "./@description")]);
+  addText(0.5, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@description")]);
 
   if (manifest.settings) {
     for (const setting of manifest.settings) {
       addText(0.25, setting.name);
-      addText(0.25, addonTranslations["".concat(id, "./@settings-name-").concat(setting.id)]);
+      addText(0.25, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@settings-name-").concat(setting.id)]);
     }
   }
 
   if (manifest.presets) {
     for (const preset of manifest.presets) {
       addText(0.1, preset.name);
-      addText(0.1, addonTranslations["".concat(id, "./@preset-name-").concat(preset.id)]);
+      addText(0.1, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@preset-name-").concat(preset.id)]);
       addText(0.1, preset.description);
-      addText(0.1, addonTranslations["".concat(id, "./@preset-description-").concat(preset.id)]);
+      addText(0.1, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@preset-description-").concat(preset.id)]);
     }
   }
 
@@ -2052,7 +2052,7 @@ const addonToSearchItem = ({
   if (manifest.info) {
     for (const info of manifest.info) {
       addText(0.25, info.text);
-      addText(0.25, addonTranslations["".concat(id, "./@info-").concat(info.id)]);
+      addText(0.25, addonTranslations["".concat(id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@info-").concat(info.id)]);
     }
   }
 
@@ -2378,7 +2378,7 @@ AddonSettingsComponent.propTypes = {
 
 /***/ }),
 
-/***/ "./src/addons/settings/translations.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/translations.json":
 /*!***********************************************!*\
   !*** ./src/addons/settings/translations.json ***!
   \***********************************************/
@@ -2389,7 +2389,7 @@ module.exports = JSON.parse("{\"ca\":{\"addonFeedback\":\"Comentaris del addon\"
 
 /***/ }),
 
-/***/ "./src/lib/detect-locale.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/detect-locale.js":
 /*!**********************************!*\
   !*** ./src/lib/detect-locale.js ***!
   \**********************************/
@@ -2400,7 +2400,7 @@ module.exports = JSON.parse("{\"ca\":{\"addonFeedback\":\"Comentaris del addon\"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LANGUAGE_KEY", function() { return LANGUAGE_KEY; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "detectLocale", function() { return detectLocale; });
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! query-string */ "./node_modules/query-string/index.js");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! query-string */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/query-string/index.js");
 /* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * @fileoverview
@@ -2464,7 +2464,7 @@ const detectLocale = supportedLocales => {
 
 /***/ }),
 
-/***/ "./src/lib/download-blob.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/download-blob.js":
 /*!**********************************!*\
   !*** ./src/lib/download-blob.js ***!
   \**********************************/
@@ -2509,7 +2509,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/lib/isScratchDesktop.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/isScratchDesktop.js":
 /*!*************************************!*\
   !*** ./src/lib/isScratchDesktop.js ***!
   \*************************************/
@@ -2559,7 +2559,7 @@ const notScratchDesktop = function notScratchDesktop() {
 
 /***/ }),
 
-/***/ "./src/lib/normalize.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/normalize.css":
 /*!*******************************!*\
   !*** ./src/lib/normalize.css ***!
   \*******************************/
@@ -2567,7 +2567,7 @@ const notScratchDesktop = function notScratchDesktop() {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!../../node_modules/postcss-loader/src??postcss!./normalize.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/normalize.css");
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!../../node_modules/postcss-loader/src??postcss!./normalize.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/normalize.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2581,7 +2581,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -2589,7 +2589,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/lib/tw-theme-hoc.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-theme-hoc.jsx":
 /*!**********************************!*\
   !*** ./src/lib/tw-theme-hoc.jsx ***!
   \**********************************/
@@ -2600,9 +2600,9 @@ if(false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getInitialDarkMode", function() { return getInitialDarkMode; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ThemeHOC; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./tw-theme-dark.css */ "./node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css");
+/* harmony import */ var _raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./tw-theme-dark.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css");
 /* harmony import */ var _raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1__);
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -2711,7 +2711,7 @@ const ThemeHOC = function ThemeHOC(WrappedComponent) {
 
 /***/ }),
 
-/***/ "./src/playground/addon-settings.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/addon-settings.jsx":
 /*!*******************************************!*\
   !*** ./src/playground/addon-settings.jsx ***!
   \*******************************************/
@@ -2720,13 +2720,13 @@ const ThemeHOC = function ThemeHOC(WrappedComponent) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _lib_download_blob_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/download-blob.js */ "./src/lib/download-blob.js");
-/* harmony import */ var _addons_settings_settings_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../addons/settings/settings.jsx */ "./src/addons/settings/settings.jsx");
-/* harmony import */ var _app_target__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-target */ "./src/playground/app-target.js");
+/* harmony import */ var _lib_download_blob_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/download-blob.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/download-blob.js");
+/* harmony import */ var _addons_settings_settings_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../addons/settings/settings.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings/settings.jsx");
+/* harmony import */ var _app_target__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-target */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/app-target.js");
 /**
  * Copyright (C) 2021 Thomas Weber
  *
@@ -2759,7 +2759,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/playground/app-target.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/app-target.js":
 /*!**************************************!*\
   !*** ./src/playground/app-target.js ***!
   \**************************************/

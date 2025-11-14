@@ -278,7 +278,7 @@
         
         storage.addWebStore(
           [storage.AssetType.ImageVector, storage.AssetType.ImageBitmap, storage.AssetType.Sound],
-          (asset) => new URL('./assets/' + asset.assetId + '.' + asset.dataFormat, location).href
+          (asset) => new URL('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/assets/' + asset.assetId + '.' + asset.dataFormat, location).href
         );
         return () => new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
@@ -298,7 +298,7 @@
           }
         };
         xhr.responseType = 'arraybuffer';
-        xhr.open('GET', "./assets/project.json");
+        xhr.open('GET', "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/assets/project.json");
         xhr.send();
       });
       })();

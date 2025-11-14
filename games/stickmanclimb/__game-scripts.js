@@ -471,7 +471,7 @@ LevelManager.prototype.getHammerUnlockLevels = function() {
     this.LoadLevel(currentLevelIndex)
 }, LevelManager.prototype.DisplayLevel = function() {
     var e = this.levelParent.children;
-    this.levelDisplayText.element.text = currentLevelIndex.toString() + "./" + (e.length - 1).toString(), currentLevelIndex == e.length ? this.levelDisplayText.element.text = this.restartText : 0 === currentLevelIndex && (this.levelDisplayText.element.text = this.beginText)
+    this.levelDisplayText.element.text = currentLevelIndex.toString() + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + (e.length - 1).toString(), currentLevelIndex == e.length ? this.levelDisplayText.element.text = this.restartText : 0 === currentLevelIndex && (this.levelDisplayText.element.text = this.beginText)
 }, LevelManager.prototype.LoadLevel = function(e) {
     var t = this.levelParent.children; - 1 == e && (e = currentLevelIndex), this.DisplayLevel(), this.player.rigidbody.teleport(pc.Vec3.ZERO, pc.Vec3.ZERO), this.player.rigidbody.linearVelocity = pc.Vec3.ZERO, this.camera.setPosition(new pc.Vec3(0, 0, this.camera.position.z)), this.player.script.playerTestScript.setSpawnPoint(pc.Vec3.ZERO), 0 !== e ? (currentLevelIndex = e, this.player.script.playerTestScript.cameraZoom(!1), this.ingameMenu.enabled = !0, this.entity.script.saveDataManager.saveData(), PokiSDK && PokiSDK.gameplayStart()) : PokiSDK && (this.player.script.playerTestScript.cameraZoom(!0), PokiSDK.gameplayStop());
     for (var a = 0; a < t.length; a++) t[a].enabled = a == e;
@@ -560,10 +560,10 @@ SkinManager.prototype.getLastUnlocked = function() {
     var t = 0;
     buttons = this.buttonsPotParent.children;
     for (var e = 0; e < this.potUnlockedInformation.length; e++) buttons[e].script.skinButton.setInformation(this.potUnlockedInformation[e], currentlySelected == e, this.potAdUnlockable[e], null), this.potUnlockedInformation[e] && t++;
-    this.potUnlockText.element.text = t.toString() + "./" + this.potUnlockedInformation.length.toString(), t = 0, buttons = this.buttonsHammerParent.children;
+    this.potUnlockText.element.text = t.toString() + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.potUnlockedInformation.length.toString(), t = 0, buttons = this.buttonsHammerParent.children;
     var n = this.entity.script.levelManager.getHammerUnlockLevels();
     for (e = 0; e < this.hammerUnlockedInformation.length; e++) buttons[e].script.skinButton.setInformation(this.hammerUnlockedInformation[e], currentHammerSelected == e, !1, n), this.hammerUnlockedInformation[e] && t++;
-    this.hammerUnlockText.element.text = t.toString() + "./" + this.hammerUnlockedInformation.length.toString()
+    this.hammerUnlockText.element.text = t.toString() + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.hammerUnlockedInformation.length.toString()
 }, SkinManager.prototype.setSkin = function(t, e) {
     for (var n = e ? this.playerHammerParent.children : this.playerPotParent.children, a = 0; a < n.length; a++) n[a].enabled = a == t;
     e ? currentHammerSelected = t : currentlySelected = t, this.setButtonInformation(), this.entity.script.saveDataManager.saveData()

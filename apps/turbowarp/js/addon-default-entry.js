@@ -1,13 +1,13 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-default-entry"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/color-picker/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/color-picker/style.css":
 /*!****************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/color-picker/style.css ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -19,14 +19,14 @@ exports.push([module.i, ".sa-color-picker {\n  display: flex;\n}\n\n.sa-color-pi
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/editor-comment-previews/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-comment-previews/userstyle.css":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/editor-comment-previews/userstyle.css ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -38,14 +38,14 @@ exports.push([module.i, ".sa-comment-preview-outer {\n  position: fixed;\n  top:
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/editor-searchable-dropdowns/userscript.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-searchable-dropdowns/userscript.css":
 /*!************************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/editor-searchable-dropdowns/userscript.css ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -57,35 +57,35 @@ exports.push([module.i, ".u-dropdown-searchbar {\n  width: 100%;\n  box-sizing: 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css":
 /*!*************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/editor-theme3/compatibility.css ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./* Imported by other addons */\n\n.sa-block-color {\n  --sa-block-colored-background: var(--sa-block-background-primary);\n  --sa-block-colored-background-secondary: var(--sa-block-field-background);\n  --sa-block-bright-background: var(--sa-block-background-primary);\n  --sa-block-text: white;\n  --sa-block-gray-text: white;\n  --sa-block-colored-text: var(--sa-block-background-primary);\n  --sa-block-text-on-bright-background: white;\n}\n\n.sa-block-color-motion {\n  --sa-block-background-primary: var(--editorTheme3-motion-primary, #4c97ff);\n  --sa-block-background-secondary: var(--editorTheme3-motion-secondary, #4280d7);\n  --sa-block-background-tertiary: var(--editorTheme3-motion-tertiary, #3373cc);\n  --sa-block-field-background: var(--editorTheme3-motion-field, #3373cc);\n}\n\n.sa-block-color-looks {\n  --sa-block-background-primary: var(--editorTheme3-looks-primary, #9966ff);\n  --sa-block-background-secondary: var(--editorTheme3-looks-secondary, #855cd6);\n  --sa-block-background-tertiary: var(--editorTheme3-looks-tertiary, #774dcb);\n  --sa-block-field-background: var(--editorTheme3-looks-field, #774dcb);\n}\n\n.sa-block-color-sounds {\n  --sa-block-background-primary: var(--editorTheme3-sounds-primary, #cf63cf);\n  --sa-block-background-secondary: var(--editorTheme3-sounds-secondary, #c94fc9);\n  --sa-block-background-tertiary: var(--editorTheme3-sounds-tertiary, #bd42bd);\n  --sa-block-field-background: var(--editorTheme3-sounds-field, #bd42bd);\n}\n\n.sa-block-color-events {\n  --sa-block-background-primary: var(--editorTheme3-event-primary, #ffbf00);\n  --sa-block-background-secondary: var(--editorTheme3-event-secondary, #e6ac00);\n  --sa-block-background-tertiary: var(--editorTheme3-event-tertiary, #cc9900);\n  --sa-block-field-background: var(--editorTheme3-event-field, #cc9900);\n}\n\n.sa-block-color-control {\n  --sa-block-background-primary: var(--editorTheme3-control-primary, #ffab19);\n  --sa-block-background-secondary: var(--editorTheme3-control-secondary, #ec9c13);\n  --sa-block-background-tertiary: var(--editorTheme3-control-tertiary, #cf8b17);\n  --sa-block-field-background: var(--editorTheme3-control-field, #cf8b17);\n}\n\n.sa-block-color-sensing {\n  --sa-block-background-primary: var(--editorTheme3-sensing-primary, #5cb1d6);\n  --sa-block-background-secondary: var(--editorTheme3-sensing-secondary, #47a8d1);\n  --sa-block-background-tertiary: var(--editorTheme3-sensing-tertiary, #2e8eb8);\n  --sa-block-field-background: var(--editorTheme3-sensing-field, #2e8eb8);\n}\n\n.sa-block-color-operators {\n  --sa-block-background-primary: var(--editorTheme3-operators-primary, #59c059);\n  --sa-block-background-secondary: var(--editorTheme3-operators-secondary, #46b946);\n  --sa-block-background-tertiary: var(--editorTheme3-operators-tertiary, #389438);\n  --sa-block-field-background: var(--editorTheme3-operators-field, #389438);\n}\n\n.sa-block-color-data {\n  --sa-block-background-primary: var(--editorTheme3-data-primary, #ff8c1a);\n  --sa-block-background-secondary: var(--editorTheme3-data-secondary, #ff8000);\n  --sa-block-background-tertiary: var(--editorTheme3-data-tertiary, #db6e00);\n  --sa-block-field-background: var(--editorTheme3-data-field, #db6e00);\n}\n\n.sa-block-color-data-lists,\n.sa-block-color-list {\n  --sa-block-background-primary: var(--editorTheme3-data_lists-primary, #ff661a);\n  --sa-block-background-secondary: var(--editorTheme3-data_lists-secondary, #ff5500);\n  --sa-block-background-tertiary: var(--editorTheme3-data_lists-tertiary, #e64d00);\n  --sa-block-field-background: var(--editorTheme3-data_lists-field, #e64d00);\n}\n\n.sa-block-color-more,\n.sa-block-color-null {\n  --sa-block-background-primary: var(--editorTheme3-more-primary, #ff6680);\n  --sa-block-background-secondary: var(--editorTheme3-more-secondary, #ff4d6a);\n  --sa-block-background-tertiary: var(--editorTheme3-more-tertiary, #ff3355);\n  --sa-block-field-background: var(--editorTheme3-more-field, #ff3355);\n}\n\n.sa-block-color-pen {\n  --sa-block-background-primary: var(--editorTheme3-pen-primary, #0fbd8c);\n  --sa-block-background-secondary: var(--editorTheme3-pen-secondary, #0da57a);\n  --sa-block-background-tertiary: var(--editorTheme3-pen-tertiary, #0b8e69);\n  --sa-block-field-background: var(--editorTheme3-pen-field, #0b8e69);\n}\n\n.sa-block-color-addon-custom-block {\n  --sa-block-background-primary: var(--editorTheme3-sa-primary, #29beb8);\n  --sa-block-background-secondary: var(--editorTheme3-sa-secondary, #3aa8a4);\n  --sa-block-background-tertiary: var(--editorTheme3-sa-tertiary, #3aa8a4);\n  --sa-block-field-background: var(--editorTheme3-sa-field, #3aa8a4);\n}\n\n.sa-block-color-TurboWarp {\n  --sa-block-background-primary: var(--editorTheme3-tw-primary, #ff4c4c);\n  --sa-block-background-secondary: var(--editorTheme3-tw-secondary, #e64444);\n  --sa-block-background-tertiary: var(--editorTheme3-tw-tertiary, #e64444);\n  --sa-block-field-background: var(--editorTheme3-tw-field, #e64444);\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Imported by other addons */\n\n.sa-block-color {\n  --sa-block-colored-background: var(--sa-block-background-primary);\n  --sa-block-colored-background-secondary: var(--sa-block-field-background);\n  --sa-block-bright-background: var(--sa-block-background-primary);\n  --sa-block-text: white;\n  --sa-block-gray-text: white;\n  --sa-block-colored-text: var(--sa-block-background-primary);\n  --sa-block-text-on-bright-background: white;\n}\n\n.sa-block-color-motion {\n  --sa-block-background-primary: var(--editorTheme3-motion-primary, #4c97ff);\n  --sa-block-background-secondary: var(--editorTheme3-motion-secondary, #4280d7);\n  --sa-block-background-tertiary: var(--editorTheme3-motion-tertiary, #3373cc);\n  --sa-block-field-background: var(--editorTheme3-motion-field, #3373cc);\n}\n\n.sa-block-color-looks {\n  --sa-block-background-primary: var(--editorTheme3-looks-primary, #9966ff);\n  --sa-block-background-secondary: var(--editorTheme3-looks-secondary, #855cd6);\n  --sa-block-background-tertiary: var(--editorTheme3-looks-tertiary, #774dcb);\n  --sa-block-field-background: var(--editorTheme3-looks-field, #774dcb);\n}\n\n.sa-block-color-sounds {\n  --sa-block-background-primary: var(--editorTheme3-sounds-primary, #cf63cf);\n  --sa-block-background-secondary: var(--editorTheme3-sounds-secondary, #c94fc9);\n  --sa-block-background-tertiary: var(--editorTheme3-sounds-tertiary, #bd42bd);\n  --sa-block-field-background: var(--editorTheme3-sounds-field, #bd42bd);\n}\n\n.sa-block-color-events {\n  --sa-block-background-primary: var(--editorTheme3-event-primary, #ffbf00);\n  --sa-block-background-secondary: var(--editorTheme3-event-secondary, #e6ac00);\n  --sa-block-background-tertiary: var(--editorTheme3-event-tertiary, #cc9900);\n  --sa-block-field-background: var(--editorTheme3-event-field, #cc9900);\n}\n\n.sa-block-color-control {\n  --sa-block-background-primary: var(--editorTheme3-control-primary, #ffab19);\n  --sa-block-background-secondary: var(--editorTheme3-control-secondary, #ec9c13);\n  --sa-block-background-tertiary: var(--editorTheme3-control-tertiary, #cf8b17);\n  --sa-block-field-background: var(--editorTheme3-control-field, #cf8b17);\n}\n\n.sa-block-color-sensing {\n  --sa-block-background-primary: var(--editorTheme3-sensing-primary, #5cb1d6);\n  --sa-block-background-secondary: var(--editorTheme3-sensing-secondary, #47a8d1);\n  --sa-block-background-tertiary: var(--editorTheme3-sensing-tertiary, #2e8eb8);\n  --sa-block-field-background: var(--editorTheme3-sensing-field, #2e8eb8);\n}\n\n.sa-block-color-operators {\n  --sa-block-background-primary: var(--editorTheme3-operators-primary, #59c059);\n  --sa-block-background-secondary: var(--editorTheme3-operators-secondary, #46b946);\n  --sa-block-background-tertiary: var(--editorTheme3-operators-tertiary, #389438);\n  --sa-block-field-background: var(--editorTheme3-operators-field, #389438);\n}\n\n.sa-block-color-data {\n  --sa-block-background-primary: var(--editorTheme3-data-primary, #ff8c1a);\n  --sa-block-background-secondary: var(--editorTheme3-data-secondary, #ff8000);\n  --sa-block-background-tertiary: var(--editorTheme3-data-tertiary, #db6e00);\n  --sa-block-field-background: var(--editorTheme3-data-field, #db6e00);\n}\n\n.sa-block-color-data-lists,\n.sa-block-color-list {\n  --sa-block-background-primary: var(--editorTheme3-data_lists-primary, #ff661a);\n  --sa-block-background-secondary: var(--editorTheme3-data_lists-secondary, #ff5500);\n  --sa-block-background-tertiary: var(--editorTheme3-data_lists-tertiary, #e64d00);\n  --sa-block-field-background: var(--editorTheme3-data_lists-field, #e64d00);\n}\n\n.sa-block-color-more,\n.sa-block-color-null {\n  --sa-block-background-primary: var(--editorTheme3-more-primary, #ff6680);\n  --sa-block-background-secondary: var(--editorTheme3-more-secondary, #ff4d6a);\n  --sa-block-background-tertiary: var(--editorTheme3-more-tertiary, #ff3355);\n  --sa-block-field-background: var(--editorTheme3-more-field, #ff3355);\n}\n\n.sa-block-color-pen {\n  --sa-block-background-primary: var(--editorTheme3-pen-primary, #0fbd8c);\n  --sa-block-background-secondary: var(--editorTheme3-pen-secondary, #0da57a);\n  --sa-block-background-tertiary: var(--editorTheme3-pen-tertiary, #0b8e69);\n  --sa-block-field-background: var(--editorTheme3-pen-field, #0b8e69);\n}\n\n.sa-block-color-addon-custom-block {\n  --sa-block-background-primary: var(--editorTheme3-sa-primary, #29beb8);\n  --sa-block-background-secondary: var(--editorTheme3-sa-secondary, #3aa8a4);\n  --sa-block-background-tertiary: var(--editorTheme3-sa-tertiary, #3aa8a4);\n  --sa-block-field-background: var(--editorTheme3-sa-field, #3aa8a4);\n}\n\n.sa-block-color-TurboWarp {\n  --sa-block-background-primary: var(--editorTheme3-tw-primary, #ff4c4c);\n  --sa-block-background-secondary: var(--editorTheme3-tw-secondary, #e64444);\n  --sa-block-background-tertiary: var(--editorTheme3-tw-tertiary, #e64444);\n  --sa-block-field-background: var(--editorTheme3-tw-field, #e64444);\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/find-bar/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/find-bar/userstyle.css":
 /*!****************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/find-bar/userstyle.css ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
-exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader!../editor-theme3/compatibility.css */ "./node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css"), "");
+exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader!../editor-theme3/compatibility.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css"), "");
 
 // module
 exports.push([module.i, ".sa-find-bar {\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  width: 100%;\n  height: 100%;\n  margin-left: 1em;\n}\n.sa-find-bar[hidden] {\n  /* !important to override displayNoneWhileDisabled */\n  display: none !important;\n}\n\n.sa-find-wrapper {\n  overflow: visible;\n  position: relative;\n  height: 2rem;\n  width: 100%;\n  max-width: 16em;\n}\n\n.sa-find-dropdown-out {\n  display: block;\n  top: -6px;\n  z-index: 100;\n  width: 100%;\n  max-width: 16em;\n  position: relative;\n  padding: 4px;\n  border: none;\n  border-radius: 4px;\n  margin-top: 6px;\n}\n\n.sa-find-dropdown-out.visible {\n  position: absolute;\n  width: 16em;\n  box-shadow: 0px 0px 8px 1px var(--ui-black-transparent, rgba(0, 0, 0, 0.3));\n  background-color: var(--ui-primary, white);\n}\n\n/* We need to modify Scratch styles so that the place where the find bar is injected */\n/* has actually correct size information, which is used to make the find bar not cover up controls */\n[class*=\"gui_tab-list_\"] {\n  width: 100%;\n}\n[class*=\"gui_tab_\"] {\n  flex-grow: 0;\n}\n\n.sa-find-input {\n  width: 100%;\n  box-sizing: border-box !important;\n  /* !important required for extension, because CSS injection method (and hence order) differs from addon */\n  height: 1.5rem;\n\n  /* Change Scratch default styles */\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  padding-left: 0.4em;\n}\n\n.sa-find-input:focus {\n  /* Change Scratch default styles */\n  box-shadow: none;\n}\n\n.sa-find-dropdown {\n  display: none;\n  position: relative;\n  padding: 0.2em 0;\n  font-size: 0.75rem;\n  line-height: 1;\n  overflow-y: auto;\n  min-height: 128px;\n  max-height: 65vh;\n  user-select: none;\n  max-width: 100%;\n  margin-top: 6px;\n  border: none;\n}\n\n.sa-find-dropdown-out.visible > .sa-find-dropdown {\n  display: block;\n}\n\n.sa-find-dropdown > li {\n  display: block;\n  padding: 0.5em 0.3em;\n  white-space: nowrap;\n  margin: 0;\n  font-weight: bold;\n  text-overflow: ellipsis;\n  overflow: hidden;\n}\n\n.sa-find-dropdown > li > b {\n  background-color: #aaffaa;\n  color: black;\n}\n\n/* Drop down items */\n.sa-find-dropdown > li:hover,\n.sa-find-dropdown > li.sel {\n  color: var(--sa-block-text-on-bright-background);\n  cursor: pointer;\n}\n\n.sa-find-dropdown > li::before {\n  content: \"\\25CF   \"; /* ● */\n}\n\n.sa-find-flag {\n  color: #4cbf56;\n}\n/* .sa-find-dropdown added for specificity */\n.sa-find-dropdown > .sa-find-flag:hover,\n.sa-find-dropdown > .sa-find-flag.sel {\n  background-color: #4cbf56;\n  color: white;\n}\n\n.sa-find-dropdown .sa-block-color {\n  color: var(--sa-block-colored-text);\n}\n.sa-find-dropdown .sa-block-color:hover,\n.sa-find-dropdown .sa-block-color.sel {\n  background-color: var(--sa-block-bright-background);\n}\n\n.sa-find-carousel {\n  font-weight: normal;\n  position: absolute;\n  right: 0;\n  white-space: nowrap;\n  background-color: inherit;\n  z-index: 1;\n  padding: 0;\n}\n\n.sa-find-carousel-control {\n  padding: 0 6px;\n}\n\n.sa-find-carousel-control:hover {\n  color: #ffff80;\n}\n", ""]);
@@ -95,14 +95,14 @@ exports.push([module.i, ".sa-find-bar {\n  display: flex;\n  align-items: center
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/folders/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/folders/style.css":
 /*!***********************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/folders/style.css ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -114,33 +114,33 @@ exports.push([module.i, ".sa-folders-contextmenu-item {\n  max-width: 250px;\n  
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/middle-click-popup/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/middle-click-popup/userstyle.css":
 /*!**************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/middle-click-popup/userstyle.css ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
-exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader!../editor-theme3/compatibility.css */ "./node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css"), "");
+exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader!../editor-theme3/compatibility.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css"), "");
 
 // module
-exports.push([module.i, "./* Find Input Box */\n.sa-float-bar-input {\n  width: 100%;\n  box-sizing: border-box !important;\n  /* !important required for extension, because CSS injection method (and hence order) differs from addon */\n  height: 1.5rem;\n\n  /* Change Scratch default styles */\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  padding-left: 0.4em;\n}\n[theme=\"dark\"] input.s3devInp {\n  color: #eee;\n  background: #3333;\n}\n[theme=\"dark\"] input.s3devInp:hover {\n  background: #333;\n}\n\n.sa-float-bar-input:focus {\n  /* Change Scratch default styles */\n  box-shadow: none;\n}\n\n/* Drop down from find button */\n.sa-float-bar-dropdown-out {\n  display: block;\n  top: -6px;\n  z-index: 100;\n  max-width: 16em;\n  padding: 4px;\n  position: absolute;\n  width: 16em;\n  box-shadow: 0px 0px 8px 1px var(--ui-black-transparent, rgba(0, 0, 0, 0.3));\n  background-color: var(--ui-primary, white);\n  border: none;\n  border-radius: 4px;\n}\n\n/* Drop down from find button */\n.sa-float-bar-dropdown {\n  display: none;\n  position: relative;\n  padding: 0.2em 0;\n  font-size: 0.75rem;\n  line-height: 1;\n  overflow-y: auto;\n  min-height: 128px;\n  user-select: none;\n  max-width: 100%;\n  max-height: 200px;\n  margin-bottom: 0;\n}\n\n.sa-float-bar-dropdown-out.vis .sa-float-bar-dropdown {\n  display: block;\n  border: none;\n}\n\n/* Drop down items */\n.sa-float-bar-dropdown > li {\n  display: block;\n  padding: 0.5em 0.3em;\n  white-space: nowrap;\n  margin: 0;\n  font-weight: bold;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.sa-float-bar-dropdown > li > b {\n  background-color: #aaffaa;\n  color: black;\n}\n\n.sa-float-bar-dropdown > li {\n  height: 19px;\n  padding: 3px 8px;\n  margin: 2px 0.3em;\n  box-sizing: border-box;\n  position: relative;\n  background-color: var(--sa-block-colored-background);\n  color: var(--sa-block-text);\n  font-weight: bold;\n  width: min-content;\n}\n.sa-float-bar-dropdown > li:hover,\n.sa-float-bar-dropdown > li.sel {\n  background-color: var(--sa-block-colored-background-secondary);\n}\n\n.sa-float-bar-dropdown > li.sa-hat {\n  border-radius: 14px 14px 3px 3px;\n}\n.sa-float-bar-dropdown > li.sa-block {\n  border-radius: 3px;\n}\n.sa-float-bar-dropdown > li.sa-reporter {\n  border-radius: 10px;\n}\n\n.sa-float-bar-dropdown > li.sa-boolean {\n  width: min-content;\n}\n.sa-float-bar-dropdown > li.sa-boolean::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 0;\n  height: 0;\n  border-right: 9px solid transparent;\n  border-top: 9px solid var(--ui-primary, white);\n  border-bottom: 10px solid var(--ui-primary, white);\n}\n.sa-float-bar-dropdown > li.sa-boolean::after {\n  content: \"\";\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 0;\n  height: 0;\n  border-left: 9px solid transparent;\n  border-top: 9px solid var(--ui-primary, white);\n  border-bottom: 10px solid var(--ui-primary, white);\n}\n[theme=\"dark\"] .s3devDD > li.boolean::before {\n  border-top-color: #111;\n  border-bottom-color: #111;\n}\n[theme=\"dark\"] .s3devDD > li.boolean::after {\n  border-top-color: #111;\n  border-bottom-color: #111;\n}\n\n.sa-float-bar {\n  display: flex;\n  white-space: nowrap;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n\n  position: absolute;\n  min-width: 128px;\n  background-color: white;\n  border-radius: 4px;\n  box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px, rgba(0, 0, 0, 0.2) 0 3px 10px;\n\n  z-index: 999;\n}\n[theme=\"dark\"] #s3devFloatingBar {\n  background-color: #111;\n}\n\n.sa-float-bar-dropdown > li > b {\n  background-color: rgba(0, 0, 0, 0.6);\n  color: white;\n}\n\n[data-highlighted=\"true\"] {\n  background-color: hsla(30, 100%, 55%, 1) !important; /* orange */\n  color: white !important;\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Find Input Box */\n.sa-float-bar-input {\n  width: 100%;\n  box-sizing: border-box !important;\n  /* !important required for extension, because CSS injection method (and hence order) differs from addon */\n  height: 1.5rem;\n\n  /* Change Scratch default styles */\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  padding-left: 0.4em;\n}\n[theme=\"dark\"] input.s3devInp {\n  color: #eee;\n  background: #3333;\n}\n[theme=\"dark\"] input.s3devInp:hover {\n  background: #333;\n}\n\n.sa-float-bar-input:focus {\n  /* Change Scratch default styles */\n  box-shadow: none;\n}\n\n/* Drop down from find button */\n.sa-float-bar-dropdown-out {\n  display: block;\n  top: -6px;\n  z-index: 100;\n  max-width: 16em;\n  padding: 4px;\n  position: absolute;\n  width: 16em;\n  box-shadow: 0px 0px 8px 1px var(--ui-black-transparent, rgba(0, 0, 0, 0.3));\n  background-color: var(--ui-primary, white);\n  border: none;\n  border-radius: 4px;\n}\n\n/* Drop down from find button */\n.sa-float-bar-dropdown {\n  display: none;\n  position: relative;\n  padding: 0.2em 0;\n  font-size: 0.75rem;\n  line-height: 1;\n  overflow-y: auto;\n  min-height: 128px;\n  user-select: none;\n  max-width: 100%;\n  max-height: 200px;\n  margin-bottom: 0;\n}\n\n.sa-float-bar-dropdown-out.vis .sa-float-bar-dropdown {\n  display: block;\n  border: none;\n}\n\n/* Drop down items */\n.sa-float-bar-dropdown > li {\n  display: block;\n  padding: 0.5em 0.3em;\n  white-space: nowrap;\n  margin: 0;\n  font-weight: bold;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.sa-float-bar-dropdown > li > b {\n  background-color: #aaffaa;\n  color: black;\n}\n\n.sa-float-bar-dropdown > li {\n  height: 19px;\n  padding: 3px 8px;\n  margin: 2px 0.3em;\n  box-sizing: border-box;\n  position: relative;\n  background-color: var(--sa-block-colored-background);\n  color: var(--sa-block-text);\n  font-weight: bold;\n  width: min-content;\n}\n.sa-float-bar-dropdown > li:hover,\n.sa-float-bar-dropdown > li.sel {\n  background-color: var(--sa-block-colored-background-secondary);\n}\n\n.sa-float-bar-dropdown > li.sa-hat {\n  border-radius: 14px 14px 3px 3px;\n}\n.sa-float-bar-dropdown > li.sa-block {\n  border-radius: 3px;\n}\n.sa-float-bar-dropdown > li.sa-reporter {\n  border-radius: 10px;\n}\n\n.sa-float-bar-dropdown > li.sa-boolean {\n  width: min-content;\n}\n.sa-float-bar-dropdown > li.sa-boolean::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 0;\n  height: 0;\n  border-right: 9px solid transparent;\n  border-top: 9px solid var(--ui-primary, white);\n  border-bottom: 10px solid var(--ui-primary, white);\n}\n.sa-float-bar-dropdown > li.sa-boolean::after {\n  content: \"\";\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 0;\n  height: 0;\n  border-left: 9px solid transparent;\n  border-top: 9px solid var(--ui-primary, white);\n  border-bottom: 10px solid var(--ui-primary, white);\n}\n[theme=\"dark\"] .s3devDD > li.boolean::before {\n  border-top-color: #111;\n  border-bottom-color: #111;\n}\n[theme=\"dark\"] .s3devDD > li.boolean::after {\n  border-top-color: #111;\n  border-bottom-color: #111;\n}\n\n.sa-float-bar {\n  display: flex;\n  white-space: nowrap;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n\n  position: absolute;\n  min-width: 128px;\n  background-color: white;\n  border-radius: 4px;\n  box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px, rgba(0, 0, 0, 0.2) 0 3px 10px;\n\n  z-index: 999;\n}\n[theme=\"dark\"] #s3devFloatingBar {\n  background-color: #111;\n}\n\n.sa-float-bar-dropdown > li > b {\n  background-color: rgba(0, 0, 0, 0.6);\n  color: white;\n}\n\n[data-highlighted=\"true\"] {\n  background-color: hsla(30, 100%, 55%, 1) !important; /* orange */\n  color: white !important;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/onion-skinning/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/onion-skinning/style.css":
 /*!******************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/onion-skinning/style.css ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -152,14 +152,14 @@ exports.push([module.i, ".sa-onion-button {\n  position: relative;\n}\n.sa-onion
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/pick-colors-from-stage/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/pick-colors-from-stage/style.css":
 /*!**************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/pick-colors-from-stage/style.css ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -171,7 +171,7 @@ exports.push([module.i, ".sa-stage-color-picker-picking [class^=\"stage_color-pi
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/editor-devtools/icon--close.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/editor-devtools/icon--close.svg":
 /*!*************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/editor-devtools/icon--close.svg ***!
   \*************************************************************************************************/
@@ -184,7 +184,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/folders/folder.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/folders/folder.svg":
 /*!************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/folders/folder.svg ***!
   \************************************************************************************/
@@ -197,7 +197,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/decrement.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/decrement.svg":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/decrement.svg ***!
   \**********************************************************************************************/
@@ -210,7 +210,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/increment.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/increment.svg":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/increment.svg ***!
   \**********************************************************************************************/
@@ -223,7 +223,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/settings.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/settings.svg":
 /*!*********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/settings.svg ***!
   \*********************************************************************************************/
@@ -236,7 +236,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/toggle.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/toggle.svg":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/toggle.svg ***!
   \*******************************************************************************************/
@@ -249,7 +249,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/bitmap-copy/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/bitmap-copy/_runtime_entry.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/bitmap-copy/_runtime_entry.js ***!
   \*********************************************************/
@@ -259,7 +259,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/bitmap-copy/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/bitmap-copy/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -268,7 +268,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/bitmap-copy/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/bitmap-copy/userscript.js":
 /*!*****************************************************!*\
   !*** ./src/addons/addons/bitmap-copy/userscript.js ***!
   \*****************************************************/
@@ -301,7 +301,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-cherry-picking/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-cherry-picking/_runtime_entry.js":
 /*!******************************************************************!*\
   !*** ./src/addons/addons/block-cherry-picking/_runtime_entry.js ***!
   \******************************************************************/
@@ -311,7 +311,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/block-cherry-picking/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-cherry-picking/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -320,7 +320,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-cherry-picking/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-cherry-picking/userscript.js":
 /*!**************************************************************!*\
   !*** ./src/addons/addons/block-cherry-picking/userscript.js ***!
   \**************************************************************/
@@ -329,7 +329,7 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _block_duplicate_module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../block-duplicate/module.js */ "./src/addons/addons/block-duplicate/module.js");
+/* harmony import */ var _block_duplicate_module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../block-duplicate/module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/module.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,
@@ -348,7 +348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-duplicate/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/_runtime_entry.js":
 /*!*************************************************************!*\
   !*** ./src/addons/addons/block-duplicate/_runtime_entry.js ***!
   \*************************************************************/
@@ -358,7 +358,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/block-duplicate/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -367,7 +367,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-duplicate/module.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/module.js":
 /*!*****************************************************!*\
   !*** ./src/addons/addons/block-duplicate/module.js ***!
   \*****************************************************/
@@ -474,7 +474,7 @@ async function load(addon) {
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-duplicate/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/userscript.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/block-duplicate/userscript.js ***!
   \*********************************************************/
@@ -483,7 +483,7 @@ async function load(addon) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "./src/addons/addons/block-duplicate/module.js");
+/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/module.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,
@@ -501,7 +501,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-switching/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-switching/_runtime_entry.js":
 /*!*************************************************************!*\
   !*** ./src/addons/addons/block-switching/_runtime_entry.js ***!
   \*************************************************************/
@@ -511,7 +511,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/block-switching/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-switching/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -520,7 +520,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-switching/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-switching/userscript.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/block-switching/userscript.js ***!
   \*********************************************************/
@@ -1362,7 +1362,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/color-picker/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/color-picker/_runtime_entry.js":
 /*!**********************************************************!*\
   !*** ./src/addons/addons/color-picker/_runtime_entry.js ***!
   \**********************************************************/
@@ -1372,8 +1372,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/color-picker/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/color-picker/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/color-picker/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/color-picker/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
 /* generated by pull.js */
 
@@ -1385,7 +1385,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/color-picker/code-editor.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/color-picker/code-editor.js":
 /*!*******************************************************!*\
   !*** ./src/addons/addons/color-picker/code-editor.js ***!
   \*******************************************************/
@@ -1394,9 +1394,9 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _libraries_common_cs_normalize_color_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../libraries/common/cs/normalize-color.js */ "./src/addons/libraries/common/cs/normalize-color.js");
-/* harmony import */ var _libraries_common_cs_rate_limiter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../libraries/common/cs/rate-limiter.js */ "./src/addons/libraries/common/cs/rate-limiter.js");
-/* harmony import */ var _libraries_thirdparty_cs_tinycolor_min_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../libraries/thirdparty/cs/tinycolor-min.js */ "./src/addons/libraries/thirdparty/cs/tinycolor-min.js");
+/* harmony import */ var _libraries_common_cs_normalize_color_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../libraries/common/cs/normalize-color.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/normalize-color.js");
+/* harmony import */ var _libraries_common_cs_rate_limiter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../libraries/common/cs/rate-limiter.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/rate-limiter.js");
+/* harmony import */ var _libraries_thirdparty_cs_tinycolor_min_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../libraries/thirdparty/cs/tinycolor-min.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/thirdparty/cs/tinycolor-min.js");
 
 
 
@@ -1506,7 +1506,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/color-picker/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/color-picker/userscript.js":
 /*!******************************************************!*\
   !*** ./src/addons/addons/color-picker/userscript.js ***!
   \******************************************************/
@@ -1515,7 +1515,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _code_editor_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./code-editor.js */ "./src/addons/addons/color-picker/code-editor.js");
+/* harmony import */ var _code_editor_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./code-editor.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/color-picker/code-editor.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async api => {
   Object(_code_editor_js__WEBPACK_IMPORTED_MODULE_0__["default"])(api);
@@ -1523,7 +1523,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-comment-previews/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-comment-previews/_runtime_entry.js":
 /*!*********************************************************************!*\
   !*** ./src/addons/addons/editor-comment-previews/_runtime_entry.js ***!
   \*********************************************************************/
@@ -1533,8 +1533,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/editor-comment-previews/userscript.js");
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/editor-comment-previews/userstyle.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-comment-previews/userscript.js");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-comment-previews/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__);
 /* generated by pull.js */
 
@@ -1546,7 +1546,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-comment-previews/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-comment-previews/userscript.js":
 /*!*****************************************************************!*\
   !*** ./src/addons/addons/editor-comment-previews/userscript.js ***!
   \*****************************************************************/
@@ -1711,7 +1711,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-devtools/DevTools.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/DevTools.js":
 /*!*******************************************************!*\
   !*** ./src/addons/addons/editor-devtools/DevTools.js ***!
   \*******************************************************/
@@ -1721,9 +1721,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return DevTools; });
-/* harmony import */ var _DomHelpers_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DomHelpers.js */ "./src/addons/addons/editor-devtools/DomHelpers.js");
-/* harmony import */ var _UndoGroup_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UndoGroup.js */ "./src/addons/addons/editor-devtools/UndoGroup.js");
-// import ShowBroadcast from "./show-broadcast.js";
+/* harmony import */ var _DomHelpers_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DomHelpers.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/DomHelpers.js");
+/* harmony import */ var _UndoGroup_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UndoGroup.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/UndoGroup.js");
+// import ShowBroadcast from "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/show-broadcast.js";
 
 
 class DevTools {
@@ -2515,7 +2515,7 @@ class Col {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-devtools/DomHelpers.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/DomHelpers.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/editor-devtools/DomHelpers.js ***!
   \*********************************************************/
@@ -2639,7 +2639,7 @@ class eventDetails {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-devtools/UndoGroup.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/UndoGroup.js":
 /*!********************************************************!*\
   !*** ./src/addons/addons/editor-devtools/UndoGroup.js ***!
   \********************************************************/
@@ -2705,7 +2705,7 @@ function generateUID() {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-devtools/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/_runtime_entry.js":
 /*!*************************************************************!*\
   !*** ./src/addons/addons/editor-devtools/_runtime_entry.js ***!
   \*************************************************************/
@@ -2715,8 +2715,8 @@ function generateUID() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/editor-devtools/userscript.js");
-/* harmony import */ var _url_loader_icon_close_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./icon--close.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/editor-devtools/icon--close.svg");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/userscript.js");
+/* harmony import */ var _url_loader_icon_close_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./icon--close.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/editor-devtools/icon--close.svg");
 /* generated by pull.js */
 
 
@@ -2727,7 +2727,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-devtools/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/userscript.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/editor-devtools/userscript.js ***!
   \*********************************************************/
@@ -2736,7 +2736,7 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DevTools_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DevTools.js */ "./src/addons/addons/editor-devtools/DevTools.js");
+/* harmony import */ var _DevTools_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DevTools.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/DevTools.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,
@@ -2750,7 +2750,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-searchable-dropdowns/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-searchable-dropdowns/_runtime_entry.js":
 /*!*************************************************************************!*\
   !*** ./src/addons/addons/editor-searchable-dropdowns/_runtime_entry.js ***!
   \*************************************************************************/
@@ -2760,8 +2760,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/editor-searchable-dropdowns/userscript.js");
-/* harmony import */ var _css_loader_userscript_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userscript.css */ "./node_modules/css-loader/index.js!./src/addons/addons/editor-searchable-dropdowns/userscript.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-searchable-dropdowns/userscript.js");
+/* harmony import */ var _css_loader_userscript_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userscript.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-searchable-dropdowns/userscript.css");
 /* harmony import */ var _css_loader_userscript_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userscript_css__WEBPACK_IMPORTED_MODULE_1__);
 /* generated by pull.js */
 
@@ -2773,7 +2773,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-searchable-dropdowns/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-searchable-dropdowns/userscript.js":
 /*!*********************************************************************!*\
   !*** ./src/addons/addons/editor-searchable-dropdowns/userscript.js ***!
   \*********************************************************************/
@@ -3132,7 +3132,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/find-bar/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/_runtime_entry.js":
 /*!******************************************************!*\
   !*** ./src/addons/addons/find-bar/_runtime_entry.js ***!
   \******************************************************/
@@ -3142,8 +3142,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/find-bar/userscript.js");
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/find-bar/userstyle.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/userscript.js");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/find-bar/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__);
 /* generated by pull.js */
 
@@ -3155,7 +3155,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/find-bar/blockly/BlockItem.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockItem.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/find-bar/blockly/BlockItem.js ***!
   \*********************************************************/
@@ -3207,7 +3207,7 @@ class BlockItem {
 
 /***/ }),
 
-/***/ "./src/addons/addons/find-bar/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/userscript.js":
 /*!**************************************************!*\
   !*** ./src/addons/addons/find-bar/userscript.js ***!
   \**************************************************/
@@ -3216,9 +3216,9 @@ class BlockItem {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _blockly_BlockItem_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./blockly/BlockItem.js */ "./src/addons/addons/find-bar/blockly/BlockItem.js");
-/* harmony import */ var _blockly_BlockInstance_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./blockly/BlockInstance.js */ "./src/addons/addons/find-bar/blockly/BlockInstance.js");
-/* harmony import */ var _blockly_Utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./blockly/Utils.js */ "./src/addons/addons/find-bar/blockly/Utils.js");
+/* harmony import */ var _blockly_BlockItem_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./blockly/BlockItem.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockItem.js");
+/* harmony import */ var _blockly_BlockInstance_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./blockly/BlockInstance.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockInstance.js");
+/* harmony import */ var _blockly_Utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./blockly/Utils.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/Utils.js");
 
 
 
@@ -4082,7 +4082,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/folders/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/folders/_runtime_entry.js":
 /*!*****************************************************!*\
   !*** ./src/addons/addons/folders/_runtime_entry.js ***!
   \*****************************************************/
@@ -4092,10 +4092,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/folders/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/folders/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/folders/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/folders/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_folder_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./folder.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/folders/folder.svg");
+/* harmony import */ var _url_loader_folder_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./folder.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/folders/folder.svg");
 /* generated by pull.js */
 
 
@@ -4108,7 +4108,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/folders/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/folders/userscript.js":
 /*!*************************************************!*\
   !*** ./src/addons/addons/folders/userscript.js ***!
   \*************************************************/
@@ -4153,7 +4153,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   let currentAssetFolder;
   let currentSpriteItems;
   let currentAssetItems;
-  const DIVIDER = ".//";
+  const DIVIDER = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//";
   /**
    * getFolderFromName("B") === null
    * getFolderFromName("A//b") === "A"
@@ -4202,7 +4202,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   };
 
   const isValidFolderName = name => {
-    return !name.includes(DIVIDER) && !name.endsWith("./");
+    return !name.includes(DIVIDER) && !name.endsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
   };
 
   const RESERVED_NAMES = ["_mouse_", "_stage_", "_edge_", "_myself_", "_random_"];
@@ -4265,7 +4265,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
     encodeDataURI() {
       // Doesn't actually need to be a data: URI
-      return addon.self.getResource("./folder.svg")
+      return addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/folder.svg")
       /* rewritten by pull.js */
       ;
     }
@@ -5528,7 +5528,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /***/ }),
 
-/***/ "./src/addons/addons/middle-click-popup/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/middle-click-popup/_runtime_entry.js":
 /*!****************************************************************!*\
   !*** ./src/addons/addons/middle-click-popup/_runtime_entry.js ***!
   \****************************************************************/
@@ -5538,8 +5538,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/middle-click-popup/userscript.js");
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/middle-click-popup/userstyle.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/middle-click-popup/userscript.js");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/middle-click-popup/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__);
 /* generated by pull.js */
 
@@ -5551,7 +5551,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/middle-click-popup/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/middle-click-popup/userscript.js":
 /*!************************************************************!*\
   !*** ./src/addons/addons/middle-click-popup/userscript.js ***!
   \************************************************************/
@@ -6069,7 +6069,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/move-to-top-bottom/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/move-to-top-bottom/_runtime_entry.js":
 /*!****************************************************************!*\
   !*** ./src/addons/addons/move-to-top-bottom/_runtime_entry.js ***!
   \****************************************************************/
@@ -6079,7 +6079,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/move-to-top-bottom/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/move-to-top-bottom/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -6088,7 +6088,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/move-to-top-bottom/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/move-to-top-bottom/userscript.js":
 /*!************************************************************!*\
   !*** ./src/addons/addons/move-to-top-bottom/userscript.js ***!
   \************************************************************/
@@ -6149,7 +6149,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/onion-skinning/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/onion-skinning/_runtime_entry.js":
 /*!************************************************************!*\
   !*** ./src/addons/addons/onion-skinning/_runtime_entry.js ***!
   \************************************************************/
@@ -6159,13 +6159,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/onion-skinning/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/onion-skinning/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/onion-skinning/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/onion-skinning/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_decrement_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./decrement.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/decrement.svg");
-/* harmony import */ var _url_loader_increment_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./increment.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/increment.svg");
-/* harmony import */ var _url_loader_settings_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./settings.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/settings.svg");
-/* harmony import */ var _url_loader_toggle_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./toggle.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/toggle.svg");
+/* harmony import */ var _url_loader_decrement_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./decrement.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/decrement.svg");
+/* harmony import */ var _url_loader_increment_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./increment.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/increment.svg");
+/* harmony import */ var _url_loader_settings_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./settings.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/settings.svg");
+/* harmony import */ var _url_loader_toggle_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./toggle.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/onion-skinning/toggle.svg");
 /* generated by pull.js */
 
 
@@ -6184,7 +6184,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/onion-skinning/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/onion-skinning/userscript.js":
 /*!********************************************************!*\
   !*** ./src/addons/addons/onion-skinning/userscript.js ***!
   \********************************************************/
@@ -6820,7 +6820,7 @@ __webpack_require__.r(__webpack_exports__);
     el.draggable = false;
     el.dataset.image = name;
     el.loading = "lazy";
-    el.src = addon.self.getResource("./" + name + ".svg")
+    el.src = addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + name + ".svg")
     /* rewritten by pull.js */
     ;
     return el;
@@ -7062,7 +7062,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/pick-colors-from-stage/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pick-colors-from-stage/_runtime_entry.js":
 /*!********************************************************************!*\
   !*** ./src/addons/addons/pick-colors-from-stage/_runtime_entry.js ***!
   \********************************************************************/
@@ -7072,8 +7072,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/pick-colors-from-stage/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/pick-colors-from-stage/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pick-colors-from-stage/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/pick-colors-from-stage/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
 /* generated by pull.js */
 
@@ -7085,7 +7085,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/pick-colors-from-stage/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pick-colors-from-stage/userscript.js":
 /*!****************************************************************!*\
   !*** ./src/addons/addons/pick-colors-from-stage/userscript.js ***!
   \****************************************************************/
@@ -7174,7 +7174,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /***/ }),
 
-/***/ "./src/addons/addons/rename-broadcasts/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/rename-broadcasts/_runtime_entry.js":
 /*!***************************************************************!*\
   !*** ./src/addons/addons/rename-broadcasts/_runtime_entry.js ***!
   \***************************************************************/
@@ -7184,7 +7184,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/rename-broadcasts/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/rename-broadcasts/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -7193,7 +7193,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/rename-broadcasts/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/rename-broadcasts/userscript.js":
 /*!***********************************************************!*\
   !*** ./src/addons/addons/rename-broadcasts/userscript.js ***!
   \***********************************************************/
@@ -7405,7 +7405,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/libraries/common/cs/normalize-color.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/normalize-color.js":
 /*!***********************************************************!*\
   !*** ./src/addons/libraries/common/cs/normalize-color.js ***!
   \***********************************************************/
@@ -7432,7 +7432,7 @@ const normalizeHex = input => {
 
 /***/ }),
 
-/***/ "./src/addons/libraries/common/cs/rate-limiter.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/rate-limiter.js":
 /*!********************************************************!*\
   !*** ./src/addons/libraries/common/cs/rate-limiter.js ***!
   \********************************************************/
@@ -7470,7 +7470,7 @@ class RateLimiter {
 
 /***/ }),
 
-/***/ "./src/addons/libraries/thirdparty/cs/tinycolor-min.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/thirdparty/cs/tinycolor-min.js":
 /*!*************************************************************!*\
   !*** ./src/addons/libraries/thirdparty/cs/tinycolor-min.js ***!
   \*************************************************************/

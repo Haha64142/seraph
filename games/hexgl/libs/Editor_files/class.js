@@ -201,7 +201,7 @@
              */
             underscore: function (s)
             {
-                return s.replace(regs.colons, './').replace(regs.words, '$1_$2').replace(regs.lowUp, '$1_$2').replace(regs.dash, '_').toLowerCase();
+                return s.replace(regs.colons, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').replace(regs.words, '$1_$2').replace(regs.lowUp, '$1_$2').replace(regs.dash, '_').toLowerCase();
             },
             /**
              * Returns a string with {param} replaced values from data.
@@ -541,7 +541,7 @@
          * $.Class.extend("Todo",{
          *   init: function( name ) { this.name = name }
          *   get: function() {
-         *     $.get("./stuff",this.callback('show'))
+         *     $.get("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/stuff",this.callback('show'))
          *   },
          *   show: function( txt ) {
          *     alert(this.name+txt)

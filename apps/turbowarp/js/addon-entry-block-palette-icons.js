@@ -1,26 +1,26 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-block-palette-icons"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css":
 /*!***************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/block-palette-icons/userstyle.css ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".scratchCategoryItemBubble {\n  position: relative;\n}\n\n.scratchCategoryItemBubble::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.scratchCategoryId-motion .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/motion_icon.svg */ "./src/addons/addons/block-palette-icons/icons/motion_icon.svg")) + ");\n}\n\n.scratchCategoryId-looks .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/looks_icon.svg */ "./src/addons/addons/block-palette-icons/icons/looks_icon.svg")) + ");\n}\n\n.scratchCategoryId-sound .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/sound_icon.svg */ "./src/addons/addons/block-palette-icons/icons/sound_icon.svg")) + ");\n}\n\n.scratchCategoryId-events .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/events_icon.svg */ "./src/addons/addons/block-palette-icons/icons/events_icon.svg")) + ");\n}\n\n.scratchCategoryId-control .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/control_icon.svg */ "./src/addons/addons/block-palette-icons/icons/control_icon.svg")) + ");\n}\n\n.scratchCategoryId-sensing .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/sensing_icon.svg */ "./src/addons/addons/block-palette-icons/icons/sensing_icon.svg")) + ");\n}\n\n.scratchCategoryId-operators .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/operators_icon.svg */ "./src/addons/addons/block-palette-icons/icons/operators_icon.svg")) + ");\n}\n\n.scratchCategoryId-variables .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/variables_icon.svg */ "./src/addons/addons/block-palette-icons/icons/variables_icon.svg")) + ");\n}\n\n.scratchCategoryId-lists .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/list_icon.svg */ "./src/addons/addons/block-palette-icons/icons/list_icon.svg")) + ");\n}\n\n.scratchCategoryId-myBlocks .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/block_icon.svg */ "./src/addons/addons/block-palette-icons/icons/block_icon.svg")) + ");\n}\n", ""]);
+exports.push([module.i, ".scratchCategoryItemBubble {\n  position: relative;\n}\n\n.scratchCategoryItemBubble::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.scratchCategoryId-motion .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/motion_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/motion_icon.svg")) + ");\n}\n\n.scratchCategoryId-looks .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/looks_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/looks_icon.svg")) + ");\n}\n\n.scratchCategoryId-sound .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/sound_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/sound_icon.svg")) + ");\n}\n\n.scratchCategoryId-events .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/events_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/events_icon.svg")) + ");\n}\n\n.scratchCategoryId-control .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/control_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/control_icon.svg")) + ");\n}\n\n.scratchCategoryId-sensing .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/sensing_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/sensing_icon.svg")) + ");\n}\n\n.scratchCategoryId-operators .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/operators_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/operators_icon.svg")) + ");\n}\n\n.scratchCategoryId-variables .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/variables_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/variables_icon.svg")) + ");\n}\n\n.scratchCategoryId-lists .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/list_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/list_icon.svg")) + ");\n}\n\n.scratchCategoryId-myBlocks .scratchCategoryItemBubble::after {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/block_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/block_icon.svg")) + ");\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg ***!
   \**********************************************************************************************************/
@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg ***!
   \************************************************************************************************************/
@@ -46,7 +46,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg ***!
   \***********************************************************************************************************/
@@ -59,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg":
 /*!*********************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg ***!
   \*********************************************************************************************************/
@@ -72,7 +72,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg ***!
   \**********************************************************************************************************/
@@ -85,7 +85,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg ***!
   \***********************************************************************************************************/
@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg":
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg ***!
   \**************************************************************************************************************/
@@ -111,7 +111,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg ***!
   \************************************************************************************************************/
@@ -124,7 +124,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg ***!
   \**********************************************************************************************************/
@@ -137,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg":
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg ***!
   \**************************************************************************************************************/
@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/_runtime_entry.js":
 /*!*****************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/_runtime_entry.js ***!
   \*****************************************************************/
@@ -160,18 +160,18 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _url_loader_icons_block_icon_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./icons/block_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg");
-/* harmony import */ var _url_loader_icons_control_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/control_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg");
-/* harmony import */ var _url_loader_icons_events_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/events_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg");
-/* harmony import */ var _url_loader_icons_list_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/list_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg");
-/* harmony import */ var _url_loader_icons_looks_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/looks_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg");
-/* harmony import */ var _url_loader_icons_motion_icon_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/motion_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg");
-/* harmony import */ var _url_loader_icons_operators_icon_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/operators_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg");
-/* harmony import */ var _url_loader_icons_sensing_icon_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! url-loader!./icons/sensing_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg");
-/* harmony import */ var _url_loader_icons_sound_icon_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! url-loader!./icons/sound_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg");
-/* harmony import */ var _url_loader_icons_variables_icon_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! url-loader!./icons/variables_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg");
+/* harmony import */ var _url_loader_icons_block_icon_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./icons/block_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg");
+/* harmony import */ var _url_loader_icons_control_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/control_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg");
+/* harmony import */ var _url_loader_icons_events_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/events_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg");
+/* harmony import */ var _url_loader_icons_list_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/list_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg");
+/* harmony import */ var _url_loader_icons_looks_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/looks_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg");
+/* harmony import */ var _url_loader_icons_motion_icon_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/motion_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg");
+/* harmony import */ var _url_loader_icons_operators_icon_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/operators_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg");
+/* harmony import */ var _url_loader_icons_sensing_icon_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! url-loader!./icons/sensing_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg");
+/* harmony import */ var _url_loader_icons_sound_icon_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! url-loader!./icons/sound_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg");
+/* harmony import */ var _url_loader_icons_variables_icon_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! url-loader!./icons/variables_icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg");
 /* generated by pull.js */
 
 
@@ -200,7 +200,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/block_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/block_icon.svg":
 /*!********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/block_icon.svg ***!
   \********************************************************************/
@@ -211,7 +211,7 @@ module.exports = __webpack_require__.p + "static/assets/318e019bdee5ed02903aa5f2
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/control_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/control_icon.svg":
 /*!**********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/control_icon.svg ***!
   \**********************************************************************/
@@ -222,7 +222,7 @@ module.exports = __webpack_require__.p + "static/assets/e1249124e702a974df36355a
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/events_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/events_icon.svg":
 /*!*********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/events_icon.svg ***!
   \*********************************************************************/
@@ -233,7 +233,7 @@ module.exports = __webpack_require__.p + "static/assets/9d7acb2e5784a9a1d52e564a
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/list_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/list_icon.svg":
 /*!*******************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/list_icon.svg ***!
   \*******************************************************************/
@@ -244,7 +244,7 @@ module.exports = __webpack_require__.p + "static/assets/bd6d382729ecbd23c5181cf2
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/looks_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/looks_icon.svg":
 /*!********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/looks_icon.svg ***!
   \********************************************************************/
@@ -255,7 +255,7 @@ module.exports = __webpack_require__.p + "static/assets/e008ee0cb1202de113782315
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/motion_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/motion_icon.svg":
 /*!*********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/motion_icon.svg ***!
   \*********************************************************************/
@@ -266,7 +266,7 @@ module.exports = __webpack_require__.p + "static/assets/c088896fb05dc466b45ecaa1
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/operators_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/operators_icon.svg":
 /*!************************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/operators_icon.svg ***!
   \************************************************************************/
@@ -277,7 +277,7 @@ module.exports = __webpack_require__.p + "static/assets/ab2c140af0ffba6b515eebc2
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/sensing_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/sensing_icon.svg":
 /*!**********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/sensing_icon.svg ***!
   \**********************************************************************/
@@ -288,7 +288,7 @@ module.exports = __webpack_require__.p + "static/assets/7601fa61034e5d7d542538e1
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/sound_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/sound_icon.svg":
 /*!********************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/sound_icon.svg ***!
   \********************************************************************/
@@ -299,7 +299,7 @@ module.exports = __webpack_require__.p + "static/assets/7b98085c05bdcd97dd0c6d4b
 
 /***/ }),
 
-/***/ "./src/addons/addons/block-palette-icons/icons/variables_icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/icons/variables_icon.svg":
 /*!************************************************************************!*\
   !*** ./src/addons/addons/block-palette-icons/icons/variables_icon.svg ***!
   \************************************************************************/

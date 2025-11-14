@@ -285,7 +285,7 @@ if (ENVIRONMENT_IS_NODE) {
     };
     if (!Module["thisProgram"]) {
         if (process["argv"].length > 1) {
-            Module["thisProgram"] = process["argv"][1].replace(/\\/g, "./")
+            Module["thisProgram"] = process["argv"][1].replace(/\\/g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")
         } else {
             Module["thisProgram"] = "unknown-program"
         }
@@ -406,7 +406,7 @@ if (!Module["arguments"]) {
     Module["arguments"] = []
 }
 if (!Module["thisProgram"]) {
-    Module["thisProgram"] = "./this.program"
+    Module["thisProgram"] = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/this.program"
 }
 if (!Module["quit"]) {
     Module["quit"] = (function(status, toThrow) {

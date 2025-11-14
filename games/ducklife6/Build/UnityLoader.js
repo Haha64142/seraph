@@ -37,7 +37,7 @@ var UnityLoader = UnityLoader || {
         }
         try {
             var n = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB,
-                o = n.open("./idbfs-test");
+                o = n.open("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/idbfs-test");
             o.onerror = function(e) {
                 e.preventDefault(), r()
             }, o.onsuccess = function() {
@@ -95,7 +95,7 @@ var UnityLoader = UnityLoader || {
             o += 4;
             var u = String.fromCharCode.apply(null, r.subarray(o, o + l));
             o += l;
-            for (var f = 0, c = u.indexOf("./", f) + 1; c > 0; f = c, c = u.indexOf("./", f) + 1) e.FS_createPath(u.substring(0, f), u.substring(f, c - 1), !0, !0);
+            for (var f = 0, c = u.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", f) + 1; c > 0; f = c, c = u.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", f) + 1) e.FS_createPath(u.substring(0, f), u.substring(f, c - 1), !0, !0);
             e.FS_createDataFile(u, null, r.subarray(s, s + d), !0, !0, !0)
         }
         e.removeRunDependency("processDataJob"), t.complete()
@@ -180,7 +180,7 @@ var UnityLoader = UnityLoader || {
                 Jobs: {},
                 buildDownloadProgress: {},
                 resolveBuildUrl: function(e) {
-                    return e.match(/(http|https|ftp|file):\/\//) ? e : t.substring(0, t.lastIndexOf("./") + 1) + e
+                    return e.match(/(http|https|ftp|file):\/\//) ? e : t.substring(0, t.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1) + e
                 }
             },
             SetFullscreen: function() {
@@ -210,7 +210,7 @@ var UnityLoader = UnityLoader || {
             i = navigator.appName,
             s = navigator.appVersion,
             d = parseInt(navigator.appVersion, 10);
-        (t = a.indexOf("Opera")) != -1 ? (i = "Opera", s = a.substring(t + 6), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("MSIE")) != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(t + 5)) : (t = a.indexOf("Chrome")) != -1 ? (i = "Chrome", s = a.substring(t + 7)) : (t = a.indexOf("Safari")) != -1 ? (i = "Safari", s = a.substring(t + 7), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("Firefox")) != -1 ? (i = "Firefox", s = a.substring(t + 8)) : a.indexOf("Trident/") != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(a.indexOf("rv:") + 3)) : (e = a.lastIndexOf(" ") + 1) < (t = a.lastIndexOf("./")) && (i = a.substring(e, t), s = a.substring(t + 1), i.toLowerCase() == i.toUpperCase() && (i = navigator.appName)), (r = s.indexOf(";")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(" ")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(")")) != -1 && (s = s.substring(0, r)), d = parseInt("" + s, 10), isNaN(d) ? (s = "" + parseFloat(navigator.appVersion), d = parseInt(navigator.appVersion, 10)) : s = "" + parseFloat(s);
+        (t = a.indexOf("Opera")) != -1 ? (i = "Opera", s = a.substring(t + 6), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("MSIE")) != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(t + 5)) : (t = a.indexOf("Chrome")) != -1 ? (i = "Chrome", s = a.substring(t + 7)) : (t = a.indexOf("Safari")) != -1 ? (i = "Safari", s = a.substring(t + 7), (t = a.indexOf("Version")) != -1 && (s = a.substring(t + 8))) : (t = a.indexOf("Firefox")) != -1 ? (i = "Firefox", s = a.substring(t + 8)) : a.indexOf("Trident/") != -1 ? (i = "Microsoft Internet Explorer", s = a.substring(a.indexOf("rv:") + 3)) : (e = a.lastIndexOf(" ") + 1) < (t = a.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")) && (i = a.substring(e, t), s = a.substring(t + 1), i.toLowerCase() == i.toUpperCase() && (i = navigator.appName)), (r = s.indexOf(";")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(" ")) != -1 && (s = s.substring(0, r)), (r = s.indexOf(")")) != -1 && (s = s.substring(0, r)), d = parseInt("" + s, 10), isNaN(d) ? (s = "" + parseFloat(navigator.appVersion), d = parseInt(navigator.appVersion, 10)) : s = "" + parseFloat(s);
         var l = /Mobile|mini|Fennec|Android|iP(ad|od|hone)/.test(o),
             u = n,
             f = [{
@@ -381,13 +381,13 @@ var UnityLoader = UnityLoader || {
                     n = r[7].match(this.blobParseRegExp),
                     o = t.demangleSymbol ? t.demangleSymbol(r[4]) : r[4],
                     a = n && UnityLoader.Blobs[n[1]] && UnityLoader.Blobs[n[1]].url ? UnityLoader.Blobs[n[1]].url : "blob";
-                return r[1] + o + (r[2] != o ? " [" + r[2] + "]" : "") + " (" + (n ? a.substr(a.lastIndexOf("./") + 1) + n[2] : r[7]) + ")"
+                return r[1] + o + (r[2] != o ? " [" + r[2] + "]" : "") + " (" + (n ? a.substr(a.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1) + n[2] : r[7]) + ")"
             }.bind(this)), t.useWasm && (r = r.replace(new RegExp(this.stackTraceFormatWasm, "g"), function(e) {
                 var r = e.match(new RegExp("^" + this.stackTraceFormatWasm + "$")),
                     n = t.demangleSymbol ? t.demangleSymbol(r[3]) : r[3],
                     o = r[4].match(this.blobParseRegExp),
                     a = o && UnityLoader.Blobs[o[1]] && UnityLoader.Blobs[o[1]].url ? UnityLoader.Blobs[o[1]].url : "blob";
-                return (n == r[3] ? r[1] : r[2] + n + " [wasm:" + r[3] + "]") + (r[4] ? " (" + (o ? a.substr(a.lastIndexOf("./") + 1) + o[2] : r[4]) + ")" : "")
+                return (n == r[3] ? r[1] : r[2] + n + " [wasm:" + r[3] + "]") + (r[4] ? " (" + (o ? a.substr(a.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1) + o[2] : r[4]) + ")" : "")
             }.bind(this))), r) : r
         },
         handler: function(e, t) {
@@ -911,13 +911,13 @@ var UnityLoader = UnityLoader || {
                         function a(e, t) {
                             return t = t || {}, t.raw = !0, o(e, t)
                         }
-                        var i = e("./zlib/inflate"),
-                            s = e("./utils/common"),
-                            d = e("./utils/strings"),
-                            l = e("./zlib/constants"),
-                            u = e("./zlib/messages"),
-                            f = e("./zlib/zstream"),
-                            c = e("./zlib/gzheader"),
+                        var i = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/zlib/inflate"),
+                            s = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/common"),
+                            d = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/strings"),
+                            l = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/zlib/constants"),
+                            u = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/zlib/messages"),
+                            f = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/zlib/zstream"),
+                            c = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/zlib/gzheader"),
                             h = Object.prototype.toString;
                         n.prototype.push = function(e, t) {
                             var r, n, o, a, u, f, c = this.strm,
@@ -984,7 +984,7 @@ var UnityLoader = UnityLoader || {
                             for (var r = "", n = 0; n < t; n++) r += String.fromCharCode(e[n]);
                             return r
                         }
-                        var o = e("./common"),
+                        var o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/common"),
                             a = !0,
                             i = !0;
                         try {
@@ -1470,10 +1470,10 @@ var UnityLoader = UnityLoader || {
                             return e && e.state ? (r = e.state, 0 !== r.wrap && r.mode !== J ? R : r.mode === J && (n = 1, n = g(n, t, a, 0), n !== r.check) ? C : (o = f(e, t, a, a)) ? (r.mode = he, H) : (r.havedict = 1, O)) : R
                         }
                         var m, b, y = e("../utils/common"),
-                            g = e("./adler32"),
-                            v = e("./crc32"),
-                            A = e("./inffast"),
-                            U = e("./inftrees"),
+                            g = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/adler32"),
+                            v = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/crc32"),
+                            A = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/inffast"),
+                            U = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/inftrees"),
                             x = 0,
                             E = 1,
                             k = 2,
@@ -1764,12 +1764,12 @@ var UnityLoader = UnityLoader || {
                         }
                     }
                 };
-                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("./") + 1);
+                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1);
                 var n = function(e) {
                         var r = [];
-                        return e = e.split("./").every(function(e) {
+                        return e = e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").every(function(e) {
                             return ".." == e ? r.pop() : "." == e || "" == e || r.push(e)
-                        }) ? r.join("./") : null, e ? t[e] || t[e + ".js"] || t[e + "./index.js"] : null
+                        }) ? r.join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") : null, e ? t[e] || t[e + ".js"] || t[e + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/index.js"] : null
                     },
                     o = function(e, t) {
                         return e ? n(e.folder + "node_modules/" + t) || o(e.parent, t) : null
@@ -1808,7 +1808,7 @@ var UnityLoader = UnityLoader || {
             require: function(e) {
                 var t = {
                     "decompress.js": function(e, t, r) {
-                        t.exports = e("./dec/decode").BrotliDecompressBuffer
+                        t.exports = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dec/decode").BrotliDecompressBuffer
                     },
                     "dec/bit_reader.js": function(e, t, r) {
                         function n(e) {
@@ -2141,15 +2141,15 @@ var UnityLoader = UnityLoader || {
                             }
                             t.write(h, x & c)
                         }
-                        var U = e("./streams").BrotliInput,
-                            x = e("./streams").BrotliOutput,
-                            E = e("./bit_reader"),
-                            k = e("./dictionary"),
-                            B = e("./huffman").HuffmanCode,
-                            L = e("./huffman").BrotliBuildHuffmanTable,
-                            W = e("./context"),
-                            O = e("./prefix"),
-                            M = e("./transform");
+                        var U = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/streams").BrotliInput,
+                            x = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/streams").BrotliOutput,
+                            E = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/bit_reader"),
+                            k = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dictionary"),
+                            B = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/huffman").HuffmanCode,
+                            L = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/huffman").BrotliBuildHuffmanTable,
+                            W = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/context"),
+                            O = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/prefix"),
+                            M = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/transform");
                         const N = 8,
                             R = 16,
                             C = 256,
@@ -2172,7 +2172,7 @@ var UnityLoader = UnityLoader || {
                         }, r.BrotliDecompressedSize = g, r.BrotliDecompressBuffer = v, r.BrotliDecompress = A, k.init()
                     },
                     "dec/dictionary.js": function(e, t, r) {
-                        var n = e("./dictionary-browser");
+                        var n = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dictionary-browser");
                         r.init = function() {
                             r.dictionary = n.init()
                         }, r.offsetsByLength = new Uint32Array([0, 0, 0, 0, 0, 4096, 9216, 21504, 35840, 44032, 53248, 63488, 74752, 87040, 93696, 100864, 104704, 106752, 108928, 113536, 115968, 118528, 119872, 121280, 122016]), r.sizeBitsByLength = new Uint8Array([0, 0, 0, 0, 10, 10, 11, 11, 10, 10, 10, 10, 10, 9, 9, 8, 7, 7, 8, 7, 7, 6, 6, 5, 5]), r.minDictionaryWordLength = 4, r.maxDictionaryWordLength = 24
@@ -2183,8 +2183,8 @@ var UnityLoader = UnityLoader || {
                     "dec/dictionary-browser.js": function(e, t, r) {
                         var n = e("base64-js");
                         r.init = function() {
-                            var t = e("./decode").BrotliDecompressBuffer,
-                                r = n.toByteArray(e("./dictionary.bin.js"));
+                            var t = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/decode").BrotliDecompressBuffer,
+                                r = n.toByteArray(e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dictionary.bin.js"));
                             return t(r)
                         }
                     },
@@ -2259,7 +2259,7 @@ var UnityLoader = UnityLoader || {
                         function o(e, t) {
                             return e[t] < 192 ? (e[t] >= 97 && e[t] <= 122 && (e[t] ^= 32), 1) : e[t] < 224 ? (e[t + 1] ^= 32, 2) : (e[t + 2] ^= 5, 3)
                         }
-                        var a = e("./dictionary");
+                        var a = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dictionary");
                         const i = 0,
                             s = 1,
                             d = 2,
@@ -2340,12 +2340,12 @@ var UnityLoader = UnityLoader || {
                         u["-".charCodeAt(0)] = 62, u["_".charCodeAt(0)] = 63
                     }
                 };
-                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("./") + 1);
+                for (var r in t) t[r].folder = r.substring(0, r.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1);
                 var n = function(e) {
                         var r = [];
-                        return e = e.split("./").every(function(e) {
+                        return e = e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").every(function(e) {
                             return ".." == e ? r.pop() : "." == e || "" == e || r.push(e)
-                        }) ? r.join("./") : null, e ? t[e] || t[e + ".js"] || t[e + "./index.js"] : null
+                        }) ? r.join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") : null, e ? t[e] || t[e + ".js"] || t[e + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/index.js"] : null
                     },
                     o = function(e, t) {
                         return e ? n(e.folder + "node_modules/" + t) || o(e.parent, t) : null

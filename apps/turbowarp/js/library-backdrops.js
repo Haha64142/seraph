@@ -1,6 +1,6 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["library-backdrops"],{
 
-/***/ "./src/lib/libraries/backdrops.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/libraries/backdrops.json":
 /*!******************************************!*\
   !*** ./src/lib/libraries/backdrops.json ***!
   \******************************************/

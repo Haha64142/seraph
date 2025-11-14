@@ -3,7 +3,7 @@
  * @version 1.0.0
  */
 
-import Entity from './entity.class.js';
+import Entity from 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/entity.class.js';
 
 export default class Scene {
     constructor(context) {

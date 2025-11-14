@@ -101,6 +101,6 @@
 	<SubTexture name="RuvHey0011" x="3566" y="1990" width="440" height="761" frameX="-1" frameY="-6" frameWidth="442" frameHeight="767"/>
 	<SubTexture name="RuvHey0012" x="3566" y="1990" width="440" height="761" frameX="-1" frameY="-6" frameWidth="442" frameHeight="767"/>
 	<SubTexture name="RuvHey0013" x="3566" y="1990" width="440" height="761" frameX="-1" frameY="-6" frameWidth="442" frameHeight="767"/>
-	<SubTexture name="RuvHey0014" x="3103" y="1990" width="441" height="760" frameX="0" frameY="-6" frameWidth="441" frameHeight="766"./-->
+	<SubTexture name="RuvHey0014" x="3103" y="1990" width="441" height="760" frameX="0" frameY="-6" frameWidth="441" frameHeight="766"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/-->
 	
 </TextureAtlas>

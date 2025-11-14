@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="./cdn-cgi/styles/challenges.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/cdn-cgi/styles/challenges.css" rel="stylesheet">
     <meta http-equiv="refresh" content="35">
 
 </head>
@@ -23,7 +23,7 @@
     <div class="main-wrapper" role="main">
     <div class="main-content">
         <h1 class="zone-name-title h1">
-            <img class="heading-favicon" src="./favicon.ico"
+            <img class="heading-favicon" src="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/favicon.ico"
                  onerror="this.onerror=null;this.parentNode.removeChild(this)">
             yell0wsuit.page
         </h1>
@@ -42,11 +42,11 @@
                 </div>
             </div>
         </noscript>
-        <div id="trk_jschal_js" style="display:none;background-image:url('./cdn-cgi/images/trace/jsch/nojs/transparent.gif?ray=76d46c316d002901')"></div>
+        <div id="trk_jschal_js" style="display:none;background-image:url('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/cdn-cgi/images/trace/jsch/nojs/transparent.gif?ray=76d46c316d002901')"></div>
         <div id="challenge-body-text" class="core-msg spacer">
             yell0wsuit.page needs to review the security of your connection before proceeding.
         </div>
-        <form id="challenge-form" action="./html5-games/games/chrome-dino/appmanifest.json?__cf_chl_f_tk=60ZJvE0S1XxhOUCbIVKTAyebMr21ov6ztPbvt7r6YJg-1668981250-0-gaNycGzNBn0" method="POST" enctype="application/x-www-form-urlencoded">
+        <form id="challenge-form" action="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/html5-games/games/chrome-dino/appmanifest.json?__cf_chl_f_tk=60ZJvE0S1XxhOUCbIVKTAyebMr21ov6ztPbvt7r6YJg-1668981250-0-gaNycGzNBn0" method="POST" enctype="application/x-www-form-urlencoded">
             <input type="hidden" name="md" value="2pVbcUm3GP88LKXf8ruCyx.Wq4ai05f5L_DhL1p63nw-1668981250-0-ARo9exqYkuSg5Oz19gpAe0OGPLqjRPeHRNS4rCCH3qxCzXv2NLp0C16L1P2vtBxJDetdx0GQxgeJdsAoJ60bRlApIc5VShErd5clS633OBDi_o5IDnAnjPwpQUkhzze8eCo0PrMsyWMCnu6pjYzor1NPaJ9FPNH-xcr5_1abpazDB_PugZuo3TnigwRnr_cYlMCu9LsXWSe6i4FCPBXNnSPuA1T36O3n-NqOS-i59jAoU5HbklZ9oWbqmE_6K-rzGxDs15pxRH-Is6BMlWrQpTNfysUNpSTHN5N4It9loNaW1cGgb6DnjiDH4v8YQS24JzbCMpI3b791ib3eJN_MKwJnLFZszF85SQSsikRYEhc9uLwTf6HqmyF0Z53DmrC9zvN22lcsQxv7ZAH8lVk214wOZ8L9j2_os3AKoiLA0Q2cU78zvABHBc8gny2gevz2fhvu8qcnCxLPDscj0PBjCHHe4GvdkqcmzjWJ-cHacoUMM6e_bU6rUehSPYPyGYe-hHS8IQPSCbhDq5lAqsRoEO0-V-NlhPfe4zAdJvFMxeAOBknEzrTu4TRfI-qTCC2aB6hN0PmJPp6jmOA8HYJpsaU6iBpEcQ42jfHc0HAw7BDvV_q0rLwD8-mmRbQD1rlUw_fT7mzw3_-K_iQ5E-TZ4uMLZ7rVWilQCiH80QRjHsCLsgzjEWnM4B8VKnZAauxcbw">
             <input type="hidden" name="r" value="KOd3aRCe5guggb8v9CgoS9MGFy0naApyQcqSUgyeEPY-1668981250-0-AZqhwz24R+jCxXXQ16PgtCwZh2NpNiJfP1weKFPxh5u8NqfEcK9lH7vZjRfCLGg3XrSKtmoO2JO9KzqluGhtEPq+0Q630sMjLIWu9RmHTQl3YwmBdKtTefksje2sTY7AN4EnWrsOckazaQalikFiH2xWFwM3sfQTjPutwlCkkTt3DrI895zx9A/RRQKgrl0fDg9ya/fLtPrexVJIT54EwwB2079mbUXZyQ8ACtcpoYNhKYFfRHJEhsHdeMxbbSwHLT0+3OKotkMjFG3uKjz4y9Mv8dbA/KE8S5gih2+hIqhz5QyAaYusAOOoDQp/G306KGv6L3q3Wg1493XCR9Cn9amGm4y8unV1Np8h/gEJIDXuMvzAthAvJkLHn+JnFi++xYesBbT4hpeIFi7hOChZ9l7abMe4KDPQwnEFtjL635xBH+fVlanNBBOwK9h1yDAQkuxlu6VRstGjRFfXV40jTQB2lx3UjChESOpCREEi+YyTn4fwo56hUxnPdOCcY/98avBOsqWvmEUGlccbxNNSJjTTsOwaftZs00DG7vmDLxxnRlIkxSMEltuN5xsgpY4RSv5X0xaDzCarDKtTwmBWt4MZgkwIHI/TixmC+0m9iHFr3Oglc9k0cbS83z4+nArcWAw8X8ArK05UwoMITM5+ObygiHw8f/gelMoGpnJx84iLR28KT2B7MpdtSgGrObx9I4YjZAnR1G0s/Ixk2RKXguNtXv6w+HNUIX2aX3eQ/9/1lSZ2sUPMyv/aWMOXAke9XOLUcRcnI2RLvle0pNVk/xBUZx1jmnPl7v66seh/hVR05TdKcnH7TYjSyRRlaWju2g9vPfKQTZWGOc+KXPo0reH8z1reLTpQUy57mxEcvXJ46Y5VcBBKquAIW8eC046XlVAcnyMHykl2DgmB7OQCwCF/CSCDhsM92GMKPt6EsVkMjzQBYdtMFzYN4Avm5F2Ii9fJY/GuZc4A1V/kKn10p3qbr5Og7sK6j7yRe9kV6MWH+kNP8vzuLSIe89N/ibgEzIb2y4g+dSqqRz8DpnsrZG1Jc4zxYDk8fQvRREn5nVVlAau7jor7Cirxy923HRlJ6jDwrEhS9Hjl14M2VfNeB7xw1midJnfY7EWaLwd2Xct0tCI/RJrarO8Oa1Fn09xQ+3gyNc/erjJfeUg4Aj0Ku93ApybxzsOOvwdIhyK+Z3MlF9BYHg+bqWg4lfXsbsyWQy6bKRyJR9vI8qNkFpm5rDVHUF8S8/YXlNZdWgHxi5gLB8gvEfvu1fIMvNWPaItiKvKszeLFfn/RtiguaarQmOkf1tIsgrrX/+GP5ruvtXrQ/ID5SvfqJMvcEtoUMrdhlmcuSKCGPgR7Ls0I2Zf+fJ332olRTD0zZxHrLgkLSSalJGtmCfkGl/X9dLdfN3+lee235gtmasrdoJmZVhe/HxubmUizjEPO7qdBuaZQHFsXK6CpIP4dfJso+FKp8cDrbeJ7ttC/Ar9lBXo7beXG3ATAIrtk0s7BOQd8UHx0dm0ZP/lJbyhNzi/7L5V5zUkHiSNC6EM6bZTUenUM0Ep8tHyAR2AgWOrY3dhJL/RZA674rO3qyuUnMLuAaYGKvq7SbQ==">
         </form>
@@ -80,11 +80,11 @@
             }
         };
         var trkjs = document.createElement('img');
-        trkjs.setAttribute('src', './cdn-cgi/images/trace/jsch/js/transparent.gif?ray=76d46c316d002901');
+        trkjs.setAttribute('src', 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/cdn-cgi/images/trace/jsch/js/transparent.gif?ray=76d46c316d002901');
         trkjs.setAttribute('style', 'display: none');
         document.body.appendChild(trkjs);
         var cpo = document.createElement('script');
-        cpo.src = './cdn-cgi/challenge-platform/h/b/orchestrate/jsch/v1?ray=76d46c316d002901';
+        cpo.src = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/cdn-cgi/challenge-platform/h/b/orchestrate/jsch/v1?ray=76d46c316d002901';
         window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;
         window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, -window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;
         if (window.history && window.history.replaceState) {

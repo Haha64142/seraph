@@ -154,8 +154,8 @@ class EmulatorJS {
         const basePath = notWithPath ? '' : this.config.dataPath;
         path = basePath + path;
         if (!notWithPath && this.config.filePaths) {
-            if (typeof this.config.filePaths[path.split('./').pop()] === "string") {
-                path = this.config.filePaths[path.split('./').pop()];
+            if (typeof this.config.filePaths[path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop()] === "string") {
+                path = this.config.filePaths[path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop()];
             }
         }
         let url;
@@ -714,18 +714,18 @@ class EmulatorJS {
                 this.checkCompression(new Uint8Array(data), this.localization("Decompress Game Patch")).then((data) => {
                     for (const k in data) {
                         if (k === "!!notCompressedData") {
-                            FS.writeFile(this.config.gamePatchUrl.split('./').pop().split("#")[0].split("?")[0], data[k]);
+                            FS.writeFile(this.config.gamePatchUrl.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop().split("#")[0].split("?")[0], data[k]);
                             break;
                         }
-                        if (k.endsWith('./')) continue;
-                        FS.writeFile("./" + k.split('./').pop(), data[k]);
+                        if (k.endsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) continue;
+                        FS.writeFile("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + k.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop(), data[k]);
                     }
                     resolve();
                 })
             }
             
             this.downloadFile(this.config.gamePatchUrl, (res) => {
-                this.storage.rom.get(this.config.gamePatchUrl.split("./").pop()).then((result) => {
+                this.storage.rom.get(this.config.gamePatchUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop()).then((result) => {
                     if (result && result['content-length'] === res.headers['content-length'] && !this.debug) {
                         gotData(result.data);
                         return;
@@ -742,7 +742,7 @@ class EmulatorJS {
                         gotData(res.data);
                         const limit = (typeof this.config.cacheLimit === "number") ? this.config.cacheLimit : 1073741824;
                         if (parseFloat(res.headers['content-length']) < limit && this.saveInBrowserSupported() && this.config.gamePatchUrl !== "game") {
-                            this.storage.rom.put(this.config.gamePatchUrl.split("./").pop(), {
+                            this.storage.rom.put(this.config.gamePatchUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop(), {
                                 "content-length": res.headers['content-length'],
                                 data: res.data
                             })
@@ -765,18 +765,18 @@ class EmulatorJS {
                 this.checkCompression(new Uint8Array(data), this.localization("Decompress Game Parent")).then((data) => {
                     for (const k in data) {
                         if (k === "!!notCompressedData") {
-                            FS.writeFile(this.config.gameParentUrl.split('./').pop().split("#")[0].split("?")[0], data[k]);
+                            FS.writeFile(this.config.gameParentUrl.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop().split("#")[0].split("?")[0], data[k]);
                             break;
                         }
-                        if (k.endsWith('./')) continue;
-                        FS.writeFile("./" + k.split('./').pop(), data[k]);
+                        if (k.endsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) continue;
+                        FS.writeFile("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + k.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop(), data[k]);
                     }
                     resolve();
                 })
             }
             
             this.downloadFile(this.config.gameParentUrl, (res) => {
-                this.storage.rom.get(this.config.gameParentUrl.split("./").pop()).then((result) => {
+                this.storage.rom.get(this.config.gameParentUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop()).then((result) => {
                     if (result && result['content-length'] === res.headers['content-length'] && !this.debug) {
                         gotData(result.data);
                         return;
@@ -793,7 +793,7 @@ class EmulatorJS {
                         gotData(res.data);
                         const limit = (typeof this.config.cacheLimit === "number") ? this.config.cacheLimit : 1073741824;
                         if (parseFloat(res.headers['content-length']) < limit && this.saveInBrowserSupported() && this.config.gameParentUrl !== "game") {
-                            this.storage.rom.put(this.config.gameParentUrl.split("./").pop(), {
+                            this.storage.rom.put(this.config.gameParentUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop(), {
                                 "content-length": res.headers['content-length'],
                                 data: res.data
                             })
@@ -816,11 +816,11 @@ class EmulatorJS {
                 this.checkCompression(new Uint8Array(data), this.localization("Decompress Game BIOS")).then((data) => {
                     for (const k in data) {
                         if (k === "!!notCompressedData") {
-                            FS.writeFile(this.config.biosUrl.split('./').pop().split("#")[0].split("?")[0], data[k]);
+                            FS.writeFile(this.config.biosUrl.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop().split("#")[0].split("?")[0], data[k]);
                             break;
                         }
-                        if (k.endsWith('./')) continue;
-                        FS.writeFile("./" + k.split('./').pop(), data[k]);
+                        if (k.endsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) continue;
+                        FS.writeFile("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + k.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop(), data[k]);
                     }
                     resolve();
                 })
@@ -832,7 +832,7 @@ class EmulatorJS {
                     this.textElem.style.color = "red";
                     return;
                 }
-                this.storage.bios.get(this.config.biosUrl.split("./").pop()).then((result) => {
+                this.storage.bios.get(this.config.biosUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop()).then((result) => {
                     if (result && result['content-length'] === res.headers['content-length'] && !this.debug) {
                         gotBios(result.data);
                         return;
@@ -848,7 +848,7 @@ class EmulatorJS {
                         }
                         gotBios(res.data);
                         if (this.saveInBrowserSupported() && this.config.biosUrl !== "game") {
-                            this.storage.bios.put(this.config.biosUrl.split("./").pop(), {
+                            this.storage.bios.put(this.config.biosUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop(), {
                                 "content-length": res.headers['content-length'],
                                 data: res.data
                             })
@@ -863,7 +863,7 @@ class EmulatorJS {
     downloadRom() {
         const extractFileNameFromUrl = url => {
             if (!url) return null;
-            return url.split('./').pop().split("#")[0].split("?")[0];
+            return url.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop().split("#")[0].split("?")[0];
         };
         const supportsExt = (ext) => {
             const core = this.getCore();
@@ -893,8 +893,8 @@ class EmulatorJS {
 
                 let fileNames = [];
                 this.checkCompression(new Uint8Array(data), this.localization("Decompress Game Data"), (fileName, fileData) => {
-                    if (fileName.includes("./")) {
-                        const paths = fileName.split("./");
+                    if (fileName.includes("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")) {
+                        const paths = fileName.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
                         let cp = "";
                         for (let i=0; i<paths.length-1; i++) {
                             if (paths[i] === "") continue;
@@ -904,7 +904,7 @@ class EmulatorJS {
                             }
                         }
                     }
-                    if (fileName.endsWith('./')) {
+                    if (fileName.endsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) {
                         FS.mkdir(fileName);
                         return;
                     }
@@ -972,7 +972,7 @@ class EmulatorJS {
                     this.textElem.style.color = "red";
                     return;
                 }
-                const name = (typeof this.config.gameUrl === "string") ? this.config.gameUrl.split('./').pop() : "game";
+                const name = (typeof this.config.gameUrl === "string") ? this.config.gameUrl.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').pop() : "game";
                 this.storage.rom.get(name).then((result) => {
                     if (result && result['content-length'] === res.headers['content-length'] && !this.debug && name !== "game") {
                         gotGameData(result.data);
@@ -990,7 +990,7 @@ class EmulatorJS {
                         gotGameData(res.data);
                         const limit = (typeof this.config.cacheLimit === "number") ? this.config.cacheLimit : 1073741824;
                         if (parseFloat(res.headers['content-length']) < limit && this.saveInBrowserSupported() && this.config.gameUrl !== "game") {
-                            this.storage.rom.put(this.config.gameUrl.split("./").pop(), {
+                            this.storage.rom.put(this.config.gameUrl.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop(), {
                                 "content-length": res.headers['content-length'],
                                 data: res.data
                             })
@@ -1051,7 +1051,7 @@ class EmulatorJS {
         try {
             const args = [];
             if (this.debug) args.push('-v');
-            args.push('./'+this.fileName);
+            args.push('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+this.fileName);
             if (this.debug) console.log(args);
             this.Module.callMain(args);
             this.Module.resumeMainLoop();
@@ -1580,18 +1580,18 @@ class EmulatorJS {
             savUrl = URL.createObjectURL(blob);
             const a = this.createElement("a");
             a.href = savUrl;
-            a.download = this.gameManager.getSaveFilePath().split("./").pop();
+            a.download = this.gameManager.getSaveFilePath().split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").pop();
             a.click();
         });
         const loadSavFiles = addButton("Import Save File", '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 23"><path d="M3 7.5V5C3 3.89543 3.89543 3 5 3H16.1716C16.702 3 17.2107 3.21071 17.5858 3.58579L20.4142 6.41421C20.7893 6.78929 21 7.29799 21 7.82843V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path><path d="M6 21V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18 21V13.6C18 13.2686 17.7314 13 17.4 13H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path><path d="M16 3V8.4C16 8.73137 15.7314 9 15.4 9H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path><path d="M8 3V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 12H12M12 12L9 9M12 12L9 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>', async () => {
             const file = await this.selectFile();
             const sav = new Uint8Array(await file.arrayBuffer());
             const path = this.gameManager.getSaveFilePath();
-            const paths = path.split("./");
+            const paths = path.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
             let cp = "";
             for (let i=0; i<paths.length-1; i++) {
                 if (paths[i] === "") continue;
-                cp += "./"+paths[i];
+                cp += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"+paths[i];
                 if (!FS.analyzePath(cp).exists) FS.mkdir(cp);
             }
             if (FS.analyzePath(path).exists) FS.unlink(path);
@@ -3596,13 +3596,13 @@ class EmulatorJS {
         if (this.debug) console.log(option, value);
         if (option === "shader") {
             try {
-                this.Module.FS.unlink("./shader/shader.glslp");
+                this.Module.FS.unlink("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shader/shader.glslp");
             } catch(e) {}
             if (value === "disabled") {
                 this.gameManager.toggleShader(0);
                 return;
             }
-            this.Module.FS.writeFile("./shader/shader.glslp", window.EJS_SHADERS[value]);
+            this.Module.FS.writeFile("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shader/shader.glslp", window.EJS_SHADERS[value]);
             this.gameManager.toggleShader(1);
             return;
         } else if (option === "disk") {
@@ -4062,12 +4062,12 @@ class EmulatorJS {
             return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
         }
         this.netplay.url = this.config.netplayUrl;
-        while (this.netplay.url.endsWith("./")) {
+        while (this.netplay.url.endsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")) {
             this.netplay.url = this.netplay.url.substring(0, this.netplay.url.length-1);
         }
         this.netplay.current_frame = 0;
         this.netplay.getOpenRooms = async () => {
-            return JSON.parse(await (await fetch(this.netplay.url+"./list?domain="+window.location.host+"&game_id="+this.config.gameId)).text());
+            return JSON.parse(await (await fetch(this.netplay.url+"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/list?domain="+window.location.host+"&game_id="+this.config.gameId)).text());
         }
         this.netplay.updateTableList = async () => {
             const addToTable = (id, name, current, max) => {
@@ -4082,7 +4082,7 @@ class EmulatorJS {
                     return item;
                 }
                 addToHeader(name).style["text-align"] = "left";
-                addToHeader(current + "./" + max).style.width = "80px";
+                addToHeader(current + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + max).style.width = "80px";
                 
                 const parent = addToHeader("");
                 parent.style.width = "80px";

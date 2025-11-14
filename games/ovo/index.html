@@ -128,7 +128,7 @@
 				return;		// no SW support, ignore call
 			
 			try {
-				navigator.serviceWorker.register("sw.js", { scope: "./" })
+				navigator.serviceWorker.register("sw.js", { scope: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" })
 				.then(function (reg)
 				{
 					console.log("Registered service worker on " + reg.scope);

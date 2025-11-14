@@ -2097,7 +2097,7 @@ Kongregate.StatisticServices.prototype = {
                 g = function(e) {
                     h._onError(a, k, e, b)
                 };
-            e.open("POST", ".//" + this._applicationId + ".api.swrve.com/1/batch");
+            e.open("POST", "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + this._applicationId + ".api.swrve.com/1/batch");
             e.setRequestHeader("Content-Type", "application/json; charset=utf-8");
             e.onerror = e.onabort = g;
             e.onload = function() {

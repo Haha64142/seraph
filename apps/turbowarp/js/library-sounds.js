@@ -1,6 +1,6 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["library-sounds"],{
 
-/***/ "./src/lib/libraries/sounds.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/libraries/sounds.json":
 /*!***************************************!*\
   !*** ./src/lib/libraries/sounds.json ***!
   \***************************************/

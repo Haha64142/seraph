@@ -58,7 +58,7 @@ These cores are included pre-built with the repository (ROMs **NOT** included):
 
 ## How to use
 
-The asset bundle will be fetched from GitHub using jsdelivr by default. You can change this option on line 10 and 11 of `assets/base.js` (example alternate value: `"./"`).
+The asset bundle will be fetched from GitHub using jsdelivr by default. You can change this option on line 10 and 11 of `assets/base.js` (example alternate value: `"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"`).
 
 Query string options:
 * `core` - specify the libretro core *library* to use, i.e. `genesis_plus_gx`, `mgba`, `mupen64plus_next`, `nestopia`, `snes9x`, etc. `autodetect` can also be used, which attempts to find the correct core for the ROM (slower to load because the core is loaded after the ROM) (if not specified, the user will be shown a list of the default cores).

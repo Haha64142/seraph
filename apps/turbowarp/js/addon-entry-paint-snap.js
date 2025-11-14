@@ -1,13 +1,13 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-paint-snap"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/paint-snap/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/paint-snap/userstyle.css":
 /*!******************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/paint-snap/userstyle.css ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -19,7 +19,7 @@ exports.push([module.i, ".sa-paint-snap-button {\n  position: relative;\n}\n.sa-
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/decrement.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/decrement.svg":
 /*!************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/decrement.svg ***!
   \************************************************************************************************/
@@ -32,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/increment.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/increment.svg":
 /*!************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/increment.svg ***!
   \************************************************************************************************/
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/off.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/off.svg":
 /*!******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/off.svg ***!
   \******************************************************************************************/
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/on.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/on.svg":
 /*!*****************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/on.svg ***!
   \*****************************************************************************************/
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/settings.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/settings.svg":
 /*!***********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/settings.svg ***!
   \***********************************************************************************************/
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/snap.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/snap.svg":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/snap.svg ***!
   \*******************************************************************************************/
@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/_runtime_entry.js":
 /*!********************************************************!*\
   !*** ./src/addons/addons/paint-snap/_runtime_entry.js ***!
   \********************************************************/
@@ -107,15 +107,15 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/paint-snap/userscript.js");
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/paint-snap/userstyle.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/userscript.js");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/paint-snap/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_icons_decrement_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/decrement.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/decrement.svg");
-/* harmony import */ var _url_loader_icons_increment_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/increment.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/increment.svg");
-/* harmony import */ var _url_loader_icons_off_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/off.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/off.svg");
-/* harmony import */ var _url_loader_icons_on_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/on.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/on.svg");
-/* harmony import */ var _url_loader_icons_settings_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/settings.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/settings.svg");
-/* harmony import */ var _url_loader_icons_snap_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/snap.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/snap.svg");
+/* harmony import */ var _url_loader_icons_decrement_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/decrement.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/decrement.svg");
+/* harmony import */ var _url_loader_icons_increment_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/increment.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/increment.svg");
+/* harmony import */ var _url_loader_icons_off_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/off.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/off.svg");
+/* harmony import */ var _url_loader_icons_on_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/on.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/on.svg");
+/* harmony import */ var _url_loader_icons_settings_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/settings.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/settings.svg");
+/* harmony import */ var _url_loader_icons_snap_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/snap.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/paint-snap/icons/snap.svg");
 /* generated by pull.js */
 
 
@@ -138,7 +138,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/genScalePoints.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/genScalePoints.js":
 /*!********************************************************!*\
   !*** ./src/addons/addons/paint-snap/genScalePoints.js ***!
   \********************************************************/
@@ -148,7 +148,7 @@ const resources = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return createScalePoints; });
-/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./state.js */ "./src/addons/addons/paint-snap/state.js");
+/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -265,7 +265,7 @@ function createScalePoints(paper, lib, objects, sx, sy) {
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/genSnapPoints.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/genSnapPoints.js":
 /*!*******************************************************!*\
   !*** ./src/addons/addons/paint-snap/genSnapPoints.js ***!
   \*******************************************************/
@@ -275,7 +275,7 @@ function createScalePoints(paper, lib, objects, sx, sy) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return createSnapPoints; });
-/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./state.js */ "./src/addons/addons/paint-snap/state.js");
+/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -444,7 +444,7 @@ function createSnapPoints(paper, selectionBounds, lib, objects) {
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/helpers.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/helpers.js":
 /*!*************************************************!*\
   !*** ./src/addons/addons/paint-snap/helpers.js ***!
   \*************************************************/
@@ -627,7 +627,7 @@ const GradientToolsModes = keyMirror({
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/state.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js":
 /*!***********************************************!*\
   !*** ./src/addons/addons/paint-snap/state.js ***!
   \***********************************************/
@@ -727,7 +727,7 @@ function setGuideColor(hex) {
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/ui.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/ui.js":
 /*!********************************************!*\
   !*** ./src/addons/addons/paint-snap/ui.js ***!
   \********************************************/
@@ -737,7 +737,7 @@ function setGuideColor(hex) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initUI", function() { return initUI; });
-/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./state.js */ "./src/addons/addons/paint-snap/state.js");
+/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js");
 
 /** @type {import("../../addon-api/content-script/typedef").UserscriptUtilities} */
 
@@ -770,7 +770,7 @@ function initUI({
     const el = document.createElement("img");
     el.className = "sa-paint-snap-image";
     el.draggable = false;
-    el.src = addon.self.getResource("./icons/" + name + ".svg")
+    el.src = addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/" + name + ".svg")
     /* rewritten by pull.js */
     ;
     return el;
@@ -1012,7 +1012,7 @@ function initUI({
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/updateScaleTool.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/updateScaleTool.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/paint-snap/updateScaleTool.js ***!
   \*********************************************************/
@@ -1022,10 +1022,10 @@ function initUI({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateScaleTool", function() { return updateScaleTool; });
-/* harmony import */ var _genScalePoints_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./genScalePoints.js */ "./src/addons/addons/paint-snap/genScalePoints.js");
-/* harmony import */ var _genSnapPoints_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./genSnapPoints.js */ "./src/addons/addons/paint-snap/genSnapPoints.js");
-/* harmony import */ var _helpers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./helpers.js */ "./src/addons/addons/paint-snap/helpers.js");
-/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./state.js */ "./src/addons/addons/paint-snap/state.js");
+/* harmony import */ var _genScalePoints_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./genScalePoints.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/genScalePoints.js");
+/* harmony import */ var _genSnapPoints_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./genSnapPoints.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/genSnapPoints.js");
+/* harmony import */ var _helpers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./helpers.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/helpers.js");
+/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js");
 
 
 
@@ -1487,7 +1487,7 @@ const updateScaleTool = (paper, tool) => {
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/updateSelectTool.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/updateSelectTool.js":
 /*!**********************************************************!*\
   !*** ./src/addons/addons/paint-snap/updateSelectTool.js ***!
   \**********************************************************/
@@ -1498,9 +1498,9 @@ const updateScaleTool = (paper, tool) => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateSelectTool", function() { return updateSelectTool; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isSelectTool", function() { return isSelectTool; });
-/* harmony import */ var _genSnapPoints_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./genSnapPoints.js */ "./src/addons/addons/paint-snap/genSnapPoints.js");
-/* harmony import */ var _helpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./helpers.js */ "./src/addons/addons/paint-snap/helpers.js");
-/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./state.js */ "./src/addons/addons/paint-snap/state.js");
+/* harmony import */ var _genSnapPoints_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./genSnapPoints.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/genSnapPoints.js");
+/* harmony import */ var _helpers_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./helpers.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/helpers.js");
+/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js");
 
 
 
@@ -1836,7 +1836,7 @@ const isSelectTool = tool => {
 
 /***/ }),
 
-/***/ "./src/addons/addons/paint-snap/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/userscript.js":
 /*!****************************************************!*\
   !*** ./src/addons/addons/paint-snap/userscript.js ***!
   \****************************************************/
@@ -1845,10 +1845,10 @@ const isSelectTool = tool => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _updateSelectTool_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./updateSelectTool.js */ "./src/addons/addons/paint-snap/updateSelectTool.js");
-/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./state.js */ "./src/addons/addons/paint-snap/state.js");
-/* harmony import */ var _ui_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ui.js */ "./src/addons/addons/paint-snap/ui.js");
-/* harmony import */ var _updateScaleTool_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./updateScaleTool.js */ "./src/addons/addons/paint-snap/updateScaleTool.js");
+/* harmony import */ var _updateSelectTool_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./updateSelectTool.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/updateSelectTool.js");
+/* harmony import */ var _state_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/state.js");
+/* harmony import */ var _ui_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ui.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/ui.js");
+/* harmony import */ var _updateScaleTool_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./updateScaleTool.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/updateScaleTool.js");
 
 
 

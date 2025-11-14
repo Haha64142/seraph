@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// #import {assertInstanceof} from './assert.m.js';
-// #import {dispatchSimpleEvent} from './cr.m.js';
+// #import {assertInstanceof} from 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/assert.m.js';
+// #import {dispatchSimpleEvent} from 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/cr.m.js';
 
 /**
  * Alias for document.getElementById. Found elements must be HTMLElements.
@@ -246,8 +246,8 @@
   return original.replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-      .replace(/"./g, '&quot;')
-      .replace(/'./g, '&#39;');
+      .replace(/"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, '&quot;')
+      .replace(/'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, '&#39;');
 }
 
 /**

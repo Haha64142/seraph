@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 pinButton.classList.add("pin-button");
 
                 const img = document.createElement("img");
-                img.src = "./images/other/cross.png";
+                img.src = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/other/cross.png";
                 img.width = 25;
                 img.height = 25;
 
@@ -224,33 +224,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const OFFLINE_MODE = [
     // offline mode page files
-    './offline.html',
-    './images/backgrounds/seraph/offlinebg.jpg',
-    './images/ico.ico',
-    './storage/fonts/ubuntu/Ubuntu.woff2',
-    './storage/js/directories.json',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/offline.html',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/backgrounds/seraph/offlinebg.jpg',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/ico.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/fonts/ubuntu/Ubuntu.woff2',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/js/directories.json',
 
     // download ruffle
-    './storage/ruffle/a29c1b01570ffecf6fae.wasm',
-    './storage/ruffle/core.ruffle.1caf8a7231ccf85abb1d.js',
-    './storage/ruffle/core.ruffle.1caf8a7231ccf85abb1d.js.map',
-    './storage/ruffle/core.ruffle.78cc902cbabd4bc44008.js',
-    './storage/ruffle/core.ruffle.78cc902cbabd4bc44008.js.map',
-    './storage/ruffle/d6c752be1c7e690bf226.wasm',
-    './storage/ruffle/package.json',
-    './storage/ruffle/ruffle.js',
-    './storage/ruffle/ruffle.js.map',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/a29c1b01570ffecf6fae.wasm',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/core.ruffle.1caf8a7231ccf85abb1d.js',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/core.ruffle.1caf8a7231ccf85abb1d.js.map',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/core.ruffle.78cc902cbabd4bc44008.js',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/core.ruffle.78cc902cbabd4bc44008.js.map',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/d6c752be1c7e690bf226.wasm',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/package.json',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/ruffle.js',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/ruffle/ruffle.js.map',
 
     // download cloaking
-    './storage/js/cloak.js',
-    './images/icons/google.ico',
-    './images/icons/bing.ico',
-    './images/icons/gmail.ico',
-    './images/icons/desmos.ico',
-    './images/icons/googleclassroom.ico',
-    './images/icons/wikipedia.ico',
-    './images/icons/chromenewtab.ico',
-    './images/icons/googledrive.ico'
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/js/cloak.js',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/google.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/bing.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/gmail.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/desmos.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/googleclassroom.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/wikipedia.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/chromenewtab.ico',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/images/icons/googledrive.ico'
 ];
 
 async function areEssentialFilesCached() {
@@ -341,7 +341,7 @@ function centerDivOnScroll() {
   
 async function downloadGameFiles(gameName, gameDirectory, promptDiv, blackoutDiv) {
     try {
-        const response = await fetch('./storage/js/directories.json'); 
+        const response = await fetch('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/js/directories.json'); 
         if (!response.ok) {
             throw new Error('failed to fetch list');
         }

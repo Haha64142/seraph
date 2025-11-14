@@ -7416,7 +7416,7 @@
           void 0 === e && (e = null),
             void 0 === n && (n = null),
             void 0 === r && (r = null),
-            (this._uri = t.url = t.url.replace(/\\/g, "./")),
+            (this._uri = t.url = t.url.replace(/\\/g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
             (this._context = e),
             (this._namespace = n),
             this.dispatchEvent(new V(V.LOADER_START, this._uri, null, null)),
@@ -7499,14 +7499,14 @@
         }),
         (n.prototype._joinUrl = function (t, e) {
           return (
-            ("./" != e.charAt(0) && "\\" != e.charAt(0)) || (e = e.substr(1)),
+            ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" != e.charAt(0) && "\\" != e.charAt(0)) || (e = e.substr(1)),
             "." == e.charAt(0) && (e = e.substr(2)),
             0 == t.length
               ? e
-              : (("./" != t.charAt(t.length - 1) &&
+              : (("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" != t.charAt(t.length - 1) &&
                   "\\" != t.charAt(t.length - 1)) ||
                   (t = t.substr(0, t.length - 1)),
-                t.concat("./", e))
+                t.concat("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", e))
           );
         }),
         (n.prototype._resolveDependencyUrl = function (t) {
@@ -7515,8 +7515,8 @@
             return this._context._iGetRemappedUrl(e);
           if (e == this._uri) return e;
           var n,
-            r = new RegExp("./^[a-zA-Z]{3,4}:///");
-          if ("./" == e.charAt(0))
+            r = new RegExp("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/^[a-zA-Z]{3,4}:///");
+          if ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e.charAt(0))
             return this._context && this._context.overrideAbsolutePaths
               ? this._joinUrl(this._context.dependencyBaseUrl, e)
               : e;
@@ -7526,7 +7526,7 @@
           }
           return this._context && this._context.dependencyBaseUrl
             ? ((n = this._context.dependencyBaseUrl), this._joinUrl(n, e))
-            : ((n = this._uri.substring(0, this._uri.lastIndexOf("./") + 1)),
+            : ((n = this._uri.substring(0, this._uri.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1)),
               this._joinUrl(n, e));
         }),
         (n.prototype._retrieveParserDependencies = function () {
@@ -10635,7 +10635,7 @@
           return this.r;
         }),
         (t.prototype.processLine = function (t, e) {
-          var n = t.search(".//");
+          var n = t.search("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//");
           if (
             (-1 != n && (t = t.slice(0, n)),
             (t = t.replace(/^\s+|\s+$/g, "")).length > 0)
@@ -34764,7 +34764,7 @@
           Ps && (y = Ps),
           (y =
             0 !== y.indexOf("blob:")
-              ? y.substr(0, y.lastIndexOf("./") + 1)
+              ? y.substr(0, y.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1)
               : "");
         var A = e.printErr || console.warn.bind(console);
         for (_ in m) m.hasOwnProperty(_) && (e[_] = m[_]);
@@ -53631,7 +53631,7 @@
           "¶": "para",
           "@": "commat",
           "*": "ast",
-          "./": "sol",
+          "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/": "sol",
           undefined: null,
           "&": "amp",
           "#": "num",
@@ -56764,7 +56764,7 @@
           smtes: "⪬︀",
           softcy: "ь",
           SOFTcy: "Ь",
-          sol: "./",
+          sol: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
           solb: "⧄",
           solbar: "⌿",
           sopf: "𝕤",
@@ -58201,7 +58201,7 @@
                 (r[r.length] = "font"), (n += 2);
               else if ("l" == e[n + 1] && "i" == e[n + 2])
                 (r[r.length] = "li"), n++;
-              else if ("./" == e[n + 1] && "p" == e[n + 2]) {
+              else if ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e[n + 1] && "p" == e[n + 2]) {
                 for (var a = r.length, s = -1; a > 0; )
                   if ("p" == r[--a]) {
                     s = a;
@@ -58216,7 +58216,7 @@
                       a--;
                   r.pop();
                 }
-              } else if ("./" == e[n + 1] && "b" == e[n + 2]) {
+              } else if ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e[n + 1] && "b" == e[n + 2]) {
                 var u = r.length;
                 for (s = -1; u > 0; )
                   if ("b" == r[--u]) {
@@ -58232,7 +58232,7 @@
                       u--;
                   r.pop();
                 }
-              } else if ("./" == e[n + 1] && "i" == e[n + 2]) {
+              } else if ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e[n + 1] && "i" == e[n + 2]) {
                 var l = r.length;
                 for (s = -1; l > 0; )
                   if ("i" == r[--l]) {
@@ -58248,7 +58248,7 @@
                       l--;
                   r.pop();
                 }
-              } else if ("./" == e[n + 1] && "u" == e[n + 2]) {
+              } else if ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e[n + 1] && "u" == e[n + 2]) {
                 var c = r.length;
                 for (s = -1; c > 0; )
                   if ("u" == r[--c]) {
@@ -58265,7 +58265,7 @@
                   r.pop();
                 }
               } else if (
-                "./" == e[n + 1] &&
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e[n + 1] &&
                 "l" == e[n + 2] &&
                 "i" == e[n + 3]
               ) {
@@ -58285,7 +58285,7 @@
                   r.pop();
                 }
               } else if (
-                "./" == e[n + 1] &&
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == e[n + 1] &&
                 "f" == e[n + 2] &&
                 "o" == e[n + 3] &&
                 "n" == e[n + 4] &&
@@ -62080,9 +62080,9 @@
         }),
         (t.prototype.writeComment = function (t) {
           var e = (t || "").split("\n");
-          if (1 === e.length) this.writeLn(".// " + e[0]);
+          if (1 === e.length) this.writeLn("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + e[0]);
           else {
-            this.writeLn("./**");
+            this.writeLn("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/**");
             for (var n = 0; n < e.length; n++) this.writeLn(" * " + e[n]);
             this.writeLn(" */");
           }
@@ -63071,7 +63071,7 @@
                       try {
                         o.open(
                           "POST",
-                          "http://localhost:" + t.config.port + "./uploadImage",
+                          "http://localhost:" + t.config.port + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/uploadImage",
                           !0
                         ),
                           o.send(r);
@@ -63123,7 +63123,7 @@
             0 == this.frames[this.frames.length - 1].messages.length &&
               this.frames.pop();
             var t = window.location.pathname
-                .split("./")
+                .split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")
                 .pop()
                 .replace(".html", ""),
               e = {
@@ -63142,12 +63142,12 @@
               r = new FormData(),
               i = new Blob([n], { type: "text/xml" });
             if (this.config.recordtest) {
-              var o = this.config.swfPath.replace(/\\/g, "./");
+              var o = this.config.swfPath.replace(/\\/g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
               r.append("file", i, o), r.append("record", "true");
             } else {
               o =
-                this.config.swfPath.replace(/\\/g, "./") +
-                "./" +
+                this.config.swfPath.replace(/\\/g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") +
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" +
                 this.config.testPath;
               r.append("file", i, o);
             }
@@ -63164,7 +63164,7 @@
             try {
               a.open(
                 "POST",
-                "http://localhost:" + this.config.port + "./upload",
+                "http://localhost:" + this.config.port + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/upload",
                 !0
               ),
                 a.send(r);
@@ -65843,7 +65843,7 @@
                   console.debug(
                     "[Away Symbols] Decoded (" +
                       t +
-                      "./" +
+                      "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" +
                       e +
                       "), " +
                       (((100 * t) / e) | 0)
@@ -67121,7 +67121,7 @@
           (this._fpsTextField.style.visibility =
             this._currentFps && this._frameRate ? "visible" : "hidden"),
             (this._fpsTextField.innerText =
-              this._currentFps.toFixed(2) + "./" + this._frameRate + " fps"),
+              this._currentFps.toFixed(2) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this._frameRate + " fps"),
             (this._currentFps = 0);
         }),
         (n.prototype.setStageDimensions = function (t, e, n, r) {
@@ -70360,11 +70360,11 @@
         }),
         (n.prototype.get_target = function () {
           var t = this.adaptee;
-          if (t === t.root) return "./";
+          if (t === t.root) return "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
           var e = "";
           do {
             if (Wh(t)) return;
-            (e = "./" + t.name + e), (t = t.parent);
+            (e = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t.name + e), (t = t.parent);
           } while (t && !t.isAVMScene);
           return e;
         }),
@@ -71843,7 +71843,7 @@
           var t = this.get_target(),
             e = this.adaptee.root,
             n = "_level" + this.context.globals._getLevelForRoot(e);
-          return "./" != t ? n + t.replace(/\//g, ".") : n;
+          return "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" != t ? n + t.replace(/\//g, ".") : n;
         },
         enumerable: !0,
         configurable: !0,
@@ -72035,7 +72035,7 @@
               ? (t = null)
               : (null != t.name && e.push(t.name), (t = t.parent));
           for (var n = e.length, r = ""; n > 0; )
-            "" != e[--n] && (r += "./"), (r += e[n]);
+            "" != e[--n] && (r += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"), (r += e[n]);
           this._dropTarget = r;
         } else this._dropTarget = "";
       }),
@@ -77665,7 +77665,7 @@
                 S = this.dataId + "_f" + t.position;
               m && (S = m + "__" + S),
                 ((w = new Fm(t.readBytes(E), S, this._actionsData)).debugPath =
-                  this.dataId + "./" + (m || "f" + t.position)),
+                  this.dataId + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + (m || "f" + t.position)),
                 (o = [w, g, _, y, v, x]);
               break;
             case 143:
@@ -77683,19 +77683,19 @@
                   this.dataId + "_t" + t.position,
                   this._actionsData
                 );
-              N && (R.debugPath = N + "./try_" + this._stream.position);
+              N && (R.debugPath = N + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/try_" + this._stream.position);
               var F = new Fm(
                 t.readBytes(B),
                 this.dataId + "_c" + t.position,
                 this._actionsData
               );
-              N && (F.debugPath = N + "./catch_" + this._stream.position);
+              N && (F.debugPath = N + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/catch_" + this._stream.position);
               var k = new Fm(
                 t.readBytes(M),
                 this.dataId + "_z" + t.position,
                 this._actionsData
               );
-              N && (k.debugPath = N + "./finaly_" + this._stream.position),
+              N && (k.debugPath = N + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/finaly_" + this._stream.position),
                 (o = [D, L, R, P, F, T, k]);
               break;
             case 137:
@@ -78085,7 +78085,7 @@
                 "ActionCallMethod" == t.action.actionName &&
                   (l ||
                     (h =
-                      ".// strange oppcode at " + t.action.position + "\n" + h),
+                      "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// strange oppcode at " + t.action.position + "\n" + h),
                   l && 150 == l.action.actionCode))
               ) {
                 var g = this.convertArgs(l.action.args, e - 1, n, i);
@@ -78181,7 +78181,7 @@
             l = "";
           gg.value &&
             (l +=
-              "./* Running " +
+              "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Running " +
               a +
               " */ if (Shumway.AVM1.Debugger.pause || Shumway.AVM1.Debugger.breakpoints." +
               a +
@@ -78210,7 +78210,7 @@
           o.forward))
             u += "var " + h + " = " + o.forward[h] + ";\n";
           (l = (u += "\n") + s + l),
-            (l += ".//# sourceURL=http://jit/" + (e && !Ym.test(e) ? e : a));
+            (l += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//# sourceURL=http://jit/" + (e && !Ym.test(e) ? e : a));
           try {
             return new Function("calls", "res", l)(Km(), i);
           } catch (t) {
@@ -78845,7 +78845,7 @@
       !(function (t) {
         return (
           t &&
-          (t.indexOf(".") >= 0 || t.indexOf(":") >= 0 || t.indexOf("./") >= 0)
+          (t.indexOf(".") >= 0 || t.indexOf(":") >= 0 || t.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") >= 0)
         );
       })(e)
     )
@@ -78858,7 +78858,7 @@
         : Oy(t.scopeList, e, n);
     if ("." == e[e.length - 1]) return null;
     if (
-      ("./" === e[0]
+      ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" === e[0]
         ? ((r = Oy(t.scopeList, "_root", 33)) &&
             ((l = r.propertyName), (c = r.scope), (h = r.value)),
           s++,
@@ -78882,7 +78882,7 @@
       if (((d = s), "." === e[s] && "." === e[s + 1]))
         (s += 2), (l = "_parent");
       else {
-        for (; s < a && "./" !== (i = e[s]) && "." !== i && ":" !== i; ) s++;
+        for (; s < a && "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== (i = e[s]) && "." !== i && ":" !== i; ) s++;
         l = e.substring(d, s);
       }
       if ("" === l && s < a) s++;
@@ -78900,7 +78900,7 @@
               m = "";
             if ("." === e[_] && "." === e[_ + 1]) (_ += 2), (m = "_parent");
             else {
-              for (; _ < a && "./" !== (i = e[_]) && "." !== i && ":" !== i; )
+              for (; _ < a && "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== (i = e[_]) && "." !== i && ":" !== i; )
                 _++;
               m = e.substring(d, _);
             }
@@ -78938,8 +78938,8 @@
           );
         if (s >= a) break;
         var y = e[s++];
-        "./" !== y || (":" !== (i = e[s]) && "." !== i) || (y = e[s++]),
-          (u = "./" === y);
+        "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== y || (":" !== (i = e[s]) && "." !== i) || (y = e[s++]),
+          (u = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" === y);
       }
     }
     return (
@@ -80508,7 +80508,7 @@
               pt.enableParser(Wd),
               (this._factory.avm1Context.globals.SWF_BASE_URL = e.url.substring(
                 0,
-                e.url.lastIndexOf("./") + 1
+                e.url.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1
               )),
               this.clearAllAVM1Listener();
             var i = this._avmStage.view.stage;
@@ -86296,10 +86296,10 @@
       forced: !(function (t) {
         var e = /./;
         try {
-          "././"[t](e);
+          "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/./"[t](e);
         } catch (n) {
           try {
-            return (e[DS] = !1), "././"[t](e);
+            return (e[DS] = !1), "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/./"[t](e);
           } catch (t) {}
         }
         return !1;
@@ -88964,7 +88964,7 @@
           return i.length ? n.UNMATCHABLE_PATTERN : e;
         }),
         (n.prototype.ecmaToString = function () {
-          var t = "./" + this._source + "./";
+          var t = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this._source + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
           return (
             this.value.global && (t += "g"),
             this.value.ignoreCase && (t += "i"),
@@ -90915,12 +90915,12 @@
           function i() {
             for (; n < t.length && IT(t, n); ) ++n;
           }
-          for (; n < t.length && !IT(t, n) && ">" !== t[n] && "./" !== t[n]; )
+          for (; n < t.length && !IT(t, n) && ">" !== t[n] && "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== t[n]; )
             ++n;
           var o = t.substring(e, n);
           for (
             i();
-            n < t.length && ">" !== t[n] && "./" !== t[n] && "?" !== t[n];
+            n < t.length && ">" !== t[n] && "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== t[n] && "?" !== t[n];
 
           ) {
             i();
@@ -90941,7 +90941,7 @@
         }),
         (t.prototype.parseProcessingInstruction = function (t, e) {
           var n = e;
-          for (; n < t.length && !IT(t, n) && ">" !== t[n] && "./" !== t[n]; )
+          for (; n < t.length && !IT(t, n) && ">" !== t[n] && "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== t[n]; )
             ++n;
           var r = t.substring(e, n);
           !(function () {
@@ -90957,7 +90957,7 @@
             if ("<" === t[e]) {
               var r = void 0;
               switch (t[++n]) {
-                case "./":
+                case "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/":
                   if ((++n, (r = t.indexOf(">", n)) < 0))
                     return void this.onError(-9);
                   this.onEndElement(t.substring(n, r)), (n = r + 1);
@@ -93617,7 +93617,7 @@
             this.queue.push({ type: 1, value: t, empty: n, attrs: r });
         }),
         (n.prototype.onEndElement = function (t) {
-          this.queue.push({ type: 1, value: "./" + t });
+          this.queue.push({ type: 1, value: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t });
         }),
         (n.prototype.onText = function (t) {
           (this.ignoreWhitespace &&
@@ -95255,7 +95255,7 @@
         (t.prototype._genEntry = function (t) {
           for (var e = [], n = 1; n < arguments.length; n++)
             e[n - 1] = arguments[n];
-          return ".//" + t.name;
+          return "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + t.name;
         }),
         (t.prototype._genAlias = function (t, e) {
           return t.namespace.uri.replace(/\./g, "_") + "__" + t.name;
@@ -95607,7 +95607,7 @@
   function qP(t, e, n) {
     void 0 === n && (n = !0);
     var r = t.evalStackIndex(e);
-    if (r < 0) return "./*" + YP + " " + r + "*/ null";
+    if (r < 0) return "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*" + YP + " " + r + "*/ null";
     var i = "stack" + r;
     return n ? (t.isThisAlias(i) ? zP(t, 0) : t.getConstAlias(i)) : i;
   }
@@ -95675,10 +95675,10 @@
         t.popAnyAlias("stack0"),
           t.emitBeginMain("catch(e) {"),
           t.emitMain(
-            ".// in case this is a error coming from stack0.__fast when stack0 is undefined,"
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// in case this is a error coming from stack0.__fast when stack0 is undefined,"
           ),
           t.emitMain(
-            ".// we convert it to a ASError, so that avm2 can still catch it"
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// we convert it to a ASError, so that avm2 can still catch it"
           ),
           t.emitMain("if (e instanceof TypeError) {"),
           t.emitMain(
@@ -95856,7 +95856,7 @@
             this.localTypes[e] &&
               this.localTypes[e][0] &&
               this.emitMain(
-                ".// JIT: potential type:" + this.localTypes[e][0].toString()
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// JIT: potential type:" + this.localTypes[e][0].toString()
               ),
             this.mainBlock.push(this.indent + n + " = " + zP(this, e) + ";")
           );
@@ -95882,7 +95882,7 @@
               if (this.constAliases[r]) {
                 var i = this.mainBlock[this.constAliases[r].pos];
                 this.mainBlock[this.constAliases[r].pos] =
-                  ".//" + i + ".// JIT: redundant assigment, value unused";
+                  "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + i + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// JIT: redundant assigment, value unused";
               }
             }
         }),
@@ -96313,12 +96313,12 @@
                       " = this === context.jsGlobal ? context.savedScope.global.object : this;"
                   )
                 : s.push(t.indent + "let " + d + " = this;")
-              : s.push(t.indent + '.// Possible use a real "this"');
+              : s.push(t.indent + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// Possible use a real "this"');
             for (var f = 0, g = a; f < g.length; f++) {
               var _ = g[f],
                 m = eO(t, _.name, _.type, !1);
               m &&
-                (s.push(t.indent + "./* Force " + _.type.name + " coerce */"),
+                (s.push(t.indent + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Force " + _.type.name + " coerce */"),
                 s.push("" + t.indent + _.name + " = " + m + ";"));
             }
             return (
@@ -96365,7 +96365,7 @@
                       zP(t, 0) +
                       " = this === context.jsGlobal ? context.savedScope.global.object : this;"
                   )
-                : r.push(t.indent + '.// Possible use a real "this"'),
+                : r.push(t.indent + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// Possible use a real "this"'),
                 i = 0;
               i < e.length;
               i++
@@ -96434,7 +96434,7 @@
       X = _.length > 1 || m;
     vO &&
       vO[p.classPath + "__begin"] &&
-      (a.emitMain("./* ATTACH METHOD HOOK */"),
+      (a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* ATTACH METHOD HOOK */"),
       a.emitMain(
         "context.executeHook(" + zP(a, 0) + ", '" + p.classPath + "__begin')"
       )),
@@ -96476,7 +96476,7 @@
           (a.openTryCatchGroups.push(G),
           a.emitBeginMain("try {"),
           a.moveIndent(1)),
-        H.comment && a.emitMain(".//" + H.comment);
+        H.comment && a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + H.comment);
       var W,
         J = Y(0),
         $ = Y(1),
@@ -96484,7 +96484,7 @@
         tt = Y(3),
         et = H.scope > 0 ? "scope" + (H.scope - 1) : "context.savedScope",
         nt = "scope" + H.scope;
-      if (H.stack < 0) a.emitMain(".// unreachable");
+      if (H.stack < 0) a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// unreachable");
       else {
         var rt = 0;
         switch (H.name) {
@@ -96627,7 +96627,7 @@
             break;
           case bP.IFEQ:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " == " + $ + ") { return; }");
               break;
             }
@@ -96637,7 +96637,7 @@
             break;
           case bP.IFNE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " != " + $ + ") { return; }");
               break;
             }
@@ -96647,7 +96647,7 @@
             break;
           case bP.IFSTRICTEQ:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " === " + $ + ") { return; }");
               break;
             }
@@ -96657,7 +96657,7 @@
             break;
           case bP.IFSTRICTNE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " !== " + $ + ") { return; }");
               break;
             }
@@ -96667,7 +96667,7 @@
             break;
           case bP.IFNLE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (!(" + J + " >= " + $ + ")) { return; }");
               break;
             }
@@ -96677,7 +96677,7 @@
             break;
           case bP.IFGT:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " < " + $ + ") { return; }");
               break;
             }
@@ -96687,7 +96687,7 @@
             break;
           case bP.IFNLT:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (!(" + J + " > " + $ + ")) { return; }");
               break;
             }
@@ -96697,7 +96697,7 @@
             break;
           case bP.IFGE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " <= " + $ + ") { return; }");
               break;
             }
@@ -96707,7 +96707,7 @@
             break;
           case bP.IFNGE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (!(" + J + " <= " + $ + ")) { return; }");
               break;
             }
@@ -96717,7 +96717,7 @@
             break;
           case bP.IFLT:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " > " + $ + ") { return; }");
               break;
             }
@@ -96727,7 +96727,7 @@
             break;
           case bP.IFNGT:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (!(" + J + " < " + $ + ")) { return; }");
               break;
             }
@@ -96737,7 +96737,7 @@
             break;
           case bP.IFLE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + " >= " + $ + ") { return; }");
               break;
             }
@@ -96747,7 +96747,7 @@
             break;
           case bP.IFFALSE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (!" + J + ") { return; }");
               break;
             }
@@ -96755,7 +96755,7 @@
             break;
           case bP.IFTRUE:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"),
                 a.emitMain("if (" + J + ") { return; }");
               break;
             }
@@ -96782,7 +96782,7 @@
             break;
           case bP.JUMP:
             if (CO(A, _, j, K(0))) {
-              a.emitMain(".//JIT: Emit inline return"), a.emitMain("return;");
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Emit inline return"), a.emitMain("return;");
               break;
             }
             a.emitMain("{ p = " + K(0) + "; continue; };");
@@ -96944,7 +96944,7 @@
               4 & o &&
               (z.name === bP.PUSHNULL || z.name === bP.PUSHUNDEFINED)
             ) {
-              a.emitMain(".// SKIP_NULL_COERCE");
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// SKIP_NULL_COERCE");
               break;
             }
             a.popAnyAlias(Y(0, !1)),
@@ -96993,7 +96993,7 @@
               lt &&
               ("lookup" === lt.kind || "alias" === lt.kind) &&
               lt.type &&
-              (a.emitMain(".//JIT: Possible source:" + lt.type),
+              (a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Possible source:" + lt.type),
               "RegExp" === lt.type.name)
             ) {
               a.emitMain(st + " = context.getRegExp([" + at.join(", ") + "]);");
@@ -97029,7 +97029,7 @@
                   ? ub.getPublicMangledName(ct.name)
                   : ct.name;
                 c.kill("" + st),
-                  a.emitMain("./* We sure that this safe call */"),
+                  a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe call */"),
                   pt.isFunc
                     ? a.emitMain(
                         ht + " = " + rO(st, dt) + "(" + at.join(", ") + ");"
@@ -97049,7 +97049,7 @@
               if ("this" === st && v)
                 if ((Et = IO(v, ct))) {
                   a.emitMain(
-                    "./* We sure that this safe call, represented in TRAIT as " +
+                    "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe call, represented in TRAIT as " +
                       lO[Et.kind] +
                       "  */ "
                   ),
@@ -97087,7 +97087,7 @@
                       ");"
                   ),
                   a.emitBeginMain("} else {")),
-                a.emitMain(".// " + ct),
+                a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct),
                 a.emitBeginMain(),
                 (Ct = "this" !== st))
               ) {
@@ -97168,7 +97168,7 @@
               dt = c.sureThatFast(st).isMangled
                 ? ub.getPublicMangledName(ct.name)
                 : ct.name;
-              a.emitMain("./* We sure that this safe call */ "),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe call */ "),
                 a.emitMain(rO(st, dt) + "(" + at.join(", ") + ");"),
                 c.kill("" + st);
               break;
@@ -97176,7 +97176,7 @@
             if ("this" === st && v)
               if ((Et = IO(v, ct))) {
                 a.emitMain(
-                  "./* We sure that this safe call, represented in TRAIT as " +
+                  "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe call, represented in TRAIT as " +
                     lO[Et.kind] +
                     "  */ "
                 ),
@@ -97185,7 +97185,7 @@
                         rO(st, ct.getMangledName()) + "(" + at.join(", ") + ");"
                       )
                     : a.emitMain(
-                        "./*fast*/" +
+                        "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*fast*/" +
                           st +
                           ".axCallProperty(" +
                           Q(K(1)) +
@@ -97200,7 +97200,7 @@
               a.emitMain("    " + rO(st, ct.name) + "(" + at.join(", ") + ");"),
               a.emitMain("} else {"),
               a.moveIndent(1)),
-              a.emitMain(".// " + ct),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct),
               a.emitBeginMain(),
               a.emitMain("let t = " + st + ";");
             ft = rO("t", "$Bg" + ct.name);
@@ -97237,10 +97237,10 @@
             break;
           case bP.FINDPROPSTRICT:
             ct = b.getMultiname(K(0));
-            a.emitMain(".// " + ct), a.popAnyAlias(Y(-1, !1));
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct), a.popAnyAlias(Y(-1, !1));
             var gt = Y(-1);
             if (h(u) && u.test(ct, !1)) {
-              a.emitMain("./* GenerateLexImports */");
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* GenerateLexImports */");
               var _t = u.getPropStrictAlias(ct, {
                 mnIndex: a.getMultinameIndex(K(0)),
               });
@@ -97253,7 +97253,7 @@
             if (1 === H.scope && v)
               if ((Et = IO(v, ct))) {
                 a.emitMain(
-                  "./* We sure that this scope owner, represented in TRAIT as " +
+                  "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this scope owner, represented in TRAIT as " +
                     lO[Et.kind] +
                     "  */ "
                 ),
@@ -97270,7 +97270,7 @@
             );
             break;
           case bP.FINDPROPERTY:
-            a.emitMain(".// " + b.getMultiname(K(0))),
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + b.getMultiname(K(0))),
               a.popAnyAlias(Y(-1, !1)),
               a.emitMain(
                 Y(-1) +
@@ -97282,7 +97282,7 @@
               );
             break;
           case bP.NEWFUNCTION:
-            a.emitMain(".// " + b.getMethodInfo(K(0))),
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + b.getMethodInfo(K(0))),
               a.popAnyAlias(Y(-1, !1)),
               a.emitMain(
                 Y(-1) +
@@ -97296,7 +97296,7 @@
               );
             break;
           case bP.NEWCLASS:
-            a.emitMain(".// " + b.classes[K(0)]),
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + b.classes[K(0)]),
               a.popAnyAlias(Y(0, !1)),
               a.emitMain(
                 Y(0) +
@@ -97311,7 +97311,7 @@
             break;
           case bP.GETDESCENDANTS:
             ct = b.getMultiname(K(0));
-            if ((a.emitMain(".// " + ct), ct.isRuntimeName())) {
+            if ((a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct), ct.isRuntimeName())) {
               var yt = ct.isRuntimeName() && ct.isRuntimeNamespace();
               a.popAnyAlias(Y(yt ? 2 : 1, !1));
               gt = Y(yt ? 2 : 1);
@@ -97473,7 +97473,7 @@
                 a.killConstAliasInstruction([Y(K(0) - ut, !1)]);
             var vt = [];
             yO(b.getMultiname(K(1)), vt)
-              ? (a.emitMain(".//JIT: Support fast construct:" + vt.join("./")),
+              ? (a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: Support fast construct:" + vt.join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
                 a.emitMain(
                   Y(K(0)) +
                     " = context.constructFast(" +
@@ -97500,24 +97500,24 @@
             (ct = b.getMultiname(K(0))), (At = Y(0)), (gt = Y(0, !1));
             a.killConstAliasInstruction([gt]),
               a.popAnyAlias(Y(0, !1)),
-              a.emitMain(".// " + ct);
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct);
             pt = void 0;
             if (h(c) && (pt = c.sureThatFast(At, ct.name))) {
               dt = pt.isMangled ? ub.getPublicMangledName(ct.name) : ct.name;
               c.kill(At),
-                a.emitMain("./* We sure that this safe get */ "),
+                a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe get */ "),
                 a.emitMain(gt + " = " + rO(At, dt) + ";");
               break;
             }
             var bt = a.getStackAlias(0);
             if (
-              (bt && a.emitMain(".//Possible type:" + bt.type),
+              (bt && a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//Possible type:" + bt.type),
               "this" === J && v)
             )
               if ((Et = IO(v, ct))) {
                 if (
                   (a.emitMain(
-                    "./* We sure that this safe get, represented in TRAIT as " +
+                    "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe get, represented in TRAIT as " +
                       lO[Et.kind] +
                       ", type: " +
                       Et.typeName +
@@ -97578,7 +97578,7 @@
             a.popAnyAlias(Y(yt ? 2 : 1, !1));
             var Ct;
             gt = Y(yt ? 2 : 1);
-            a.emitMain(".// " + ct),
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct),
               a.emitBeginMain(),
               yt
                 ? (a.emitMain(
@@ -97636,14 +97636,14 @@
             ct = b.getMultiname(K(0));
             if (
               (a.killConstAliasInstruction([Y(0, !1), Y(1, !1)]),
-              a.emitMain(".// " + ct),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct),
               "this" === $ && v)
             )
               if (
                 (Et = IO(v, ct)) &&
                 Et &&
                 (a.emitMain(
-                  "./* We sure that this safe set, represented in TRAIT as " +
+                  "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* We sure that this safe set, represented in TRAIT as " +
                     lO[Et.kind] +
                     ", with type: " +
                     Et.typeName +
@@ -97701,7 +97701,7 @@
             break;
           case bP.DELETEPROPERTY:
             a.popAnyAlias(Y(0, !1)),
-              a.emitMain(".// " + b.getMultiname(K(0))),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + b.getMultiname(K(0))),
               a.emitMain(
                 Y(0) + " = context.deleteproperty(" + Q(K(0)) + ", " + J + ");"
               );
@@ -97818,8 +97818,8 @@
             var Et;
             gt = Y(-1);
             if (h(u) && u.test(ct, !0)) {
-              a.emitMain(".// " + ct),
-                a.emitMain("./* GenerateLexImports GETLEX */"),
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct),
+                a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* GenerateLexImports GETLEX */"),
                 a.emitConst(
                   -1,
                   u.getLexAlias(ct, {
@@ -97843,7 +97843,7 @@
               if ((Et = IO(v, ct))) {
                 if (
                   (a.emitMain(
-                    "./* GETLEX We sure that this safe get, represented in TRAIT as " +
+                    "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* GETLEX We sure that this safe get, represented in TRAIT as " +
                       lO[Et.kind] +
                       "  */ "
                   ),
@@ -97861,7 +97861,7 @@
                   break;
                 }
               }
-            a.emitMain(".// " + ct),
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// " + ct),
               a.emitMain(
                 "temp = " +
                   et +
@@ -97885,7 +97885,7 @@
           case bP.RETURNVALUE:
             vO &&
               vO[p.classPath + "__return"] &&
-              (a.emitMain("./* ATTACH METHOD HOOK */"),
+              (a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* ATTACH METHOD HOOK */"),
               a.emitMain(
                 "context.executeHook(" +
                   zP(a, 0) +
@@ -97907,7 +97907,7 @@
           case bP.RETURNVOID:
             vO &&
               vO[p.classPath + "__return"] &&
-              (a.emitMain("./* ATTACH METHOD HOOK */"),
+              (a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* ATTACH METHOD HOOK */"),
               a.emitMain(
                 "context.executeHook(" +
                   zP(a, 0) +
@@ -97922,11 +97922,11 @@
               4 & o &&
               (z.name === bP.PUSHNULL || z.name === bP.PUSHUNDEFINED)
             ) {
-              a.emitMain(".//JIT: SKIP_NULL_COERCE");
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: SKIP_NULL_COERCE");
               break;
             }
             if (z.name === bP.ASTYPELATE) {
-              a.emitMain(".//JIT: SKIP DOUBLED COERCE AFTER ASTYPELATE");
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//JIT: SKIP DOUBLED COERCE AFTER ASTYPELATE");
               break;
             }
             a.popAnyAlias(Y(0, !1));
@@ -97957,7 +97957,7 @@
               4 & o &&
               (z.name === bP.PUSHNULL || z.name === bP.PUSHUNDEFINED)
             ) {
-              a.emitMain(".// SKIP_NULL_COERCE");
+              a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// SKIP_NULL_COERCE");
               break;
             }
             a.popAnyAlias(Y(0, !1)),
@@ -98003,12 +98003,12 @@
               a.emitMain(J + " = context.axCheckFilter(sec, " + J + ");");
             break;
           case bP.KILL:
-            a.emitMain(".// Redundant oppcode KILL, prevent optimisations");
+            a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// Redundant oppcode KILL, prevent optimisations");
             break;
           default:
             if ((8 & o || sO(a), H.name <= bP.LI8 && H.name >= bP.SF64))
               return (
-                a.emitMain(".//unknown instruction " + bO[A[j].name]),
+                a.emitMain("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//unknown instruction " + bO[A[j].name]),
                 {
                   error: {
                     message: "unhandled instruction " + H,
@@ -98029,7 +98029,7 @@
       (Pt = Tt[Dt]) &&
         (Pt.die &&
           St.push(
-            F + ".// local" + Pt.index + " is assigned before read, skip init"
+            F + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// local" + Pt.index + " is assigned before read, skip init"
           ),
         St.push(F + "let local" + Pt.index + " = undefined"),
         M ||
@@ -98059,7 +98059,7 @@
       Bt.push(u.genBody(a.indent)),
       (Mt = u.genPost(Mt)));
     var Lt =
-        "./*\n\tIndex: " +
+        "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*\n\tIndex: " +
         p.index +
         "\n\tPath:  " +
         p.classPath +
@@ -98538,37 +98538,37 @@
             (t.trait.holder instanceof wO
               ? ((l = t.trait.holder.instanceInfo
                   .getClassName()
-                  .replace(/\./g, "./")),
+                  .replace(/\./g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
                 (h = !1))
               : t.trait.holder instanceof hO &&
-                ((l = t.trait.holder.getClassName().replace(/\./g, "./")),
+                ((l = t.trait.holder.getClassName().replace(/\./g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
                 (d =
                   null === (n = t.trait.holder.getSuperName()) || void 0 === n
                     ? void 0
-                    : n.toFQNString(!1).replace(/\./g, "./"))),
+                    : n.toFQNString(!1).replace(/\./g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"))),
             t.trait instanceof DO &&
               ((c = t.trait.name.name), (p = Jv[t.trait.name.namespace.type])),
             t.trait && 2 === t.trait.kind && (c = "get_" + c),
             t.trait && 3 === t.trait.kind && (c = "set_" + c),
             (c = t.isConstructor ? "constructor" : h ? "m_" + c : c),
             (s = !1),
-            void 0 !== BO[(u = l + "./" + c)]
+            void 0 !== BO[(u = l + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + c)]
               ? (u += "$" + (BO[u] = BO[u] + 1))
               : (BO[u] = 0)),
             t.instanceInfo &&
-              ((l = t.instanceInfo.getClassName().replace(/\./g, "./")),
+              ((l = t.instanceInfo.getClassName().replace(/\./g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
               (c = t.isConstructor ? "constructor" : a),
               (d =
                 null === (r = t.instanceInfo.getSuperName()) || void 0 === r
                   ? void 0
-                  : r.toFQNString(!1).replace(/\./g, "./")),
+                  : r.toFQNString(!1).replace(/\./g, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
               (s = !1),
-              (u = l + "./" + c));
+              (u = l + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + c));
           var f = l + (h ? "::" : ".") + c;
           return (
             t.parentInfo &&
               s &&
-              (f = u = t.parentInfo.meta.filePath + "./" + o + "_" + c),
+              (f = u = t.parentInfo.meta.filePath + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + o + "_" + c),
             {
               index: t.index(),
               filePath: u,
@@ -98581,7 +98581,7 @@
                   ? void 0
                   : i.toString()) || "*",
               isValidName: OO(c),
-              isValidPath: OO(l.replace("./", "_")),
+              isValidPath: OO(l.replace("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", "_")),
               kind: t.trait && lO[t.trait.kind],
             }
           );
@@ -99574,7 +99574,7 @@
           ? Object.defineProperty(n, o, {
               get: new Function(
                 "",
-                "return this." + a + ".//# sourceURL=get-" + a + ".as"
+                "return this." + a + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//# sourceURL=get-" + a + ".as"
               ),
               set: new Function(
                 "v",
@@ -99585,7 +99585,7 @@
           ? Object.defineProperty(n, o, {
               get: new Function(
                 "",
-                "return this." + a + ".//# sourceURL=get-" + a + ".as"
+                "return this." + a + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//# sourceURL=get-" + a + ".as"
               ),
             })
           : i.toString();
@@ -100338,7 +100338,7 @@
             i = n.toFlashlogString(),
             o = n.holder;
           return (
-            o && o instanceof hO && (r = (t = o.toFlashlogString()) + "./" + r),
+            o && o instanceof hO && (r = (t = o.toFlashlogString()) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + r),
             o &&
               o instanceof wO &&
               o.trait &&
@@ -113761,7 +113761,7 @@
         }),
         (n.getLocal = function (t, e, r) {
           (rN = this.sec), (t = nb(t));
-          var i = ((e = nb(e)) || "") + "./" + t;
+          var i = ((e = nb(e)) || "") + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t;
           if (n._sharedObjects[i]) return n._sharedObjects[i];
           var o,
             a = eN().getItem(i),
@@ -114440,7 +114440,7 @@
         }),
         Object.defineProperty(n, "pageDomain", {
           get: function () {
-            var t = undefined.resolveUrl("./").split("./");
+            var t = undefined.resolveUrl("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
             return t.pop(), t.pop();
           },
           enumerable: !0,
@@ -119429,10 +119429,10 @@
     return fetch(
       ((n = t),
       (r = n.indexOf("://")),
-      (i = "./" === n[0] ? "./" : ""),
+      (i = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" === n[0] ? "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" : ""),
       (o = n.split(/[\\|/]/).filter(Boolean)),
-      r > -1 && (o[0] += "./"),
-      i + o.join("./"))
+      r > -1 && (o[0] += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),
+      i + o.join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"))
     )
       .then(function (t) {
         if (!t.ok) throw "Ups: " + t.statusText + "(" + t.status + ")";
@@ -119672,13 +119672,13 @@
           rP("flash.system.fscommand", _N),
           QL.ensureInitialized();
         var o = t.builtinsBaseUrl,
-          a = [kR(o + "./builtin.abc", "arraybuffer")];
+          a = [kR(o + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/builtin.abc", "arraybuffer")];
         return (
           r & QB.Playerglobal &&
             a.push(
-              kR(o + "./playerglobal.abcs", "arraybuffer"),
-              kR(o + "./playerglobal.json", "json"),
-              kR(o + "./avmplus.abc", "arraybuffer")
+              kR(o + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/playerglobal.abcs", "arraybuffer"),
+              kR(o + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/playerglobal.json", "json"),
+              kR(o + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/avmplus.abc", "arraybuffer")
             ),
           Promise.all(a).then(function (t) {
             var o = t[0],
@@ -119777,7 +119777,7 @@
             console.warn("Loaded unhandled asset-type", t.assetType);
         }
       }),
-      (t.builtinsBaseUrl = "./assets/builtins/"),
+      (t.builtinsBaseUrl = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/assets/builtins/"),
       t
     );
   })();
@@ -120650,10 +120650,10 @@
     })();
   $d.push(
     { test: /x.mochiads.com/, supressErrors: !0 },
-    { test: /AGI.swf/, resolve: "./assets/ads/AGI.swf" },
+    { test: /AGI.swf/, resolve: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/assets/ads/AGI.swf" },
     {
       test: "http://cdn.nitrome.com/components/NitromeAPI.pkg",
-      resolve: "./assets/NitromeAPI.pkg",
+      resolve: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/assets/NitromeAPI.pkg",
     },
     {
       test: /http:/,
@@ -120737,7 +120737,7 @@
   })(GR);
   console.debug("Poki-Player - 0.0.15"),
     console.debug("Papa Series - 0.0.12"),
-    (LM.DefaultLocation = ".//"),
+    (LM.DefaultLocation = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//"),
     (De.ENABLE_UNLOAD_BUFFER = !1);
   var JR = [
     "bG9jYWxob3N0",

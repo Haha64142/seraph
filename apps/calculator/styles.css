@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Ubuntu';
-  src: url('./storage/fonts/ubuntu/Ubuntu.woff2') format('woff2'),
-       url('./storage/fonts/ubuntu/Ubuntu.woff') format('woff'),
-       url('./storage/fonts/ubuntu/Ubuntu.ttf') format('truetype'),
-       url('./storage/fonts/ubuntu/Ubuntu.otf') format('otf');
+  src: url('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/fonts/ubuntu/Ubuntu.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/fonts/ubuntu/Ubuntu.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/fonts/ubuntu/Ubuntu.ttf') format('truetype'),
+       url('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/storage/fonts/ubuntu/Ubuntu.otf') format('otf');
 }
 
 :root {

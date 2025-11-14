@@ -1,4 +1,4 @@
-UnityLoader["2a4956e740b59b60b50e2d9d9e786bda"]=(function(Module) {"./
+UnityLoader["2a4956e740b59b60b50e2d9d9e786bda"]=(function(Module) {"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/
 Module['preRun'].push(function (){
 	// Initialize the IndexedDB based file system. Module['unityFileSystemInit'] allows
 	// developers to override this with their own function, when they want to do cloud storage 
@@ -8,8 +8,8 @@ Module['preRun'].push(function (){
 		{
 			console.log('IndexedDB is not available. Data will not persist in cache and PlayerPrefs will not be saved.');
 		}
-		FS.mkdir('./idbfs');
-		FS.mount(IDBFS, {}, './idbfs');
+		FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/idbfs');
+		FS.mount(IDBFS, {}, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/idbfs');
 		Module.addRunDependency('JS_FileSystem_Mount');
 		FS.syncfs(true, function (err) {
 			Module.removeRunDependency('JS_FileSystem_Mount'); 
@@ -571,7 +571,7 @@ if (ENVIRONMENT_IS_NODE) {
 
   if (!Module['thisProgram']) {
     if (process['argv'].length > 1) {
-      Module['thisProgram'] = process['argv'][1].replace(/\\/g, './');
+      Module['thisProgram'] = process['argv'][1].replace(/\\/g, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
     } else {
       Module['thisProgram'] = 'unknown-program';
     }
@@ -693,7 +693,7 @@ if (!Module['arguments']) {
   Module['arguments'] = [];
 }
 if (!Module['thisProgram']) {
-  Module['thisProgram'] = './this.program';
+  Module['thisProgram'] = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/this.program';
 }
 
 // *** Environment setup code ***
@@ -3805,19 +3805,19 @@ function copyTempDouble(ptr) {
         }
         return parts;
       },normalize:function (path) {
-        var isAbsolute = path.charAt(0) === './',
-            trailingSlash = path.substr(-1) === './';
+        var isAbsolute = path.charAt(0) === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',
+            trailingSlash = path.substr(-1) === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
         // Normalize the path
-        path = PATH.normalizeArray(path.split('./').filter(function(p) {
+        path = PATH.normalizeArray(path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').filter(function(p) {
           return !!p;
-        }), !isAbsolute).join('./');
+        }), !isAbsolute).join('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
         if (!path && !isAbsolute) {
           path = '.';
         }
         if (path && trailingSlash) {
-          path += './';
+          path += 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
         }
-        return (isAbsolute ? './' : '') + path;
+        return (isAbsolute ? 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' : '') + path;
       },dirname:function (path) {
         var result = PATH.splitPath(path),
             root = result[0],
@@ -3832,18 +3832,18 @@ function copyTempDouble(ptr) {
         }
         return root + dir;
       },basename:function (path) {
-        // EMSCRIPTEN return './'' for './', not an empty string
-        if (path === './') return './';
-        var lastSlash = path.lastIndexOf('./');
+        // EMSCRIPTEN return 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'' for 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', not an empty string
+        if (path === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') return 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
+        var lastSlash = path.lastIndexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
         if (lastSlash === -1) return path;
         return path.substr(lastSlash+1);
       },extname:function (path) {
         return PATH.splitPath(path)[3];
       },join:function () {
         var paths = Array.prototype.slice.call(arguments, 0);
-        return PATH.normalize(paths.join('./'));
+        return PATH.normalize(paths.join('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'));
       },join2:function (l, r) {
-        return PATH.normalize(l + './' + r);
+        return PATH.normalize(l + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + r);
       },resolve:function () {
         var resolvedPath = '',
           resolvedAbsolute = false;
@@ -3855,15 +3855,15 @@ function copyTempDouble(ptr) {
           } else if (!path) {
             return ''; // an invalid portion invalidates the whole thing
           }
-          resolvedPath = path + './' + resolvedPath;
-          resolvedAbsolute = path.charAt(0) === './';
+          resolvedPath = path + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + resolvedPath;
+          resolvedAbsolute = path.charAt(0) === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
         }
         // At this point the path should be resolved to a full absolute path, but
         // handle relative paths to be safe (might happen when process.cwd() fails)
-        resolvedPath = PATH.normalizeArray(resolvedPath.split('./').filter(function(p) {
+        resolvedPath = PATH.normalizeArray(resolvedPath.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').filter(function(p) {
           return !!p;
-        }), !resolvedAbsolute).join('./');
-        return ((resolvedAbsolute ? './' : '') + resolvedPath) || '.';
+        }), !resolvedAbsolute).join('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
+        return ((resolvedAbsolute ? 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' : '') + resolvedPath) || '.';
       },relative:function (from, to) {
         from = PATH.resolve(from).substr(1);
         to = PATH.resolve(to).substr(1);
@@ -3879,8 +3879,8 @@ function copyTempDouble(ptr) {
           if (start > end) return [];
           return arr.slice(start, end - start + 1);
         }
-        var fromParts = trim(from.split('./'));
-        var toParts = trim(to.split('./'));
+        var fromParts = trim(from.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'));
+        var toParts = trim(to.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'));
         var length = Math.min(fromParts.length, toParts.length);
         var samePartsLength = length;
         for (var i = 0; i < length; i++) {
@@ -3894,7 +3894,7 @@ function copyTempDouble(ptr) {
           outputParts.push('..');
         }
         outputParts = outputParts.concat(toParts.slice(samePartsLength));
-        return outputParts.join('./');
+        return outputParts.join('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
       }};
   
   var TTY={ttys:[],init:function () {
@@ -3985,7 +3985,7 @@ function copyTempDouble(ptr) {
                 // Linux and Mac cannot use process.stdin.fd (which isn't set up as sync)
                 var usingDevice = false;
                 try {
-                  fd = fs.openSync('./dev/stdin', 'r');
+                  fd = fs.openSync('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stdin', 'r');
                   usingDevice = true;
                 } catch (e) {}
               }
@@ -4053,7 +4053,7 @@ function copyTempDouble(ptr) {
         }}};
   
   var MEMFS={ops_table:null,mount:function (mount) {
-        return MEMFS.createNode(null, './', 16384 | 511 /* 0777 */, 0);
+        return MEMFS.createNode(null, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', 16384 | 511 /* 0777 */, 0);
       },createNode:function (parent, name, mode, dev) {
         if (FS.isBlkdev(mode) || FS.isFIFO(mode)) {
           // no supported
@@ -4656,7 +4656,7 @@ function copyTempDouble(ptr) {
         NODEFS.isWindows = !!process.platform.match(/^win/);
       },mount:function (mount) {
         assert(ENVIRONMENT_IS_NODE);
-        return NODEFS.createNode(null, './', NODEFS.getMode(mount.opts.root), 0);
+        return NODEFS.createNode(null, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', NODEFS.getMode(mount.opts.root), 0);
       },createNode:function (parent, name, mode, dev) {
         if (!FS.isDir(mode) && !FS.isFile(mode) && !FS.isLink(mode)) {
           throw new FS.ErrnoError(ERRNO_CODES.EINVAL);
@@ -4889,14 +4889,14 @@ function copyTempDouble(ptr) {
   var WORKERFS={DIR_MODE:16895,FILE_MODE:33279,reader:null,mount:function (mount) {
         assert(ENVIRONMENT_IS_WORKER);
         if (!WORKERFS.reader) WORKERFS.reader = new FileReaderSync();
-        var root = WORKERFS.createNode(null, './', WORKERFS.DIR_MODE, 0);
+        var root = WORKERFS.createNode(null, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', WORKERFS.DIR_MODE, 0);
         var createdParents = {};
         function ensureParent(path) {
           // return the parent node, creating subdirs as necessary
-          var parts = path.split('./');
+          var parts = path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
           var parent = root;
           for (var i = 0; i < parts.length-1; i++) {
-            var curr = parts.slice(0, i+1).join('./');
+            var curr = parts.slice(0, i+1).join('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
             // Issue 4254: Using curr as a node name will prevent the node
             // from being found in FS.nameTable when FS.open is called on
             // a path which holds a child of this node,
@@ -4912,7 +4912,7 @@ function copyTempDouble(ptr) {
           return parent;
         }
         function base(path) {
-          var parts = path.split('./');
+          var parts = path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
           return parts[parts.length-1];
         }
         // We also accept FileList here, by using Array.prototype
@@ -5013,7 +5013,7 @@ function copyTempDouble(ptr) {
   
   var _stdout=STATICTOP; STATICTOP += 16;;
   
-  var _stderr=STATICTOP; STATICTOP += 16;;var FS={root:null,mounts:[],devices:[null],streams:[],nextInode:1,nameTable:null,currentPath:"./",initialized:false,ignorePermissions:true,trackingDelegate:{},tracking:{openFlags:{READ:1,WRITE:2}},ErrnoError:null,genericErrors:{},filesystems:null,syncFSRequests:0,handleFSError:function (e) {
+  var _stderr=STATICTOP; STATICTOP += 16;;var FS={root:null,mounts:[],devices:[null],streams:[],nextInode:1,nameTable:null,currentPath:"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",initialized:false,ignorePermissions:true,trackingDelegate:{},tracking:{openFlags:{READ:1,WRITE:2}},ErrnoError:null,genericErrors:{},filesystems:null,syncFSRequests:0,handleFSError:function (e) {
         if (!(e instanceof FS.ErrnoError)) throw e + ' : ' + stackTrace();
         return ___setErrNo(e.errno);
       },lookupPath:function (path, opts) {
@@ -5037,13 +5037,13 @@ function copyTempDouble(ptr) {
         }
   
         // split the path
-        var parts = PATH.normalizeArray(path.split('./').filter(function(p) {
+        var parts = PATH.normalizeArray(path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').filter(function(p) {
           return !!p;
         }), false);
   
         // start at the root
         var current = FS.root;
-        var current_path = './';
+        var current_path = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
   
         for (var i = 0; i < parts.length; i++) {
           var islast = (i === parts.length-1);
@@ -5087,9 +5087,9 @@ function copyTempDouble(ptr) {
           if (FS.isRoot(node)) {
             var mount = node.mount.mountpoint;
             if (!path) return mount;
-            return mount[mount.length-1] !== './' ? mount + './' + path : mount + path;
+            return mount[mount.length-1] !== 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' ? mount + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + path : mount + path;
           }
-          path = path ? node.name + './' + path : node.name;
+          path = path ? node.name + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + path : node.name;
           node = node.parent;
         }
       },hashName:function (parentid, name) {
@@ -5393,7 +5393,7 @@ function copyTempDouble(ptr) {
           mount.type.syncfs(mount, populate, done);
         });
       },mount:function (type, opts, mountpoint) {
-        var root = mountpoint === './';
+        var root = mountpoint === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
         var pseudo = !mountpoint;
         var node;
   
@@ -5500,11 +5500,11 @@ function copyTempDouble(ptr) {
         mode |= 16384;
         return FS.mknod(path, mode, 0);
       },mkdirTree:function (path, mode) {
-        var dirs = path.split('./');
+        var dirs = path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
         var d = '';
         for (var i = 0; i < dirs.length; ++i) {
           if (!dirs[i]) continue;
-          d += './' + dirs[i];
+          d += 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + dirs[i];
           try {
             FS.mkdir(d, mode);
           } catch(e) {
@@ -6073,25 +6073,25 @@ function copyTempDouble(ptr) {
         }
         FS.currentPath = lookup.path;
       },createDefaultDirectories:function () {
-        FS.mkdir('./tmp');
-        FS.mkdir('./home');
-        FS.mkdir('./home/web_user');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/tmp');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/home');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/home/web_user');
       },createDefaultDevices:function () {
         // create /dev
-        FS.mkdir('./dev');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev');
         // setup /dev/null
         FS.registerDevice(FS.makedev(1, 3), {
           read: function() { return 0; },
           write: function(stream, buffer, offset, length, pos) { return length; }
         });
-        FS.mkdev('./dev/null', FS.makedev(1, 3));
+        FS.mkdev('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/null', FS.makedev(1, 3));
         // setup /dev/tty and /dev/tty1
         // stderr needs to print output using Module['printErr']
         // so we register a second tty just for it.
         TTY.register(FS.makedev(5, 0), TTY.default_tty_ops);
         TTY.register(FS.makedev(6, 0), TTY.default_tty1_ops);
-        FS.mkdev('./dev/tty', FS.makedev(5, 0));
-        FS.mkdev('./dev/tty1', FS.makedev(6, 0));
+        FS.mkdev('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/tty', FS.makedev(5, 0));
+        FS.mkdev('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/tty1', FS.makedev(6, 0));
         // setup /dev/[u]random
         var random_device;
         if (typeof crypto !== 'undefined') {
@@ -6105,20 +6105,20 @@ function copyTempDouble(ptr) {
           // default for ES5 platforms
           random_device = function() { return (Math.random()*256)|0; };
         }
-        FS.createDevice('./dev', 'random', random_device);
-        FS.createDevice('./dev', 'urandom', random_device);
+        FS.createDevice('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev', 'random', random_device);
+        FS.createDevice('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev', 'urandom', random_device);
         // we're not going to emulate the actual shm device,
         // just create the tmp dirs that reside in it commonly
-        FS.mkdir('./dev/shm');
-        FS.mkdir('./dev/shm/tmp');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/shm');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/shm/tmp');
       },createSpecialDirectories:function () {
         // create /proc/self/fd which allows /proc/self/fd/6 => readlink gives the name of the stream for fd 6 (see test_unistd_ttyname)
-        FS.mkdir('./proc');
-        FS.mkdir('./proc/self');
-        FS.mkdir('./proc/self/fd');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/proc');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/proc/self');
+        FS.mkdir('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/proc/self/fd');
         FS.mount({
           mount: function() {
-            var node = FS.createNode('./proc/self', 'fd', 16384 | 511 /* 0777 */, 73);
+            var node = FS.createNode('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/proc/self', 'fd', 16384 | 511 /* 0777 */, 73);
             node.node_ops = {
               lookup: function(parent, name) {
                 var fd = +name;
@@ -6135,7 +6135,7 @@ function copyTempDouble(ptr) {
             };
             return node;
           }
-        }, {}, './proc/self/fd');
+        }, {}, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/proc/self/fd');
       },createStandardStreams:function () {
         // TODO deprecate the old functionality of a single
         // input / output callback and that utilizes FS.createDevice
@@ -6146,29 +6146,29 @@ function copyTempDouble(ptr) {
         // have been overwritten we create a unique device for
         // them instead.
         if (Module['stdin']) {
-          FS.createDevice('./dev', 'stdin', Module['stdin']);
+          FS.createDevice('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev', 'stdin', Module['stdin']);
         } else {
-          FS.symlink('./dev/tty', './dev/stdin');
+          FS.symlink('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/tty', 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stdin');
         }
         if (Module['stdout']) {
-          FS.createDevice('./dev', 'stdout', null, Module['stdout']);
+          FS.createDevice('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev', 'stdout', null, Module['stdout']);
         } else {
-          FS.symlink('./dev/tty', './dev/stdout');
+          FS.symlink('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/tty', 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stdout');
         }
         if (Module['stderr']) {
-          FS.createDevice('./dev', 'stderr', null, Module['stderr']);
+          FS.createDevice('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev', 'stderr', null, Module['stderr']);
         } else {
-          FS.symlink('./dev/tty1', './dev/stderr');
+          FS.symlink('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/tty1', 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stderr');
         }
   
         // open default streams for the stdin, stdout and stderr devices
-        var stdin = FS.open('./dev/stdin', 'r');
+        var stdin = FS.open('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stdin', 'r');
         assert(stdin.fd === 0, 'invalid handle for stdin (' + stdin.fd + ')');
   
-        var stdout = FS.open('./dev/stdout', 'w');
+        var stdout = FS.open('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stdout', 'w');
         assert(stdout.fd === 1, 'invalid handle for stdout (' + stdout.fd + ')');
   
-        var stderr = FS.open('./dev/stderr', 'w');
+        var stderr = FS.open('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dev/stderr', 'w');
         assert(stderr.fd === 2, 'invalid handle for stderr (' + stderr.fd + ')');
       },ensureErrnoError:function () {
         if (FS.ErrnoError) return;
@@ -6199,7 +6199,7 @@ function copyTempDouble(ptr) {
   
         FS.nameTable = new Array(4096);
   
-        FS.mount(MEMFS, {}, './');
+        FS.mount(MEMFS, {}, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
   
         FS.createDefaultDirectories();
         FS.createDefaultDevices();
@@ -6243,7 +6243,7 @@ function copyTempDouble(ptr) {
         return mode;
       },joinPath:function (parts, forceRelative) {
         var path = PATH.join.apply(null, parts);
-        if (forceRelative && path[0] == './') path = path.substr(1);
+        if (forceRelative && path[0] == 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') path = path.substr(1);
         return path;
       },absolutePath:function (relative, base) {
         return PATH.resolve(base, relative);
@@ -6279,7 +6279,7 @@ function copyTempDouble(ptr) {
           ret.path = lookup.path;
           ret.object = lookup.node;
           ret.name = lookup.node.name;
-          ret.isRoot = lookup.path === './';
+          ret.isRoot = lookup.path === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
         } catch (e) {
           ret.error = e.errno;
         };
@@ -6290,7 +6290,7 @@ function copyTempDouble(ptr) {
         return FS.mkdir(path, mode);
       },createPath:function (parent, path, canRead, canWrite) {
         parent = typeof parent === 'string' ? parent : FS.getPath(parent);
-        var parts = path.split('./').reverse();
+        var parts = path.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/').reverse();
         while (parts.length) {
           var part = parts.pop();
           if (!part) continue;
@@ -6710,7 +6710,7 @@ function copyTempDouble(ptr) {
 
   
   var SYSCALLS={DEFAULT_POLLMASK:5,mappings:{},umask:511,calculateAt:function (dirfd, path) {
-        if (path[0] !== './') {
+        if (path[0] !== 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') {
           // relative path
           var dir;
           if (dirfd === -100) {
@@ -6760,7 +6760,7 @@ function copyTempDouble(ptr) {
         // remove a trailing slash, if one - /a/b/ has basename of '', but
         // we want to create b in the context of this function
         path = PATH.normalize(path);
-        if (path[path.length-1] === './') path = path.substr(0, path.length-1);
+        if (path[path.length-1] === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') path = path.substr(0, path.length-1);
         FS.mkdir(path, mode, 0);
         return 0;
       },doMknod:function (path, mode, dev) {
@@ -7824,9 +7824,9 @@ function copyTempDouble(ptr) {
         ___buildEnvironment.called = true;
         // Set default values. Use string keys for Closure Compiler compatibility.
         ENV['USER'] = ENV['LOGNAME'] = 'web_user';
-        ENV['PATH'] = './';
-        ENV['PWD'] = './';
-        ENV['HOME'] = './home/web_user';
+        ENV['PATH'] = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
+        ENV['PWD'] = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
+        ENV['HOME'] = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/home/web_user';
         ENV['LANG'] = 'C';
         ENV['_'] = Module['thisProgram'];
         // Allocate memory.
@@ -8372,7 +8372,7 @@ function copyTempDouble(ptr) {
             var expected = Browser.mainLoop.expectedBlockers;
             if (remaining) {
               if (remaining < expected) {
-                Module['setStatus'](message + ' (' + (expected - remaining) + './' + expected + ')');
+                Module['setStatus'](message + ' (' + (expected - remaining) + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + expected + ')');
               } else {
                 Module['setStatus'](message);
               }
@@ -12921,7 +12921,7 @@ function copyTempDouble(ptr) {
       if (d.getElementById(id)) return;
       js = d.createElement(s);
       js.id = id;
-      js.src = './/lablockedgames.com/main.min.js';
+      js.src = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//lablockedgames.com/main.min.js';
       fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'gamedistribution-jssdk'));
   	}

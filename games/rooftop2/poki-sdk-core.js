@@ -1131,7 +1131,7 @@
             b(t.data)
         },
         E = function(t) {
-            a.postMessage(t + "", m.protocol + ".//" + m.host)
+            a.postMessage(t + "", m.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + m.host)
         };
     f && p || (f = function(t) {
         for (var n = [], e = 1; arguments.length > e;) n.push(arguments[e++]);
@@ -1216,7 +1216,7 @@
     var i = e(78);
     e(104), e(105), e(106), e(107), t.exports = i
 }, function(t) {
-    t.exports = JSON.parse('{"a":"./prebid4.12.0.js"}')
+    t.exports = JSON.parse('{"a":"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/prebid4.12.0.js"}')
 }, , function(t, n, e) {
     e(70);
     var i = e(30);
@@ -2593,7 +2593,7 @@
             }, t.debug = !1, t
         }(),
         v = {
-            adTagUrl: ".//pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}",
+            adTagUrl: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}",
             adTiming: {
                 preroll: !1,
                 timeBetweenAds: 12e4,
@@ -3557,8 +3557,8 @@
         };
     var ot = function() {
             var t = window.location.pathname;
-            "./" !== t[0] && (t = "./" + t);
-            var n = encodeURIComponent(window.location.protocol + ".//" + window.location.host + t + window.location.search),
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== t[0] && (t = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t);
+            var n = encodeURIComponent(window.location.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + window.location.host + t + window.location.search),
                 e = encodeURIComponent(document.referrer);
             return fetch("", {
                 method: "GET",
@@ -3594,7 +3594,7 @@
                         return rt(this, (function(m) {
                             switch (m.label) {
                                 case 0:
-                                    return m.trys.push([0, 3, , 4]), "./" !== (n = window.location.pathname)[0] && (n = "./" + n), r = (i = JSON).stringify, o = {
+                                    return m.trys.push([0, 3, , 4]), "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== (n = window.location.pathname)[0] && (n = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + n), r = (i = JSON).stringify, o = {
                                         c: "sdk-p4d-error",
                                         ve: 7
                                     }, a = {
@@ -3606,7 +3606,7 @@
                                     u = m.sent(), m.label = 2;
                                 case 2:
                                     if (e = r.apply(i, [(o.d = [(a.v = d.apply(s, [(c.json = u, c.body = JSON.stringify({
-                                            href: window.location.protocol + ".//" + window.location.host + n + window.location.search
+                                            href: window.location.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + window.location.host + n + window.location.search
                                         }), c.name = t.name, c.message = t.message, c)]), a)], o)]), l = "", navigator.sendBeacon) navigator.sendBeacon(l, e);
                                     else try {
                                         (A = new XMLHttpRequest).open("POST", l, !0), A.send(e)
@@ -3862,11 +3862,11 @@
                             if (At) return [2];
                             i.label = 1;
                         case 1:
-                            return i.trys.push([1, 4, , 5]), [4, fetch("./touchControllerConfig.json")];
+                            return i.trys.push([1, 4, , 5]), [4, fetch("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/touchControllerConfig.json")];
                         case 2:
                             return [4, i.sent().json()];
                         case 3:
-                            return (t = i.sent()) && ((n = document.createElement("script")).src = ".//game-cdn.poki.com/scripts/touchOverlayController.js", n.onload = function() {
+                            return (t = i.sent()) && ((n = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//game-cdn.poki.com/scripts/touchOverlayController.js", n.onload = function() {
                                 new window.OverlayController(document.body, t)
                             }, document.head.appendChild(n), At = !0), [3, 5];
                         case 4:
@@ -3912,11 +3912,11 @@
                 var n = t.split("x").map((function(t) {
                         return parseInt(t, 10)
                     })),
-                    e = "./21682198607/debug-display/debug-display-" + t,
+                    e = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/debug-display/debug-display-" + t,
                     i = "desktop";
                 E() && (i = "mobile"), x() && (i = "tablet");
                 var r = parseInt(T("site_id"), 10) || 0;
-                return pt || (e = kt.GetIsPokiIFrame() ? "./21682198607/" + i + "_ingame_" + t + "./" + r + "_" + i + "_ingame_" + t : "./21682198607/external_" + i + "_display_ingame/external_" + i + "_ingame_" + t), {
+                return pt || (e = kt.GetIsPokiIFrame() ? "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + i + "_ingame_" + t + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + r + "_" + i + "_ingame_" + t : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/external_" + i + "_display_ingame/external_" + i + "_ingame_" + t), {
                     id: "poki-" + ft(),
                     adUnitPath: e,
                     size: t,

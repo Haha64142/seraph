@@ -18,6 +18,6 @@ for x in input:
 
 lis2 = list(dict.fromkeys(lis2))
 
-open("./wgettemp.txt", "w", encoding="utf-8").write("\n".join(lis2))
+open("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/wgettemp.txt", "w", encoding="utf-8").write("\n".join(lis2))
 subprocess.call("wget -x -i ./wgettemp.txt -P %s" % outdir, shell=True)
-os.remove("./wgettemp.txt")
+os.remove("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/wgettemp.txt")

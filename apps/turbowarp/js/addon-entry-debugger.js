@@ -1,45 +1,45 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-debugger"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/debugger/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/debugger/style.css":
 /*!************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/debugger/style.css ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
-exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader!../editor-theme3/compatibility.css */ "./node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css"), "");
+exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader!../editor-theme3/compatibility.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css"), "");
 
 // module
-exports.push([module.i, "[dir=\"ltr\"] .sa-debugger-container {\n  margin-right: 0.2rem;\n}\n\n[dir=\"rtl\"] .sa-debugger-container {\n  margin-left: 0.2rem;\n}\n\n.sa-debugger-small .sa-debugger-container {\n  display: none !important;\n}\n\n.sa-debugger-container [class*=\"button_content_\"] {\n  position: relative;\n}\n\n.sa-debugger-unread::after {\n  content: \"\";\n  position: absolute;\n  top: 1px;\n  right: 0;\n  display: block;\n  width: 6px;\n  height: 6px;\n  background-color: var(--editorDarkMode-highlightText, #4d97ff);\n  border-radius: 50%;\n}\n\n.sa-debugger-interface {\n  display: none;\n  position: absolute;\n  z-index: 492;\n  background-color: white;\n  width: 565px;\n  height: 25rem;\n}\n[theme=\"dark\"] .sa-debugger-interface {\n  background: var(--ui-primary);\n}\n\n.sa-debugger-interface [class*=\"card_header-buttons_\"] {\n  background-color: #29beb8;\n  border-color: #3aa8a4;\n}\n\n.sa-debugger-interface h1 {\n  padding: 10px;\n  z-index: 10;\n  width: calc(100% - 20px);\n  font-size: 20px;\n}\n\n.sa-debugger-tabs {\n  margin: 0;\n  display: flex;\n  align-items: center;\n  padding: 0 15px;\n  font-size: 0.75rem;\n}\n.sa-debugger-tabs li {\n  margin: 0;\n  display: flex;\n  align-items: center;\n  padding: 0.5em 1em;\n  background-color: rgba(0, 0, 0, 0.1);\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  border-radius: 1rem;\n  color: white;\n  cursor: pointer;\n}\n.sa-debugger-tabs li + li {\n  margin-inline-start: 10px;\n}\n.sa-debugger-tabs li:hover {\n  background-color: rgba(0, 0, 0, 0.15);\n}\n.sa-debugger-tabs li.sa-debugger-tab-selected {\n  background-color: white;\n  background-clip: padding-box;\n  border-color: rgba(0, 0, 0, 0.25);\n  color: #4d97ff;\n}\n.sa-debugger-tabs li img {\n  margin: 0;\n  margin-right: 0.25rem;\n  width: 1rem;\n  filter: brightness(0) invert(1);\n}\n.sa-debugger-tabs li.sa-debugger-tab-selected img {\n  filter: none;\n}\n\n.sa-debugger-header-buttons img {\n  width: 20px;\n  height: 20px;\n}\n\n.sa-debugger-unpause {\n  animation: saDebuggerUnpause 2s infinite alternate;\n}\n\n@keyframes saDebuggerUnpause {\n  0% {\n    background-color: rgba(0, 0, 0, 0.15);\n  }\n  100% {\n    background-color: rgba(0, 0, 0, 0);\n  }\n}\n\n.sa-debugger-tab-content {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  cursor: auto;\n}\n\n.sa-debugger-chart {\n  width: 100%;\n  height: 100%;\n}\n\n.sa-performance-tab-content {\n  padding: 15px;\n}\n\n.sa-debugger-log-outer {\n  height: 100%;\n}\n\n.sa-debugger-log-inner {\n  position: relative;\n  overflow-y: auto;\n  font-size: 12px;\n  line-height: 1.2;\n  height: 100%;\n  contain: strict;\n}\n\n.sa-debugger-log-empty {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  height: 100%;\n  font-size: 20px;\n  font-style: italic;\n}\n\n.sa-debugger-log-end {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 1px;\n  height: 1px;\n}\n\n.sa-debugger-log {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 20px;\n  box-sizing: border-box;\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.15);\n  padding-left: 4px;\n  font-family: monospace;\n  color: #000;\n}\n[theme=\"dark\"] .sa-debugger-log {\n  color: var(--text-primary);\n  border-color: rgba(255, 255, 255, 0.15);\n}\n.sa-debugger-log[data-type=\"warn\"] {\n  border-color: hsl(50deg, 100%, 75%);\n  color: hsl(39deg 100% 18%);\n  background-color: hsl(50deg 100% 95%);\n}\n.sa-debugger-log[data-type=\"error\"] {\n  border-color: hsl(0deg 100% 92%);\n  color: red;\n  background-color: hsl(0deg 100% 95%);\n}\n[theme=\"dark\"] .sa-debugger-log[data-type=\"warn\"] {\n  border-color: hsl(50deg, 100%, 15%);\n  color: hsl(39deg 100% 90%);\n  background-color: hsl(50deg 100% 10%);\n}\n[theme=\"dark\"] .sa-debugger-log[data-type=\"error\"] {\n  border-color: hsl(0deg 100% 15%);\n  color: hsl(0deg 100% 77%);\n  background-color: hsl(0deg 100% 10%);\n}\n\n.sa-debugger-log-repeats {\n  background-color: hsla(163, 85%, 40%, 1);\n  color: white;\n  border-radius: 100px;\n  padding: 1px 6px;\n  margin-right: 4px;\n}\n[theme=\"dark\"] .sa-debugger-log-repeats {\n  color: var(--ui-primary);\n}\n\n.sa-debugger-log-icon {\n  width: 16px;\n  height: 16px;\n  margin-right: 4px;\n}\n[data-type=\"warn\"] .sa-debugger-log-icon {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/warning.svg */ "./src/addons/addons/debugger/icons/warning.svg")) + ");\n}\n[data-type=\"error\"] .sa-debugger-log-icon {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/error.svg */ "./src/addons/addons/debugger/icons/error.svg")) + ");\n}\n.sa-debugger-threads .sa-debugger-log-icon {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/subthread.svg */ "./src/addons/addons/debugger/icons/subthread.svg")) + ");\n}\n\n.sa-debugger-log-link {\n  color: inherit;\n  cursor: pointer;\n  opacity: 0.5;\n  text-decoration: underline;\n  float: right;\n  text-align: right;\n  max-width: 100%;\n  padding-left: 4px;\n  margin-right: 4px;\n  margin-left: auto;\n}\n[theme=\"dark\"] .sa-debugger-log-link {\n  color: inherit;\n}\n.sa-debugger-log-link:hover {\n  text-decoration: underline;\n  color: #4d97ff;\n  opacity: 1;\n}\n.sa-debugger-log-link-unknown {\n  pointer-events: none;\n}\n\n.sa-debugger-log-text {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: pre;\n}\n.sa-debugger-log-text-empty {\n  font-style: italic;\n}\n.sa-debugger-log-internal .sa-debugger-log-text {\n  font-style: italic;\n}\n\n.sa-debugger-thread-indent {\n  width: calc(16px * var(--level));\n  margin-right: 4px;\n}\n.sa-debugger-thread-title .sa-debugger-thread-indent {\n  margin: 0;\n}\n.sa-debugger-thread-target-name {\n  font-weight: bold;\n  margin-right: 8px;\n}\n.sa-debugger-thread-running {\n  background-color: rgba(255, 187, 0, 0.233);\n  font-weight: bold;\n}\n\n.sa-debugger-block-preview {\n  padding: 1px 6px;\n  margin-right: 4px;\n  background-color: var(--sa-block-colored-background);\n  color: var(--sa-block-text);\n}\n.sa-debugger-block-preview[data-shape=\"round\"] {\n  border-radius: 100px;\n}\n.sa-debugger-block-preview[data-shape=\"stacked\"] {\n  border-radius: 3px;\n}\n\n.sa-debugger-thread-compiled {\n  font-style: italic;\n}\n\n.sa-debugger-compiler-warning {\n  position: relative;\n  display: block;\n  text-align: center;\n  height: 24px;\n  color: #2121bf;\n}\n.sa-debugger-compiler-warning[hidden] {\n  display: none;\n}\n[theme=\"dark\"] .sa-debugger-compiler-warning {\n  color: #bdbdf9;\n}\n", ""]);
+exports.push([module.i, "[dir=\"ltr\"] .sa-debugger-container {\n  margin-right: 0.2rem;\n}\n\n[dir=\"rtl\"] .sa-debugger-container {\n  margin-left: 0.2rem;\n}\n\n.sa-debugger-small .sa-debugger-container {\n  display: none !important;\n}\n\n.sa-debugger-container [class*=\"button_content_\"] {\n  position: relative;\n}\n\n.sa-debugger-unread::after {\n  content: \"\";\n  position: absolute;\n  top: 1px;\n  right: 0;\n  display: block;\n  width: 6px;\n  height: 6px;\n  background-color: var(--editorDarkMode-highlightText, #4d97ff);\n  border-radius: 50%;\n}\n\n.sa-debugger-interface {\n  display: none;\n  position: absolute;\n  z-index: 492;\n  background-color: white;\n  width: 565px;\n  height: 25rem;\n}\n[theme=\"dark\"] .sa-debugger-interface {\n  background: var(--ui-primary);\n}\n\n.sa-debugger-interface [class*=\"card_header-buttons_\"] {\n  background-color: #29beb8;\n  border-color: #3aa8a4;\n}\n\n.sa-debugger-interface h1 {\n  padding: 10px;\n  z-index: 10;\n  width: calc(100% - 20px);\n  font-size: 20px;\n}\n\n.sa-debugger-tabs {\n  margin: 0;\n  display: flex;\n  align-items: center;\n  padding: 0 15px;\n  font-size: 0.75rem;\n}\n.sa-debugger-tabs li {\n  margin: 0;\n  display: flex;\n  align-items: center;\n  padding: 0.5em 1em;\n  background-color: rgba(0, 0, 0, 0.1);\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  border-radius: 1rem;\n  color: white;\n  cursor: pointer;\n}\n.sa-debugger-tabs li + li {\n  margin-inline-start: 10px;\n}\n.sa-debugger-tabs li:hover {\n  background-color: rgba(0, 0, 0, 0.15);\n}\n.sa-debugger-tabs li.sa-debugger-tab-selected {\n  background-color: white;\n  background-clip: padding-box;\n  border-color: rgba(0, 0, 0, 0.25);\n  color: #4d97ff;\n}\n.sa-debugger-tabs li img {\n  margin: 0;\n  margin-right: 0.25rem;\n  width: 1rem;\n  filter: brightness(0) invert(1);\n}\n.sa-debugger-tabs li.sa-debugger-tab-selected img {\n  filter: none;\n}\n\n.sa-debugger-header-buttons img {\n  width: 20px;\n  height: 20px;\n}\n\n.sa-debugger-unpause {\n  animation: saDebuggerUnpause 2s infinite alternate;\n}\n\n@keyframes saDebuggerUnpause {\n  0% {\n    background-color: rgba(0, 0, 0, 0.15);\n  }\n  100% {\n    background-color: rgba(0, 0, 0, 0);\n  }\n}\n\n.sa-debugger-tab-content {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  cursor: auto;\n}\n\n.sa-debugger-chart {\n  width: 100%;\n  height: 100%;\n}\n\n.sa-performance-tab-content {\n  padding: 15px;\n}\n\n.sa-debugger-log-outer {\n  height: 100%;\n}\n\n.sa-debugger-log-inner {\n  position: relative;\n  overflow-y: auto;\n  font-size: 12px;\n  line-height: 1.2;\n  height: 100%;\n  contain: strict;\n}\n\n.sa-debugger-log-empty {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  height: 100%;\n  font-size: 20px;\n  font-style: italic;\n}\n\n.sa-debugger-log-end {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 1px;\n  height: 1px;\n}\n\n.sa-debugger-log {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 20px;\n  box-sizing: border-box;\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.15);\n  padding-left: 4px;\n  font-family: monospace;\n  color: #000;\n}\n[theme=\"dark\"] .sa-debugger-log {\n  color: var(--text-primary);\n  border-color: rgba(255, 255, 255, 0.15);\n}\n.sa-debugger-log[data-type=\"warn\"] {\n  border-color: hsl(50deg, 100%, 75%);\n  color: hsl(39deg 100% 18%);\n  background-color: hsl(50deg 100% 95%);\n}\n.sa-debugger-log[data-type=\"error\"] {\n  border-color: hsl(0deg 100% 92%);\n  color: red;\n  background-color: hsl(0deg 100% 95%);\n}\n[theme=\"dark\"] .sa-debugger-log[data-type=\"warn\"] {\n  border-color: hsl(50deg, 100%, 15%);\n  color: hsl(39deg 100% 90%);\n  background-color: hsl(50deg 100% 10%);\n}\n[theme=\"dark\"] .sa-debugger-log[data-type=\"error\"] {\n  border-color: hsl(0deg 100% 15%);\n  color: hsl(0deg 100% 77%);\n  background-color: hsl(0deg 100% 10%);\n}\n\n.sa-debugger-log-repeats {\n  background-color: hsla(163, 85%, 40%, 1);\n  color: white;\n  border-radius: 100px;\n  padding: 1px 6px;\n  margin-right: 4px;\n}\n[theme=\"dark\"] .sa-debugger-log-repeats {\n  color: var(--ui-primary);\n}\n\n.sa-debugger-log-icon {\n  width: 16px;\n  height: 16px;\n  margin-right: 4px;\n}\n[data-type=\"warn\"] .sa-debugger-log-icon {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/warning.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/icons/warning.svg")) + ");\n}\n[data-type=\"error\"] .sa-debugger-log-icon {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/error.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/icons/error.svg")) + ");\n}\n.sa-debugger-threads .sa-debugger-log-icon {\n  background-image: url(" + escape(__webpack_require__(/*! ./icons/subthread.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/icons/subthread.svg")) + ");\n}\n\n.sa-debugger-log-link {\n  color: inherit;\n  cursor: pointer;\n  opacity: 0.5;\n  text-decoration: underline;\n  float: right;\n  text-align: right;\n  max-width: 100%;\n  padding-left: 4px;\n  margin-right: 4px;\n  margin-left: auto;\n}\n[theme=\"dark\"] .sa-debugger-log-link {\n  color: inherit;\n}\n.sa-debugger-log-link:hover {\n  text-decoration: underline;\n  color: #4d97ff;\n  opacity: 1;\n}\n.sa-debugger-log-link-unknown {\n  pointer-events: none;\n}\n\n.sa-debugger-log-text {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: pre;\n}\n.sa-debugger-log-text-empty {\n  font-style: italic;\n}\n.sa-debugger-log-internal .sa-debugger-log-text {\n  font-style: italic;\n}\n\n.sa-debugger-thread-indent {\n  width: calc(16px * var(--level));\n  margin-right: 4px;\n}\n.sa-debugger-thread-title .sa-debugger-thread-indent {\n  margin: 0;\n}\n.sa-debugger-thread-target-name {\n  font-weight: bold;\n  margin-right: 8px;\n}\n.sa-debugger-thread-running {\n  background-color: rgba(255, 187, 0, 0.233);\n  font-weight: bold;\n}\n\n.sa-debugger-block-preview {\n  padding: 1px 6px;\n  margin-right: 4px;\n  background-color: var(--sa-block-colored-background);\n  color: var(--sa-block-text);\n}\n.sa-debugger-block-preview[data-shape=\"round\"] {\n  border-radius: 100px;\n}\n.sa-debugger-block-preview[data-shape=\"stacked\"] {\n  border-radius: 3px;\n}\n\n.sa-debugger-thread-compiled {\n  font-style: italic;\n}\n\n.sa-debugger-compiler-warning {\n  position: relative;\n  display: block;\n  text-align: center;\n  height: 24px;\n  color: #2121bf;\n}\n.sa-debugger-compiler-warning[hidden] {\n  display: none;\n}\n[theme=\"dark\"] .sa-debugger-compiler-warning {\n  color: #bdbdf9;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/editor-theme3/compatibility.css":
 /*!*************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/editor-theme3/compatibility.css ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./* Imported by other addons */\n\n.sa-block-color {\n  --sa-block-colored-background: var(--sa-block-background-primary);\n  --sa-block-colored-background-secondary: var(--sa-block-field-background);\n  --sa-block-bright-background: var(--sa-block-background-primary);\n  --sa-block-text: white;\n  --sa-block-gray-text: white;\n  --sa-block-colored-text: var(--sa-block-background-primary);\n  --sa-block-text-on-bright-background: white;\n}\n\n.sa-block-color-motion {\n  --sa-block-background-primary: var(--editorTheme3-motion-primary, #4c97ff);\n  --sa-block-background-secondary: var(--editorTheme3-motion-secondary, #4280d7);\n  --sa-block-background-tertiary: var(--editorTheme3-motion-tertiary, #3373cc);\n  --sa-block-field-background: var(--editorTheme3-motion-field, #3373cc);\n}\n\n.sa-block-color-looks {\n  --sa-block-background-primary: var(--editorTheme3-looks-primary, #9966ff);\n  --sa-block-background-secondary: var(--editorTheme3-looks-secondary, #855cd6);\n  --sa-block-background-tertiary: var(--editorTheme3-looks-tertiary, #774dcb);\n  --sa-block-field-background: var(--editorTheme3-looks-field, #774dcb);\n}\n\n.sa-block-color-sounds {\n  --sa-block-background-primary: var(--editorTheme3-sounds-primary, #cf63cf);\n  --sa-block-background-secondary: var(--editorTheme3-sounds-secondary, #c94fc9);\n  --sa-block-background-tertiary: var(--editorTheme3-sounds-tertiary, #bd42bd);\n  --sa-block-field-background: var(--editorTheme3-sounds-field, #bd42bd);\n}\n\n.sa-block-color-events {\n  --sa-block-background-primary: var(--editorTheme3-event-primary, #ffbf00);\n  --sa-block-background-secondary: var(--editorTheme3-event-secondary, #e6ac00);\n  --sa-block-background-tertiary: var(--editorTheme3-event-tertiary, #cc9900);\n  --sa-block-field-background: var(--editorTheme3-event-field, #cc9900);\n}\n\n.sa-block-color-control {\n  --sa-block-background-primary: var(--editorTheme3-control-primary, #ffab19);\n  --sa-block-background-secondary: var(--editorTheme3-control-secondary, #ec9c13);\n  --sa-block-background-tertiary: var(--editorTheme3-control-tertiary, #cf8b17);\n  --sa-block-field-background: var(--editorTheme3-control-field, #cf8b17);\n}\n\n.sa-block-color-sensing {\n  --sa-block-background-primary: var(--editorTheme3-sensing-primary, #5cb1d6);\n  --sa-block-background-secondary: var(--editorTheme3-sensing-secondary, #47a8d1);\n  --sa-block-background-tertiary: var(--editorTheme3-sensing-tertiary, #2e8eb8);\n  --sa-block-field-background: var(--editorTheme3-sensing-field, #2e8eb8);\n}\n\n.sa-block-color-operators {\n  --sa-block-background-primary: var(--editorTheme3-operators-primary, #59c059);\n  --sa-block-background-secondary: var(--editorTheme3-operators-secondary, #46b946);\n  --sa-block-background-tertiary: var(--editorTheme3-operators-tertiary, #389438);\n  --sa-block-field-background: var(--editorTheme3-operators-field, #389438);\n}\n\n.sa-block-color-data {\n  --sa-block-background-primary: var(--editorTheme3-data-primary, #ff8c1a);\n  --sa-block-background-secondary: var(--editorTheme3-data-secondary, #ff8000);\n  --sa-block-background-tertiary: var(--editorTheme3-data-tertiary, #db6e00);\n  --sa-block-field-background: var(--editorTheme3-data-field, #db6e00);\n}\n\n.sa-block-color-data-lists,\n.sa-block-color-list {\n  --sa-block-background-primary: var(--editorTheme3-data_lists-primary, #ff661a);\n  --sa-block-background-secondary: var(--editorTheme3-data_lists-secondary, #ff5500);\n  --sa-block-background-tertiary: var(--editorTheme3-data_lists-tertiary, #e64d00);\n  --sa-block-field-background: var(--editorTheme3-data_lists-field, #e64d00);\n}\n\n.sa-block-color-more,\n.sa-block-color-null {\n  --sa-block-background-primary: var(--editorTheme3-more-primary, #ff6680);\n  --sa-block-background-secondary: var(--editorTheme3-more-secondary, #ff4d6a);\n  --sa-block-background-tertiary: var(--editorTheme3-more-tertiary, #ff3355);\n  --sa-block-field-background: var(--editorTheme3-more-field, #ff3355);\n}\n\n.sa-block-color-pen {\n  --sa-block-background-primary: var(--editorTheme3-pen-primary, #0fbd8c);\n  --sa-block-background-secondary: var(--editorTheme3-pen-secondary, #0da57a);\n  --sa-block-background-tertiary: var(--editorTheme3-pen-tertiary, #0b8e69);\n  --sa-block-field-background: var(--editorTheme3-pen-field, #0b8e69);\n}\n\n.sa-block-color-addon-custom-block {\n  --sa-block-background-primary: var(--editorTheme3-sa-primary, #29beb8);\n  --sa-block-background-secondary: var(--editorTheme3-sa-secondary, #3aa8a4);\n  --sa-block-background-tertiary: var(--editorTheme3-sa-tertiary, #3aa8a4);\n  --sa-block-field-background: var(--editorTheme3-sa-field, #3aa8a4);\n}\n\n.sa-block-color-TurboWarp {\n  --sa-block-background-primary: var(--editorTheme3-tw-primary, #ff4c4c);\n  --sa-block-background-secondary: var(--editorTheme3-tw-secondary, #e64444);\n  --sa-block-background-tertiary: var(--editorTheme3-tw-tertiary, #e64444);\n  --sa-block-field-background: var(--editorTheme3-tw-field, #e64444);\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Imported by other addons */\n\n.sa-block-color {\n  --sa-block-colored-background: var(--sa-block-background-primary);\n  --sa-block-colored-background-secondary: var(--sa-block-field-background);\n  --sa-block-bright-background: var(--sa-block-background-primary);\n  --sa-block-text: white;\n  --sa-block-gray-text: white;\n  --sa-block-colored-text: var(--sa-block-background-primary);\n  --sa-block-text-on-bright-background: white;\n}\n\n.sa-block-color-motion {\n  --sa-block-background-primary: var(--editorTheme3-motion-primary, #4c97ff);\n  --sa-block-background-secondary: var(--editorTheme3-motion-secondary, #4280d7);\n  --sa-block-background-tertiary: var(--editorTheme3-motion-tertiary, #3373cc);\n  --sa-block-field-background: var(--editorTheme3-motion-field, #3373cc);\n}\n\n.sa-block-color-looks {\n  --sa-block-background-primary: var(--editorTheme3-looks-primary, #9966ff);\n  --sa-block-background-secondary: var(--editorTheme3-looks-secondary, #855cd6);\n  --sa-block-background-tertiary: var(--editorTheme3-looks-tertiary, #774dcb);\n  --sa-block-field-background: var(--editorTheme3-looks-field, #774dcb);\n}\n\n.sa-block-color-sounds {\n  --sa-block-background-primary: var(--editorTheme3-sounds-primary, #cf63cf);\n  --sa-block-background-secondary: var(--editorTheme3-sounds-secondary, #c94fc9);\n  --sa-block-background-tertiary: var(--editorTheme3-sounds-tertiary, #bd42bd);\n  --sa-block-field-background: var(--editorTheme3-sounds-field, #bd42bd);\n}\n\n.sa-block-color-events {\n  --sa-block-background-primary: var(--editorTheme3-event-primary, #ffbf00);\n  --sa-block-background-secondary: var(--editorTheme3-event-secondary, #e6ac00);\n  --sa-block-background-tertiary: var(--editorTheme3-event-tertiary, #cc9900);\n  --sa-block-field-background: var(--editorTheme3-event-field, #cc9900);\n}\n\n.sa-block-color-control {\n  --sa-block-background-primary: var(--editorTheme3-control-primary, #ffab19);\n  --sa-block-background-secondary: var(--editorTheme3-control-secondary, #ec9c13);\n  --sa-block-background-tertiary: var(--editorTheme3-control-tertiary, #cf8b17);\n  --sa-block-field-background: var(--editorTheme3-control-field, #cf8b17);\n}\n\n.sa-block-color-sensing {\n  --sa-block-background-primary: var(--editorTheme3-sensing-primary, #5cb1d6);\n  --sa-block-background-secondary: var(--editorTheme3-sensing-secondary, #47a8d1);\n  --sa-block-background-tertiary: var(--editorTheme3-sensing-tertiary, #2e8eb8);\n  --sa-block-field-background: var(--editorTheme3-sensing-field, #2e8eb8);\n}\n\n.sa-block-color-operators {\n  --sa-block-background-primary: var(--editorTheme3-operators-primary, #59c059);\n  --sa-block-background-secondary: var(--editorTheme3-operators-secondary, #46b946);\n  --sa-block-background-tertiary: var(--editorTheme3-operators-tertiary, #389438);\n  --sa-block-field-background: var(--editorTheme3-operators-field, #389438);\n}\n\n.sa-block-color-data {\n  --sa-block-background-primary: var(--editorTheme3-data-primary, #ff8c1a);\n  --sa-block-background-secondary: var(--editorTheme3-data-secondary, #ff8000);\n  --sa-block-background-tertiary: var(--editorTheme3-data-tertiary, #db6e00);\n  --sa-block-field-background: var(--editorTheme3-data-field, #db6e00);\n}\n\n.sa-block-color-data-lists,\n.sa-block-color-list {\n  --sa-block-background-primary: var(--editorTheme3-data_lists-primary, #ff661a);\n  --sa-block-background-secondary: var(--editorTheme3-data_lists-secondary, #ff5500);\n  --sa-block-background-tertiary: var(--editorTheme3-data_lists-tertiary, #e64d00);\n  --sa-block-field-background: var(--editorTheme3-data_lists-field, #e64d00);\n}\n\n.sa-block-color-more,\n.sa-block-color-null {\n  --sa-block-background-primary: var(--editorTheme3-more-primary, #ff6680);\n  --sa-block-background-secondary: var(--editorTheme3-more-secondary, #ff4d6a);\n  --sa-block-background-tertiary: var(--editorTheme3-more-tertiary, #ff3355);\n  --sa-block-field-background: var(--editorTheme3-more-field, #ff3355);\n}\n\n.sa-block-color-pen {\n  --sa-block-background-primary: var(--editorTheme3-pen-primary, #0fbd8c);\n  --sa-block-background-secondary: var(--editorTheme3-pen-secondary, #0da57a);\n  --sa-block-background-tertiary: var(--editorTheme3-pen-tertiary, #0b8e69);\n  --sa-block-field-background: var(--editorTheme3-pen-field, #0b8e69);\n}\n\n.sa-block-color-addon-custom-block {\n  --sa-block-background-primary: var(--editorTheme3-sa-primary, #29beb8);\n  --sa-block-background-secondary: var(--editorTheme3-sa-secondary, #3aa8a4);\n  --sa-block-background-tertiary: var(--editorTheme3-sa-tertiary, #3aa8a4);\n  --sa-block-field-background: var(--editorTheme3-sa-field, #3aa8a4);\n}\n\n.sa-block-color-TurboWarp {\n  --sa-block-background-primary: var(--editorTheme3-tw-primary, #ff4c4c);\n  --sa-block-background-secondary: var(--editorTheme3-tw-secondary, #e64444);\n  --sa-block-background-tertiary: var(--editorTheme3-tw-tertiary, #e64444);\n  --sa-block-field-background: var(--editorTheme3-tw-field, #e64444);\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/close.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/close.svg":
 /*!******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/close.svg ***!
   \******************************************************************************************/
@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/debug.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/debug.svg":
 /*!******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/debug.svg ***!
   \******************************************************************************************/
@@ -65,7 +65,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/delete.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/delete.svg":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/delete.svg ***!
   \*******************************************************************************************/
@@ -78,7 +78,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/download-white.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/download-white.svg":
 /*!***************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/download-white.svg ***!
   \***************************************************************************************************/
@@ -91,7 +91,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/error.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/error.svg":
 /*!******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/error.svg ***!
   \******************************************************************************************/
@@ -104,7 +104,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/logs.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/logs.svg":
 /*!*****************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/logs.svg ***!
   \*****************************************************************************************/
@@ -117,7 +117,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/performance.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/performance.svg":
 /*!************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/performance.svg ***!
   \************************************************************************************************/
@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/play.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/play.svg":
 /*!*****************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/play.svg ***!
   \*****************************************************************************************/
@@ -143,7 +143,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/step.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/step.svg":
 /*!*****************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/step.svg ***!
   \*****************************************************************************************/
@@ -156,7 +156,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/subthread.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/subthread.svg":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/subthread.svg ***!
   \**********************************************************************************************/
@@ -169,7 +169,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/threads.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/threads.svg":
 /*!********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/threads.svg ***!
   \********************************************************************************************/
@@ -182,7 +182,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/warning.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/warning.svg":
 /*!********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/warning.svg ***!
   \********************************************************************************************/
@@ -195,7 +195,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/_runtime_entry.js":
 /*!******************************************************!*\
   !*** ./src/addons/addons/debugger/_runtime_entry.js ***!
   \******************************************************/
@@ -205,21 +205,21 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/debugger/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/debugger/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/debugger/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_icons_close_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/close.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/close.svg");
-/* harmony import */ var _url_loader_icons_debug_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/debug.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/debug.svg");
-/* harmony import */ var _url_loader_icons_delete_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/delete.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/delete.svg");
-/* harmony import */ var _url_loader_icons_download_white_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/download-white.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/download-white.svg");
-/* harmony import */ var _url_loader_icons_error_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/error.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/error.svg");
-/* harmony import */ var _url_loader_icons_logs_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/logs.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/logs.svg");
-/* harmony import */ var _url_loader_icons_performance_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! url-loader!./icons/performance.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/performance.svg");
-/* harmony import */ var _url_loader_icons_play_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! url-loader!./icons/play.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/play.svg");
-/* harmony import */ var _url_loader_icons_step_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! url-loader!./icons/step.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/step.svg");
-/* harmony import */ var _url_loader_icons_subthread_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! url-loader!./icons/subthread.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/subthread.svg");
-/* harmony import */ var _url_loader_icons_threads_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! url-loader!./icons/threads.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/threads.svg");
-/* harmony import */ var _url_loader_icons_warning_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! url-loader!./icons/warning.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/warning.svg");
+/* harmony import */ var _url_loader_icons_close_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/close.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/close.svg");
+/* harmony import */ var _url_loader_icons_debug_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/debug.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/debug.svg");
+/* harmony import */ var _url_loader_icons_delete_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/delete.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/delete.svg");
+/* harmony import */ var _url_loader_icons_download_white_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/download-white.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/download-white.svg");
+/* harmony import */ var _url_loader_icons_error_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/error.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/error.svg");
+/* harmony import */ var _url_loader_icons_logs_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/logs.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/logs.svg");
+/* harmony import */ var _url_loader_icons_performance_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! url-loader!./icons/performance.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/performance.svg");
+/* harmony import */ var _url_loader_icons_play_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! url-loader!./icons/play.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/play.svg");
+/* harmony import */ var _url_loader_icons_step_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! url-loader!./icons/step.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/step.svg");
+/* harmony import */ var _url_loader_icons_subthread_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! url-loader!./icons/subthread.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/subthread.svg");
+/* harmony import */ var _url_loader_icons_threads_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! url-loader!./icons/threads.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/threads.svg");
+/* harmony import */ var _url_loader_icons_warning_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! url-loader!./icons/warning.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/debugger/icons/warning.svg");
 /* generated by pull.js */
 
 
@@ -254,7 +254,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/icons/error.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/icons/error.svg":
 /*!****************************************************!*\
   !*** ./src/addons/addons/debugger/icons/error.svg ***!
   \****************************************************/
@@ -265,7 +265,7 @@ module.exports = __webpack_require__.p + "static/assets/76b6cb627b95d79705c0b416
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/icons/subthread.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/icons/subthread.svg":
 /*!********************************************************!*\
   !*** ./src/addons/addons/debugger/icons/subthread.svg ***!
   \********************************************************/
@@ -276,7 +276,7 @@ module.exports = __webpack_require__.p + "static/assets/c846a442121113b1d04f6b9d
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/icons/warning.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/icons/warning.svg":
 /*!******************************************************!*\
   !*** ./src/addons/addons/debugger/icons/warning.svg ***!
   \******************************************************/
@@ -287,7 +287,7 @@ module.exports = __webpack_require__.p + "static/assets/0e009d6e684951615b31a267
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/log-view.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/log-view.js":
 /*!************************************************!*\
   !*** ./src/addons/addons/debugger/log-view.js ***!
   \************************************************/
@@ -536,7 +536,7 @@ class LogView {
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/logs.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/logs.js":
 /*!********************************************!*\
   !*** ./src/addons/addons/debugger/logs.js ***!
   \********************************************/
@@ -546,8 +546,8 @@ class LogView {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return createLogsTab; });
-/* harmony import */ var _libraries_common_cs_download_blob_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../libraries/common/cs/download-blob.js */ "./src/addons/libraries/common/cs/download-blob.js");
-/* harmony import */ var _log_view_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./log-view.js */ "./src/addons/addons/debugger/log-view.js");
+/* harmony import */ var _libraries_common_cs_download_blob_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../libraries/common/cs/download-blob.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/download-blob.js");
+/* harmony import */ var _log_view_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./log-view.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/log-view.js");
 
 
 async function createLogsTab({
@@ -559,7 +559,7 @@ async function createLogsTab({
   const vm = addon.tab.traps.vm;
   const tab = debug.createHeaderTab({
     text: msg("tab-logs"),
-    icon: addon.self.getResource("./icons/logs.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/logs.svg")
     /* rewritten by pull.js */
 
   });
@@ -655,7 +655,7 @@ async function createLogsTab({
 
   const exportButton = debug.createHeaderButton({
     text: msg("export"),
-    icon: addon.self.getResource("./icons/download-white.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/download-white.svg")
     /* rewritten by pull.js */
     ,
     description: msg("export-desc")
@@ -687,7 +687,7 @@ async function createLogsTab({
   });
   const trashButton = debug.createHeaderButton({
     text: msg("clear"),
-    icon: addon.self.getResource("./icons/delete.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/delete.svg")
     /* rewritten by pull.js */
 
   });
@@ -763,7 +763,7 @@ async function createLogsTab({
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/performance.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/performance.js":
 /*!***************************************************!*\
   !*** ./src/addons/addons/debugger/performance.js ***!
   \***************************************************/
@@ -773,7 +773,7 @@ async function createLogsTab({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return createPerformanceTab; });
-/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "./src/addons/addons/debugger/module.js");
+/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/module.js");
 
 async function createPerformanceTab({
   debug,
@@ -782,12 +782,12 @@ async function createPerformanceTab({
   msg
 }) {
   const vm = addon.tab.traps.vm;
-  await addon.tab.loadScript(addon.self.getResource("./thirdparty/cs/chart.min.js"))
+  await addon.tab.loadScript(addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/thirdparty/cs/chart.min.js"))
   /* rewritten by pull.js */
   ;
   const tab = debug.createHeaderTab({
     text: msg("tab-performance"),
-    icon: addon.self.getResource("./icons/performance.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/performance.svg")
     /* rewritten by pull.js */
 
   });
@@ -959,7 +959,7 @@ async function createPerformanceTab({
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/threads.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/threads.js":
 /*!***********************************************!*\
   !*** ./src/addons/addons/debugger/threads.js ***!
   \***********************************************/
@@ -969,9 +969,9 @@ async function createPerformanceTab({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return createThreadsTab; });
-/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "./src/addons/addons/debugger/module.js");
-/* harmony import */ var _log_view_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./log-view.js */ "./src/addons/addons/debugger/log-view.js");
-/* harmony import */ var _editor_stepping_highlighter_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../editor-stepping/highlighter.js */ "./src/addons/addons/editor-stepping/highlighter.js");
+/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/module.js");
+/* harmony import */ var _log_view_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./log-view.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/log-view.js");
+/* harmony import */ var _editor_stepping_highlighter_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../editor-stepping/highlighter.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-stepping/highlighter.js");
 
 
 
@@ -991,7 +991,7 @@ async function createThreadsTab({
   const vm = addon.tab.traps.vm;
   const tab = debug.createHeaderTab({
     text: msg("tab-threads"),
-    icon: addon.self.getResource("./icons/threads.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/threads.svg")
     /* rewritten by pull.js */
 
   });
@@ -1194,7 +1194,7 @@ async function createThreadsTab({
   });
   const stepButton = debug.createHeaderButton({
     text: msg("step"),
-    icon: addon.self.getResource("./icons/step.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/step.svg")
     /* rewritten by pull.js */
     ,
     description: msg("step-desc")
@@ -1232,7 +1232,7 @@ async function createThreadsTab({
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/userscript.js":
 /*!**************************************************!*\
   !*** ./src/addons/addons/debugger/userscript.js ***!
   \**************************************************/
@@ -1241,11 +1241,11 @@ async function createThreadsTab({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "./src/addons/addons/debugger/module.js");
-/* harmony import */ var _logs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logs.js */ "./src/addons/addons/debugger/logs.js");
-/* harmony import */ var _threads_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./threads.js */ "./src/addons/addons/debugger/threads.js");
-/* harmony import */ var _performance_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./performance.js */ "./src/addons/addons/debugger/performance.js");
-/* harmony import */ var _find_bar_blockly_Utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../find-bar/blockly/Utils.js */ "./src/addons/addons/find-bar/blockly/Utils.js");
+/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/module.js");
+/* harmony import */ var _logs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logs.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/logs.js");
+/* harmony import */ var _threads_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./threads.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/threads.js");
+/* harmony import */ var _performance_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./performance.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/performance.js");
+/* harmony import */ var _find_bar_blockly_Utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../find-bar/blockly/Utils.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/Utils.js");
 
 
 
@@ -1338,7 +1338,7 @@ const removeAllChildren = element => {
   const debuggerButtonImage = document.createElement("img");
   debuggerButtonImage.className = addon.tab.scratchClass("stage-header_stage-button-icon");
   debuggerButtonImage.draggable = false;
-  debuggerButtonImage.src = addon.self.getResource("./icons/debug.svg")
+  debuggerButtonImage.src = addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/debug.svg")
   /* rewritten by pull.js */
   ;
   debuggerButtonContent.appendChild(debuggerButtonImage);
@@ -1495,7 +1495,7 @@ const removeAllChildren = element => {
 
   const unpauseButton = createHeaderButton({
     text: msg("unpause"),
-    icon: addon.self.getResource("./icons/play.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/play.svg")
     /* rewritten by pull.js */
 
   });
@@ -1510,7 +1510,7 @@ const removeAllChildren = element => {
   Object(_module_js__WEBPACK_IMPORTED_MODULE_0__["onPauseChanged"])(updateUnpauseVisibility);
   const closeButton = createHeaderButton({
     text: msg("close"),
-    icon: addon.self.getResource("./icons/close.svg")
+    icon: addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icons/close.svg")
     /* rewritten by pull.js */
 
   });
@@ -1924,7 +1924,7 @@ const removeAllChildren = element => {
 
 /***/ }),
 
-/***/ "./src/addons/addons/editor-stepping/highlighter.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-stepping/highlighter.js":
 /*!**********************************************************!*\
   !*** ./src/addons/addons/editor-stepping/highlighter.js ***!
   \**********************************************************/
@@ -2080,7 +2080,7 @@ class Highlighter {
 
 /***/ }),
 
-/***/ "./src/addons/libraries/common/cs/download-blob.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/download-blob.js":
 /*!*********************************************************!*\
   !*** ./src/addons/libraries/common/cs/download-blob.js ***!
   \*********************************************************/

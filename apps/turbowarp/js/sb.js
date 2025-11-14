@@ -1,6 +1,6 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["sb"],{
 
-/***/ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/msg/messages.js ***!
   \******************************************************************************************************************************************************************************************************************/
@@ -8,8 +8,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 /*** IMPORTS FROM imports-loader ***/
-var Blockly = __webpack_require__(/*! ../shim/blocks_compressed_vertical */ "./node_modules/scratch-blocks/shim/blocks_compressed_vertical.js");
-var goog = __webpack_require__(/*! ../shim/blockly_compressed_vertical.goog */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js");
+var Blockly = __webpack_require__(/*! ../shim/blocks_compressed_vertical */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blocks_compressed_vertical.js");
+var goog = __webpack_require__(/*! ../shim/blockly_compressed_vertical.goog */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js");
 
 /**
  * @license
@@ -378,7 +378,7 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js":
 /*!***********************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js ***!
   \***********************************************************************************************************************************************************************************************************************************************************/
@@ -386,8 +386,8 @@ module.exports = Blockly;
 /***/ (function(module, exports, __webpack_require__) {
 
 /*** IMPORTS FROM imports-loader ***/
-var Blockly = __webpack_require__(/*! ../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages */ "./node_modules/scratch-blocks/shim/blocks_compressed_vertical-blockly_compressed_vertical-messages.js");
-var goog = __webpack_require__(/*! ../shim/blockly_compressed_vertical.goog */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js");
+var Blockly = __webpack_require__(/*! ../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blocks_compressed_vertical-blockly_compressed_vertical-messages.js");
+var goog = __webpack_require__(/*! ../shim/blockly_compressed_vertical.goog */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js");
 
 // This file was automatically generated.  Do not modify.
 
@@ -23079,7 +23079,7 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "./node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js":
 /*!*********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/blocks_compressed.js ***!
   \*********************************************************************************************************************************************************************************/
@@ -23087,7 +23087,7 @@ module.exports = Blockly;
 /***/ (function(module, exports, __webpack_require__) {
 
 /*** IMPORTS FROM imports-loader ***/
-var Blockly = __webpack_require__(/*! ./shim/blockly_compressed_vertical.Blockly */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.Blockly.js");
+var Blockly = __webpack_require__(/*! ./shim/blockly_compressed_vertical.Blockly */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.Blockly.js");
 
 // Do not edit this file; automatically generated by build.py.
 'use strict';
@@ -23133,7 +23133,7 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "./node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js":
 /*!*************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js ***!
   \*************************************************************************************************************************************************************************************************************************************************/
@@ -23141,8 +23141,8 @@ module.exports = Blockly;
 /***/ (function(module, exports, __webpack_require__) {
 
 /*** IMPORTS FROM imports-loader ***/
-var goog = __webpack_require__(/*! ./shim/blockly_compressed_vertical.goog */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js");
-var Blockly = __webpack_require__(/*! ./shim/blockly_compressed_vertical-blocks_compressed */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical-blocks_compressed.js");
+var goog = __webpack_require__(/*! ./shim/blockly_compressed_vertical.goog */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js");
+var Blockly = __webpack_require__(/*! ./shim/blockly_compressed_vertical-blocks_compressed */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical-blocks_compressed.js");
 
 // Do not edit this file; automatically generated by build.py.
 'use strict';
@@ -23364,7 +23364,7 @@ module.exports = Blockly;
 
 /***/ }),
 
-/***/ "./node_modules/imports-loader/index.js?this=>window!./node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?this=>window!./node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js":
 /*!**********************************************************************************************************************************************************!*\
   !*** ./node_modules/imports-loader?this=>window!./node_modules/exports-loader?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js ***!
   \**********************************************************************************************************************************************************/
@@ -23395,7 +23395,7 @@ goog.require=function(a){if(!COMPILED){goog.ENABLE_DEBUG_LOADER&&goog.debugLoade
 goog.abstractMethod=function(){throw Error("unimplemented abstract method");};goog.addSingletonGetter=function(a){a.instance_=void 0;a.getInstance=function(){if(a.instance_)return a.instance_;goog.DEBUG&&(goog.instantiatedSingletons_[goog.instantiatedSingletons_.length]=a);return a.instance_=new a}};goog.instantiatedSingletons_=[];goog.LOAD_MODULE_USING_EVAL=!0;goog.SEAL_MODULE_EXPORTS=goog.DEBUG;goog.loadedModules_={};goog.DEPENDENCIES_ENABLED=!COMPILED&&goog.ENABLE_DEBUG_LOADER;goog.TRANSPILE="detect";
 goog.ASSUME_ES_MODULES_TRANSPILED=!1;goog.TRANSPILE_TO_LANGUAGE="";goog.TRANSPILER="transpile.js";goog.hasBadLetScoping=null;goog.useSafari10Workaround=function(){if(null==goog.hasBadLetScoping){try{var a=!eval('"use strict";let x = 1; function f() { return typeof x; };f() == "number";')}catch(b){a=!1}goog.hasBadLetScoping=a}return goog.hasBadLetScoping};goog.workaroundSafari10EvalBug=function(a){return"(function(){"+a+"\n;})();\n"};
 goog.loadModule=function(a){var b=goog.moduleLoaderState_;try{goog.moduleLoaderState_={moduleName:"",declareLegacyNamespace:!1,type:goog.ModuleType.GOOG};if(goog.isFunction(a))var c=a.call(void 0,{});else if(goog.isString(a))goog.useSafari10Workaround()&&(a=goog.workaroundSafari10EvalBug(a)),c=goog.loadModuleFromSource_.call(void 0,a);else throw Error("Invalid module definition");var d=goog.moduleLoaderState_.moduleName;if(goog.isString(d)&&d)goog.moduleLoaderState_.declareLegacyNamespace?goog.constructNamespace_(d,
-c):goog.SEAL_MODULE_EXPORTS&&Object.seal&&"object"==typeof c&&null!=c&&Object.seal(c),goog.loadedModules_[d]={exports:c,type:goog.ModuleType.GOOG,moduleId:goog.moduleLoaderState_.moduleName};else throw Error('Invalid module name "'+d+'"');}finally{goog.moduleLoaderState_=b}};goog.loadModuleFromSource_=function(a){eval(a);return{}};goog.normalizePath_=function(a){a=a.split("./");for(var b=0;b<a.length;)"."==a[b]?a.splice(b,1):b&&".."==a[b]&&a[b-1]&&".."!=a[b-1]?a.splice(--b,2):b++;return a.join("./")};
+c):goog.SEAL_MODULE_EXPORTS&&Object.seal&&"object"==typeof c&&null!=c&&Object.seal(c),goog.loadedModules_[d]={exports:c,type:goog.ModuleType.GOOG,moduleId:goog.moduleLoaderState_.moduleName};else throw Error('Invalid module name "'+d+'"');}finally{goog.moduleLoaderState_=b}};goog.loadModuleFromSource_=function(a){eval(a);return{}};goog.normalizePath_=function(a){a=a.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");for(var b=0;b<a.length;)"."==a[b]?a.splice(b,1):b&&".."==a[b]&&a[b-1]&&".."!=a[b-1]?a.splice(--b,2):b++;return a.join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")};
 goog.loadFileSync_=function(a){if(goog.global.CLOSURE_LOAD_FILE_SYNC)return goog.global.CLOSURE_LOAD_FILE_SYNC(a);try{var b=new goog.global.XMLHttpRequest;b.open("get",a,!1);b.send();return 0==b.status||200==b.status?b.responseText:null}catch(c){return null}};
 goog.transpile_=function(a,b,c){var d=goog.global.$jscomp;d||(goog.global.$jscomp=d={});var e=d.transpile;if(!e){var f=goog.basePath+goog.TRANSPILER,g=goog.loadFileSync_(f);if(g){(function(){eval(g+"\n//# sourceURL="+f)}).call(goog.global);if(goog.global.$gwtExport&&goog.global.$gwtExport.$jscomp&&!goog.global.$gwtExport.$jscomp.transpile)throw Error('The transpiler did not properly export the "transpile" method. $gwtExport: '+JSON.stringify(goog.global.$gwtExport));goog.global.$jscomp.transpile=
 goog.global.$gwtExport.$jscomp.transpile;d=goog.global.$jscomp;e=d.transpile}}e||(e=d.transpile=function(a,b){goog.logToConsole_(b+" requires transpilation but no transpiler was found.");return a});return e(a,b,c)};
@@ -23430,7 +23430,7 @@ b)},areDepsLoaded:function(){return a.areDepsLoaded_(d.requires)}};try{d.load(f)
 break}for(b=0;b<this.deferredQueue_.length;b++)if(this.deferredQueue_[b]==a.path){this.deferredQueue_.splice(b,1);break}if(this.loadingDeps_.length==this.deferredQueue_.length&&!this.depsToLoad_.length)for(;this.deferredQueue_.length;)this.requested(this.deferredQueue_.shift(),!0);a.loaded()},goog.DebugLoader_.prototype.areDepsLoaded_=function(a){for(var b=0;b<a.length;b++){var c=this.getPathFromDeps_(a[b]);if(!c||!(c in this.deferredCallbacks_||goog.isProvided_(a[b])))return!1}return!0},goog.DebugLoader_.prototype.getPathFromDeps_=
 function(a){return a in this.idToPath_?this.idToPath_[a]:a in this.dependencies_?a:null},goog.DebugLoader_.prototype.defer_=function(a,b){this.deferredCallbacks_[a.path]=b;this.deferredQueue_.push(a.path)},goog.LoadController=function(){},goog.LoadController.prototype.pause=function(){},goog.LoadController.prototype.resume=function(){},goog.LoadController.prototype.loaded=function(){},goog.LoadController.prototype.pending=function(){},goog.LoadController.prototype.registerEs6ModuleExports=function(a,
 b,c){},goog.LoadController.prototype.setModuleState=function(a){},goog.LoadController.prototype.clearModuleState=function(){},goog.LoadController.prototype.defer=function(a){},goog.LoadController.prototype.areDepsLoaded=function(){},goog.Dependency=function(a,b,c,d,e){this.path=a;this.relativePath=b;this.provides=c;this.requires=d;this.loadFlags=e;this.loaded_=!1;this.loadCallbacks_=[]},goog.Dependency.prototype.getPathName=function(){var a=this.path,b=a.indexOf("://");0<=b&&(a=a.substring(b+3),b=
-a.indexOf("./"),0<=b&&(a=a.substring(b+1)));return a},goog.Dependency.prototype.onLoad=function(a){this.loaded_?a():this.loadCallbacks_.push(a)},goog.Dependency.prototype.loaded=function(){this.loaded_=!0;var a=this.loadCallbacks_;this.loadCallbacks_=[];for(var b=0;b<a.length;b++)a[b]()},goog.Dependency.defer_=!1,goog.Dependency.callbackMap_={},goog.Dependency.registerCallback_=function(a){var b=Math.random().toString(32);goog.Dependency.callbackMap_[b]=a;return b},goog.Dependency.unregisterCallback_=
+a.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),0<=b&&(a=a.substring(b+1)));return a},goog.Dependency.prototype.onLoad=function(a){this.loaded_?a():this.loadCallbacks_.push(a)},goog.Dependency.prototype.loaded=function(){this.loaded_=!0;var a=this.loadCallbacks_;this.loadCallbacks_=[];for(var b=0;b<a.length;b++)a[b]()},goog.Dependency.defer_=!1,goog.Dependency.callbackMap_={},goog.Dependency.registerCallback_=function(a){var b=Math.random().toString(32);goog.Dependency.callbackMap_[b]=a;return b},goog.Dependency.unregisterCallback_=
 function(a){delete goog.Dependency.callbackMap_[a]},goog.Dependency.callback_=function(a,b){if(a in goog.Dependency.callbackMap_){for(var c=goog.Dependency.callbackMap_[a],d=[],e=1;e<arguments.length;e++)d.push(arguments[e]);c.apply(void 0,d)}else throw Error("Callback key "+a+" does not exist (was base.js loaded more than once?).");},goog.Dependency.prototype.load=function(a){if(goog.global.CLOSURE_IMPORT_SCRIPT)goog.global.CLOSURE_IMPORT_SCRIPT(this.path)?a.loaded():a.pause();else if(goog.inHtmlDocument_()){var b=
 goog.global.document;if("complete"==b.readyState&&!goog.ENABLE_CHROME_APP_SAFE_SCRIPT_LOADING){if(/\bdeps.js$/.test(this.path)){a.loaded();return}throw Error('Cannot write "'+this.path+'" after document load');}if(!goog.ENABLE_CHROME_APP_SAFE_SCRIPT_LOADING&&goog.isDocumentLoading_()){var c=goog.Dependency.registerCallback_(function(b){goog.DebugLoader_.IS_OLD_IE_&&"complete"!=b.readyState||(goog.Dependency.unregisterCallback_(c),a.loaded())}),d=!goog.DebugLoader_.IS_OLD_IE_&&goog.getScriptNonce()?
 ' nonce="'+goog.getScriptNonce()+'"':"";b.write('<script src="'+this.path+'" '+(goog.DebugLoader_.IS_OLD_IE_?"onreadystatechange":"onload")+"=\"goog.Dependency.callback_('"+c+'\', this)" type="text/javascript" '+(goog.Dependency.defer_?"defer":"")+d+">\x3c/script>")}else{var e=b.createElement("script");e.defer=goog.Dependency.defer_;e.async=!1;e.type="text/javascript";(d=goog.getScriptNonce())&&e.setAttribute("nonce",d);goog.DebugLoader_.IS_OLD_IE_?(a.pause(),e.onreadystatechange=function(){if("loaded"==
@@ -23444,7 +23444,7 @@ goog.global.CLOSURE_IMPORT_SCRIPT("",this.contents_)?(this.contents_=null,a.load
 var l=k.onreadystatechange;k.onreadystatechange=function(){"interactive"==k.readyState&&(k.onreadystatechange=l,c(),a.resume());goog.isFunction(l)&&l.apply(void 0,arguments)}}else!goog.DebugLoader_.IS_OLD_IE_&&goog.inHtmlDocument_()&&goog.isDocumentLoading_()?d():c()}}},goog.TransformedDependency.prototype.transform=function(a){},goog.TranspiledDependency=function(a,b,c,d,e,f){goog.TransformedDependency.call(this,a,b,c,d,e);this.transpiler=f},goog.inherits(goog.TranspiledDependency,goog.TransformedDependency),
 goog.TranspiledDependency.prototype.transform=function(a){return this.transpiler.transpile(a,this.getPathName())},goog.PreTranspiledEs6ModuleDependency=function(a,b,c,d,e){goog.TransformedDependency.call(this,a,b,c,d,e)},goog.inherits(goog.PreTranspiledEs6ModuleDependency,goog.TransformedDependency),goog.PreTranspiledEs6ModuleDependency.prototype.transform=function(a){return a},goog.GoogModuleDependency=function(a,b,c,d,e,f,g){goog.TransformedDependency.call(this,a,b,c,d,e);this.needsTranspile_=f;
 this.transpiler_=g},goog.inherits(goog.GoogModuleDependency,goog.TransformedDependency),goog.GoogModuleDependency.prototype.transform=function(a){this.needsTranspile_&&(a=this.transpiler_.transpile(a,this.getPathName()));return goog.LOAD_MODULE_USING_EVAL&&goog.isDef(goog.global.JSON)?"goog.loadModule("+goog.global.JSON.stringify(a+"\n//# sourceURL="+this.path+"\n")+");":'goog.loadModule(function(exports) {"use strict";'+a+"\n;return exports});\n//# sourceURL="+this.path+"\n"},goog.DebugLoader_.IS_OLD_IE_=
-!(goog.global.atob||!goog.global.document||!goog.global.document.all),goog.DebugLoader_.prototype.addDependency=function(a,b,c,d){b=b||[];a=a.replace(/\\/g,"./");var e=goog.normalizePath_(goog.basePath+a);d&&"boolean"!==typeof d||(d=d?{module:goog.ModuleType.GOOG}:{});c=this.factory_.createDependency(e,a,b,c,d,goog.transpiler_.needsTranspile(d.lang||"es3",d.module));this.dependencies_[e]=c;for(c=0;c<b.length;c++)this.idToPath_[b[c]]=e;this.idToPath_[a]=e},goog.DependencyFactory=function(a){this.transpiler=
+!(goog.global.atob||!goog.global.document||!goog.global.document.all),goog.DebugLoader_.prototype.addDependency=function(a,b,c,d){b=b||[];a=a.replace(/\\/g,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");var e=goog.normalizePath_(goog.basePath+a);d&&"boolean"!==typeof d||(d=d?{module:goog.ModuleType.GOOG}:{});c=this.factory_.createDependency(e,a,b,c,d,goog.transpiler_.needsTranspile(d.lang||"es3",d.module));this.dependencies_[e]=c;for(c=0;c<b.length;c++)this.idToPath_[b[c]]=e;this.idToPath_[a]=e},goog.DependencyFactory=function(a){this.transpiler=
 a},goog.DependencyFactory.prototype.createDependency=function(a,b,c,d,e,f){return e.module==goog.ModuleType.GOOG?new goog.GoogModuleDependency(a,b,c,d,e,f,this.transpiler):f?new goog.TranspiledDependency(a,b,c,d,e,this.transpiler):e.module==goog.ModuleType.ES6?"never"==goog.TRANSPILE&&goog.ASSUME_ES_MODULES_TRANSPILED?new goog.PreTranspiledEs6ModuleDependency(a,b,c,d,e):new goog.Es6ModuleDependency(a,b,c,d,e):new goog.Dependency(a,b,c,d,e)},goog.debugLoader_=new goog.DebugLoader_,goog.loadClosureDeps=
 function(){goog.debugLoader_.loadClosureDeps()},goog.setDependencyFactory=function(a){goog.debugLoader_.setDependencyFactory(a)},goog.global.CLOSURE_NO_DEPS||goog.debugLoader_.loadClosureDeps(),goog.bootstrap=function(a,b){goog.debugLoader_.bootstrap(a,b)});
 var Blockly={};Blockly.Blocks=Object(null);/*
@@ -23508,7 +23508,7 @@ goog.array.concatMap=function(a,b,c){return goog.array.concat.apply([],goog.arra
 goog.string.internal.caseInsensitiveEquals=function(a,b){return a.toLowerCase()==b.toLowerCase()};goog.string.internal.isEmptyOrWhitespace=function(a){return/^[\s\xa0]*$/.test(a)};goog.string.internal.trim=goog.TRUSTED_SITE&&String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\s\xa0]*([\s\S]*?)[\s\xa0]*$/.exec(a)[1]};goog.string.internal.caseInsensitiveCompare=function(a,b){a=String(a).toLowerCase();b=String(b).toLowerCase();return a<b?-1:a==b?0:1};
 goog.string.internal.newLineToBr=function(a,b){return a.replace(/(\r\n|\r|\n)/g,b?"<br />":"<br>")};
 goog.string.internal.htmlEscape=function(a,b){if(b)a=a.replace(goog.string.internal.AMP_RE_,"&amp;").replace(goog.string.internal.LT_RE_,"&lt;").replace(goog.string.internal.GT_RE_,"&gt;").replace(goog.string.internal.QUOT_RE_,"&quot;").replace(goog.string.internal.SINGLE_QUOTE_RE_,"&#39;").replace(goog.string.internal.NULL_RE_,"&#0;");else{if(!goog.string.internal.ALL_RE_.test(a))return a;-1!=a.indexOf("&")&&(a=a.replace(goog.string.internal.AMP_RE_,"&amp;"));-1!=a.indexOf("<")&&(a=a.replace(goog.string.internal.LT_RE_,
-"&lt;"));-1!=a.indexOf(">")&&(a=a.replace(goog.string.internal.GT_RE_,"&gt;"));-1!=a.indexOf('"')&&(a=a.replace(goog.string.internal.QUOT_RE_,"&quot;"));-1!=a.indexOf("'")&&(a=a.replace(goog.string.internal.SINGLE_QUOTE_RE_,"&#39;"));-1!=a.indexOf("\x00")&&(a=a.replace(goog.string.internal.NULL_RE_,"&#0;"))}return a};goog.string.internal.AMP_RE_=/&/g;goog.string.internal.LT_RE_=/</g;goog.string.internal.GT_RE_=/>/g;goog.string.internal.QUOT_RE_=/"./g;goog.string.internal.SINGLE_QUOTE_RE_=/'./g;
+"&lt;"));-1!=a.indexOf(">")&&(a=a.replace(goog.string.internal.GT_RE_,"&gt;"));-1!=a.indexOf('"')&&(a=a.replace(goog.string.internal.QUOT_RE_,"&quot;"));-1!=a.indexOf("'")&&(a=a.replace(goog.string.internal.SINGLE_QUOTE_RE_,"&#39;"));-1!=a.indexOf("\x00")&&(a=a.replace(goog.string.internal.NULL_RE_,"&#0;"))}return a};goog.string.internal.AMP_RE_=/&/g;goog.string.internal.LT_RE_=/</g;goog.string.internal.GT_RE_=/>/g;goog.string.internal.QUOT_RE_=/"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g;goog.string.internal.SINGLE_QUOTE_RE_=/'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g;
 goog.string.internal.NULL_RE_=/\x00/g;goog.string.internal.ALL_RE_=/[\x00&<>"']/;goog.string.internal.whitespaceEscape=function(a,b){return goog.string.internal.newLineToBr(a.replace(/  /g," &#160;"),b)};goog.string.internal.contains=function(a,b){return-1!=a.indexOf(b)};goog.string.internal.caseInsensitiveContains=function(a,b){return goog.string.internal.contains(a.toLowerCase(),b.toLowerCase())};
 goog.string.internal.compareVersions=function(a,b){var c=0;a=goog.string.internal.trim(String(a)).split(".");b=goog.string.internal.trim(String(b)).split(".");for(var d=Math.max(a.length,b.length),e=0;0==c&&e<d;e++){var f=a[e]||"",g=b[e]||"";do{f=/(\d*)(\D*)(.*)/.exec(f)||["","","",""];g=/(\d*)(\D*)(.*)/.exec(g)||["","","",""];if(0==f[0].length&&0==g[0].length)break;c=0==f[1].length?0:parseInt(f[1],10);var h=0==g[1].length?0:parseInt(g[1],10);c=goog.string.internal.compareElements_(c,h)||goog.string.internal.compareElements_(0==
 f[2].length,0==g[2].length)||goog.string.internal.compareElements_(f[2],g[2]);f=f[3];g=g[3]}while(0==c)}return c};goog.string.internal.compareElements_=function(a,b){return a<b?-1:a>b?1:0};goog.labs={};goog.labs.userAgent={};goog.labs.userAgent.util={};goog.labs.userAgent.util.getNativeUserAgentString_=function(){var a=goog.labs.userAgent.util.getNavigator_();return a&&(a=a.userAgent)?a:""};goog.labs.userAgent.util.getNavigator_=function(){return goog.global.navigator};goog.labs.userAgent.util.userAgent_=goog.labs.userAgent.util.getNativeUserAgentString_();goog.labs.userAgent.util.setUserAgent=function(a){goog.labs.userAgent.util.userAgent_=a||goog.labs.userAgent.util.getNativeUserAgentString_()};
@@ -23765,7 +23765,7 @@ goog.i18n.bidi.ltrExitDirCheckRe_=new RegExp("["+goog.i18n.bidi.ltrChars_+"][^"+
 goog.i18n.bidi.endsWithRtl=function(a,b){return goog.i18n.bidi.rtlExitDirCheckRe_.test(goog.i18n.bidi.stripHtmlIfNeeded_(a,b))};goog.i18n.bidi.isRtlExitText=goog.i18n.bidi.endsWithRtl;goog.i18n.bidi.rtlLocalesRe_=/^(ar|ckb|dv|he|iw|fa|nqo|ps|sd|ug|ur|yi|.*[-_](Adlm|Arab|Hebr|Nkoo|Rohg|Thaa))(?!.*[-_](Latn|Cyrl)($|-|_))($|-|_)/i;goog.i18n.bidi.isRtlLanguage=function(a){return goog.i18n.bidi.rtlLocalesRe_.test(a)};goog.i18n.bidi.bracketGuardTextRe_=/(\(.*?\)+)|(\[.*?\]+)|(\{.*?\}+)|(<.*?>+)/g;
 goog.i18n.bidi.guardBracketInText=function(a,b){b=(void 0===b?goog.i18n.bidi.hasAnyRtl(a):b)?goog.i18n.bidi.Format.RLM:goog.i18n.bidi.Format.LRM;return a.replace(goog.i18n.bidi.bracketGuardTextRe_,b+"$&"+b)};goog.i18n.bidi.enforceRtlInHtml=function(a){return"<"==a.charAt(0)?a.replace(/<\w+/,"$& dir=rtl"):"\n<span dir=rtl>"+a+"</span>"};goog.i18n.bidi.enforceRtlInText=function(a){return goog.i18n.bidi.Format.RLE+a+goog.i18n.bidi.Format.PDF};
 goog.i18n.bidi.enforceLtrInHtml=function(a){return"<"==a.charAt(0)?a.replace(/<\w+/,"$& dir=ltr"):"\n<span dir=ltr>"+a+"</span>"};goog.i18n.bidi.enforceLtrInText=function(a){return goog.i18n.bidi.Format.LRE+a+goog.i18n.bidi.Format.PDF};goog.i18n.bidi.dimensionsRe_=/:\s*([.\d][.\w]*)\s+([.\d][.\w]*)\s+([.\d][.\w]*)\s+([.\d][.\w]*)/g;goog.i18n.bidi.leftRe_=/left/gi;goog.i18n.bidi.rightRe_=/right/gi;goog.i18n.bidi.tempRe_=/%%%%/g;
-goog.i18n.bidi.mirrorCSS=function(a){return a.replace(goog.i18n.bidi.dimensionsRe_,":$1 $4 $3 $2").replace(goog.i18n.bidi.leftRe_,"%%%%").replace(goog.i18n.bidi.rightRe_,goog.i18n.bidi.LEFT).replace(goog.i18n.bidi.tempRe_,goog.i18n.bidi.RIGHT)};goog.i18n.bidi.doubleQuoteSubstituteRe_=/([\u0591-\u05f2])"./g;goog.i18n.bidi.singleQuoteSubstituteRe_=/([\u0591-\u05f2])'./g;
+goog.i18n.bidi.mirrorCSS=function(a){return a.replace(goog.i18n.bidi.dimensionsRe_,":$1 $4 $3 $2").replace(goog.i18n.bidi.leftRe_,"%%%%").replace(goog.i18n.bidi.rightRe_,goog.i18n.bidi.LEFT).replace(goog.i18n.bidi.tempRe_,goog.i18n.bidi.RIGHT)};goog.i18n.bidi.doubleQuoteSubstituteRe_=/([\u0591-\u05f2])"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g;goog.i18n.bidi.singleQuoteSubstituteRe_=/([\u0591-\u05f2])'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g;
 goog.i18n.bidi.normalizeHebrewQuote=function(a){return a.replace(goog.i18n.bidi.doubleQuoteSubstituteRe_,"$1\u05f4").replace(goog.i18n.bidi.singleQuoteSubstituteRe_,"$1\u05f3")};goog.i18n.bidi.wordSeparatorRe_=/\s+/;goog.i18n.bidi.hasNumeralsRe_=/[\d\u06f0-\u06f9]/;goog.i18n.bidi.rtlDetectionThreshold_=.4;
 goog.i18n.bidi.estimateDirection=function(a,b){var c=0,d=0,e=!1;a=goog.i18n.bidi.stripHtmlIfNeeded_(a,b).split(goog.i18n.bidi.wordSeparatorRe_);for(b=0;b<a.length;b++){var f=a[b];goog.i18n.bidi.startsWithRtl(f)?(c++,d++):goog.i18n.bidi.isRequiredLtrRe_.test(f)?e=!0:goog.i18n.bidi.hasAnyLtr(f)?d++:goog.i18n.bidi.hasNumeralsRe_.test(f)&&(e=!0)}return 0==d?e?goog.i18n.bidi.Dir.LTR:goog.i18n.bidi.Dir.NEUTRAL:c/d>goog.i18n.bidi.rtlDetectionThreshold_?goog.i18n.bidi.Dir.RTL:goog.i18n.bidi.Dir.LTR};
 goog.i18n.bidi.detectRtlDirectionality=function(a,b){return goog.i18n.bidi.estimateDirection(a,b)==goog.i18n.bidi.Dir.RTL};goog.i18n.bidi.setElementDirAndAlign=function(a,b){a&&(b=goog.i18n.bidi.toDir(b))&&(a.style.textAlign=b==goog.i18n.bidi.Dir.RTL?goog.i18n.bidi.RIGHT:goog.i18n.bidi.LEFT,a.dir=b==goog.i18n.bidi.Dir.RTL?"rtl":"ltr")};
@@ -23821,7 +23821,7 @@ goog.html.SafeHtml.createSandboxIframe=function(a,b,c,d){if(!goog.html.SafeHtml.
 goog.html.SafeHtml.canUseSandboxIframe=function(){return goog.global.HTMLIFrameElement&&"sandbox"in goog.global.HTMLIFrameElement.prototype};goog.html.SafeHtml.createScriptSrc=function(a,b){goog.html.TrustedResourceUrl.unwrap(a);a=goog.html.SafeHtml.combineAttributes({src:a},{},b);return goog.html.SafeHtml.createSafeHtmlTagSecurityPrivateDoNotAccessOrElse("script",a)};
 goog.html.SafeHtml.createScript=function(a,b){for(var c in b){var d=c.toLowerCase();if("language"==d||"src"==d||"text"==d||"type"==d)throw Error('Cannot set "'+d+'" attribute');}c="";a=goog.array.concat(a);for(d=0;d<a.length;d++)c+=goog.html.SafeScript.unwrap(a[d]);a=goog.html.SafeHtml.createSafeHtmlSecurityPrivateDoNotAccessOrElse(c,goog.i18n.bidi.Dir.NEUTRAL);return goog.html.SafeHtml.createSafeHtmlTagSecurityPrivateDoNotAccessOrElse("script",b,a)};
 goog.html.SafeHtml.createStyle=function(a,b){b=goog.html.SafeHtml.combineAttributes({type:"text/css"},{},b);var c="";a=goog.array.concat(a);for(var d=0;d<a.length;d++)c+=goog.html.SafeStyleSheet.unwrap(a[d]);a=goog.html.SafeHtml.createSafeHtmlSecurityPrivateDoNotAccessOrElse(c,goog.i18n.bidi.Dir.NEUTRAL);return goog.html.SafeHtml.createSafeHtmlTagSecurityPrivateDoNotAccessOrElse("style",b,a)};
-goog.html.SafeHtml.createMetaRefresh=function(a,b){a=goog.html.SafeUrl.unwrap(goog.html.SafeUrl.sanitize(a));(goog.labs.userAgent.browser.isIE()||goog.labs.userAgent.browser.isEdge())&&goog.string.internal.contains(a,";")&&(a="'"+a.replace(/'./g,"%27")+"'");return goog.html.SafeHtml.createSafeHtmlTagSecurityPrivateDoNotAccessOrElse("meta",{"http-equiv":"refresh",content:(b||0)+"; url="+a})};
+goog.html.SafeHtml.createMetaRefresh=function(a,b){a=goog.html.SafeUrl.unwrap(goog.html.SafeUrl.sanitize(a));(goog.labs.userAgent.browser.isIE()||goog.labs.userAgent.browser.isEdge())&&goog.string.internal.contains(a,";")&&(a="'"+a.replace(/'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g,"%27")+"'");return goog.html.SafeHtml.createSafeHtmlTagSecurityPrivateDoNotAccessOrElse("meta",{"http-equiv":"refresh",content:(b||0)+"; url="+a})};
 goog.html.SafeHtml.getAttrNameAndValue_=function(a,b,c){if(c instanceof goog.string.Const)c=goog.string.Const.unwrap(c);else if("style"==b.toLowerCase())c=goog.html.SafeHtml.getStyleValue_(c);else{if(/^on/i.test(b))throw Error('Attribute "'+b+'" requires goog.string.Const value, "'+c+'" given.');if(b.toLowerCase()in goog.html.SafeHtml.URL_ATTRIBUTES_)if(c instanceof goog.html.TrustedResourceUrl)c=goog.html.TrustedResourceUrl.unwrap(c);else if(c instanceof goog.html.SafeUrl)c=goog.html.SafeUrl.unwrap(c);
 else if(goog.isString(c))c=goog.html.SafeUrl.sanitize(c).getTypedStringValue();else throw Error('Attribute "'+b+'" on tag "'+a+'" requires goog.html.SafeUrl, goog.string.Const, or string, value "'+c+'" given.');}c.implementsGoogStringTypedString&&(c=c.getTypedStringValue());goog.asserts.assert(goog.isString(c)||goog.isNumber(c),"String or number value expected, got "+typeof c+" with value: "+c);return b+'="'+goog.string.internal.htmlEscape(String(c))+'"'};
 goog.html.SafeHtml.getStyleValue_=function(a){if(!goog.isObject(a))throw Error('The "style" attribute requires goog.html.SafeStyle or map of style properties, '+typeof a+" given: "+a);a instanceof goog.html.SafeStyle||(a=goog.html.SafeStyle.create(a));return goog.html.SafeStyle.unwrap(a)};goog.html.SafeHtml.createWithDir=function(a,b,c,d){b=goog.html.SafeHtml.create(b,c,d);b.dir_=a;return b};
@@ -24346,7 +24346,7 @@ e.type==Blockly.INPUT_VALUE?f=goog.dom.createDom("value"):e.type==Blockly.NEXT_S
 !0);a.disabled&&c.setAttribute("disabled",!0);a.isDeletable()||a.isShadow()||c.setAttribute("deletable",!1);a.isMovable()||a.isShadow()||c.setAttribute("movable",!1);a.isEditable()||c.setAttribute("editable",!1);if(d=a.getNextBlock())f=goog.dom.createDom("next",null,Blockly.Xml.blockToDom(d,b)),c.appendChild(f);k=a.nextConnection&&a.nextConnection.getShadowDom();!k||d&&d.isShadow()||f.appendChild(Blockly.Xml.cloneShadow_(k));return c};
 Blockly.Xml.scratchCommentToDom_=function(a,b){var c=a.getCommentText();if(c){c=goog.dom.createDom("comment",null,c);if("object"==typeof a.comment){c.setAttribute("id",a.comment.id);c.setAttribute("pinned",a.comment.isVisible());var d=a.comment instanceof Blockly.ScratchBlockComment?a.comment.getHeightWidth():a.comment.getBubbleSize();c.setAttribute("h",d.height);c.setAttribute("w",d.width);var e=a.comment.getXY();c.setAttribute("x",Math.round(a.workspace.RTL?a.workspace.getWidth()-e.x-d.width:e.x));
 c.setAttribute("y",e.y);c.setAttribute("minimized",a.comment.isMinimized())}b.appendChild(c)}};Blockly.Xml.cloneShadow_=function(a){for(var b=a=a.cloneNode(!0),c;b;)if(b.firstChild)b=b.firstChild;else{for(;b&&!b.nextSibling;)c=b,b=b.parentNode,3==c.nodeType&&""==c.data.trim()&&b.firstChild!=c&&goog.dom.removeNode(c);b&&(c=b,b=b.nextSibling,3==c.nodeType&&""==c.data.trim()&&goog.dom.removeNode(c))}return a};Blockly.Xml.domToText=function(a){return(new XMLSerializer).serializeToString(a)};
-Blockly.Xml.domToPrettyText=function(a){a=Blockly.Xml.domToText(a).split("<");for(var b="",c=1;c<a.length;c++){var d=a[c];"./"==d[0]&&(b=b.substring(2));a[c]=b+"<"+d;"./"!=d[0]&&"/>"!=d.slice(-2)&&(b+="  ")}a=a.join("\n");a=a.replace(/(<(\w+)\b[^>]*>[^\n]*)\n *<\/\2>/g,"$1</$2>");return a.replace(/^\n/,"")};
+Blockly.Xml.domToPrettyText=function(a){a=Blockly.Xml.domToText(a).split("<");for(var b="",c=1;c<a.length;c++){var d=a[c];"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"==d[0]&&(b=b.substring(2));a[c]=b+"<"+d;"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"!=d[0]&&"/>"!=d.slice(-2)&&(b+="  ")}a=a.join("\n");a=a.replace(/(<(\w+)\b[^>]*>[^\n]*)\n *<\/\2>/g,"$1</$2>");return a.replace(/^\n/,"")};
 Blockly.Xml.textToDom=function(a){(a=(new DOMParser).parseFromString(a,"text/xml"))&&a.firstChild&&"xml"==a.firstChild.nodeName.toLowerCase()&&a.firstChild===a.lastChild||goog.asserts.fail("Blockly.Xml.textToDom did not obtain a valid XML tree.");return a.firstChild};Blockly.Xml.clearWorkspaceAndLoadFromXml=function(a,b){b.setResizesEnabled(!1);b.setToolboxRefreshEnabled(!1);b.clear();a=Blockly.Xml.domToWorkspace(a,b);b.setResizesEnabled(!0);b.setToolboxRefreshEnabled(!0);return a};
 Blockly.Xml.domToWorkspace=function(a,b){if(a instanceof Blockly.Workspace){var c=a;a=b;b=c;console.warn("Deprecated call to Blockly.Xml.domToWorkspace, swap the arguments.")}var d;b.RTL&&(d=b.getWidth());c=[];Blockly.Field.startCache();var e=a.childNodes.length,f=Blockly.Events.getGroup();f||Blockly.Events.setGroup(!0);b.setResizesEnabled&&b.setResizesEnabled(!1);var g=!0;try{for(var h=0;h<e;h++){var k=a.childNodes[h],l=k.nodeName.toLowerCase();if("block"==l||"shadow"==l&&!Blockly.Events.recordUndo){var m=
 Blockly.Xml.domToBlock(k,b);c.push(m.id);var n=k.hasAttribute("x")?parseInt(k.getAttribute("x"),10):10,p=k.hasAttribute("y")?parseInt(k.getAttribute("y"),10):10;if(!isNaN(n)&&!isNaN(p)&&(m.moveBy(b.RTL?d-n:n,p),m.comment&&"object"===typeof m.comment)){var q=m.comment.getXY(),r=m.comment.getBubbleSize().width;m.comment.moveTo(m.workspace.RTL?d-q.x-r:q.x,q.y)}g=!1}else if("shadow"==l)goog.asserts.fail("Shadow block cannot be a top-level block."),g=!1;else if("comment"==l)b.rendered?Blockly.WorkspaceCommentSvg.fromXml(k,
@@ -24794,7 +24794,7 @@ goog.async.WorkQueue.prototype.remove=function(){var a=null;this.workHead_&&(a=t
 goog.async.WorkItem.prototype.set=function(a,b){this.fn=a;this.scope=b;this.next=null};goog.async.WorkItem.prototype.reset=function(){this.next=this.scope=this.fn=null};goog.async.throwException=function(a){goog.global.setTimeout(function(){throw a;},0)};goog.async.nextTick=function(a,b,c){var d=a;b&&(d=goog.bind(a,b));d=goog.async.nextTick.wrapCallback_(d);goog.isFunction(goog.global.setImmediate)&&(c||goog.async.nextTick.useSetImmediate_())?goog.global.setImmediate(d):(goog.async.nextTick.setImmediate_||(goog.async.nextTick.setImmediate_=goog.async.nextTick.getSetImmediateEmulator_()),goog.async.nextTick.setImmediate_(d))};
 goog.async.nextTick.useSetImmediate_=function(){return goog.global.Window&&goog.global.Window.prototype&&!goog.labs.userAgent.browser.isEdge()&&goog.global.Window.prototype.setImmediate==goog.global.setImmediate?!1:!0};
 goog.async.nextTick.getSetImmediateEmulator_=function(){var a=goog.global.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&window.addEventListener&&!goog.labs.userAgent.engine.isPresto()&&(a=function(){var a=document.createElement("IFRAME");a.style.display="none";a.src="";document.documentElement.appendChild(a);var b=a.contentWindow;a=b.document;a.open();a.write("");a.close();var c="callImmediate"+Math.random(),d="file:"==b.location.protocol?"*":b.location.protocol+
-".//"+b.location.host;a=goog.bind(function(a){if(("*"==d||a.origin==d)&&a.data==c)this.port1.onmessage()},this);b.addEventListener("message",a,!1);this.port1={};this.port2={postMessage:function(){b.postMessage(c,d)}}});if("undefined"!==typeof a&&!goog.labs.userAgent.browser.isIE()){var b=new a,c={},d=c;b.port1.onmessage=function(){if(goog.isDef(c.next)){c=c.next;var a=c.cb;c.cb=null;a()}};return function(a){d.next={cb:a};d=d.next;b.port2.postMessage(0)}}return"undefined"!==typeof document&&"onreadystatechange"in
+"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//"+b.location.host;a=goog.bind(function(a){if(("*"==d||a.origin==d)&&a.data==c)this.port1.onmessage()},this);b.addEventListener("message",a,!1);this.port1={};this.port2={postMessage:function(){b.postMessage(c,d)}}});if("undefined"!==typeof a&&!goog.labs.userAgent.browser.isIE()){var b=new a,c={},d=c;b.port1.onmessage=function(){if(goog.isDef(c.next)){c=c.next;var a=c.cb;c.cb=null;a()}};return function(a){d.next={cb:a};d=d.next;b.port2.postMessage(0)}}return"undefined"!==typeof document&&"onreadystatechange"in
 document.createElement("SCRIPT")?function(a){var b=document.createElement("SCRIPT");b.onreadystatechange=function(){b.onreadystatechange=null;b.parentNode.removeChild(b);b=null;a();a=null};document.documentElement.appendChild(b)}:function(a){goog.global.setTimeout(a,0)}};goog.async.nextTick.wrapCallback_=goog.functions.identity;goog.debug.entryPointRegistry.register(function(a){goog.async.nextTick.wrapCallback_=a});goog.ASSUME_NATIVE_PROMISE=!1;goog.async.run=function(a,b){goog.async.run.schedule_||goog.async.run.initializeRunner_();goog.async.run.workQueueScheduled_||(goog.async.run.schedule_(),goog.async.run.workQueueScheduled_=!0);goog.async.run.workQueue_.add(a,b)};
 goog.async.run.initializeRunner_=function(){if(goog.ASSUME_NATIVE_PROMISE||goog.global.Promise&&goog.global.Promise.resolve){var a=goog.global.Promise.resolve(void 0);goog.async.run.schedule_=function(){a.then(goog.async.run.processWorkQueue)}}else goog.async.run.schedule_=function(){goog.async.nextTick(goog.async.run.processWorkQueue)}};goog.async.run.forceNextTick=function(a){goog.async.run.schedule_=function(){goog.async.nextTick(goog.async.run.processWorkQueue);a&&a(goog.async.run.processWorkQueue)}};
 goog.async.run.workQueueScheduled_=!1;goog.async.run.workQueue_=new goog.async.WorkQueue;goog.DEBUG&&(goog.async.run.resetQueue=function(){goog.async.run.workQueueScheduled_=!1;goog.async.run.workQueue_=new goog.async.WorkQueue});goog.async.run.processWorkQueue=function(){for(var a;a=goog.async.run.workQueue_.remove();){try{a.fn.call(a.scope)}catch(b){goog.async.throwException(b)}goog.async.run.workQueue_.returnUnused(a)}goog.async.run.workQueueScheduled_=!1};goog.promise={};goog.promise.Resolver=function(){};goog.Promise=function(a,b){this.state_=goog.Promise.State_.PENDING;this.result_=void 0;this.callbackEntriesTail_=this.callbackEntries_=this.parent_=null;this.executing_=!1;0<goog.Promise.UNHANDLED_REJECTION_DELAY?this.unhandledRejectionId_=0:0==goog.Promise.UNHANDLED_REJECTION_DELAY&&(this.hadUnhandledRejection_=!1);goog.Promise.LONG_STACK_TRACES&&(this.stack_=[],this.addStackTrace_(Error("created")),this.currentStep_=0);if(a!=goog.nullFunction)try{var c=this;a.call(b,function(a){c.resolve_(goog.Promise.State_.FULFILLED,
@@ -25674,86 +25674,86 @@ exports["goog"] = (goog);
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical-blocks_compressed.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical-blocks_compressed.js":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/blockly_compressed_vertical-blocks_compressed.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!exports-loader?Blockly!../blocks_compressed */ "./node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js");
+module.exports = __webpack_require__(/*! imports-loader?Blockly=./shim/blockly_compressed_vertical.Blockly!exports-loader?Blockly!../blocks_compressed */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?Blockly=./shim/blockly_compressed_vertical.Blockly!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed.js");
 
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.Blockly.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.Blockly.js":
 /*!*********************************************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/blockly_compressed_vertical.Blockly.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./blockly_compressed_vertical */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.js").Blockly;
+module.exports = __webpack_require__(/*! ./blockly_compressed_vertical */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.js").Blockly;
 
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js":
 /*!******************************************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/blockly_compressed_vertical.goog.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./blockly_compressed_vertical */ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.js").goog;
+module.exports = __webpack_require__(/*! ./blockly_compressed_vertical */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.js").goog;
 
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/blockly_compressed_vertical.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blockly_compressed_vertical.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/blockly_compressed_vertical.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?this=>window!exports-loader?Blockly&goog!../blockly_compressed_vertical */ "./node_modules/imports-loader/index.js?this=>window!./node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js");
+module.exports = __webpack_require__(/*! imports-loader?this=>window!exports-loader?Blockly&goog!../blockly_compressed_vertical */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?this=>window!./node_modules/exports-loader/index.js?Blockly&goog!./node_modules/scratch-blocks/blockly_compressed_vertical.js");
 
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/blocks_compressed_vertical-blockly_compressed_vertical-messages.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blocks_compressed_vertical-blockly_compressed_vertical-messages.js":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/blocks_compressed_vertical-blockly_compressed_vertical-messages.js ***!
   \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/messages */ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js");
+module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/messages */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/messages.js");
 
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/blocks_compressed_vertical.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/blocks_compressed_vertical.js":
 /*!************************************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/blocks_compressed_vertical.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!exports-loader?Blockly!../blocks_compressed_vertical */ "./node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js");
+module.exports = __webpack_require__(/*! imports-loader?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!exports-loader?Blockly!../blocks_compressed_vertical */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?goog=./shim/blockly_compressed_vertical.goog,Blockly=./shim/blockly_compressed_vertical-blocks_compressed!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/blocks_compressed_vertical.js");
 
 
 /***/ }),
 
-/***/ "./node_modules/scratch-blocks/shim/vertical.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-blocks/shim/vertical.js":
 /*!******************************************************!*\
   !*** ./node_modules/scratch-blocks/shim/vertical.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/scratch_msgs */ "./node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js");
+module.exports = __webpack_require__(/*! imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!exports-loader?Blockly!../msg/scratch_msgs */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!./node_modules/exports-loader/index.js?Blockly!./node_modules/scratch-blocks/msg/scratch_msgs.js");
 
 
 /***/ })

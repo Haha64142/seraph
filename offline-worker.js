@@ -1,6 +1,6 @@
 const CACHE_NAME = 'seraph-cache';
 const OFFLINE_URLS = [
-    './offline.html',
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/offline.html',
 ];
 
 self.addEventListener('install', function(event) {
@@ -24,7 +24,7 @@ self.addEventListener('fetch', function(event) {
                     return response;
                 }
                 if (event.request.mode === 'navigate') {
-                    return caches.match('./offline.html');
+                    return caches.match('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/offline.html');
                 }
             });
         })

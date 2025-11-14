@@ -942,7 +942,7 @@ function bb(b) {
   return b.trim()
 } : function (b) {
   return /^[\s\xa0]*([\s\S]*?)[\s\xa0]*$/.exec(b)[1]
-}, db = /&/g, eb = /</g, fb = />/g, gb = /"./g, hb = /'./g, ib = /\x00/g, jb = /[\x00&<>"']/, kb = function (b, g) {
+}, db = /&/g, eb = /</g, fb = />/g, gb = /"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, hb = /'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, ib = /\x00/g, jb = /[\x00&<>"']/, kb = function (b, g) {
   return b < g ? -1 : b > g ? 1 : 0
 };
 var lb;
@@ -1748,7 +1748,7 @@ var ud, vd = function () {
     c.open();
     c.close();
     var n = "callImmediate" + Math.random(),
-      h = "file:" == a.location.protocol ? "*" : a.location.protocol + ".//" + a.location.host;
+      h = "file:" == a.location.protocol ? "*" : a.location.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + a.location.host;
     c = La(function (d) {
         if (("*" == h || d.origin == h) && d.data == n) this.port1.onmessage()
       },
@@ -2427,7 +2427,7 @@ var Je = function (b) {
     delete He[Ie]
   };
   He[Ie] = g;
-  g.src = "./gen_204?atyp=i&ct=doodle&cad=" + b + "&zx=" + Date.now();
+  g.src = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/gen_204?atyp=i&ct=doodle&cad=" + b + "&zx=" + Date.now();
   Ie++
 }, He = [], Ie = 0;
 var Ke = function (b, g) {
@@ -2442,8 +2442,8 @@ Ke.prototype.toString = function () {
   var b = [], g = this.Bb;
   g && b.push(Qe(g, Re, ! 0), ":");
   var m = this.kb;
-  if (m || "file" == g) b.push(".//"), (g = this.le) && b.push(Qe(g, Re, ! 0), "@"), b.push(encodeURIComponent(String(m)).replace(/%25([0-9a-fA-F]{2})/g, "%$1")), m = this.Xd, null != m && b.push(":", String(m));
-  if (m = this.Ca) this.kb && "./" != m.charAt(0) && b.push("./"), b.push(Qe(m, "./" == m.charAt(0) ? Se : Te, ! 0));
+  if (m || "file" == g) b.push("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//"), (g = this.le) && b.push(Qe(g, Re, ! 0), "@"), b.push(encodeURIComponent(String(m)).replace(/%25([0-9a-fA-F]{2})/g, "%$1")), m = this.Xd, null != m && b.push(":", String(m));
+  if (m = this.Ca) this.kb && "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" != m.charAt(0) && b.push("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"), b.push(Qe(m, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" == m.charAt(0) ? Se : Te, ! 0));
   (m = this.ha.toString()) && b.push("?", m);
   (m = this.Sc) && b.push("#", Qe(m, Ue));
   return b.join("")
@@ -2455,20 +2455,20 @@ Ke.prototype.resolve = function (b) {
   m ? g.kb = b.kb : m = null != b.Xd;
   var k = b.Ca;
   if (m) Me(g, b.Xd); else if (m = !! b.Ca) {
-    if ("./" != k.charAt(0)) if (this.kb && ! this.Ca) k = "./" + k; else {
-      var c = g.Ca.lastIndexOf("./");
+    if ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" != k.charAt(0)) if (this.kb && ! this.Ca) k = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + k; else {
+      var c = g.Ca.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
       -1 != c && (k = g.Ca.substr(0, c + 1) + k)
     }
     c = k;
-    if (".." == c || "." == c) k = ""; else if (-1 != c.indexOf("./") || -1 != c.indexOf("./.")) {
-      k = 0 == c.lastIndexOf("./", 0);
-      c = c.split("./");
+    if (".." == c || "." == c) k = ""; else if (-1 != c.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") || -1 != c.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/.")) {
+      k = 0 == c.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", 0);
+      c = c.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
       for (var a = [], n = 0; n < c.length;) {
         var h = c[n++];
         "." == h ? k && n == c.length && a.push("") : ".." == h ? ((1 < a.length ||
           1 == a.length && "" != a[0]) && a.pop(), k && n == c.length && a.push("")) : (a.push(h), k = ! 0)
       }
-      k = a.join("./")
+      k = a.join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")
     } else k = c
   }
   m ? g.Ca = k : m = "" !== b.ha.toString();
@@ -2634,7 +2634,7 @@ var cf = navigator.userAgent, df = new Ke(location.href), ef = "sdoodles" === do
   };
 cf.includes("GT-I9300") && cf.includes("Chrome");
 var lf = function () {
-  return true // df.Ca.includes("./logos/") && df.Ca.includes(".html")
+  return true // df.Ca.includes("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/logos/") && df.Ca.includes(".html")
 }, nf = function () {
   return !! document.getElementById("fkbx") || mf()
 }, mf = function () {
@@ -2756,7 +2756,7 @@ var Af = function (b, g) {
     }
     return Tf
   }, Zf = function () {
-    var b = Yf, g = new Ke("./");
+    var b = Yf, g = new Ke("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
     g.ha.set("fpdoodle", "1");
     g.ha.set("doodle", String(b));
     Of && g.ha.set("hl", Of);
@@ -28107,7 +28107,7 @@ sb();
 ! x("Safari") || sb() || x("Coast") || x("Opera") || x("Edge") || x("Edg/") || x("OPR") || rb() || x("Silk") || x("Android") || Xb();
 var ss = {}, ts = null;
 var us = function (b) {
-    return 0 == b.indexOf(".//") ? "https:" + b : b
+    return 0 == b.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//") ? "https:" + b : b
   }, vs = function () {
     var b = Jo(), g = Jf("share", "");
     Mf() || (so(9), b = us(b), window.location = "http://www.google.com/doodles/_SHARE?description=" + encodeURIComponent(g) + "&url=" + encodeURIComponent(b))
@@ -30852,8 +30852,8 @@ var rv = function (b, g, m, k) {
 }, tv = function (b, g, m, k) {
   m = void 0 === m ? function () {
   } : m;
-  k = (void 0 === k ? 0 : k) ? ".//www.google.com" : "";
-  k = new Ke(b.Ca.startsWith("./") ? "" + k + b.Ca : k + "./async/" + b.Ca);
+  k = (void 0 === k ? 0 : k) ? "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//www.google.com" : "";
+  k = new Ke(b.Ca.startsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") ? "" + k + b.Ca : k + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/async/" + b.Ca);
   Ne(k, g);
   k = k.toString();
   b.ha++;

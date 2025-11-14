@@ -74,7 +74,7 @@ cc.isCrossOrigin = function (url) {
     var startIndex = url.indexOf("://");
     if (startIndex == -1)
         return false;
-    var endIndex = url.indexOf("./", startIndex + 3);
+    var endIndex = url.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", startIndex + 3);
     var urlOrigin = (endIndex == -1) ? url : url.substring(0, endIndex);
     return urlOrigin != location.origin;
 };
@@ -203,7 +203,7 @@ cc.path = {
         var l = arguments.length;
         var result = "";
         for (var i = 0; i < l; i++) {
-            result = (result + (result == "" ? "" : "./") + arguments[i]).replace(/(\/|\\\\)$/, "");
+            result = (result + (result == "" ? "" : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + arguments[i]).replace(/(\/|\\\\)$/, "");
         }
         return result;
     },
@@ -254,7 +254,7 @@ cc.path = {
             tempStr = pathStr.substring(index);
             pathStr = pathStr.substring(0, index);
         }
-        index = pathStr.lastIndexOf("./");
+        index = pathStr.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
         index = index <= 0 ? 0 : index + 1;
         return pathStr.substring(0, index) + basename + ext + tempStr;
     }
@@ -10842,7 +10842,7 @@ cc.KEY = {
     '+':107,
     '-':109,
     'numdel':110,
-    './':111,
+    'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/':111,
     f1:112,
     f2:113,
     f3:114,

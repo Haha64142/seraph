@@ -240,7 +240,7 @@ pgli.render.CanvasRenderer = gamecore.Base.extend('CanvasRenderer',
 		}
 		else
 		{
-			trace("./!\\ Image is loading, will redraw onload.");
+			trace("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/!\\ Image is loading, will redraw onload.");
 			var img = new Image();
 			img.onload = function(){
 				trace("#Image loaded, redrawing...");

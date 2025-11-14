@@ -45,12 +45,12 @@ var buildUrl = "Build";
 if (/iPhone|iPad/i.test(navigator.userAgent)) {
     var buildUrl = "Build_ios";
 }
-var loaderUrl = buildUrl + "./dist.loader.js";
+var loaderUrl = buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dist.loader.js";
 
 var unityConfig = {
-    dataUrl: buildUrl + "./dist.data.unityweb",
-    frameworkUrl: buildUrl + "./dist.framework.js.unityweb",
-    codeUrl: buildUrl + "./dist.wasm.unityweb",
+    dataUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dist.data.unityweb",
+    frameworkUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dist.framework.js.unityweb",
+    codeUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dist.wasm.unityweb",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "nate-games",
     productName: "Lazy Jump",

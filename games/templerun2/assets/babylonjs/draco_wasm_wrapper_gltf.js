@@ -366,9 +366,9 @@ var DracoDecoderModule = (function () {
 				var a = {
 						USER: 'web_user',
 						LOGNAME: 'web_user',
-						PATH: './',
-						PWD: './',
-						HOME: './home/web_user',
+						PATH: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',
+						PWD: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',
+						HOME: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/home/web_user',
 						LANG:
 							(
 								('object' === typeof navigator && navigator.languages && navigator.languages[0]) ||
@@ -578,7 +578,7 @@ var DracoDecoderModule = (function () {
 		var ha = {},
 			W;
 		for (W in a) a.hasOwnProperty(W) && (ha[W] = a[W]);
-		var na = './this.program',
+		var na = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/this.program',
 			ea = !1,
 			Z = !1,
 			oa = !1,
@@ -598,7 +598,7 @@ var DracoDecoderModule = (function () {
 			pa,
 			qa;
 		if (oa) {
-			M = __dirname + './';
+			M = __dirname + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
 			var ra = function (a, c) {
 				pa || (pa = require('fs'));
 				qa || (qa = require('path'));
@@ -611,7 +611,7 @@ var DracoDecoderModule = (function () {
 				t(a.buffer);
 				return a;
 			};
-			1 < process.argv.length && (na = process.argv[1].replace(/\\/g, './'));
+			1 < process.argv.length && (na = process.argv[1].replace(/\\/g, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'));
 			process.argv.slice(2);
 			process.on('uncaughtException', function (a) {
 				throw a;
@@ -638,7 +638,7 @@ var DracoDecoderModule = (function () {
 		else if (ea || Z)
 			Z ? (M = self.location.href) : document.currentScript && (M = document.currentScript.src),
 				f && (M = f),
-				(M = 0 !== M.indexOf('blob:') ? M.substr(0, M.lastIndexOf('./') + 1) : ''),
+				(M = 0 !== M.indexOf('blob:') ? M.substr(0, M.lastIndexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') + 1) : ''),
 				(ra = function (a) {
 					var c = new XMLHttpRequest();
 					c.open('GET', a, !1);

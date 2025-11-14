@@ -12,9 +12,9 @@ function GetCacheBaseName()
 {return GetAvailableCacheNames().then(availableCacheNames=>availableCacheNames.length>=2);};function GetMainPageUrl()
 {return clients.matchAll({includeUncontrolled:true,type:"window"}).then(clients=>{for(let c of clients)
 {let url=c.url;if(url.startsWith(self.registration.scope))
-url=url.substring(self.registration.scope.length);if(url&&url!=="./")
+url=url.substring(self.registration.scope.length);if(url&&url!=="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")
 {if(url.startsWith("?"))
-url="./"+url;return url;}}
+url="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"+url;return url;}}
 return "";});};function fetchWithBypass(request,bypassCache)
 {if(typeof request==="string")
 request=new Request(request);if(bypassCache)
@@ -31,7 +31,7 @@ throw new Error("not all resources were fetched successfully");return caches.ope
 {console.log(CONSOLE_PREFIX+"Update pending");Broadcast("update-pending");}
 else
 {console.log(CONSOLE_PREFIX+"Up to date");Broadcast("up-to-date");}});}
-return GetMainPageUrl().then(mainPageUrl=>{fileList.unshift("./");if(mainPageUrl&&fileList.indexOf(mainPageUrl)===-1)
+return GetMainPageUrl().then(mainPageUrl=>{fileList.unshift("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");if(mainPageUrl&&fileList.indexOf(mainPageUrl)===-1)
 fileList.unshift(mainPageUrl);console.log(CONSOLE_PREFIX+"Caching "+fileList.length+" files for offline use");if(isFirst)
 Broadcast("downloading");else
 BroadcastDownloadingUpdate(version);return CreateCacheFromFileList(currentCacheName,fileList,!isFirst).then(IsUpdatePending).then(isUpdatePending=>{if(isUpdatePending)

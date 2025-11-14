@@ -1,26 +1,26 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-variable-manager"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css":
 /*!********************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/variable-manager/style.css ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./* Change z-indexes to allow more than 3 tabs */\n[class*=\"gui_tab_\"][class*=\"gui_is-selected_\"] {\n  z-index: 10 !important;\n}\n[class*=\"gui_tab_\"]:nth-of-type(1) {\n  z-index: 9;\n}\n[class*=\"gui_tab_\"]:nth-of-type(2) {\n  z-index: 8;\n}\n[class*=\"gui_tab_\"]:nth-of-type(3) {\n  z-index: 7;\n}\n[class*=\"gui_tab_\"]:nth-of-type(4) {\n  z-index: 6;\n}\n\n.sa-var-manager {\n  display: block;\n  padding: 18px;\n  /* weird hack to fix scrolling??? */\n  height: 50px;\n  overflow-y: auto;\n}\n\n.sa-var-manager-searchbox {\n  background-image: url(" + escape(__webpack_require__(/*! ./search.svg */ "./src/addons/addons/variable-manager/search.svg")) + ");\n  width: 25%;\n  margin-bottom: 4px;\n  padding: 8px;\n  padding-right: 32px; /* for the text to not overlap the image */\n  border-radius: 4px;\n  background-repeat: no-repeat;\n  background-size: 18px 18px;\n  background-position: calc(100% - 7px) center;\n  font-size: 0.75rem;\n}\n[theme=\"dark\"] .sa-var-manager-searchbox {\n  border-color: #333;\n}\n\n[dir=\"rtl\"] .sa-var-manager-searchbox {\n  padding-right: 8px;\n  padding-left: 32px;\n  background-position: 7px center;\n}\n\n.sa-var-manager.freeze .sa-var-manager-value *,\n.sa-var-manager.freeze .sa-var-manager-name * {\n  opacity: 0.5;\n}\n\n.sa-var-manager.freeze input:focus,\n.sa-var-manager.freeze textarea:focus {\n  opacity: 1;\n}\n\n.sa-var-manager-heading {\n  display: block;\n  font-weight: bold;\n  font-size: large;\n  margin-top: 6px;\n  margin-bottom: 6px;\n}\n\n.sa-var-manager-name {\n  word-break: break-word;\n}\n\n.sa-var-manager .sa-var-manager-value {\n  width: 75%;\n}\n\n.sa-var-manager * > input {\n  background: none;\n  border: none;\n  padding: 8px;\n  width: 100%;\n  height: 100%;\n}\n\n.sa-var-manager-value > textarea {\n  background: none;\n  border: none;\n  padding: 8px;\n  width: 100%;\n  height: 100%;\n  line-height: 2em;\n  resize: none;\n}\n\n.sa-var-manager-too-big {\n  display: none;\n  cursor: pointer;\n  font: inherit;\n  font-style: italic;\n  color: inherit;\n  background: none;\n  border: none;\n  margin: 0;\n  padding: 8px;\n  opacity: 0.8;\n  width: 100%;\n  text-align: left;\n}\n.sa-var-manager-too-big:hover {\n  text-decoration: underline;\n}\n[data-too-big=\"true\"] .sa-var-manager-too-big {\n  display: block;\n}\n[data-too-big=\"true\"] .sa-var-manager-value-input {\n  display: none;\n}\n\n.sa-var-manager table {\n  border-radius: 5px;\n  border-collapse: collapse;\n  width: 100%;\n}\n\n.sa-var-manager td {\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  text-align: left;\n}\n[theme=\"dark\"] .sa-var-manager td {\n  border-color: #333;\n}\n\n/* tr:nth-child(even) {\n    background-color: #dddddd;\n} */\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Change z-indexes to allow more than 3 tabs */\n[class*=\"gui_tab_\"][class*=\"gui_is-selected_\"] {\n  z-index: 10 !important;\n}\n[class*=\"gui_tab_\"]:nth-of-type(1) {\n  z-index: 9;\n}\n[class*=\"gui_tab_\"]:nth-of-type(2) {\n  z-index: 8;\n}\n[class*=\"gui_tab_\"]:nth-of-type(3) {\n  z-index: 7;\n}\n[class*=\"gui_tab_\"]:nth-of-type(4) {\n  z-index: 6;\n}\n\n.sa-var-manager {\n  display: block;\n  padding: 18px;\n  /* weird hack to fix scrolling??? */\n  height: 50px;\n  overflow-y: auto;\n}\n\n.sa-var-manager-searchbox {\n  background-image: url(" + escape(__webpack_require__(/*! ./search.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/variable-manager/search.svg")) + ");\n  width: 25%;\n  margin-bottom: 4px;\n  padding: 8px;\n  padding-right: 32px; /* for the text to not overlap the image */\n  border-radius: 4px;\n  background-repeat: no-repeat;\n  background-size: 18px 18px;\n  background-position: calc(100% - 7px) center;\n  font-size: 0.75rem;\n}\n[theme=\"dark\"] .sa-var-manager-searchbox {\n  border-color: #333;\n}\n\n[dir=\"rtl\"] .sa-var-manager-searchbox {\n  padding-right: 8px;\n  padding-left: 32px;\n  background-position: 7px center;\n}\n\n.sa-var-manager.freeze .sa-var-manager-value *,\n.sa-var-manager.freeze .sa-var-manager-name * {\n  opacity: 0.5;\n}\n\n.sa-var-manager.freeze input:focus,\n.sa-var-manager.freeze textarea:focus {\n  opacity: 1;\n}\n\n.sa-var-manager-heading {\n  display: block;\n  font-weight: bold;\n  font-size: large;\n  margin-top: 6px;\n  margin-bottom: 6px;\n}\n\n.sa-var-manager-name {\n  word-break: break-word;\n}\n\n.sa-var-manager .sa-var-manager-value {\n  width: 75%;\n}\n\n.sa-var-manager * > input {\n  background: none;\n  border: none;\n  padding: 8px;\n  width: 100%;\n  height: 100%;\n}\n\n.sa-var-manager-value > textarea {\n  background: none;\n  border: none;\n  padding: 8px;\n  width: 100%;\n  height: 100%;\n  line-height: 2em;\n  resize: none;\n}\n\n.sa-var-manager-too-big {\n  display: none;\n  cursor: pointer;\n  font: inherit;\n  font-style: italic;\n  color: inherit;\n  background: none;\n  border: none;\n  margin: 0;\n  padding: 8px;\n  opacity: 0.8;\n  width: 100%;\n  text-align: left;\n}\n.sa-var-manager-too-big:hover {\n  text-decoration: underline;\n}\n[data-too-big=\"true\"] .sa-var-manager-too-big {\n  display: block;\n}\n[data-too-big=\"true\"] .sa-var-manager-value-input {\n  display: none;\n}\n\n.sa-var-manager table {\n  border-radius: 5px;\n  border-collapse: collapse;\n  width: 100%;\n}\n\n.sa-var-manager td {\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  text-align: left;\n}\n[theme=\"dark\"] .sa-var-manager td {\n  border-color: #333;\n}\n\n/* tr:nth-child(even) {\n    background-color: #dddddd;\n} */\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg ***!
   \*******************************************************************************************/
@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg":
 /*!*********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg ***!
   \*********************************************************************************************/
@@ -46,7 +46,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/variable-manager/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/variable-manager/_runtime_entry.js":
 /*!**************************************************************!*\
   !*** ./src/addons/addons/variable-manager/_runtime_entry.js ***!
   \**************************************************************/
@@ -56,11 +56,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/variable-manager/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/variable-manager/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg");
-/* harmony import */ var _url_loader_search_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./search.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg");
+/* harmony import */ var _url_loader_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icon.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg");
+/* harmony import */ var _url_loader_search_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./search.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg");
 /* generated by pull.js */
 
 
@@ -75,7 +75,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/variable-manager/search.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/variable-manager/search.svg":
 /*!*******************************************************!*\
   !*** ./src/addons/addons/variable-manager/search.svg ***!
   \*******************************************************/
@@ -86,7 +86,7 @@ module.exports = __webpack_require__.p + "static/assets/1821649bb254ff5d93bb397a
 
 /***/ }),
 
-/***/ "./src/addons/addons/variable-manager/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/variable-manager/userscript.js":
 /*!**********************************************************!*\
   !*** ./src/addons/addons/variable-manager/userscript.js ***!
   \**********************************************************/
@@ -148,7 +148,7 @@ __webpack_require__.r(__webpack_exports__);
   varTab.id = "react-tabs-sa-variable-manager";
   const varTabIcon = document.createElement("img");
   varTabIcon.draggable = false;
-  varTabIcon.src = addon.self.getResource("./icon.svg")
+  varTabIcon.src = addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/icon.svg")
   /* rewritten by pull.js */
   ;
   const varTabText = document.createElement("span");

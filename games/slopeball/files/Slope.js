@@ -2260,7 +2260,7 @@ var _q = {
             _G2: 3
         }, {
             _A2: 47,
-            _B2: "./",
+            _B2: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
             _C2: 69,
             _D2: 396,
             _E2: 13,
@@ -3812,7 +3812,7 @@ var _q = {
             _G2: 4
         }, {
             _A2: 47,
-            _B2: "./",
+            _B2: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
             _C2: 858,
             _D2: 148,
             _E2: 19,
@@ -4689,7 +4689,7 @@ var _q = {
             _G2: 9
         }, {
             _A2: 47,
-            _B2: "./",
+            _B2: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
             _C2: 387,
             _D2: 674,
             _E2: 35,
@@ -14463,7 +14463,7 @@ function _s3(_d8, _e8) {
             {
                 if ((_d8._Ja >= 0)) {
                     {
-                        _7c((_f8._tj[0] - 20), (_f8._n9[0] + 60 + _S8(0)._09), (_Qa(_d8._lb) + "./" + _Qa(_d8._Ka)));
+                        _7c((_f8._tj[0] - 20), (_f8._n9[0] + 60 + _S8(0)._09), (_Qa(_d8._lb) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa(_d8._Ka)));
                         if ((_d8._La > 0)) {
                             {
                                 _7c((_f8._tj[0] - 20), (_f8._n9[0] + 140 + _S8(0)._09), (_Qa(_d8._La) + " sec"));
@@ -17948,7 +17948,7 @@ function _F5(_d8, _e8) {
         _d8._yd = 0 ? 1 : 0;
         _d8._xd = 0 ? 1 : 0;
         _d8._lo = 30;
-        _d8._2e = (_Qa(_j1(_d8, _e8)) + "./" + _Qa(_S8(0)._Nb));
+        _d8._2e = (_Qa(_j1(_d8, _e8)) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa(_S8(0)._Nb));
         if ((_S8(0)._w8 == "lag")) {
             {
                 _S8(0)._j9 = sg_lag_adok();
@@ -18120,7 +18120,7 @@ function _I5(_d8, _e8) {
         _4c(_d8, 110, 0, (_f8._H9 - 65), (60 + _S8(0)._09));
         _5c(0);
         _6c(2);
-        _7c((_f8._H9 - 110), (60 + _S8(0)._09), (_Qa(_S8(0)._G8) + "./" + _Qa(_S8(0)._Id)));
+        _7c((_f8._H9 - 110), (60 + _S8(0)._09), (_Qa(_S8(0)._G8) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa(_S8(0)._Id)));
         _6c(1);
     };
 }
@@ -18168,7 +18168,7 @@ function _J5(_d8, _e8) {
         _d8._yd = 0 ? 1 : 0;
         _d8._xd = 0 ? 1 : 0;
         _d8._lo = 30;
-        _d8._2e = (_Qa(_k1(_d8, _e8)) + "./" + _Qa((_d8._yo * _d8._8o)));
+        _d8._2e = (_Qa(_k1(_d8, _e8)) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa((_d8._yo * _d8._8o)));
     };
 }
 
@@ -18482,7 +18482,7 @@ function _S5(_d8, _e8) {
         _d8._2p = "";
         _d8._5p = "";
         _d8._6p = "";
-        _d8._7p = "./100";
+        _d8._7p = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/100";
         _d8._8p = 0;
         _d8._9p = 0;
         _d8._Bb = 1 ? 1 : 0;
@@ -18781,13 +18781,13 @@ function _Z5(_d8, _e8) {
                         _d8._4p = 0.75;
                     }
                 };
-                _d8._7p = ("./" + _Qa((ceil((_S8(0)._bd / 100)) * 100)));
+                _d8._7p = ("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa((ceil((_S8(0)._bd / 100)) * 100)));
                 _d8._bp = 114;
                 if (!(_S8(0)._jd > 0.5)) {
                     {
                         _d8._6p = (_Qa(floor((_S8(0)._hd / _S8(0)._id * 100))) + "%");
                         _d8._Tn = "";
-                        _d8._2p = (_Qa(_S8(0)._hd) + "./" + _Qa(_S8(0)._id));
+                        _d8._2p = (_Qa(_S8(0)._hd) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa(_S8(0)._id));
                         _d8._Bb = 0 ? 1 : 0;
                     }
                 } else {
@@ -18879,7 +18879,7 @@ function _Z5(_d8, _e8) {
                 } else {
                     {
                         _d8._Bb = 0 ? 1 : 0;
-                        _d8._2p = (_Qa(_S8(0)._1d) + "./" + _Qa(_S8(0)._Id));
+                        _d8._2p = (_Qa(_S8(0)._1d) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + _Qa(_S8(0)._Id));
                     }
                 };
                 _d8._8n = (round((_dn(_d8._2p) / 1.6)) + 30);
@@ -24278,7 +24278,7 @@ var _XJ = 0;
 var g_fbOAuthToken = "";
 
 function _YJ() {
-    FB.api('./me/permissions', function(response) {
+    FB.api('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/me/permissions', function(response) {
         debug("fbQueryPermissions response:");
         try {
             var text = JSON.stringify(response);
@@ -24345,7 +24345,7 @@ function _5K(_dD) {
     _6K = _dD.createElement('script');
     _6K.id = id;
     _6K._8K = !0;
-    _6K.src = ".//connect.facebook.net/en_US/sdk.js";
+    _6K.src = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//connect.facebook.net/en_US/sdk.js";
     _7K.parentNode.insertBefore(_6K, _7K)
 }
 
@@ -29377,12 +29377,12 @@ function _e41(_tS, _vA, _f41) {
 
 function _g41(e) {
     var targetid = e.target.targetid;
-    debug("Audio_SoundReadyStateChange:targetid/readyState/status:" + targetid + './' + e.target.readyState + './' + e.target.status);
+    debug("Audio_SoundReadyStateChange:targetid/readyState/status:" + targetid + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + e.target.readyState + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + e.target.status);
 }
 
 function _h41(e) {
     var targetid = e.target.targetid;
-    debug("Audio_SoundProgress:targetid/loaded/total:" + targetid + './' + e._ML + './' + e._i41)
+    debug("Audio_SoundProgress:targetid/loaded/total:" + targetid + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + e._ML + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + e._i41)
 }
 
 function _j41(_tS, _vA, _f41, _k41) {
@@ -29969,7 +29969,7 @@ var _W51 = (function(_dD, _Rs) {
     var _fu = _dD.createElement(_Rs),
         __I = _dD.getElementsByTagName(_Rs)[0];
     _fu._8K = !0;
-    _fu.src = ('https:' != location.protocol ? 'http://jsd.supersonicads.com' : 'https://a248.e.akamai.net/ssastatic.s3.amazonaws.com') + './inlineDelivery/delivery.min.gz.js';
+    _fu.src = ('https:' != location.protocol ? 'http://jsd.supersonicads.com' : 'https://a248.e.akamai.net/ssastatic.s3.amazonaws.com') + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/inlineDelivery/delivery.min.gz.js';
     __I.parentNode.insertBefore(_fu, __I)
 });
 var _X51 = ads_engagement_launch;
@@ -52324,7 +52324,7 @@ function _Q52(_R52, _4K1) {
     try {
         var _S52 = tizen.application.getAppInfo();
         var _T52 = _S52['id'].split(".");
-        var _U52 = "./opt/apps/" + _T52[0] + "./res/wgt/icon.png";
+        var _U52 = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/opt/apps/" + _T52[0] + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/res/wgt/icon.png";
         var _V52 = {};
         _V52['content'] = _R52;
         _V52['iconPath'] = _U52;
@@ -54594,7 +54594,7 @@ function _5k2() {
         _Nt = g_GameMakerHTML5Dir
     } else {
         if (_OI._m7 && _OI._m7._I7) {
-            _Nt = _OI._m7._I7 + './'
+            _Nt = _OI._m7._I7 + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'
         }
     }
     _691 = [];
@@ -57487,9 +57487,9 @@ function _Gk2() {
     this._1a = 0;
     this._Dq2 = 100;
     this._hi = 0;
-    this._Cl2 = "./";
-    this._Eq2 = "./";
-    this._Fq2 = "./";
+    this._Cl2 = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
+    this._Eq2 = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
+    this._Fq2 = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
     this._Gq2 = 0;
     this._Hq2 = 0;
     this._H9 = 0;
@@ -60522,7 +60522,7 @@ var _rx2 = {
     107: "+",
     109: "-",
     110: ".",
-    111: "./",
+    111: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
     112: 0,
     113: 0,
     114: 0,
@@ -60543,7 +60543,7 @@ var _rx2 = {
     188: ",",
     189: "-",
     190: ".",
-    191: "./",
+    191: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
     192: "'",
     219: "[",
     220: "\\",
@@ -60629,7 +60629,7 @@ var _sx2 = {
     107: "+",
     109: "-",
     110: ".",
-    111: "./",
+    111: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
     112: 0,
     113: 0,
     114: 0,
@@ -70542,7 +70542,7 @@ function _mR2(_tS) {
     _vP1 = [];
     _wP1 = 0;
     var _1N = _tS.search;
-    var _eK = _tS.protocol + ".//" + _tS.host + _tS.pathname;
+    var _eK = _tS.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + _tS.host + _tS.pathname;
     _uP1[0] = _eK;
     _vP1[0] = null;
     if (_1N[0] == "?") _1N = _1N.substring(1, _1N.length);

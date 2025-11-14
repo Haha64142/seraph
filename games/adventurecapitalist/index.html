@@ -66,7 +66,7 @@
             totalDependencies: 0,
             monitorRunDependencies: function(left) {
                 this.totalDependencies = Math.max(this.totalDependencies, left);
-                Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies - left) + './' + this.totalDependencies + ')' : 'All downloads complete.');
+                Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies - left) + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + this.totalDependencies + ')' : 'All downloads complete.');
             }
         };
         Module.setStatus('Downloading (0.0/1)');
@@ -89,8 +89,8 @@
                         var m = /var ([^=]+)=global\.Math\.fround;/.exec(code);
                         var minified = m[1];
                         if (!minified) throw 'fail';
-                        var startAsm = code.indexOf('.// EMSCRIPTEN_START_FUNCS');
-                        var endAsm = code.indexOf('.// EMSCRIPTEN_END_FUNCS');
+                        var startAsm = code.indexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// EMSCRIPTEN_START_FUNCS');
+                        var endAsm = code.indexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main// EMSCRIPTEN_END_FUNCS');
                         var asm = code.substring(startAsm, endAsm);
                         do {
                             var moar = false; // we need to re-do, as x(x( will not be fixed

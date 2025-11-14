@@ -16,6 +16,6 @@
   "start_url": "index.html",
   "background_color": "#2d3331",
   "display": "standalone",
-  "scope": "./",
+  "scope": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
   "theme_color": "#2d3331"
 }

@@ -218,26 +218,26 @@ var GUI =
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./src/playground/player.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","vendors~editor~embed~fullscreen~player","addon-settings~addons~editor~fullscreen~player","editor~embed~fullscreen~player"]);
+/******/ 	deferredModules.push(["https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/player.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","vendors~editor~embed~fullscreen~player","addon-settings~addons~editor~fullscreen~player","editor~embed~fullscreen~player"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-cloud-variable-badge/cloud-variable-badge.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-cloud-variable-badge/cloud-variable-badge.css":
 /*!********************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-cloud-variable-badge/cloud-variable-badge.css ***!
   \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* 35% transparent version of motion-primary */ /* 15% transparent version of motion-primary */ /* opt-in theme overrides */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* #0FBD8C */ /* #FF8C1A */ /* #FFB366 */ /* #FF8C1A */ /* 35% transparent version of extensions-primary */ /* opaque version of extensions-transparent, on white bg */ /* lighter than motion-primary */ .cloud-variable-badge_badge_2kZVK {\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    display: flex;\n    flex-direction: column;\n    gap: 0.5rem;\n    border-radius: 0.5rem;\n} [theme=\"dark\"] .cloud-variable-badge_badge_2kZVK {\n    border-color: #203652;\n    background-color: #16202c;\n} .cloud-variable-badge_title_2xJoL {\n    display: flex;\n    align-items: center;\n    gap: 0.5rem;\n    font-weight: bold;\n} [theme=\"dark\"] .cloud-variable-badge_cloud-icon_1JP1e {\n    filter: invert(100%);\n} .cloud-variable-badge_servers_1fLAL {\n    display: flex;\n    gap: 0.5rem;\n    align-items: center;\n} .cloud-variable-badge_server_3s9y9 {\n    border: 1px solid var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15));\n    padding: 0.25rem 0.5rem;\n    margin: 0;\n    background: none;\n    border-radius: 1rem;\n} .cloud-variable-badge_server_3s9y9.cloud-variable-badge_selected_3ZyWW {\n    background-color: hsla(0, 100%, 65%, 1);\n    color: hsla(0, 100%, 100%, 1);\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* 35% transparent version of motion-primary */ /* 15% transparent version of motion-primary */ /* opt-in theme overrides */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* #0FBD8C */ /* #FF8C1A */ /* #FFB366 */ /* #FF8C1A */ /* 35% transparent version of extensions-primary */ /* opaque version of extensions-transparent, on white bg */ /* lighter than motion-primary */ .cloud-variable-badge_badge_2kZVK {\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    display: flex;\n    flex-direction: column;\n    gap: 0.5rem;\n    border-radius: 0.5rem;\n} [theme=\"dark\"] .cloud-variable-badge_badge_2kZVK {\n    border-color: #203652;\n    background-color: #16202c;\n} .cloud-variable-badge_title_2xJoL {\n    display: flex;\n    align-items: center;\n    gap: 0.5rem;\n    font-weight: bold;\n} [theme=\"dark\"] .cloud-variable-badge_cloud-icon_1JP1e {\n    filter: invert(100%);\n} .cloud-variable-badge_servers_1fLAL {\n    display: flex;\n    gap: 0.5rem;\n    align-items: center;\n} .cloud-variable-badge_server_3s9y9 {\n    border: 1px solid var(--ui-black-transparent, hsla(0, 0%, 0%, 0.15));\n    padding: 0.25rem 0.5rem;\n    margin: 0;\n    background: none;\n    border-radius: 1rem;\n} .cloud-variable-badge_server_3s9y9.cloud-variable-badge_selected_3ZyWW {\n    background-color: hsla(0, 100%, 65%, 1);\n    color: hsla(0, 100%, 100%, 1);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -252,14 +252,14 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-description/description.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-description/description.css":
 /*!**************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-description/description.css ***!
   \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -277,14 +277,14 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-featured-projects/featured-projects.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-featured-projects/featured-projects.css":
 /*!**************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-featured-projects/featured-projects.css ***!
   \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -306,19 +306,19 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-project-input/project-input.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-project-input/project-input.css":
 /*!******************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-project-input/project-input.css ***!
   \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* 35% transparent version of motion-primary */ /* 15% transparent version of motion-primary */ /* opt-in theme overrides */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* #0FBD8C */ /* #FF8C1A */ /* #FFB366 */ /* #FF8C1A */ /* 35% transparent version of extensions-primary */ /* opaque version of extensions-transparent, on white bg */ /* lighter than motion-primary */ /*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/ /* Toolbox z-index: 40; set in scratch-blocks */ /* tooltips should go over add buttons if they overlap */ /* monitors go over add buttons */ /* \"ask\" block text input goes above monitors */ /* menu-bar should go over monitors, alerts and tutorials */ /* tw: show below menu bar normally */ /* Block drag z-index: 1000; default 50 is overriden in blocks.css */ /* so it is draggable into other panes */ /* in most interfaces, the context menu is always on top */ .project-input_input_1E6Af {\n    border: none;\n    width: 100%;\n    font-size: 23px;\n    line-height: 32px;\n    opacity: 0.5;\n    background-color: transparent;\n    color: inherit;\n} .project-input_input_1E6Af:focus {\n    opacity: 1;\n} .project-input_input_1E6Af:disabled {\n    opacity: 0.8;\n} .project-input_tooltip_3_EoA {\n    opacity: 1 !important;\n    background-color: hsla(10, 85%, 65%, 1) !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25) !important;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    z-index: 491 !important;\n} .project-input_tooltip_3_EoA:after {\n    border-top-color: hsla(10, 85%, 65%, 1) !important;\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* 35% transparent version of motion-primary */ /* 15% transparent version of motion-primary */ /* opt-in theme overrides */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* #0FBD8C */ /* #FF8C1A */ /* #FFB366 */ /* #FF8C1A */ /* 35% transparent version of extensions-primary */ /* opaque version of extensions-transparent, on white bg */ /* lighter than motion-primary */ /*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/ /* Toolbox z-index: 40; set in scratch-blocks */ /* tooltips should go over add buttons if they overlap */ /* monitors go over add buttons */ /* \"ask\" block text input goes above monitors */ /* menu-bar should go over monitors, alerts and tutorials */ /* tw: show below menu bar normally */ /* Block drag z-index: 1000; default 50 is overriden in blocks.css */ /* so it is draggable into other panes */ /* in most interfaces, the context menu is always on top */ .project-input_input_1E6Af {\n    border: none;\n    width: 100%;\n    font-size: 23px;\n    line-height: 32px;\n    opacity: 0.5;\n    background-color: transparent;\n    color: inherit;\n} .project-input_input_1E6Af:focus {\n    opacity: 1;\n} .project-input_input_1E6Af:disabled {\n    opacity: 0.8;\n} .project-input_tooltip_3_EoA {\n    opacity: 1 !important;\n    background-color: hsla(10, 85%, 65%, 1) !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25) !important;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    z-index: 491 !important;\n} .project-input_tooltip_3_EoA:after {\n    border-top-color: hsla(10, 85%, 65%, 1) !important;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -328,19 +328,19 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-studioview/studioview.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-studioview/studioview.css":
 /*!************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tw-studioview/studioview.css ***!
   \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./*\nImported from:\nhttps://github.com/forkphorus/forkphorus/tree/master/studioview\nWith changes to make it work properly in the scratch-gui environment.\n*/\n\n/* we wrap it in a <div> */\n\n.studioview_wrapper_1SFBd {\n  height: 100%;\n}\n\n/* fix some styles that can be messed up by scratch-gui */\n\n.studioview_studioview-root_1OP-i * {\n  box-sizing: content-box !important;\n}\n\n.studioview_studioview-root_1OP-i {\n  height: 100%;\n}\n\n.studioview_studioview-list_2hIxk {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  overflow-anchor: none;\n}\n\n.studioview_studioview-project_IDotv, .studioview_studioview-placeholder_KKHo9 {\n  display: inline-block;\n  width: 144px;\n  padding: 3px;\n  margin-bottom: 1px;\n  margin-right: 1px;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-project_IDotv {\n  color: inherit;\n  position: relative;\n  text-decoration: none;\n}\n\n.studioview_studioview-loaded_3UCil:hover::before, .studioview_studioview-loaded_3UCil:active::before {\n  content: '';\n  pointer-events: none;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-loaded_3UCil:active::before {\n  opacity: 0.2;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-title_2ROWB,\n.studioview_studioview-root_1OP-i .studioview_studioview-author_2P0Hj {\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  color: inherit;\n  text-decoration: none;\n}\n\n.studioview_studioview-title_2ROWB {\n  font-size: 0.8em;\n  font-weight: bold;\n}\n\n.studioview_studioview-author_2P0Hj {\n  font-size: 0.75em;\n}\n\n.studioview_studioview-error_3XWai {\n  width: 100%;\n}\n\n.studioview_studioview-thumbnail_1HYJO, .studioview_studioview-placeholder-thumbnail_TUdop {\n  position: relative;\n  width: 144px;\n  height: 108px;\n}\n\n.studioview_studioview-thumbnail_1HYJO::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-thumbnail_1HYJO img {\n  width: 100%;\n  height: 100%;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-thumbnail_1HYJO,\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-title_2ROWB,\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-author_2P0Hj {\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-title_2ROWB {\n  height: 20px;\n  margin-top: 2px;\n}\n\n.studioview_studioview-author_2P0Hj {\n  height: 18px;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-title_2ROWB {\n  border-radius: 2px 2px 2px 0;\n  width: 100%;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-author_2P0Hj {\n  border-radius: 0 0 2px 2px;\n  width: 50%;\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*\nImported from:\nhttps://github.com/forkphorus/forkphorus/tree/master/studioview\nWith changes to make it work properly in the scratch-gui environment.\n*/\n\n/* we wrap it in a <div> */\n\n.studioview_wrapper_1SFBd {\n  height: 100%;\n}\n\n/* fix some styles that can be messed up by scratch-gui */\n\n.studioview_studioview-root_1OP-i * {\n  box-sizing: content-box !important;\n}\n\n.studioview_studioview-root_1OP-i {\n  height: 100%;\n}\n\n.studioview_studioview-list_2hIxk {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  overflow-anchor: none;\n}\n\n.studioview_studioview-project_IDotv, .studioview_studioview-placeholder_KKHo9 {\n  display: inline-block;\n  width: 144px;\n  padding: 3px;\n  margin-bottom: 1px;\n  margin-right: 1px;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-project_IDotv {\n  color: inherit;\n  position: relative;\n  text-decoration: none;\n}\n\n.studioview_studioview-loaded_3UCil:hover::before, .studioview_studioview-loaded_3UCil:active::before {\n  content: '';\n  pointer-events: none;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-loaded_3UCil:active::before {\n  opacity: 0.2;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-title_2ROWB,\n.studioview_studioview-root_1OP-i .studioview_studioview-author_2P0Hj {\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  color: inherit;\n  text-decoration: none;\n}\n\n.studioview_studioview-title_2ROWB {\n  font-size: 0.8em;\n  font-weight: bold;\n}\n\n.studioview_studioview-author_2P0Hj {\n  font-size: 0.75em;\n}\n\n.studioview_studioview-error_3XWai {\n  width: 100%;\n}\n\n.studioview_studioview-thumbnail_1HYJO, .studioview_studioview-placeholder-thumbnail_TUdop {\n  position: relative;\n  width: 144px;\n  height: 108px;\n}\n\n.studioview_studioview-thumbnail_1HYJO::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-thumbnail_1HYJO img {\n  width: 100%;\n  height: 100%;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-thumbnail_1HYJO,\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-title_2ROWB,\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-author_2P0Hj {\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-title_2ROWB {\n  height: 20px;\n  margin-top: 2px;\n}\n\n.studioview_studioview-author_2P0Hj {\n  height: 18px;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-title_2ROWB {\n  border-radius: 2px 2px 2px 0;\n  width: 100%;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-author_2P0Hj {\n  border-radius: 0 0 2px 2px;\n  width: 50%;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -369,19 +369,19 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/playground/interface.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/playground/interface.css":
 /*!*********************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/playground/interface.css ***!
   \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "./* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\nh1,\nh2,\nh3,\nh4,\nh5,\np {\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\nh1,\nh2,\nh3,\nh4,\nh5 {\n    font-weight: bold;\n    line-height: 1.7em;\n}\nh1 {\n    font-weight: 2.5rem;\n}\nh2 {\n    font-weight: 2rem;\n}\nh3 {\n    font-size: 1.4rem;\n}\nh4 {\n    font-size: 1rem;\n}\na {\n    color: #25d;\n    cursor: pointer;\n    text-decoration: underline;\n}\n.interface_container_2nBns {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n}\n.interface_editor_3jGyG {\n    min-width: 1024px;\n    min-height: 640px;\n    height: 100%;\n}\n.interface_editor_3jGyG .interface_center_2d9_b {\n    height: 100%;\n}\n.interface_player-only_38SyA .interface_center_2d9_b {\n    margin: auto;\n}\n.interface_menu_3K-Q2 {\n    margin-bottom: 8px;\n}\n.interface_section_3pFkT {\n    margin: 8px 0 8px 0;\n}\n.interface_footer_3JeCN {\n    padding: 10px 0;\n    margin-top: 10px;\n    border-top: 2px solid #ddd;\n}\n.interface_footer_3JeCN a {\n    font-weight: bold;\n    text-decoration: none;\n}\n[theme=\"dark\"] .interface_footer_3JeCN {\n    border-color: #1a1a1a;\n}\n.interface_footer-content_1aIC- {\n    max-width: 600px;\n    margin: auto;\n}\n.interface_footer-text_IgwDU {\n    text-align: center;\n    margin: 5px 0 10px 0;\n}\n.interface_footer-columns_1SUSg {\n    display: flex;\n    justify-content: center;\n    justify-items: center;\n    flex-wrap: wrap;\n}\n.interface_footer-section_11lCO {\n    display: flex;\n    flex-direction: column;\n    width: 200px;\n    margin-bottom: 10px;\n}\n.interface_footer-section_11lCO > * {\n    margin-bottom: 10px;\n}\n[theme=\"dark\"] .interface_container_2nBns {\n    background-color: #111;\n}\n[theme=\"dark\"] .interface_player-only_38SyA {\n    color: #ddd;\n}\n[theme=\"dark\"] a {\n    color: #4af;\n}\n.interface_infobox_1B2Hp {\n    line-height: 1.5em;\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border-radius: 0.5rem;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n}\n[theme=\"dark\"] .interface_infobox_1B2Hp {\n    border-color: #203652;\n    background-color: #16202c;\n}\n.interface_infobox_1B2Hp p {\n    margin: 4px 0;\n}\n.interface_infobox_1B2Hp a {\n    font-weight: bold;\n    text-decoration: none;\n}\n.interface_unshared-update_i7deb {\n    border-color: #ffb9b9;\n    background-color: #ffdbdb;\n}\n[theme=\"dark\"] .interface_unshared-update_i7deb {\n    border-color: #6a2929;\n    background-color: #452222;\n}\n", ""]);
+exports.push([module.i, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\nh1,\nh2,\nh3,\nh4,\nh5,\np {\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\nh1,\nh2,\nh3,\nh4,\nh5 {\n    font-weight: bold;\n    line-height: 1.7em;\n}\nh1 {\n    font-weight: 2.5rem;\n}\nh2 {\n    font-weight: 2rem;\n}\nh3 {\n    font-size: 1.4rem;\n}\nh4 {\n    font-size: 1rem;\n}\na {\n    color: #25d;\n    cursor: pointer;\n    text-decoration: underline;\n}\n.interface_container_2nBns {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n}\n.interface_editor_3jGyG {\n    min-width: 1024px;\n    min-height: 640px;\n    height: 100%;\n}\n.interface_editor_3jGyG .interface_center_2d9_b {\n    height: 100%;\n}\n.interface_player-only_38SyA .interface_center_2d9_b {\n    margin: auto;\n}\n.interface_menu_3K-Q2 {\n    margin-bottom: 8px;\n}\n.interface_section_3pFkT {\n    margin: 8px 0 8px 0;\n}\n.interface_footer_3JeCN {\n    padding: 10px 0;\n    margin-top: 10px;\n    border-top: 2px solid #ddd;\n}\n.interface_footer_3JeCN a {\n    font-weight: bold;\n    text-decoration: none;\n}\n[theme=\"dark\"] .interface_footer_3JeCN {\n    border-color: #1a1a1a;\n}\n.interface_footer-content_1aIC- {\n    max-width: 600px;\n    margin: auto;\n}\n.interface_footer-text_IgwDU {\n    text-align: center;\n    margin: 5px 0 10px 0;\n}\n.interface_footer-columns_1SUSg {\n    display: flex;\n    justify-content: center;\n    justify-items: center;\n    flex-wrap: wrap;\n}\n.interface_footer-section_11lCO {\n    display: flex;\n    flex-direction: column;\n    width: 200px;\n    margin-bottom: 10px;\n}\n.interface_footer-section_11lCO > * {\n    margin-bottom: 10px;\n}\n[theme=\"dark\"] .interface_container_2nBns {\n    background-color: #111;\n}\n[theme=\"dark\"] .interface_player-only_38SyA {\n    color: #ddd;\n}\n[theme=\"dark\"] a {\n    color: #4af;\n}\n.interface_infobox_1B2Hp {\n    line-height: 1.5em;\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border-radius: 0.5rem;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n}\n[theme=\"dark\"] .interface_infobox_1B2Hp {\n    border-color: #203652;\n    background-color: #16202c;\n}\n.interface_infobox_1B2Hp p {\n    margin: 4px 0;\n}\n.interface_infobox_1B2Hp a {\n    font-weight: bold;\n    text-decoration: none;\n}\n.interface_unshared-update_i7deb {\n    border-color: #ffb9b9;\n    background-color: #ffdbdb;\n}\n[theme=\"dark\"] .interface_unshared-update_i7deb {\n    border-color: #6a2929;\n    background-color: #452222;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -408,7 +408,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/file-loader/dist/cjs.js?name=sw.js!./src/playground/service-worker.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/file-loader/dist/cjs.js?name=sw.js!./src/playground/service-worker.js":
 /*!********************************************************************************************!*\
   !*** ./node_modules/file-loader/dist/cjs.js?name=sw.js!./src/playground/service-worker.js ***!
   \********************************************************************************************/
@@ -419,14 +419,14 @@ module.exports = __webpack_require__.p + "sw.js";
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_Symbol.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_Symbol.js":
 /*!****************************************!*\
   !*** ./node_modules/lodash/_Symbol.js ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
+var root = __webpack_require__(/*! ./_root */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_root.js");
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -436,7 +436,7 @@ module.exports = Symbol;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_arrayMap.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_arrayMap.js":
 /*!******************************************!*\
   !*** ./node_modules/lodash/_arrayMap.js ***!
   \******************************************/
@@ -468,7 +468,7 @@ module.exports = arrayMap;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_arrayPush.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_arrayPush.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_arrayPush.js ***!
   \*******************************************/
@@ -499,15 +499,15 @@ module.exports = arrayPush;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseFlatten.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseFlatten.js":
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_baseFlatten.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(/*! ./_arrayPush */ "./node_modules/lodash/_arrayPush.js"),
-    isFlattenable = __webpack_require__(/*! ./_isFlattenable */ "./node_modules/lodash/_isFlattenable.js");
+var arrayPush = __webpack_require__(/*! ./_arrayPush */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_arrayPush.js"),
+    isFlattenable = __webpack_require__(/*! ./_isFlattenable */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_isFlattenable.js");
 
 /**
  * The base implementation of `_.flatten` with support for restricting flattening.
@@ -548,16 +548,16 @@ module.exports = baseFlatten;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseGetTag.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseGetTag.js":
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseGetTag.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
-    getRawTag = __webpack_require__(/*! ./_getRawTag */ "./node_modules/lodash/_getRawTag.js"),
-    objectToString = __webpack_require__(/*! ./_objectToString */ "./node_modules/lodash/_objectToString.js");
+var Symbol = __webpack_require__(/*! ./_Symbol */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_Symbol.js"),
+    getRawTag = __webpack_require__(/*! ./_getRawTag */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_getRawTag.js"),
+    objectToString = __webpack_require__(/*! ./_objectToString */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_objectToString.js");
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -587,15 +587,15 @@ module.exports = baseGetTag;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseIsArguments.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseIsArguments.js":
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseIsArguments.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseGetTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isObjectLike.js");
 
 /** `Object#toString` result references. */
 var argsTag = '[object Arguments]';
@@ -616,15 +616,15 @@ module.exports = baseIsArguments;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseIsRegExp.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseIsRegExp.js":
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseIsRegExp.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseGetTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isObjectLike.js");
 
 /** `Object#toString` result references. */
 var regexpTag = '[object RegExp]';
@@ -645,17 +645,17 @@ module.exports = baseIsRegExp;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseToString.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseToString.js":
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseToString.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
-    arrayMap = __webpack_require__(/*! ./_arrayMap */ "./node_modules/lodash/_arrayMap.js"),
-    isArray = __webpack_require__(/*! ./isArray */ "./node_modules/lodash/isArray.js"),
-    isSymbol = __webpack_require__(/*! ./isSymbol */ "./node_modules/lodash/isSymbol.js");
+var Symbol = __webpack_require__(/*! ./_Symbol */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_Symbol.js"),
+    arrayMap = __webpack_require__(/*! ./_arrayMap */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_arrayMap.js"),
+    isArray = __webpack_require__(/*! ./isArray */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isArray.js"),
+    isSymbol = __webpack_require__(/*! ./isSymbol */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isSymbol.js");
 
 /** Used as references for various `Number` constants. */
 var INFINITY = 1 / 0;
@@ -693,7 +693,7 @@ module.exports = baseToString;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseUnary.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseUnary.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseUnary.js ***!
   \*******************************************/
@@ -718,7 +718,7 @@ module.exports = baseUnary;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_freeGlobal.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_freeGlobal.js":
 /*!********************************************!*\
   !*** ./node_modules/lodash/_freeGlobal.js ***!
   \********************************************/
@@ -730,18 +730,18 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 
 module.exports = freeGlobal;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_getRawTag.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_getRawTag.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_getRawTag.js ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js");
+var Symbol = __webpack_require__(/*! ./_Symbol */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_Symbol.js");
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -791,16 +791,16 @@ module.exports = getRawTag;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_isFlattenable.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_isFlattenable.js":
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_isFlattenable.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
-    isArguments = __webpack_require__(/*! ./isArguments */ "./node_modules/lodash/isArguments.js"),
-    isArray = __webpack_require__(/*! ./isArray */ "./node_modules/lodash/isArray.js");
+var Symbol = __webpack_require__(/*! ./_Symbol */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_Symbol.js"),
+    isArguments = __webpack_require__(/*! ./isArguments */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isArguments.js"),
+    isArray = __webpack_require__(/*! ./isArray */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isArray.js");
 
 /** Built-in value references. */
 var spreadableSymbol = Symbol ? Symbol.isConcatSpreadable : undefined;
@@ -822,14 +822,14 @@ module.exports = isFlattenable;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_nodeUtil.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_nodeUtil.js":
 /*!******************************************!*\
   !*** ./node_modules/lodash/_nodeUtil.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
+/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_freeGlobal.js");
 
 /** Detect free variable `exports`. */
 var freeExports =  true && exports && !exports.nodeType && exports;
@@ -860,11 +860,11 @@ var nodeUtil = (function() {
 
 module.exports = nodeUtil;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_objectToString.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_objectToString.js":
 /*!************************************************!*\
   !*** ./node_modules/lodash/_objectToString.js ***!
   \************************************************/
@@ -897,14 +897,14 @@ module.exports = objectToString;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_root.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_root.js":
 /*!**************************************!*\
   !*** ./node_modules/lodash/_root.js ***!
   \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
+var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_freeGlobal.js");
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -917,14 +917,14 @@ module.exports = root;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/escapeRegExp.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/escapeRegExp.js":
 /*!*********************************************!*\
   !*** ./node_modules/lodash/escapeRegExp.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toString = __webpack_require__(/*! ./toString */ "./node_modules/lodash/toString.js");
+var toString = __webpack_require__(/*! ./toString */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/toString.js");
 
 /**
  * Used to match `RegExp`
@@ -960,14 +960,14 @@ module.exports = escapeRegExp;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/flatten.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/flatten.js":
 /*!****************************************!*\
   !*** ./node_modules/lodash/flatten.js ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseFlatten = __webpack_require__(/*! ./_baseFlatten */ "./node_modules/lodash/_baseFlatten.js");
+var baseFlatten = __webpack_require__(/*! ./_baseFlatten */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseFlatten.js");
 
 /**
  * Flattens `array` a single level deep.
@@ -993,15 +993,15 @@ module.exports = flatten;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isArguments.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isArguments.js":
 /*!********************************************!*\
   !*** ./node_modules/lodash/isArguments.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsArguments = __webpack_require__(/*! ./_baseIsArguments */ "./node_modules/lodash/_baseIsArguments.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+var baseIsArguments = __webpack_require__(/*! ./_baseIsArguments */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseIsArguments.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isObjectLike.js");
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -1040,7 +1040,7 @@ module.exports = isArguments;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isArray.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isArray.js":
 /*!****************************************!*\
   !*** ./node_modules/lodash/isArray.js ***!
   \****************************************/
@@ -1077,7 +1077,7 @@ module.exports = isArray;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isObjectLike.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isObjectLike.js":
 /*!*********************************************!*\
   !*** ./node_modules/lodash/isObjectLike.js ***!
   \*********************************************/
@@ -1117,16 +1117,16 @@ module.exports = isObjectLike;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isRegExp.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isRegExp.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isRegExp.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsRegExp = __webpack_require__(/*! ./_baseIsRegExp */ "./node_modules/lodash/_baseIsRegExp.js"),
-    baseUnary = __webpack_require__(/*! ./_baseUnary */ "./node_modules/lodash/_baseUnary.js"),
-    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ "./node_modules/lodash/_nodeUtil.js");
+var baseIsRegExp = __webpack_require__(/*! ./_baseIsRegExp */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseIsRegExp.js"),
+    baseUnary = __webpack_require__(/*! ./_baseUnary */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseUnary.js"),
+    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_nodeUtil.js");
 
 /* Node.js helper references. */
 var nodeIsRegExp = nodeUtil && nodeUtil.isRegExp;
@@ -1145,7 +1145,7 @@ var nodeIsRegExp = nodeUtil && nodeUtil.isRegExp;
  * _.isRegExp(/abc/);
  * // => true
  *
- * _.isRegExp('./abc/');
+ * _.isRegExp('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/abc/');
  * // => false
  */
 var isRegExp = nodeIsRegExp ? baseUnary(nodeIsRegExp) : baseIsRegExp;
@@ -1155,16 +1155,16 @@ module.exports = isRegExp;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isString.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isString.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isString.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
-    isArray = __webpack_require__(/*! ./isArray */ "./node_modules/lodash/isArray.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseGetTag.js"),
+    isArray = __webpack_require__(/*! ./isArray */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isArray.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isObjectLike.js");
 
 /** `Object#toString` result references. */
 var stringTag = '[object String]';
@@ -1196,15 +1196,15 @@ module.exports = isString;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isSymbol.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isSymbol.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isSymbol.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseGetTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isObjectLike.js");
 
 /** `Object#toString` result references. */
 var symbolTag = '[object Symbol]';
@@ -1236,14 +1236,14 @@ module.exports = isSymbol;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/toString.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/toString.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/toString.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseToString = __webpack_require__(/*! ./_baseToString */ "./node_modules/lodash/_baseToString.js");
+var baseToString = __webpack_require__(/*! ./_baseToString */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/_baseToString.js");
 
 /**
  * Converts `value` to a string. An empty string is returned for `null`
@@ -1275,18 +1275,18 @@ module.exports = toString;
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css":
 /*!*************************************************************!*\
   !*** ./node_modules/raw-loader!./src/lib/tw-theme-dark.css ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "./* GUI */\n:root {\n    background: #111;\n    color: #eee;\n    color-scheme: dark;\n    /* see colors.csss */\n    --ui-primary: rgb(17, 17, 17);\n    --ui-secondary: rgb(30, 30, 30);\n    --ui-tertiary: rgb(46, 46, 46);\n    --ui-modal-overlay: #333a;\n    --ui-black-transparent: rgba(255, 255, 255, 0.15);\n    --text-primary: #eee;\n    /* scratch-paint */\n    --paint-ui-pane-border: var(--ui-black-transparent);\n    --paint-text-primary: #eee;\n    --paint-form-border: var(--ui-black-transparent);\n}\n\n/* Blockly */\n.blocklySvg {\n    background-color: var(--ui-secondary) !important;\n    color-scheme: light;\n}\n[id^=\"blocklyGridPattern\"] > line {\n    stroke: #484848;\n}\n.blocklyFlyoutBackground {\n    fill: #111;\n}\n.blocklyFlyoutLabelText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton .blocklyText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton:hover {\n    fill: #111;\n}\n/* blocklyFlyoutCheckboxPath stroke and blocklyFlyoutCheckbox fill must match */\n.blocklyFlyoutCheckboxPath {\n    stroke: #111;\n}\n.blocklyFlyoutCheckbox {\n    fill: #111;\n}\n.checked > .blocklyFlyoutCheckbox {\n    stroke: #a1c6fa;\n}\n.checked > .blocklyFlyoutCheckboxPath {\n    stroke: white;\n}\n.scratchCategoryMenu {\n    color: #ccc;\n}\n.blocklyToolboxDiv,\n.scratchCategoryMenu {\n    background: #111 !important;\n}\n.blocklyScrollbarHandle {\n    fill: #666;\n}\n.blocklyZoom {\n    filter: invert(100%);\n}\n.scratchCategoryMenuItem.categorySelected {\n    background: var(--ui-secondary);\n}\n.valueReportBox {\n    color: black;\n}\n.blocklyWidgetDiv {\n    color-scheme: light;\n}\n.blocklyWidgetDiv .goog-menu {\n    background: var(--ui-primary);\n    border-color: var(--ui-black-transparent);\n}\n.blocklyWidgetDiv .goog-menuitem {\n    color: var(--text-primary);\n}\n.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content {\n    color: #666 !important;\n}\n.sa-blockly-menu-item-border {\n    border-top-color: var(--ui-black-transparent) !important;\n}\n.blocklyWidgetDiv .goog-menuitem.goog-menuitem-highlight {\n    background-color: var(--ui-tertiary);\n    border-color: transparent; /* remove border */\n}\n.scratchCommentText {\n    color: black;\n}\n.blocklyInsertionMarker > .blocklyPath {\n    fill: #ccc;\n}\n\n/* Other / Multipurpose */\n.Popover {\n    /* weird Chrome bug displays white bar above popovers with color-scheme: dark */\n    color-scheme: light;\n}\n.Popover-body {\n    background: var(--ui-secondary);\n    border-color: var(--ui-black-transparent);\n    color: var(--text-primary);\n}\n.Popover-tipShape {\n    fill: var(--ui-secondary);\n    stroke: var(--ui-black-transparent);\n}\n"
+module.exports = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* GUI */\n:root {\n    background: #111;\n    color: #eee;\n    color-scheme: dark;\n    /* see colors.csss */\n    --ui-primary: rgb(17, 17, 17);\n    --ui-secondary: rgb(30, 30, 30);\n    --ui-tertiary: rgb(46, 46, 46);\n    --ui-modal-overlay: #333a;\n    --ui-black-transparent: rgba(255, 255, 255, 0.15);\n    --text-primary: #eee;\n    /* scratch-paint */\n    --paint-ui-pane-border: var(--ui-black-transparent);\n    --paint-text-primary: #eee;\n    --paint-form-border: var(--ui-black-transparent);\n}\n\n/* Blockly */\n.blocklySvg {\n    background-color: var(--ui-secondary) !important;\n    color-scheme: light;\n}\n[id^=\"blocklyGridPattern\"] > line {\n    stroke: #484848;\n}\n.blocklyFlyoutBackground {\n    fill: #111;\n}\n.blocklyFlyoutLabelText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton .blocklyText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton:hover {\n    fill: #111;\n}\n/* blocklyFlyoutCheckboxPath stroke and blocklyFlyoutCheckbox fill must match */\n.blocklyFlyoutCheckboxPath {\n    stroke: #111;\n}\n.blocklyFlyoutCheckbox {\n    fill: #111;\n}\n.checked > .blocklyFlyoutCheckbox {\n    stroke: #a1c6fa;\n}\n.checked > .blocklyFlyoutCheckboxPath {\n    stroke: white;\n}\n.scratchCategoryMenu {\n    color: #ccc;\n}\n.blocklyToolboxDiv,\n.scratchCategoryMenu {\n    background: #111 !important;\n}\n.blocklyScrollbarHandle {\n    fill: #666;\n}\n.blocklyZoom {\n    filter: invert(100%);\n}\n.scratchCategoryMenuItem.categorySelected {\n    background: var(--ui-secondary);\n}\n.valueReportBox {\n    color: black;\n}\n.blocklyWidgetDiv {\n    color-scheme: light;\n}\n.blocklyWidgetDiv .goog-menu {\n    background: var(--ui-primary);\n    border-color: var(--ui-black-transparent);\n}\n.blocklyWidgetDiv .goog-menuitem {\n    color: var(--text-primary);\n}\n.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content {\n    color: #666 !important;\n}\n.sa-blockly-menu-item-border {\n    border-top-color: var(--ui-black-transparent) !important;\n}\n.blocklyWidgetDiv .goog-menuitem.goog-menuitem-highlight {\n    background-color: var(--ui-tertiary);\n    border-color: transparent; /* remove border */\n}\n.scratchCommentText {\n    color: black;\n}\n.blocklyInsertionMarker > .blocklyPath {\n    fill: #ccc;\n}\n\n/* Other / Multipurpose */\n.Popover {\n    /* weird Chrome bug displays white bar above popovers with color-scheme: dark */\n    color-scheme: light;\n}\n.Popover-body {\n    background: var(--ui-secondary);\n    border-color: var(--ui-black-transparent);\n    color: var(--text-primary);\n}\n.Popover-tipShape {\n    fill: var(--ui-secondary);\n    stroke: var(--ui-black-transparent);\n}\n"
 
 /***/ }),
 
-/***/ "./node_modules/react-string-replace/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-string-replace/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/react-string-replace/index.js ***!
   \****************************************************/
@@ -1294,10 +1294,10 @@ module.exports = "./* GUI */\n:root {\n    background: #111;\n    color: #eee;\n
 /***/ (function(module, exports, __webpack_require__) {
 
 /* eslint-disable vars-on-top, no-var, prefer-template */
-var isRegExp = __webpack_require__(/*! lodash/isRegExp */ "./node_modules/lodash/isRegExp.js");
-var escapeRegExp = __webpack_require__(/*! lodash/escapeRegExp */ "./node_modules/lodash/escapeRegExp.js");
-var isString = __webpack_require__(/*! lodash/isString */ "./node_modules/lodash/isString.js");
-var flatten = __webpack_require__(/*! lodash/flatten */ "./node_modules/lodash/flatten.js");
+var isRegExp = __webpack_require__(/*! lodash/isRegExp */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isRegExp.js");
+var escapeRegExp = __webpack_require__(/*! lodash/escapeRegExp */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/escapeRegExp.js");
+var isString = __webpack_require__(/*! lodash/isString */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/isString.js");
+var flatten = __webpack_require__(/*! lodash/flatten */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash/flatten.js");
 
 /**
  * Given a string, replace every substring that is matched by the `match` regex
@@ -1362,7 +1362,7 @@ module.exports = function reactStringReplace(source, match, fn) {
 
 /***/ }),
 
-/***/ "./src/addons/channels.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/channels.js":
 /*!********************************!*\
   !*** ./src/addons/channels.js ***!
   \********************************/
@@ -1386,7 +1386,7 @@ if (typeof BroadcastChannel !== 'undefined') {
 
 /***/ }),
 
-/***/ "./src/components/tw-cloud-variable-badge/cloud-server-button.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-server-button.jsx":
 /*!************************************************************************!*\
   !*** ./src/components/tw-cloud-variable-badge/cloud-server-button.jsx ***!
   \************************************************************************/
@@ -1395,15 +1395,15 @@ if (typeof BroadcastChannel !== 'undefined') {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cloud-variable-badge.css */ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.css");
+/* harmony import */ var _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cloud-variable-badge.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-variable-badge.css");
 /* harmony import */ var _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_4__);
 
 
@@ -1443,7 +1443,7 @@ CloudServerButton.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-variable-badge.css":
 /*!*************************************************************************!*\
   !*** ./src/components/tw-cloud-variable-badge/cloud-variable-badge.css ***!
   \*************************************************************************/
@@ -1451,7 +1451,7 @@ CloudServerButton.propTypes = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./cloud-variable-badge.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-cloud-variable-badge/cloud-variable-badge.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./cloud-variable-badge.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-cloud-variable-badge/cloud-variable-badge.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -1465,7 +1465,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -1473,7 +1473,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx":
 /*!*************************************************************************!*\
   !*** ./src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx ***!
   \*************************************************************************/
@@ -1482,17 +1482,17 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _clouddata_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clouddata.svg */ "./src/components/tw-cloud-variable-badge/clouddata.svg");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _clouddata_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clouddata.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/clouddata.svg");
 /* harmony import */ var _clouddata_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_clouddata_svg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _cloud_server_button_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cloud-server-button.jsx */ "./src/components/tw-cloud-variable-badge/cloud-server-button.jsx");
-/* harmony import */ var _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cloud-variable-badge.css */ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.css");
+/* harmony import */ var _cloud_server_button_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cloud-server-button.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-server-button.jsx");
+/* harmony import */ var _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cloud-variable-badge.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-variable-badge.css");
 /* harmony import */ var _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/brand */ "./src/lib/brand.js");
+/* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/brand */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/brand.js");
 
 
 
@@ -1577,7 +1577,7 @@ CloudVariableBadge.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/tw-cloud-variable-badge/clouddata.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/clouddata.svg":
 /*!**************************************************************!*\
   !*** ./src/components/tw-cloud-variable-badge/clouddata.svg ***!
   \**************************************************************/
@@ -1588,7 +1588,7 @@ module.exports = __webpack_require__.p + "static/assets/33b737193edfe1730f38112a
 
 /***/ }),
 
-/***/ "./src/components/tw-description/description.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-description/description.css":
 /*!*******************************************************!*\
   !*** ./src/components/tw-description/description.css ***!
   \*******************************************************/
@@ -1596,7 +1596,7 @@ module.exports = __webpack_require__.p + "static/assets/33b737193edfe1730f38112a
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./description.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-description/description.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./description.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-description/description.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -1610,7 +1610,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -1618,7 +1618,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/tw-description/description.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-description/description.jsx":
 /*!*******************************************************!*\
   !*** ./src/components/tw-description/description.jsx ***!
   \*******************************************************/
@@ -1627,14 +1627,14 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _description_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./description.css */ "./src/components/tw-description/description.css");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _description_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./description.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-description/description.css");
 /* harmony import */ var _description_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_description_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_string_replace__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-string-replace */ "./node_modules/react-string-replace/index.js");
+/* harmony import */ var react_string_replace__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-string-replace */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-string-replace/index.js");
 /* harmony import */ var react_string_replace__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_string_replace__WEBPACK_IMPORTED_MODULE_4__);
 
 
@@ -1646,7 +1646,7 @@ const decorate = text => {
   // https://github.com/LLK/scratch-www/blob/25232a06bcceeaddec8fcb24fb63a44d870cf1cf/src/lib/decorate-text.jsx
   // Make @mentions clickable
   text = react_string_replace__WEBPACK_IMPORTED_MODULE_4___default()(text, /@([\w-]+)/, (match, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://scratch.mit.edu/users/".concat(match, "./"),
+    href: "https://scratch.mit.edu/users/".concat(match, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),
     rel: "noreferrer",
     key: match + i
   }, "@".concat(match))); // Make links clickable
@@ -1674,7 +1674,7 @@ const Description = ({
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _description_css__WEBPACK_IMPORTED_MODULE_3___default.a.projectLink
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://scratch.mit.edu/projects/".concat(projectId, "./"),
+  href: "https://scratch.mit.edu/projects/".concat(projectId, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),
   target: "_blank",
   rel: "noreferrer"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
@@ -1703,7 +1703,7 @@ Description.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/tw-featured-projects/featured-projects.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-featured-projects/featured-projects.css":
 /*!*******************************************************************!*\
   !*** ./src/components/tw-featured-projects/featured-projects.css ***!
   \*******************************************************************/
@@ -1711,7 +1711,7 @@ Description.propTypes = {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./featured-projects.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-featured-projects/featured-projects.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./featured-projects.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-featured-projects/featured-projects.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -1725,7 +1725,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -1733,7 +1733,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/tw-featured-projects/featured-projects.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-featured-projects/featured-projects.jsx":
 /*!*******************************************************************!*\
   !*** ./src/components/tw-featured-projects/featured-projects.jsx ***!
   \*******************************************************************/
@@ -1742,19 +1742,19 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.bindall */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _tw_studioview_studioview_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../tw-studioview/studioview.jsx */ "./src/components/tw-studioview/studioview.jsx");
-/* harmony import */ var _featured_projects_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./featured-projects.css */ "./src/components/tw-featured-projects/featured-projects.css");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-redux/es/index.js");
+/* harmony import */ var _tw_studioview_studioview_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../tw-studioview/studioview.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.jsx");
+/* harmony import */ var _featured_projects_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./featured-projects.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-featured-projects/featured-projects.css");
 /* harmony import */ var _featured_projects_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_featured_projects_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _lib_tw_navigation_utils_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../lib/tw-navigation-utils.js */ "./src/lib/tw-navigation-utils.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var _lib_tw_navigation_utils_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../lib/tw-navigation-utils.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-navigation-utils.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! classnames */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_8__);
 
 
@@ -1822,7 +1822,7 @@ class FeaturedProjects extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Comp
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
       target: "_blank",
       rel: "noopener noreferrer",
-      href: "https://scratch.mit.edu/studios/".concat(this.props.studio, "./")
+      href: "https://scratch.mit.edu/studios/".concat(this.props.studio, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
       defaultMessage: "View studio on Scratch.",
       id: "tw.featuredProjectsStudio"
@@ -1849,7 +1849,7 @@ const mapDispatchToProps = dispatch => ({
 
 /***/ }),
 
-/***/ "./src/components/tw-project-input/project-input.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-project-input/project-input.css":
 /*!***********************************************************!*\
   !*** ./src/components/tw-project-input/project-input.css ***!
   \***********************************************************/
@@ -1857,7 +1857,7 @@ const mapDispatchToProps = dispatch => ({
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./project-input.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-project-input/project-input.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./project-input.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-project-input/project-input.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -1871,7 +1871,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -1879,7 +1879,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/tw-project-input/project-input.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-project-input/project-input.jsx":
 /*!***********************************************************!*\
   !*** ./src/components/tw-project-input/project-input.jsx ***!
   \***********************************************************/
@@ -1888,20 +1888,20 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-redux/es/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash.bindall */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-tooltip */ "./node_modules/react-tooltip/dist/index.js");
+/* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-tooltip */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-tooltip/dist/index.js");
 /* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_tooltip__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../reducers/project-state */ "./src/reducers/project-state.js");
-/* harmony import */ var _project_input_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./project-input.css */ "./src/components/tw-project-input/project-input.css");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../reducers/project-state */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/project-state.js");
+/* harmony import */ var _project_input_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./project-input.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-project-input/project-input.css");
 /* harmony import */ var _project_input_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_project_input_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _lib_tw_navigation_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/tw-navigation-utils */ "./src/lib/tw-navigation-utils.js");
+/* harmony import */ var _lib_tw_navigation_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/tw-navigation-utils */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-navigation-utils.js");
 
 
 
@@ -2031,7 +2031,7 @@ const mapDispatchToProps = dispatch => ({
 
 /***/ }),
 
-/***/ "./src/components/tw-studioview/studioview.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.css":
 /*!*****************************************************!*\
   !*** ./src/components/tw-studioview/studioview.css ***!
   \*****************************************************/
@@ -2039,7 +2039,7 @@ const mapDispatchToProps = dispatch => ({
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./studioview.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-studioview/studioview.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./studioview.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tw-studioview/studioview.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2053,7 +2053,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -2061,7 +2061,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/tw-studioview/studioview.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.js":
 /*!****************************************************!*\
   !*** ./src/components/tw-studioview/studioview.js ***!
   \****************************************************/
@@ -2070,9 +2070,9 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _studioview_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./studioview.css */ "./src/components/tw-studioview/studioview.css");
+/* harmony import */ var _studioview_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./studioview.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.css");
 /* harmony import */ var _studioview_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_studioview_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 /* eslint-disable */
 // Imported from:
@@ -2402,7 +2402,7 @@ StudioView.PLACEHOLDER_COUNT = 9;
 
 /***/ }),
 
-/***/ "./src/components/tw-studioview/studioview.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.jsx":
 /*!*****************************************************!*\
   !*** ./src/components/tw-studioview/studioview.jsx ***!
   \*****************************************************/
@@ -2411,17 +2411,17 @@ StudioView.PLACEHOLDER_COUNT = 9;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash.bindall */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _studioview__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./studioview */ "./src/components/tw-studioview/studioview.js");
-/* harmony import */ var _studioview_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./studioview.css */ "./src/components/tw-studioview/studioview.css");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-intl */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _studioview__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./studioview */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.js");
+/* harmony import */ var _studioview_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./studioview.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-studioview/studioview.css");
 /* harmony import */ var _studioview_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_studioview_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -2507,7 +2507,7 @@ StudioViewComponent.propTypes = {
 
 /***/ }),
 
-/***/ "./src/containers/tw-cloud-variable-badge.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/containers/tw-cloud-variable-badge.jsx":
 /*!****************************************************!*\
   !*** ./src/containers/tw-cloud-variable-badge.jsx ***!
   \****************************************************/
@@ -2516,16 +2516,16 @@ StudioViewComponent.propTypes = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-redux/es/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _reducers_tw__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../reducers/tw */ "./src/reducers/tw.js");
-/* harmony import */ var _components_tw_cloud_variable_badge_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/tw-cloud-variable-badge/cloud-variable-badge.jsx */ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx");
-/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var _reducers_tw__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../reducers/tw */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/tw.js");
+/* harmony import */ var _components_tw_cloud_variable_badge_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/tw-cloud-variable-badge/cloud-variable-badge.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash.bindall */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _reducers_modals__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/modals */ "./src/reducers/modals.js");
+/* harmony import */ var _reducers_modals__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/modals */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/modals.js");
 
 
 
@@ -2573,7 +2573,7 @@ const mapDispatchToProps = dispatch => ({
 
 /***/ }),
 
-/***/ "./src/lib/tw-fix-history-api.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-fix-history-api.js":
 /*!***************************************!*\
   !*** ./src/lib/tw-fix-history-api.js ***!
   \***************************************/
@@ -2582,7 +2582,7 @@ const mapDispatchToProps = dispatch => ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log */ "./src/lib/log.js");
+/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/log.js");
 
 const originalReplaceState = history.replaceState;
 
@@ -2606,7 +2606,7 @@ history.pushState = function (...args) {
 
 /***/ }),
 
-/***/ "./src/lib/tw-packager-integration-hoc.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-packager-integration-hoc.jsx":
 /*!*************************************************!*\
   !*** ./src/lib/tw-packager-integration-hoc.jsx ***!
   \*************************************************/
@@ -2616,13 +2616,13 @@ history.pushState = function (...args) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PackagerIntegrationHOC; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-redux/es/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./log */ "./src/lib/log.js");
-/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/project-state */ "./src/reducers/project-state.js");
+/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./log */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/log.js");
+/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/project-state */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/project-state.js");
 const _excluded = ["canOpenPackager"];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2657,7 +2657,7 @@ const PackagerIntegrationHOC = function PackagerIntegrationHOC(WrappedComponent)
 
     handleClickPackager() {
       if (this.props.canOpenPackager) {
-        window.open("".concat(PACKAGER_URL, "./?import_from=").concat(location.origin));
+        window.open("".concat(PACKAGER_URL, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/?import_from=").concat(location.origin));
       }
     }
 
@@ -2739,7 +2739,7 @@ const PackagerIntegrationHOC = function PackagerIntegrationHOC(WrappedComponent)
 
 /***/ }),
 
-/***/ "./src/lib/tw-theme-hoc.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-theme-hoc.jsx":
 /*!**********************************!*\
   !*** ./src/lib/tw-theme-hoc.jsx ***!
   \**********************************/
@@ -2750,9 +2750,9 @@ const PackagerIntegrationHOC = function PackagerIntegrationHOC(WrappedComponent)
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getInitialDarkMode", function() { return getInitialDarkMode; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ThemeHOC; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./tw-theme-dark.css */ "./node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css");
+/* harmony import */ var _raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./tw-theme-dark.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/raw-loader/index.js!./src/lib/tw-theme-dark.css");
 /* harmony import */ var _raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_raw_loader_tw_theme_dark_css__WEBPACK_IMPORTED_MODULE_1__);
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -2861,7 +2861,7 @@ const ThemeHOC = function ThemeHOC(WrappedComponent) {
 
 /***/ }),
 
-/***/ "./src/playground/interface.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/interface.css":
 /*!**************************************!*\
   !*** ./src/playground/interface.css ***!
   \**************************************/
@@ -2869,7 +2869,7 @@ const ThemeHOC = function ThemeHOC(WrappedComponent) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!../../node_modules/postcss-loader/src??postcss!./interface.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/playground/interface.css");
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!../../node_modules/postcss-loader/src??postcss!./interface.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/playground/interface.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2883,7 +2883,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -2891,7 +2891,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/playground/load-service-worker.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/load-service-worker.js":
 /*!***********************************************!*\
   !*** ./src/playground/load-service-worker.js ***!
   \***********************************************/
@@ -2901,8 +2901,8 @@ if(false) {}
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loadServiceWorker", function() { return loadServiceWorker; });
-/* harmony import */ var _lib_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../lib/log */ "./src/lib/log.js");
-/* harmony import */ var _file_loader_name_sw_js_service_worker_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !file-loader?name=sw.js!./service-worker.js */ "./node_modules/file-loader/dist/cjs.js?name=sw.js!./src/playground/service-worker.js");
+/* harmony import */ var _lib_log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../lib/log */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/log.js");
+/* harmony import */ var _file_loader_name_sw_js_service_worker_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !file-loader?name=sw.js!./service-worker.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/file-loader/dist/cjs.js?name=sw.js!./src/playground/service-worker.js");
 /* harmony import */ var _file_loader_name_sw_js_service_worker_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_file_loader_name_sw_js_service_worker_js__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -2922,7 +2922,7 @@ const loadServiceWorker = () => {
 
 /***/ }),
 
-/***/ "./src/playground/player.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/player.jsx":
 /*!***********************************!*\
   !*** ./src/playground/player.jsx ***!
   \***********************************/
@@ -2931,15 +2931,15 @@ const loadServiceWorker = () => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _import_first__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import-first */ "./src/playground/import-first.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _import_first__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import-first */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/import-first.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-modal */ "./node_modules/react-modal/lib/index.js");
+/* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-modal */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-modal/lib/index.js");
 /* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_modal__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _render_interface_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./render-interface.jsx */ "./src/playground/render-interface.jsx");
-/* harmony import */ var _app_target__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-target */ "./src/playground/app-target.js");
+/* harmony import */ var _render_interface_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./render-interface.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/render-interface.jsx");
+/* harmony import */ var _app_target__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-target */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/app-target.js");
 /**
  * Copyright (C) 2021 Thomas Weber
  *
@@ -2968,7 +2968,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/playground/render-interface.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/render-interface.jsx":
 /*!*********************************************!*\
   !*** ./src/playground/render-interface.jsx ***!
   \*********************************************/
@@ -2977,40 +2977,40 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _reducers_project_state_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/project-state.js */ "./src/reducers/project-state.js");
-/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../containers/dom-element-renderer.jsx */ "./src/containers/dom-element-renderer.jsx");
-/* harmony import */ var _lib_app_state_hoc_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/app-state-hoc.jsx */ "./src/lib/app-state-hoc.jsx");
-/* harmony import */ var _lib_error_boundary_hoc_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../lib/error-boundary-hoc.jsx */ "./src/lib/error-boundary-hoc.jsx");
-/* harmony import */ var _lib_tw_project_meta_fetcher_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../lib/tw-project-meta-fetcher-hoc.jsx */ "./src/lib/tw-project-meta-fetcher-hoc.jsx");
-/* harmony import */ var _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../lib/tw-state-manager-hoc.jsx */ "./src/lib/tw-state-manager-hoc.jsx");
-/* harmony import */ var _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../lib/tw-theme-hoc.jsx */ "./src/lib/tw-theme-hoc.jsx");
-/* harmony import */ var _lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../lib/sb-file-uploader-hoc.jsx */ "./src/lib/sb-file-uploader-hoc.jsx");
-/* harmony import */ var _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../lib/tw-packager-integration-hoc.jsx */ "./src/lib/tw-packager-integration-hoc.jsx");
-/* harmony import */ var _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../addons/settings-store-singleton */ "./src/addons/settings-store-singleton.js");
-/* harmony import */ var _lib_tw_fix_history_api__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../lib/tw-fix-history-api */ "./src/lib/tw-fix-history-api.js");
-/* harmony import */ var _render_gui_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./render-gui.jsx */ "./src/playground/render-gui.jsx");
-/* harmony import */ var _components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/menu-bar/menu-bar.jsx */ "./src/components/menu-bar/menu-bar.jsx");
-/* harmony import */ var _components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/tw-project-input/project-input.jsx */ "./src/components/tw-project-input/project-input.jsx");
-/* harmony import */ var _components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/tw-featured-projects/featured-projects.jsx */ "./src/components/tw-featured-projects/featured-projects.jsx");
-/* harmony import */ var _components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../components/tw-description/description.jsx */ "./src/components/tw-description/description.jsx");
-/* harmony import */ var _containers_webgl_modal_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../containers/webgl-modal.jsx */ "./src/containers/webgl-modal.jsx");
-/* harmony import */ var _components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../components/browser-modal/browser-modal.jsx */ "./src/components/browser-modal/browser-modal.jsx");
-/* harmony import */ var _containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../containers/tw-cloud-variable-badge.jsx */ "./src/containers/tw-cloud-variable-badge.jsx");
-/* harmony import */ var _lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../lib/tw-environment-support-prober */ "./src/lib/tw-environment-support-prober.js");
-/* harmony import */ var _addons_channels__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../addons/channels */ "./src/addons/channels.js");
-/* harmony import */ var _load_service_worker__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./load-service-worker */ "./src/playground/load-service-worker.js");
-/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../addons/entry */ "./src/addons/entry.js");
-/* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../lib/brand */ "./src/lib/brand.js");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-redux/es/index.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/redux/es/index.js");
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-intl/lib/index.es.js");
+/* harmony import */ var _reducers_project_state_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/project-state.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/project-state.js");
+/* harmony import */ var _containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../containers/dom-element-renderer.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/containers/dom-element-renderer.jsx");
+/* harmony import */ var _lib_app_state_hoc_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/app-state-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/app-state-hoc.jsx");
+/* harmony import */ var _lib_error_boundary_hoc_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../lib/error-boundary-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/error-boundary-hoc.jsx");
+/* harmony import */ var _lib_tw_project_meta_fetcher_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../lib/tw-project-meta-fetcher-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-project-meta-fetcher-hoc.jsx");
+/* harmony import */ var _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../lib/tw-state-manager-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-state-manager-hoc.jsx");
+/* harmony import */ var _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../lib/tw-theme-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-theme-hoc.jsx");
+/* harmony import */ var _lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../lib/sb-file-uploader-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/sb-file-uploader-hoc.jsx");
+/* harmony import */ var _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../lib/tw-packager-integration-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-packager-integration-hoc.jsx");
+/* harmony import */ var _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../addons/settings-store-singleton */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings-store-singleton.js");
+/* harmony import */ var _lib_tw_fix_history_api__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../lib/tw-fix-history-api */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-fix-history-api.js");
+/* harmony import */ var _render_gui_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./render-gui.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/render-gui.jsx");
+/* harmony import */ var _components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/menu-bar/menu-bar.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/menu-bar/menu-bar.jsx");
+/* harmony import */ var _components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/tw-project-input/project-input.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-project-input/project-input.jsx");
+/* harmony import */ var _components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/tw-featured-projects/featured-projects.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-featured-projects/featured-projects.jsx");
+/* harmony import */ var _components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../components/tw-description/description.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/tw-description/description.jsx");
+/* harmony import */ var _containers_webgl_modal_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../containers/webgl-modal.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/containers/webgl-modal.jsx");
+/* harmony import */ var _components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../components/browser-modal/browser-modal.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/browser-modal/browser-modal.jsx");
+/* harmony import */ var _containers_tw_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../containers/tw-cloud-variable-badge.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/containers/tw-cloud-variable-badge.jsx");
+/* harmony import */ var _lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../lib/tw-environment-support-prober */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-environment-support-prober.js");
+/* harmony import */ var _addons_channels__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../addons/channels */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/channels.js");
+/* harmony import */ var _load_service_worker__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./load-service-worker */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/load-service-worker.js");
+/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../addons/entry */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/entry.js");
+/* harmony import */ var _lib_brand__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../lib/brand */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/brand.js");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./interface.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/interface.css");
 /* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_30__);
 const _excluded = ["intl", "hasCloudVariables", "description", "isFullScreen", "isLoading", "isPlayerOnly", "isRtl", "onClickTheme", "projectId"];
 

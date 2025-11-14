@@ -54,7 +54,7 @@ globalThis.WebSdkWrapper = (function () {
       get sdk() {
         return globalThis.PokiSDK;
       },
-      scriptSrc: ".//game-cdn.poki.com/scripts/v2/poki-sdk.js",
+      scriptSrc: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//game-cdn.poki.com/scripts/v2/poki-sdk.js",
       hasAds: true,
       hasBanner: false,
       enableOnlyInProduction: false,
@@ -120,7 +120,7 @@ globalThis.WebSdkWrapper = (function () {
           sdkContext.crazysdk = globalThis?.CrazyGames?.CrazySDK?.getInstance();
         return sdkContext.crazysdk;
       },
-      scriptSrc: ".//sdk.crazygames.com/crazygames-sdk-v1.js",
+      scriptSrc: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//sdk.crazygames.com/crazygames-sdk-v1.js",
       hasAds: true,
       enableOnlyInProduction: false,
       hasBanner: true,
@@ -189,7 +189,7 @@ globalThis.WebSdkWrapper = (function () {
       get sdk() {
         return globalThis.GamePix;
       },
-      scriptSrc: ".//integration.gamepix.com/sdk/v3/gamepix.sdk.js",
+      scriptSrc: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//integration.gamepix.com/sdk/v3/gamepix.sdk.js",
       hasAds: true,
       enableOnlyInProduction: true,
       hasBanner: false,
@@ -241,7 +241,7 @@ globalThis.WebSdkWrapper = (function () {
       get sdk() {
         return globalThis.gdsdk;
       },
-      scriptSrc: ".//html5.api.gamedistribution.com/main.min.js",
+      scriptSrc: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//html5.api.gamedistribution.com/main.min.js",
       hasAds: true,
       enableOnlyInProduction: true,
       hasBanner: false,
@@ -320,7 +320,7 @@ globalThis.WebSdkWrapper = (function () {
       get sdk() {
         return globalThis.sdk;
       },
-      scriptSrc: ".//html5.api.gamedistribution.com/main.min.js",
+      scriptSrc: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//html5.api.gamedistribution.com/main.min.js",
       hasAds: true,
       enableOnlyInProduction: true,
       hasBanner: false,

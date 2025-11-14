@@ -1,6 +1,6 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["library-costumes"],{
 
-/***/ "./src/lib/libraries/costumes.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/libraries/costumes.json":
 /*!*****************************************!*\
   !*** ./src/lib/libraries/costumes.json ***!
   \*****************************************/

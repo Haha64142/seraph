@@ -6,7 +6,7 @@ if (/bot|crawler|spider|crawling/i.test(userAgent)) {
 
 // Windows Phone
 else if (/windows phone/i.test(userAgent)) {
-  // window.location.replace("./mobile");
+  // window.location.replace("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/mobile");
 }
 
 // Android

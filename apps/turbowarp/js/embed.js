@@ -218,14 +218,14 @@ var GUI =
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./src/playground/embed.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","vendors~editor~embed~fullscreen~player","editor~embed~fullscreen~player"]);
+/******/ 	deferredModules.push(["https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/embed.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","vendors~editor~embed~fullscreen~player","editor~embed~fullscreen~player"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/lib/tw-embed-fullscreen-hoc.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-embed-fullscreen-hoc.jsx":
 /*!*********************************************!*\
   !*** ./src/lib/tw-embed-fullscreen-hoc.jsx ***!
   \*********************************************/
@@ -235,16 +235,16 @@ var GUI =
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return TWFullScreenHOC; });
-/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.bindall */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lodash.bindall/index.js");
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _reducers_mode__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/mode */ "./src/reducers/mode.js");
-/* harmony import */ var _reducers_tw__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/tw */ "./src/reducers/tw.js");
-/* harmony import */ var _tw_fullscreen_api__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tw-fullscreen-api */ "./src/lib/tw-fullscreen-api.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-redux/es/index.js");
+/* harmony import */ var _reducers_mode__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/mode */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/mode.js");
+/* harmony import */ var _reducers_tw__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/tw */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/reducers/tw.js");
+/* harmony import */ var _tw_fullscreen_api__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tw-fullscreen-api */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-fullscreen-api.js");
 const _excluded = ["isFullScreen", "onSetIsFullScreen", "onSetWindowIsFullScreen"];
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -333,7 +333,7 @@ const TWFullScreenHOC = function TWFullScreenHOC(WrappedComponent) {
 
 /***/ }),
 
-/***/ "./src/playground/embed.jsx":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/embed.jsx":
 /*!**********************************!*\
   !*** ./src/playground/embed.jsx ***!
   \**********************************/
@@ -342,20 +342,20 @@ const TWFullScreenHOC = function TWFullScreenHOC(WrappedComponent) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _import_first__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import-first */ "./src/playground/import-first.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _import_first__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import-first */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/import-first.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-modal */ "./node_modules/react-modal/lib/index.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! redux */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/redux/es/index.js");
+/* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-modal */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-modal/lib/index.js");
 /* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_modal__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _lib_app_state_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/app-state-hoc.jsx */ "./src/lib/app-state-hoc.jsx");
-/* harmony import */ var _lib_tw_embed_fullscreen_hoc_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/tw-embed-fullscreen-hoc.jsx */ "./src/lib/tw-embed-fullscreen-hoc.jsx");
-/* harmony import */ var _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/tw-state-manager-hoc.jsx */ "./src/lib/tw-state-manager-hoc.jsx");
-/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../addons/entry */ "./src/addons/entry.js");
-/* harmony import */ var _render_gui_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./render-gui.jsx */ "./src/playground/render-gui.jsx");
-/* harmony import */ var _app_target__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-target */ "./src/playground/app-target.js");
+/* harmony import */ var _lib_app_state_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/app-state-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/app-state-hoc.jsx");
+/* harmony import */ var _lib_tw_embed_fullscreen_hoc_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/tw-embed-fullscreen-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-embed-fullscreen-hoc.jsx");
+/* harmony import */ var _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/tw-state-manager-hoc.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/tw-state-manager-hoc.jsx");
+/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../addons/entry */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/entry.js");
+/* harmony import */ var _render_gui_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./render-gui.jsx */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/render-gui.jsx");
+/* harmony import */ var _app_target__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-target */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/playground/app-target.js");
 
 
 

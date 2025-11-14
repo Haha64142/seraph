@@ -3284,7 +3284,7 @@
             value: function (t, e) {
               void 0 === e && (e = {});
               var n = this.errors[t],
-                r = this.service + "./" + t,
+                r = this.service + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t,
                 i = void 0;
               (i =
                 void 0 === n
@@ -4387,10 +4387,10 @@
           D("object" == typeof n, "typeof params must == object"),
           e === Cb)
         )
-          e = (t.Sc ? "wss://" : "ws://") + t.$a + "./.ws?";
+          e = (t.Sc ? "wss://" : "ws://") + t.$a + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/.ws?";
         else {
           if (e !== Db) throw Error("Unknown connection type: " + e);
-          e = (t.Sc ? "https://" : "http://") + t.$a + "./.lp?";
+          e = (t.Sc ? "https://" : "http://") + t.$a + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/.lp?";
         }
         t.host !== t.$a && (n.ns = t.pe);
         var r = [];
@@ -4547,14 +4547,14 @@
           o,
           a = t;
         if (((o = n = t = e = ""), (r = !0), (i = "https"), p(a))) {
-          var s = a.indexOf(".//");
+          var s = a.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//");
           for (
             0 <= s && ((i = a.substring(0, s - 1)), (a = a.substring(s + 2))),
-              s = a.indexOf("./"),
+              s = a.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),
               -1 === s && (s = a.length),
               e = a.substring(0, s),
               o = "",
-              a = a.substring(s).split("./"),
+              a = a.substring(s).split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),
               s = 0;
             s < a.length;
             s++
@@ -4564,7 +4564,7 @@
               try {
                 c = decodeURIComponent(c.replace(/\+/g, " "));
               } catch (t) {}
-              o += "./" + c;
+              o += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + c;
             }
           (a = e.split(".")),
             3 === a.length
@@ -4873,7 +4873,7 @@
       }
       function E(t, e) {
         if (1 == arguments.length) {
-          this.o = t.split("./");
+          this.o = t.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
           for (var n = 0, r = 0; r < this.o.length; r++)
             0 < this.o[r].length && ((this.o[n] = this.o[r]), n++);
           (this.o.length = n), (this.Y = 0);
@@ -5375,7 +5375,7 @@
                     e +
                     ") " +
                     Rc(r) +
-                    '.  Keys must be non-empty strings and can\'t contain ".", "#", "$", "./", "[", or "]"'
+                    '.  Keys must be non-empty strings and can\'t contain ".", "#", "$", "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", "[", or "]"'
                 );
               r.push(e), Pd(t, n, r), r.pop();
             }),
@@ -5401,7 +5401,7 @@
                   i[o] +
                   ") in path " +
                   r.toString() +
-                  '. Keys must be non-empty strings and can\'t contain ".", "#", "$", "./", "[", or "]"'
+                  '. Keys must be non-empty strings and can\'t contain ".", "#", "$", "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", "[", or "]"'
               );
         }
         for (e.sort(Nc), i = null, n = 0; n < e.length; n++) {
@@ -5472,7 +5472,7 @@
             A(t, 2, !0) +
               'was an invalid key: "' +
               e +
-              '".  Firebase keys must be non-empty strings and can\'t contain ".", "#", "$", "./", "[", or "]").'
+              '".  Firebase keys must be non-empty strings and can\'t contain ".", "#", "$", "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/", "[", or "]").'
           );
       }
       function Vd(t, e) {
@@ -5494,7 +5494,7 @@
         if (
           (!(n = !p(e.jc.host) || 0 === e.jc.host.length || !Md(e.jc.pe)) &&
             (n = 0 !== r.length) &&
-            (r && (r = r.replace(/^\/*\.info(\/|$)/, "./")),
+            (r && (r = r.replace(/^\/*\.info(\/|$)/, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
             (n = !(p(r) && 0 !== r.length && !Ld.test(r)))),
           n)
         )
@@ -5543,7 +5543,7 @@
         null !== t.B
           ? n(e, t.B)
           : t.O(function (t, r) {
-              var i = new E(e.toString() + "./" + t);
+              var i = new E(e.toString() + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t);
               Hb(r, i, n);
             });
       }
@@ -6885,7 +6885,7 @@
         );
       }
       function Hg(t, e, n) {
-        I("Auth token revoked: " + e + "./" + n),
+        I("Auth token revoked: " + e + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + n),
           (t.ob = null),
           (t.de = !0),
           t.Fa.close(),
@@ -7311,7 +7311,7 @@
         );
       }
       function vh(t, e, n) {
-        (e = new E("./.info/" + e)), (n = G(n));
+        (e = new E("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/.info/" + e)), (n = G(n));
         var r = t.ie;
         (r.Jd = r.Jd.F(e, n)), (n = ch(t.pd, new ce(ie, e, n))), cf(t.ca, e, n);
       }
@@ -7750,7 +7750,7 @@
         qa = {
           '"': '\\"',
           "\\": "\\\\",
-          "./": "\\/",
+          "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/": "\\/",
           "\b": "\\b",
           "\f": "\\f",
           "\n": "\\n",
@@ -7998,7 +7998,7 @@
           return new C("[MAX_NAME]", t);
         }),
         (g.toString = function () {
-          return this.bc.slice().join("./");
+          return this.bc.slice().join("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
         }),
         la(rc, lc),
         (g = rc.prototype),
@@ -8283,8 +8283,8 @@
         (g = E.prototype),
         (g.toString = function () {
           for (var t = "", e = this.Y; e < this.o.length; e++)
-            "" !== this.o[e] && (t += "./" + this.o[e]);
-          return t || "./";
+            "" !== this.o[e] && (t += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.o[e]);
+          return t || "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
         }),
         (g.slice = function (t) {
           return this.o.slice(this.Y + (t || 0));
@@ -8300,7 +8300,7 @@
             e.push(this.o[n]);
           if (t instanceof E) for (n = t.Y; n < t.o.length; n++) e.push(t.o[n]);
           else
-            for (t = t.split("./"), n = 0; n < t.length; n++)
+            for (t = t.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"), n = 0; n < t.length; n++)
               0 < t[n].length && e.push(t[n]);
           return new E(e, 0);
         }),
@@ -8358,7 +8358,7 @@
         }),
         (g.path = function () {
           return new E(
-            null === this.Pc ? this.ud : this.Pc.path() + "./" + this.ud
+            null === this.Pc ? this.ud : this.Pc.path() + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.ud
           );
         }),
         (g.name = function () {
@@ -10666,8 +10666,8 @@
         (g.toString = function () {
           y("Query.toString", 0, 0, arguments.length);
           for (var t = this.path, e = "", n = t.Y; n < t.o.length; n++)
-            "" !== t.o[n] && (e += "./" + encodeURIComponent(String(t.o[n])));
-          return this.u.toString() + (e || "./");
+            "" !== t.o[n] && (e += "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + encodeURIComponent(String(t.o[n])));
+          return this.u.toString() + (e || "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
         }),
         (g.toJSON = function () {
           return y("Query.toJSON", 0, 1, arguments.length), this.toString();
@@ -10805,7 +10805,7 @@
           else if (!(t instanceof E))
             if (null === K(this.path)) {
               var e = t;
-              e && (e = e.replace(/^\/*\.info(\/|$)/, "./")),
+              e && (e = e.replace(/^\/*\.info(\/|$)/, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")),
                 Vd("Firebase.child", e);
             } else Vd("Firebase.child", t);
           return new U(this.u, this.path.n(t));
@@ -11110,7 +11110,7 @@
         throw new Error("process.binding is not supported");
       }),
       (h.cwd = function () {
-        return "./";
+        return "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
       }),
       (h.chdir = function (t) {
         throw new Error("process.chdir is not supported");

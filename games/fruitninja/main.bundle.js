@@ -113,7 +113,7 @@
 	deferredModules.push([0, 'vendors']);
 	return checkDeferredModules();
 })({
-	'./src/scripts/game.ts': /*!*****************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/game.ts': /*!*****************************!*\
 !*** ./src/scripts/game.ts ***!
 \*****************************/ /*!no static exports found*/ function (
 		module,
@@ -165,19 +165,19 @@
 			};
 		Object.defineProperty(exports, '__esModule', { value: true });
 		const Phaser = __importStar(
-			__webpack_require__(/*!phaser*/ './node_modules/phaser/dist/phaser.js')
+			__webpack_require__(/*!phaser*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/phaser/dist/phaser.js')
 		);
 		const phaser_extension_1 = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		const mainScene_1 = __importDefault(
-			__webpack_require__(/*!./scenes/mainScene*/ './src/scripts/scenes/mainScene.js')
+			__webpack_require__(/*!./scenes/mainScene*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/scenes/mainScene.js')
 		);
 		const preloadScene_1 = __importDefault(
-			__webpack_require__(/*!./scenes/preloadScene*/ './src/scripts/scenes/preloadScene.js')
+			__webpack_require__(/*!./scenes/preloadScene*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/scenes/preloadScene.js')
 		);
 		const preLoadingScene_1 = __importDefault(
-			__webpack_require__(/*!./scenes/preLoadingScene*/ './src/scripts/scenes/preLoadingScene.js')
+			__webpack_require__(/*!./scenes/preLoadingScene*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/scenes/preLoadingScene.js')
 		);
 		const config = Object.assign(
 			{
@@ -201,7 +201,7 @@
 			phaser_extension_1.enable3d(() => new Phaser.Game(config)).withPhysics('assets/ammo');
 		});
 	},
-	'./src/scripts/gameobjects/Blade.js': /*!******************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/Blade.js': /*!******************************************!*\
 !*** ./src/scripts/gameobjects/Blade.js ***!
 \******************************************/ /*!exports provided: default*/ function (
 		module,
@@ -214,7 +214,7 @@
 			return Blade;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -240,7 +240,7 @@
 				this.create();
 				this.lastTimeStamp = 0;
 				this.SliceEffect = __webpack_require__(
-					/*!./../gameobjects/SliceEffect.js*/ './src/scripts/gameobjects/SliceEffect.js'
+					/*!./../gameobjects/SliceEffect.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/SliceEffect.js'
 				).default;
 				this.poolSliceEffect = [];
 				this.activeSliceEffect = [];
@@ -250,7 +250,7 @@
 					this.poolSliceEffect.push(sliceEffect);
 				}
 				this.SliceCriticalEffect = __webpack_require__(
-					/*!./../gameobjects/SliceCriticalEffect.js*/ './src/scripts/gameobjects/SliceCriticalEffect.js'
+					/*!./../gameobjects/SliceCriticalEffect.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/SliceCriticalEffect.js'
 				).default;
 				this.poolSliceCriticalEffect = [];
 				this.activeSliceCriticalEffect = [];
@@ -641,7 +641,7 @@
 			}
 		}
 	},
-	'./src/scripts/gameobjects/ComboText.js': /*!**********************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/ComboText.js': /*!**********************************************!*\
 !*** ./src/scripts/gameobjects/ComboText.js ***!
 \**********************************************/ /*!exports provided: default*/ function (
 		module,
@@ -654,7 +654,7 @@
 			return ComboText;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -873,7 +873,7 @@
 			}
 		}
 	},
-	'./src/scripts/gameobjects/CriticalText.js':
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/CriticalText.js':
 		/*!*************************************************!*\
 !*** ./src/scripts/gameobjects/CriticalText.js ***!
 \*************************************************/ /*!exports provided: default*/ function (
@@ -887,7 +887,7 @@
 				return CriticalText;
 			});
 			var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-				/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+				/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 			);
 			var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 				_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -976,7 +976,7 @@
 				}
 			}
 		},
-	'./src/scripts/gameobjects/FruitFactory.js':
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/FruitFactory.js':
 		/*!*************************************************!*\
 !*** ./src/scripts/gameobjects/FruitFactory.js ***!
 \*************************************************/ /*!exports provided: default*/ function (
@@ -991,7 +991,7 @@
 					return FruitFactory;
 				});
 				var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-					/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+					/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 				);
 				var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 					_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -1393,7 +1393,7 @@
 									} else if (!child.name.includes('Outline') && !child.name.includes('outline')) {
 										child.material.map = fruitTexture;
 										const BombTrail = __webpack_require__(
-											/*!./../utils/BombTrail.js*/ './src/scripts/utils/BombTrail.js'
+											/*!./../utils/BombTrail.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/BombTrail.js'
 										).default;
 										theBombTrail = new BombTrail({
 											parent: me.scene.third.scene,
@@ -1563,7 +1563,7 @@
 							let fruitTrail;
 							if (id == 'Bomb' || id == 'BUI') {
 								const BombSmoke = __webpack_require__(
-									/*!./../utils/BombSmoke.js*/ './src/scripts/utils/BombSmoke.js'
+									/*!./../utils/BombSmoke.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/BombSmoke.js'
 								).default;
 								fruitTrail = new BombSmoke({
 									parent: this.scene.third.scene,
@@ -1573,7 +1573,7 @@
 								});
 							} else {
 								const FruitTrail = __webpack_require__(
-									/*!./../utils/FruitTrail.js*/ './src/scripts/utils/FruitTrail.js'
+									/*!./../utils/FruitTrail.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/FruitTrail.js'
 								).default;
 								fruitTrail = new FruitTrail({
 									parent: this.scene.third.scene,
@@ -1583,7 +1583,7 @@
 								});
 							}
 							const CriticalTrail = __webpack_require__(
-								/*!./../utils/CriticalTrail.js*/ './src/scripts/utils/CriticalTrail.js'
+								/*!./../utils/CriticalTrail.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/CriticalTrail.js'
 							).default;
 							let criticalTrailHalf1 = new CriticalTrail({
 								parent: this.scene.third.scene,
@@ -2355,11 +2355,11 @@
 			}).call(
 				this,
 				__webpack_require__(
-					/*!./../../../node_modules/webpack/buildin/global.js*/ './node_modules/webpack/buildin/global.js'
+					/*!./../../../node_modules/webpack/buildin/global.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/global.js'
 				)
 			);
 		},
-	'./src/scripts/gameobjects/SliceCriticalEffect.js':
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/SliceCriticalEffect.js':
 		/*!********************************************************!*\
 !*** ./src/scripts/gameobjects/SliceCriticalEffect.js ***!
 \********************************************************/ /*!exports provided: default*/ function (
@@ -2373,7 +2373,7 @@
 				return SliceCriticalEffect;
 			});
 			var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-				/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+				/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 			);
 			var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 				_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -2421,7 +2421,7 @@
 				}
 			}
 		},
-	'./src/scripts/gameobjects/SliceEffect.js': /*!************************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/SliceEffect.js': /*!************************************************!*\
 !*** ./src/scripts/gameobjects/SliceEffect.js ***!
 \************************************************/ /*!exports provided: default*/ function (
 		module,
@@ -2434,7 +2434,7 @@
 			return SliceEffect;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -2497,7 +2497,7 @@
 			}
 		}
 	},
-	'./src/scripts/scenes/mainScene.js': /*!*****************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/scenes/mainScene.js': /*!*****************************************!*\
 !*** ./src/scripts/scenes/mainScene.js ***!
 \*****************************************/ /*!exports provided: default*/ function (
 		module,
@@ -2510,7 +2510,7 @@
 			return MainScene;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -2566,7 +2566,7 @@
 				this.third.load.preload('retry_ring_tex', 'assets/textures/FruitRingRetry.png');
 				this.third.load.preload('back_ring_tex', 'assets/textures/FruitRingBack.png');
 				const FruitFactory = __webpack_require__(
-					/*!./../gameobjects/FruitFactory.js*/ './src/scripts/gameobjects/FruitFactory.js'
+					/*!./../gameobjects/FruitFactory.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/FruitFactory.js'
 				).default;
 				this.fruitFactory = new FruitFactory(this);
 				this.testBlade = this.add.container(0, 0);
@@ -2622,7 +2622,7 @@
 				plane.position.z = -700;
 				this.third.add.existing(plane);
 				const Blade = __webpack_require__(
-					/*!./../gameobjects/Blade.js*/ './src/scripts/gameobjects/Blade.js'
+					/*!./../gameobjects/Blade.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/Blade.js'
 				).default;
 				this.blade = new Blade(this);
 				this.startTimer = 0.75;
@@ -2632,7 +2632,7 @@
 			}
 			async resumeLoad() {
 				const Button = __webpack_require__(
-					/*!./../utils/Button.js*/ './src/scripts/utils/Button.js'
+					/*!./../utils/Button.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/Button.js'
 				).default;
 				const textureRing = await this.third.load.texture('classic_ring_tex');
 				textureRing.wrapS =
@@ -3344,7 +3344,7 @@
 				this.planeRingBack.visible = false;
 				this.planeShadowRingBack.visible = false;
 				this.CriticalText = __webpack_require__(
-					/*!./../gameobjects/CriticalText.js*/ './src/scripts/gameobjects/CriticalText.js'
+					/*!./../gameobjects/CriticalText.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/CriticalText.js'
 				).default;
 				this.poolCritical = [];
 				this.activeCritical = [];
@@ -3354,7 +3354,7 @@
 					this.poolCritical.push(criticalText);
 				}
 				this.ComboText = __webpack_require__(
-					/*!./../gameobjects/ComboText.js*/ './src/scripts/gameobjects/ComboText.js'
+					/*!./../gameobjects/ComboText.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/gameobjects/ComboText.js'
 				).default;
 				this.poolComboText = [];
 				this.activeComboText = [];
@@ -4098,7 +4098,7 @@
 				this.wholePopupGameover.add(this.newBestText);
 				this.wholePopupGameover.visible = false;
 				const ScreenShake = __webpack_require__(
-					/*!./../utils/ScreenShake.js*/ './src/scripts/utils/ScreenShake.js'
+					/*!./../utils/ScreenShake.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/ScreenShake.js'
 				).default;
 				this.screenShake = ScreenShake();
 			}
@@ -4978,7 +4978,7 @@
 			}
 		}
 	},
-	'./src/scripts/scenes/preLoadingScene.js': /*!***********************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/scenes/preLoadingScene.js': /*!***********************************************!*\
 !*** ./src/scripts/scenes/preLoadingScene.js ***!
 \***********************************************/ /*!exports provided: default*/ function (
 		module,
@@ -5020,11 +5020,11 @@
 		}).call(
 			this,
 			__webpack_require__(
-				/*!./../../../node_modules/webpack/buildin/global.js*/ './node_modules/webpack/buildin/global.js'
+				/*!./../../../node_modules/webpack/buildin/global.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/global.js'
 			)
 		);
 	},
-	'./src/scripts/scenes/preloadScene.js': /*!********************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/scenes/preloadScene.js': /*!********************************************!*\
 !*** ./src/scripts/scenes/preloadScene.js ***!
 \********************************************/ /*!exports provided: default*/ function (
 		module,
@@ -5205,7 +5205,7 @@
 				});
 		}
 	},
-	'./src/scripts/utils/BombSmoke.js': /*!****************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/BombSmoke.js': /*!****************************************!*\
 !*** ./src/scripts/utils/BombSmoke.js ***!
 \****************************************/ /*!exports provided: default*/ function (
 		module,
@@ -5218,7 +5218,7 @@
 			return BombTrail;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -5310,7 +5310,7 @@
 				);
 				params.parent.add(this._points);
 				const LinearSpline = __webpack_require__(
-					/*!./../utils/LinearSpline.js*/ './src/scripts/utils/LinearSpline.js'
+					/*!./../utils/LinearSpline.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/LinearSpline.js'
 				).default;
 				this._alphaSpline = new LinearSpline((t, a, b) => {
 					return a + t * (b - a);
@@ -5456,7 +5456,7 @@
 			}
 		}
 	},
-	'./src/scripts/utils/BombTrail.js': /*!****************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/BombTrail.js': /*!****************************************!*\
 !*** ./src/scripts/utils/BombTrail.js ***!
 \****************************************/ /*!exports provided: default*/ function (
 		module,
@@ -5469,7 +5469,7 @@
 			return BombTrail;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -5560,7 +5560,7 @@
 				);
 				params.parent.add(this._points);
 				const LinearSpline = __webpack_require__(
-					/*!./../utils/LinearSpline.js*/ './src/scripts/utils/LinearSpline.js'
+					/*!./../utils/LinearSpline.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/LinearSpline.js'
 				).default;
 				this._alphaSpline = new LinearSpline((t, a, b) => {
 					return a + t * (b - a);
@@ -5710,7 +5710,7 @@
 			}
 		}
 	},
-	'./src/scripts/utils/Button.js': /*!*************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/Button.js': /*!*************************************!*\
 !*** ./src/scripts/utils/Button.js ***!
 \*************************************/ /*!exports provided: default*/ function (
 		module,
@@ -5723,7 +5723,7 @@
 			return Button;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -5796,7 +5796,7 @@
 			}
 		}
 	},
-	'./src/scripts/utils/CriticalTrail.js': /*!********************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/CriticalTrail.js': /*!********************************************!*\
 !*** ./src/scripts/utils/CriticalTrail.js ***!
 \********************************************/ /*!exports provided: default*/ function (
 		module,
@@ -5809,7 +5809,7 @@
 			return CriticalTrail;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -5901,7 +5901,7 @@
 				);
 				params.parent.add(this._points);
 				const LinearSpline = __webpack_require__(
-					/*!./../utils/LinearSpline.js*/ './src/scripts/utils/LinearSpline.js'
+					/*!./../utils/LinearSpline.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/LinearSpline.js'
 				).default;
 				this._alphaSpline = new LinearSpline((t, a, b) => {
 					return a + t * (b - a);
@@ -6048,7 +6048,7 @@
 			}
 		}
 	},
-	'./src/scripts/utils/FruitTrail.js': /*!*****************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/FruitTrail.js': /*!*****************************************!*\
 !*** ./src/scripts/utils/FruitTrail.js ***!
 \*****************************************/ /*!exports provided: default*/ function (
 		module,
@@ -6061,7 +6061,7 @@
 			return FruitTrail;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -6153,7 +6153,7 @@
 				);
 				params.parent.add(this._points);
 				const LinearSpline = __webpack_require__(
-					/*!./../utils/LinearSpline.js*/ './src/scripts/utils/LinearSpline.js'
+					/*!./../utils/LinearSpline.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/LinearSpline.js'
 				).default;
 				this._alphaSpline = new LinearSpline((t, a, b) => {
 					return a + t * (b - a);
@@ -6299,7 +6299,7 @@
 			}
 		}
 	},
-	'./src/scripts/utils/LinearSpline.js': /*!*******************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/LinearSpline.js': /*!*******************************************!*\
 !*** ./src/scripts/utils/LinearSpline.js ***!
 \*******************************************/ /*!exports provided: default*/ function (
 		module,
@@ -6312,7 +6312,7 @@
 			return LinearSpline;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -6345,7 +6345,7 @@
 			}
 		}
 	},
-	'./src/scripts/utils/ScreenShake.js': /*!******************************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/utils/ScreenShake.js': /*!******************************************!*\
 !*** ./src/scripts/utils/ScreenShake.js ***!
 \******************************************/ /*!exports provided: default*/ function (
 		module,
@@ -6358,7 +6358,7 @@
 			return ScreenShake;
 		});
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-			/*!@enable3d/phaser-extension*/ './node_modules/@enable3d/phaser-extension/dist/index.js'
+			/*!@enable3d/phaser-extension*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/@enable3d/phaser-extension/dist/index.js'
 		);
 		var _enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
 			_enable3d_phaser_extension__WEBPACK_IMPORTED_MODULE_0__
@@ -6412,7 +6412,7 @@
 			};
 		}
 	},
-	'./webpack/credits.js': /*!****************************!*\
+	'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/webpack/credits.js': /*!****************************!*\
 !*** ./webpack/credits.js ***!
 \****************************/ /*!no static exports found*/ function (module, exports) {
 		console.log(
@@ -6432,7 +6432,7 @@
 		exports,
 		__webpack_require__
 	) {
-		__webpack_require__(/*!./src/scripts/game.ts*/ './src/scripts/game.ts');
-		module.exports = __webpack_require__(/*!./webpack/credits.js*/ './webpack/credits.js');
+		__webpack_require__(/*!./src/scripts/game.ts*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/scripts/game.ts');
+		module.exports = __webpack_require__(/*!./webpack/credits.js*/ 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/webpack/credits.js');
 	}
 });

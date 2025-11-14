@@ -9263,7 +9263,7 @@ const tech = {
 
     //         // add the google translate script
     //         const translateScript = document.createElement('script')
-    //         translateScript.src = './/translate.google.com/translate_a/element.js?cb=initGT'
+    //         translateScript.src = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//translate.google.com/translate_a/element.js?cb=initGT'
     //         document.body.append(translateScript)
     //     },
     //     remove() {}

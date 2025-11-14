@@ -227,7 +227,7 @@ window.onresize = () => {
 //**********************************************************************
 //set wikipedia link
 for (let i = 0, len = tech.tech.length; i < len; i++) {
-    if (!tech.tech[i].link) tech.tech[i].link = `<a target="_blank" href='https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(tech.tech[i].name).replace(/'./g, '%27')}&title=Special:Search' class="link">${tech.tech[i].name}</a>`
+    if (!tech.tech[i].link) tech.tech[i].link = `<a target="_blank" href='https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(tech.tech[i].name).replace(/'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, '%27')}&title=Special:Search' class="link">${tech.tech[i].name}</a>`
 }
 const build = {
     pixelDraw() {
@@ -892,7 +892,7 @@ ${simulation.isCheating ? "<br><br><em>lore disabled</em>" : ""}
 
     },
     nameLink(text) { //converts text into a clickable wikipedia search
-        return `<a target="_blank" href='https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(text).replace(/'./g, '%27')}&title=Special:Search' class="link">${text}</a>`
+        return `<a target="_blank" href='https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(text).replace(/'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g, '%27')}&title=Special:Search' class="link">${text}</a>`
     },
     reset() {
         build.isExperimentSelection = true;

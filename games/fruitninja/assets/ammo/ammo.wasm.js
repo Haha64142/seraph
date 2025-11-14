@@ -32,7 +32,7 @@ var Ammo = (function () {
 			ma,
 			na;
 		if (fa)
-			(ja = __dirname + './'),
+			(ja = __dirname + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'),
 				(ka = function (a, c) {
 					ma || (ma = require('fs'));
 					na || (na = require('path'));
@@ -45,7 +45,7 @@ var Ammo = (function () {
 					assert(a.buffer);
 					return a;
 				}),
-				1 < process.argv.length && process.argv[1].replace(/\\/g, './'),
+				1 < process.argv.length && process.argv[1].replace(/\\/g, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'),
 				process.argv.slice(2),
 				process.on('uncaughtException', function (a) {
 					throw a;
@@ -72,7 +72,7 @@ var Ammo = (function () {
 		else if (da || ea)
 			ea ? (ja = self.location.href) : document.currentScript && (ja = document.currentScript.src),
 				_scriptDir && (ja = _scriptDir),
-				(ja = 0 !== ja.indexOf('blob:') ? ja.substr(0, ja.lastIndexOf('./') + 1) : ''),
+				(ja = 0 !== ja.indexOf('blob:') ? ja.substr(0, ja.lastIndexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') + 1) : ''),
 				(ka = function (a) {
 					var c = new XMLHttpRequest();
 					c.open('GET', a, !1);

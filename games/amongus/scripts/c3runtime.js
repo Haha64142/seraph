@@ -390,13 +390,13 @@ var t=e.split(" ")[2]
 t&&(os_version=t)}),runTest("isWindowsPhoneOS",Versions.winPhoneOS,function(e){os="Windows Phone"
 var t=e.split(" ")[3]
 t&&(os_version=t)}),runTest("isBlackberry",Flags.blackberry,function(){os="Blackberry",os_version="10",browser="stock",engine="webkit"}),runTest("isChrome",!Flags.edge&&!Flags.opera&&Versions.chrome,function(e){browser="Chrome",engine="Chromium"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isOpera",Versions.opera,function(e){browser="Opera",engine="Chromium"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isChromium",Versions.chromium,function(e){browser="Chromium",engine="Chromium"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isFirefox",Versions.firefox,function(e){browser="Firefox",engine="Gecko"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isInternetExplorer",Versions.ie,function(e){browser="Internet Explorer",engine="Trident"
 var t=e.split(" ")[1]
 t&&(browser_version=t)}),runTest("isTrident","Internet Explorer"!==browser&&Flags.trident,function(){engine="Trident"
@@ -404,20 +404,20 @@ var e=/rv:[0-9.]+/i.exec(UA)
 if(e&&e.length){browser="Internet Explorer"
 var t=e[0].split(":")[1]
 t&&(browser_version=t)}}),runTest("isEdge",Versions.edge,function(e){browser="Edge",engine="Edge"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isEdgeChromium",Versions.edgeChromium,function(e){browser="Edge",engine="Chromium"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isSafari",Flags.safari&&!Flags.nokia&&!Flags.chrome&&!Flags.chromium&&!Flags.genericIE&&!Flags.blackberry,function(){browser="Safari",engine="WebKit"
 var e=/version\/[0-9.]+/i.exec(UA),t=/crios\/[0-9.]+/i.exec(UA),n=/fxios\/[0-9.]+/i.exec(UA)
-if(e&&e.length){var r=e[0].split("./")[1]
+if(e&&e.length){var r=e[0].split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 r&&(browser_version=r)}if(t&&t.length){browser="Chrome for iOS"
-var a=t[0].split("./")[1]
+var a=t[0].split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 a&&(browser_version=a)}if(n&&n.length){browser="Firefox for iOS"
-var i=n[0].split("./")[1]
+var i=n[0].split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 i&&(browser_version=i)}}),runTest("isSilk",Versions.silk,function(e){browser="Silk"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isCrosswalk",Flags.crosswalk,function(){return context="crosswalk"}),runTest("isCordova",self.device&&(self.device.cordova||self.device.phonegap),function(){return context="cordova"}),runTest("isNWJS",Versions.nwjs,function(e){context="nwjs",browser="NW.js",engine="Chromium"
-var t=e.split("./")[1]
+var t=e.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1]
 t&&(browser_version=t)}),runTest("isAmazonWebApp",Flags.amazonwebapp,function(){return context="webapp"}),runTest("isHomeScreenWebApp","nwjs"!==context&&"undefined"!=typeof window&&(window.matchMedia&&window.matchMedia("(display-mode: standalone)").matches||navigator.standalone),function(){return context="webapp"}),runTest("isFalseSafari","Safari"===browser&&("Android"===os||"Tizen"===os||"Blackberry"===os),function(){return browser="stock"}),runTest("isAndroidWebview","Chrome"===browser&&"browser"===context&&Flags.webview,function(){return context="webview"}),runTest("isFirefoxOS","Firefox"===browser&&os===UNKNOWN,function(){return os="Firefox OS"}),runTest("isAndroidFallback",os===UNKNOWN&&!Flags.windowsTizen&&Flags.android,function(){return os="Android"}),runTest("isTridentFallback",os===UNKNOWN&&Flags.trident,function(){return engine="Trident"}),runTest("isWebkitFallback",os===UNKNOWN&&Flags.webkit,function(){return engine="WebKit"}),runTest("is64Bit",function(e){return e.test(UA)||e.test(navigator.platform)||"x64"===navigator.cpuClass}(/x86_64|x86-64|win64|x64;|x64\)|x64_|amd64|wow64|ia64|arm64|arch64|sparc64|ppc64|irix64/i),function(){return os_arch="64-bit"}),runTest("is32Bit",function(e){return e.test(UA)||e.test(navigator.platform)||"x86"===navigator.cpuClass}(/x86;|x86\)|i86|i386|i486|i586|i686|armv1|armv2|armv3|armv4|armv5|armv6|armv7/i),function(){return os_arch="32-bit"}),runTest("is64BitFallback",os_arch===UNKNOWN&&"Mac OS X"===os&&parseFloat(os_version)>=10.7,function(){return os_arch="64-bit"}),runTest("is32BitFallback",os_arch===UNKNOWN&&"Windows"===os||"Android"===os&&parseFloat(os_version)<5,function(){return os_arch="32-bit"}),runTest("is32BitBrowser","32-bit"===os_arch||/wow64/i.test(UA),function(){return browser_arch="32-bit"}),runTest("is64BitBrowser",/win64/i.test(UA),function(){return browser_arch="64-bit"}),runTest("isDesktop",function(){return"Windows"===os||"Mac OS X"===os||"Linux"===os||"Chrome OS"===os||"nwjs"===context}(),function(){return is_desktop=!0}),"Edge"===engine&&"undefined"!=typeof Windows&&void 0!==Windows.System&&(context="windows-store"),is_desktop_app="nwjs"===context
 var is_ipad_os="Mac OS X"===os&&navigator.maxTouchPoints&&navigator.maxTouchPoints>2
 is_ipad_os&&(os="iOS",os_version=browser_version,is_desktop=!1,is_desktop_app=!1),_C2.Platform={OS:os,OSVersion:os_version,OSArchitecture:os_arch,Browser:browser,BrowserVersion:browser_version,BrowserVersionNumber:parseFloat(browser_version),BrowserArchitecture:browser_arch,BrowserEngine:engine,Context:context,IsDesktop:is_desktop,IsMobile:!is_desktop,IsDesktopApp:is_desktop_app,IsChromeWebStore:!!(self.chrome&&self.chrome.runtime&&self.chrome.runtime.id),IsAppleOS:"Mac OS X"===os||"iOS"===os,IsIpadOS:is_ipad_os,IsLinux:"Linux"===os}
@@ -746,14 +746,14 @@ return[k,C,S]},_C8.triangleBarycentricToCartesian=function(e,t,n,r,a,i,s,o,u){re
 var _C9=self.C3,mainDocument=null,baseHref=""
 if("undefined"!=typeof document){mainDocument=document
 var baseElem=document.querySelector("base")
-baseHref=baseElem&&baseElem.hasAttribute("href")?baseElem.getAttribute("href"):"",baseHref&&(baseHref.startsWith("./")&&(baseHref=baseHref.substr(1)),baseHref.endsWith("./")||(baseHref+="./"))}_C9.GetBaseHref=function(){return baseHref},_C9.GetBaseURL=function(){if(!mainDocument)return""
+baseHref=baseElem&&baseElem.hasAttribute("href")?baseElem.getAttribute("href"):"",baseHref&&(baseHref.startsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")&&(baseHref=baseHref.substr(1)),baseHref.endsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")||(baseHref+="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"))}_C9.GetBaseHref=function(){return baseHref},_C9.GetBaseURL=function(){if(!mainDocument)return""
 var e=mainDocument.location
 return _C9.GetPathFromURL(e.origin+e.pathname)+baseHref},_C9.GetPathFromURL=function(e){if(!e.length)return e
-if(e.endsWith("./")||e.endsWith("\\"))return e
-var t=Math.max(e.lastIndexOf("./"),e.lastIndexOf("\\"))
+if(e.endsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")||e.endsWith("\\"))return e
+var t=Math.max(e.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),e.lastIndexOf("\\"))
 return-1===t?"":e.substr(0,t+1)},_C9.GetFilenameFromURL=function(e){if(!e.length)return e
-if(e.endsWith("./")||e.endsWith("\\"))return""
-var t=Math.max(e.lastIndexOf("./"),e.lastIndexOf("\\"))
+if(e.endsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")||e.endsWith("\\"))return""
+var t=Math.max(e.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),e.lastIndexOf("\\"))
 return-1===t?e:e.substr(t+1)},_C9.DataTransferHasFiles=function(e){if(e.types)for(var t=0;t<e.types.length;t++)if("Files"===e.types[t]||"application/x-c3-file"===e.types[t])return!0
 return!1},_C9.DataTransferFilterFiles=function(){function e(e,n){return t.apply(this,arguments)}var t=_asyncToGenerator(_regeneratorRuntime().mark(function n(e,t){var r,a
 return _regeneratorRuntime().wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return r=Array.from(e.files).filter(function(e){return 0!==e.size}).filter(function(e){return t(e)}).map(function(){var e=_asyncToGenerator(_regeneratorRuntime().mark(function t(e){return _regeneratorRuntime().wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.prev=0,t.next=3,_C9.CloneFile(e)
@@ -767,10 +767,10 @@ return e}(),_C9.IsFileAnImage=function(e){if(e.type)return-1!==e.type.search(/im
 var t=_C9.MimeType.GetForFileExtension(_C9.GetFileExtension(e.name)).GetString()
 return-1!==t.search(/image\/.*/)},_C9.IsFileAnSVG=function(e){return"image/svg+xml"===e.type},_C9.IsFileAMultiImageContainer=function(e){return e.type?_C9.MimeType.Get(e.type).IsAnimatedImage():_C9.MimeType.GetForFileExtension(_C9.GetFileExtension(e.name)).IsAnimatedImage()},_C9.GetFileExtension=function(e){var t=e.lastIndexOf(".")
 return 1>t?"":e.substr(t)},_C9.GetFileNamePart=function(e){var t=e.lastIndexOf(".")
-return 1>t?e:e.substr(0,t)},_C9.NormalizeFileSeparator=function(e){return e.replace(/\\/g,"./")},_C9.ParseFilePath=function(e){e=_C9.NormalizeFileSeparator(e)
+return 1>t?e:e.substr(0,t)},_C9.NormalizeFileSeparator=function(e){return e.replace(/\\/g,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")},_C9.ParseFilePath=function(e){e=_C9.NormalizeFileSeparator(e)
 var t=/^\w:\//.exec(e)
-t?(t=t[0],e=e.slice(3),"./"!==e[0]&&(e="./"+e)):t="",e=e.replace(/\/{2,}/g,"./"),e.length>1&&"./"===e.slice(-1)&&(e=e.slice(0,-1))
-var n,r=e.lastIndexOf("./")+1,a="",i=e,s=""
+t?(t=t[0],e=e.slice(3),"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"!==e[0]&&(e="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"+e)):t="",e=e.replace(/\/{2,}/g,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"),e.length>1&&"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"===e.slice(-1)&&(e=e.slice(0,-1))
+var n,r=e.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")+1,a="",i=e,s=""
 r>0&&(a=e.slice(0,r),i=e.slice(r)),n=i
 var o=i.lastIndexOf(".")
 o>0&&(s=i.slice(o),n=i.slice(0,-s.length))
@@ -2400,10 +2400,10 @@ break}if("classic"!==this._scriptsType){n.next=9
 break}importScripts.apply(void 0,_toConsumableArray(a)),n.next=19
 break
 case 9:if(1!==t.length){n.next=15
-break}return i=t[0],n.next=13,self.c3_import((_C56.IsRelativeURL(i)?"./":"")+i)
+break}return i=t[0],n.next=13,self.c3_import((_C56.IsRelativeURL(i)?"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/":"")+i)
 case 13:n.next=19
 break
-case 15:return s=t.map(function(e){return'import "'.concat(_C56.IsRelativeURL(e)?"./":"").concat(e,'";')}).join("\n"),o=URL.createObjectURL(new Blob([s],{type:"application/javascript"})),n.next=19,self.c3_import(o)
+case 15:return s=t.map(function(e){return'import "'.concat(_C56.IsRelativeURL(e)?"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/":"").concat(e,'";')}).join("\n"),o=URL.createObjectURL(new Blob([s],{type:"application/javascript"})),n.next=19,self.c3_import(o)
 case 19:n.next=23
 break
 case 21:return n.next=23,Promise.all(a.map(function(e){return AddScript(e,u._scriptsType)}))
@@ -7169,7 +7169,7 @@ case 187:return"="
 case 188:return","
 case 189:return"-"
 case 190:return"."
-case 191:return"./"
+case 191:return"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"
 case 192:return"'"
 case 219:return"["
 case 220:return"\\"

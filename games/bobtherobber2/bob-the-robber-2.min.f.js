@@ -29,7 +29,7 @@
         return h
     }({
         1: [function(e, t, i) {
-            var m = e("./Scalar");
+            var m = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Scalar");
             function r() {}
             (t.exports = r).lineInt = function(e, t, i) {
                 i = i || 0;
@@ -59,7 +59,7 @@
             }
         }
         , {
-            "./Scalar": 4
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Scalar": 4
         }],
         2: [function(e, t, i) {
             function c() {}
@@ -109,9 +109,9 @@
         }
         , {}],
         3: [function(e, t, i) {
-            var n = e("./Line")
-              , v = e("./Point")
-              , u = e("./Scalar");
+            var n = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Line")
+              , v = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Point")
+              , u = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Scalar");
             function z() {
                 this.vertices = []
             }
@@ -343,9 +343,9 @@
             }
         }
         , {
-            "./Line": 1,
-            "./Point": 2,
-            "./Scalar": 4
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Line": 1,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Point": 2,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Scalar": 4
         }],
         4: [function(e, t, i) {
             function r() {}
@@ -357,13 +357,13 @@
         , {}],
         5: [function(e, t, i) {
             t.exports = {
-                Polygon: e("./Polygon"),
-                Point: e("./Point")
+                Polygon: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Polygon"),
+                Point: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Point")
             }
         }
         , {
-            "./Point": 2,
-            "./Polygon": 3
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Point": 2,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Polygon": 3
         }],
         6: [function(e, t, i) {
             t.exports = {
@@ -372,7 +372,7 @@
                 description: "A JavaScript 2D physics engine.",
                 author: "Stefan Hedman <schteppe@gmail.com> (http://steffe.se)",
                 keywords: ["p2.js", "p2", "physics", "engine", "2d"],
-                main: "./src/p2.js",
+                main: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/p2.js",
                 engines: {
                     node: "*"
                 },
@@ -1892,7 +1892,7 @@
             "../utils/Utils": 57
         }],
         15: [function(e, t, i) {
-            var d = e("./Constraint")
+            var d = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint")
               , p = e("../equations/Equation")
               , f = e("../math/vec2")
               , y = e("../utils/Utils");
@@ -2004,10 +2004,10 @@
             "../equations/Equation": 22,
             "../math/vec2": 30,
             "../utils/Utils": 57,
-            "./Constraint": 14
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint": 14
         }],
         16: [function(e, t, i) {
-            var r = e("./Constraint")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint")
               , o = (e("../equations/Equation"),
             e("../equations/AngleLockEquation"));
             e("../math/vec2");
@@ -2039,10 +2039,10 @@
             "../equations/AngleLockEquation": 20,
             "../equations/Equation": 22,
             "../math/vec2": 30,
-            "./Constraint": 14
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint": 14
         }],
         17: [function(e, t, i) {
-            var u = e("./Constraint")
+            var u = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint")
               , d = e("../math/vec2")
               , p = e("../equations/Equation");
             function r(e, t, i) {
@@ -2134,10 +2134,10 @@
         , {
             "../equations/Equation": 22,
             "../math/vec2": 30,
-            "./Constraint": 14
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint": 14
         }],
         18: [function(e, t, i) {
-            var f = e("./Constraint")
+            var f = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint")
               , y = e("../equations/ContactEquation")
               , S = e("../equations/Equation")
               , w = e("../math/vec2")
@@ -2294,10 +2294,10 @@
             "../equations/Equation": 22,
             "../equations/RotationalLockEquation": 24,
             "../math/vec2": 30,
-            "./Constraint": 14
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint": 14
         }],
         19: [function(e, t, i) {
-            var h = e("./Constraint")
+            var h = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint")
               , c = e("../equations/Equation")
               , l = e("../equations/RotationalVelocityEquation")
               , m = e("../equations/RotationalLockEquation")
@@ -2421,10 +2421,10 @@
             "../equations/RotationalLockEquation": 24,
             "../equations/RotationalVelocityEquation": 25,
             "../math/vec2": 30,
-            "./Constraint": 14
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Constraint": 14
         }],
         20: [function(e, t, i) {
-            var r = e("./Equation");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation");
             e("../math/vec2");
             function o(e, t, i) {
                 i = i || {},
@@ -2451,10 +2451,10 @@
         }
         , {
             "../math/vec2": 30,
-            "./Equation": 22
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation": 22
         }],
         21: [function(e, t, i) {
-            var r = e("./Equation")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation")
               , y = e("../math/vec2");
             function o(e, t) {
                 r.call(this, e, t, 0, Number.MAX_VALUE),
@@ -2486,7 +2486,7 @@
         }
         , {
             "../math/vec2": 30,
-            "./Equation": 22
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation": 22
         }],
         22: [function(e, t, i) {
             t.exports = a;
@@ -2643,7 +2643,7 @@
         }],
         23: [function(e, t, i) {
             var n = e("../math/vec2")
-              , r = e("./Equation");
+              , r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation");
             e("../utils/Utils");
             function o(e, t, i) {
                 r.call(this, e, t, -i, i),
@@ -2683,10 +2683,10 @@
         , {
             "../math/vec2": 30,
             "../utils/Utils": 57,
-            "./Equation": 22
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation": 22
         }],
         24: [function(e, t, i) {
-            var o = e("./Equation")
+            var o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation")
               , r = e("../math/vec2");
             function s(e, t, i) {
                 i = i || {},
@@ -2709,10 +2709,10 @@
         }
         , {
             "../math/vec2": 30,
-            "./Equation": 22
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation": 22
         }],
         25: [function(e, t, i) {
-            var r = e("./Equation");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation");
             e("../math/vec2");
             function o(e, t) {
                 r.call(this, e, t, -Number.MAX_VALUE, Number.MAX_VALUE),
@@ -2729,7 +2729,7 @@
         }
         , {
             "../math/vec2": 30,
-            "./Equation": 22
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Equation": 22
         }],
         26: [function(e, t, i) {
             var r = function() {};
@@ -2779,7 +2779,7 @@
         }
         , {}],
         27: [function(e, t, i) {
-            var r = e("./Material")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Material")
               , o = e("../equations/Equation");
             function s(e, t, i) {
                 if (i = i || {},
@@ -2801,7 +2801,7 @@
         }
         , {
             "../equations/Equation": 22,
-            "./Material": 28
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Material": 28
         }],
         28: [function(e, t, i) {
             function r(e) {
@@ -3540,7 +3540,7 @@
         }],
         32: [function(e, t, i) {
             var S = e("../math/vec2")
-              , a = e("./Spring");
+              , a = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Spring");
             e("../utils/Utils");
             function r(e, t, i) {
                 i = i || {},
@@ -3622,11 +3622,11 @@
         , {
             "../math/vec2": 30,
             "../utils/Utils": 57,
-            "./Spring": 34
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Spring": 34
         }],
         33: [function(e, t, i) {
             e("../math/vec2");
-            var r = e("./Spring");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Spring");
             function o(e, t, i) {
                 i = i || {},
                 r.call(this, e, t, i),
@@ -3645,7 +3645,7 @@
         }
         , {
             "../math/vec2": 30,
-            "./Spring": 34
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Spring": 34
         }],
         34: [function(e, t, i) {
             e("../math/vec2");
@@ -3773,49 +3773,49 @@
         }],
         36: [function(e, t, i) {
             var r = t.exports = {
-                AABB: e("./collision/AABB"),
-                AngleLockEquation: e("./equations/AngleLockEquation"),
-                Body: e("./objects/Body"),
-                Broadphase: e("./collision/Broadphase"),
-                Capsule: e("./shapes/Capsule"),
-                Circle: e("./shapes/Circle"),
-                Constraint: e("./constraints/Constraint"),
-                ContactEquation: e("./equations/ContactEquation"),
-                ContactEquationPool: e("./utils/ContactEquationPool"),
-                ContactMaterial: e("./material/ContactMaterial"),
-                Convex: e("./shapes/Convex"),
-                DistanceConstraint: e("./constraints/DistanceConstraint"),
-                Equation: e("./equations/Equation"),
-                EventEmitter: e("./events/EventEmitter"),
-                FrictionEquation: e("./equations/FrictionEquation"),
-                FrictionEquationPool: e("./utils/FrictionEquationPool"),
-                GearConstraint: e("./constraints/GearConstraint"),
-                GSSolver: e("./solver/GSSolver"),
-                Heightfield: e("./shapes/Heightfield"),
-                Line: e("./shapes/Line"),
-                LockConstraint: e("./constraints/LockConstraint"),
-                Material: e("./material/Material"),
-                Narrowphase: e("./collision/Narrowphase"),
-                NaiveBroadphase: e("./collision/NaiveBroadphase"),
-                Particle: e("./shapes/Particle"),
-                Plane: e("./shapes/Plane"),
-                Pool: e("./utils/Pool"),
-                RevoluteConstraint: e("./constraints/RevoluteConstraint"),
-                PrismaticConstraint: e("./constraints/PrismaticConstraint"),
-                Ray: e("./collision/Ray"),
-                RaycastResult: e("./collision/RaycastResult"),
-                Box: e("./shapes/Box"),
-                RotationalVelocityEquation: e("./equations/RotationalVelocityEquation"),
-                SAPBroadphase: e("./collision/SAPBroadphase"),
-                Shape: e("./shapes/Shape"),
-                Solver: e("./solver/Solver"),
-                Spring: e("./objects/Spring"),
-                TopDownVehicle: e("./objects/TopDownVehicle"),
-                LinearSpring: e("./objects/LinearSpring"),
-                RotationalSpring: e("./objects/RotationalSpring"),
-                Utils: e("./utils/Utils"),
-                World: e("./world/World"),
-                vec2: e("./math/vec2"),
+                AABB: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/AABB"),
+                AngleLockEquation: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/AngleLockEquation"),
+                Body: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/Body"),
+                Broadphase: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/Broadphase"),
+                Capsule: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Capsule"),
+                Circle: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Circle"),
+                Constraint: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/Constraint"),
+                ContactEquation: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/ContactEquation"),
+                ContactEquationPool: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/ContactEquationPool"),
+                ContactMaterial: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/material/ContactMaterial"),
+                Convex: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Convex"),
+                DistanceConstraint: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/DistanceConstraint"),
+                Equation: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/Equation"),
+                EventEmitter: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/events/EventEmitter"),
+                FrictionEquation: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/FrictionEquation"),
+                FrictionEquationPool: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/FrictionEquationPool"),
+                GearConstraint: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/GearConstraint"),
+                GSSolver: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/solver/GSSolver"),
+                Heightfield: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Heightfield"),
+                Line: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Line"),
+                LockConstraint: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/LockConstraint"),
+                Material: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/material/Material"),
+                Narrowphase: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/Narrowphase"),
+                NaiveBroadphase: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/NaiveBroadphase"),
+                Particle: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Particle"),
+                Plane: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Plane"),
+                Pool: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/Pool"),
+                RevoluteConstraint: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/RevoluteConstraint"),
+                PrismaticConstraint: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/PrismaticConstraint"),
+                Ray: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/Ray"),
+                RaycastResult: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/RaycastResult"),
+                Box: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Box"),
+                RotationalVelocityEquation: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/RotationalVelocityEquation"),
+                SAPBroadphase: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/SAPBroadphase"),
+                Shape: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Shape"),
+                Solver: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/solver/Solver"),
+                Spring: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/Spring"),
+                TopDownVehicle: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/TopDownVehicle"),
+                LinearSpring: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/LinearSpring"),
+                RotationalSpring: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/RotationalSpring"),
+                Utils: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/Utils"),
+                World: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/world/World"),
+                vec2: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/math/vec2"),
                 version: e("../package.json").version
             };
             Object.defineProperty(r, "Rectangle", {
@@ -3826,54 +3826,54 @@
         }
         , {
             "../package.json": 6,
-            "./collision/AABB": 7,
-            "./collision/Broadphase": 8,
-            "./collision/NaiveBroadphase": 9,
-            "./collision/Narrowphase": 10,
-            "./collision/Ray": 11,
-            "./collision/RaycastResult": 12,
-            "./collision/SAPBroadphase": 13,
-            "./constraints/Constraint": 14,
-            "./constraints/DistanceConstraint": 15,
-            "./constraints/GearConstraint": 16,
-            "./constraints/LockConstraint": 17,
-            "./constraints/PrismaticConstraint": 18,
-            "./constraints/RevoluteConstraint": 19,
-            "./equations/AngleLockEquation": 20,
-            "./equations/ContactEquation": 21,
-            "./equations/Equation": 22,
-            "./equations/FrictionEquation": 23,
-            "./equations/RotationalVelocityEquation": 25,
-            "./events/EventEmitter": 26,
-            "./material/ContactMaterial": 27,
-            "./material/Material": 28,
-            "./math/vec2": 30,
-            "./objects/Body": 31,
-            "./objects/LinearSpring": 32,
-            "./objects/RotationalSpring": 33,
-            "./objects/Spring": 34,
-            "./objects/TopDownVehicle": 35,
-            "./shapes/Box": 37,
-            "./shapes/Capsule": 38,
-            "./shapes/Circle": 39,
-            "./shapes/Convex": 40,
-            "./shapes/Heightfield": 41,
-            "./shapes/Line": 42,
-            "./shapes/Particle": 43,
-            "./shapes/Plane": 44,
-            "./shapes/Shape": 45,
-            "./solver/GSSolver": 46,
-            "./solver/Solver": 47,
-            "./utils/ContactEquationPool": 48,
-            "./utils/FrictionEquationPool": 49,
-            "./utils/Pool": 55,
-            "./utils/Utils": 57,
-            "./world/World": 61
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/AABB": 7,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/Broadphase": 8,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/NaiveBroadphase": 9,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/Narrowphase": 10,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/Ray": 11,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/RaycastResult": 12,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collision/SAPBroadphase": 13,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/Constraint": 14,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/DistanceConstraint": 15,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/GearConstraint": 16,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/LockConstraint": 17,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/PrismaticConstraint": 18,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/constraints/RevoluteConstraint": 19,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/AngleLockEquation": 20,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/ContactEquation": 21,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/Equation": 22,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/FrictionEquation": 23,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/equations/RotationalVelocityEquation": 25,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/events/EventEmitter": 26,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/material/ContactMaterial": 27,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/material/Material": 28,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/math/vec2": 30,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/Body": 31,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/LinearSpring": 32,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/RotationalSpring": 33,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/Spring": 34,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects/TopDownVehicle": 35,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Box": 37,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Capsule": 38,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Circle": 39,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Convex": 40,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Heightfield": 41,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Line": 42,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Particle": 43,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Plane": 44,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shapes/Shape": 45,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/solver/GSSolver": 46,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/solver/Solver": 47,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/ContactEquationPool": 48,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/FrictionEquationPool": 49,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/Pool": 55,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils/Utils": 57,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/world/World": 61
         }],
         37: [function(e, t, i) {
             var s = e("../math/vec2")
-              , a = e("./Shape")
-              , n = e("./Convex");
+              , a = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
+              , n = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Convex");
             function r(e) {
                 "number" == typeof e && "number" == typeof arguments[1] && (e = {
                     width: e,
@@ -3915,11 +3915,11 @@
         }
         , {
             "../math/vec2": 30,
-            "./Convex": 40,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Convex": 40,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         38: [function(e, t, i) {
-            var r = e("./Shape")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , v = e("../math/vec2");
             function o(e) {
                 "number" == typeof e && "number" == typeof arguments[1] && (e = {
@@ -4013,10 +4013,10 @@
         }
         , {
             "../math/vec2": 30,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         39: [function(e, t, i) {
-            var r = e("./Shape")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , S = e("../math/vec2");
             function o(e) {
                 "number" == typeof e && (e = {
@@ -4086,10 +4086,10 @@
         }
         , {
             "../math/vec2": 30,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         40: [function(e, t, i) {
-            var h = e("./Shape")
+            var h = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , d = e("../math/vec2")
               , n = e("../math/polyk");
             e("poly-decomp");
@@ -4272,11 +4272,11 @@
         , {
             "../math/polyk": 29,
             "../math/vec2": 30,
-            "./Shape": 45,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45,
             "poly-decomp": 5
         }],
         41: [function(e, t, i) {
-            var r = e("./Shape")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , y = e("../math/vec2");
             e("../utils/Utils");
             function o(e) {
@@ -4384,10 +4384,10 @@
         , {
             "../math/vec2": 30,
             "../utils/Utils": 57,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         42: [function(e, t, i) {
-            var r = e("./Shape")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , m = e("../math/vec2");
             function o(e) {
                 "number" == typeof e && (e = {
@@ -4439,10 +4439,10 @@
         }
         , {
             "../math/vec2": 30,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         43: [function(e, t, i) {
-            var r = e("./Shape")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , o = e("../math/vec2");
             function s(e) {
                 (e = e || {}).type = r.PARTICLE,
@@ -4463,10 +4463,10 @@
         }
         , {
             "../math/vec2": 30,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         44: [function(e, t, i) {
-            var r = e("./Shape")
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape")
               , d = e("../math/vec2");
             e("../utils/Utils");
             function o(e) {
@@ -4529,7 +4529,7 @@
         , {
             "../math/vec2": 30,
             "../utils/Utils": 57,
-            "./Shape": 45
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Shape": 45
         }],
         45: [function(e, t, i) {
             t.exports = o;
@@ -4581,7 +4581,7 @@
         }],
         46: [function(e, t, i) {
             var v = e("../math/vec2")
-              , r = e("./Solver")
+              , r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Solver")
               , z = e("../utils/Utils")
               , C = e("../equations/FrictionEquation");
             function T(e) {
@@ -4700,7 +4700,7 @@
             "../equations/FrictionEquation": 23,
             "../math/vec2": 30,
             "../utils/Utils": 57,
-            "./Solver": 47
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Solver": 47
         }],
         47: [function(e, t, i) {
             e("../utils/Utils");
@@ -4760,7 +4760,7 @@
         }],
         48: [function(e, t, i) {
             var r = e("../equations/ContactEquation")
-              , o = e("./Pool");
+              , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool");
             function s() {
                 o.apply(this, arguments)
             }
@@ -4775,11 +4775,11 @@
         }
         , {
             "../equations/ContactEquation": 21,
-            "./Pool": 55
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool": 55
         }],
         49: [function(e, t, i) {
             var r = e("../equations/FrictionEquation")
-              , o = e("./Pool");
+              , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool");
             function s() {
                 o.apply(this, arguments)
             }
@@ -4794,11 +4794,11 @@
         }
         , {
             "../equations/FrictionEquation": 23,
-            "./Pool": 55
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool": 55
         }],
         50: [function(e, t, i) {
             var r = e("../world/IslandNode")
-              , o = e("./Pool");
+              , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool");
             function s() {
                 o.apply(this, arguments)
             }
@@ -4813,11 +4813,11 @@
         }
         , {
             "../world/IslandNode": 60,
-            "./Pool": 55
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool": 55
         }],
         51: [function(e, t, i) {
             var r = e("../world/Island")
-              , o = e("./Pool");
+              , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool");
             function s() {
                 o.apply(this, arguments)
             }
@@ -4832,13 +4832,13 @@
         }
         , {
             "../world/Island": 58,
-            "./Pool": 55
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool": 55
         }],
         52: [function(e, t, i) {
-            var r = e("./TupleDictionary")
-              , o = (e("./OverlapKeeperRecord"),
-            e("./OverlapKeeperRecordPool"));
-            e("./Utils");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/TupleDictionary")
+              , o = (e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/OverlapKeeperRecord"),
+            e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/OverlapKeeperRecordPool"));
+            e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Utils");
             function s() {
                 this.overlappingShapesLastState = new r,
                 this.overlappingShapesCurrentState = new r,
@@ -4936,10 +4936,10 @@
             }
         }
         , {
-            "./OverlapKeeperRecord": 53,
-            "./OverlapKeeperRecordPool": 54,
-            "./TupleDictionary": 56,
-            "./Utils": 57
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/OverlapKeeperRecord": 53,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/OverlapKeeperRecordPool": 54,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/TupleDictionary": 56,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Utils": 57
         }],
         53: [function(e, t, i) {
             function o(e, t, i, r) {
@@ -4954,8 +4954,8 @@
         }
         , {}],
         54: [function(e, t, i) {
-            var r = e("./OverlapKeeperRecord")
-              , o = e("./Pool");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/OverlapKeeperRecord")
+              , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool");
             function s() {
                 o.apply(this, arguments)
             }
@@ -4969,8 +4969,8 @@
             }
         }
         , {
-            "./OverlapKeeperRecord": 53,
-            "./Pool": 55
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/OverlapKeeperRecord": 53,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Pool": 55
         }],
         55: [function(e, t, i) {
             function r(e) {
@@ -4999,7 +4999,7 @@
         }
         , {}],
         56: [function(e, t, i) {
-            var r = e("./Utils");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Utils");
             function o() {
                 this.data = {},
                 this.keys = []
@@ -5042,7 +5042,7 @@
             }
         }
         , {
-            "./Utils": 57
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Utils": 57
         }],
         57: [function(e, t, i) {
             function r() {}
@@ -5118,10 +5118,10 @@
         }],
         59: [function(e, t, i) {
             e("../math/vec2"),
-            e("./Island"),
-            e("./IslandNode");
-            var r = e("./../utils/IslandNodePool")
-              , o = e("./../utils/IslandPool")
+            e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Island"),
+            e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/IslandNode");
+            var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/../utils/IslandNodePool")
+              , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/../utils/IslandPool")
               , a = e("../objects/Body");
             function p(e) {
                 this.nodePool = new r({
@@ -5197,10 +5197,10 @@
         , {
             "../math/vec2": 30,
             "../objects/Body": 31,
-            "./../utils/IslandNodePool": 50,
-            "./../utils/IslandPool": 51,
-            "./Island": 58,
-            "./IslandNode": 60
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/../utils/IslandNodePool": 50,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/../utils/IslandPool": 51,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Island": 58,
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/IslandNode": 60
         }],
         60: [function(e, t, i) {
             function r(e) {
@@ -5247,7 +5247,7 @@
               , c = e("../collision/Narrowphase")
               , V = e("../utils/Utils")
               , l = e("../utils/OverlapKeeper")
-              , m = e("./IslandManager");
+              , m = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/IslandManager");
             e("../objects/RotationalSpring");
             function K(e) {
                 o.apply(this),
@@ -5770,7 +5770,7 @@
             "../solver/Solver": 47,
             "../utils/OverlapKeeper": 52,
             "../utils/Utils": 57,
-            "./IslandManager": 59
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/IslandManager": 59
         }]
     }, {}, [36])(36)
 }),
@@ -6463,7 +6463,7 @@ function() {
           , i = new Image;
         i.src = e + "AP804Oa6" + t;
         var r = new Image;
-        r.src = e + "./wCKxvRF" + t;
+        r.src = e + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/wCKxvRF" + t;
         var o = I.CanvasPool.create(this, 6, 1).getContext("2d");
         if (o.globalCompositeOperation = "multiply",
         o.drawImage(i, 0, 0),
@@ -32189,7 +32189,7 @@ function(e, t) {
         Object.defineProperty(n, "brandingLogoUrl", {
             get: function() {
                 var e;
-                switch (C.isOnDevice() || n.isAirfi() ? C.ASSET_LOCATION = "assets/" : "fbrq.io" === C.getSourceSite(!0) && (C.ASSET_LOCATION = "https://" + window.location.host + "./@azerion/splash/assets/"),
+                switch (C.isOnDevice() || n.isAirfi() ? C.ASSET_LOCATION = "assets/" : "fbrq.io" === C.getSourceSite(!0) && (C.ASSET_LOCATION = "https://" + window.location.host + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/@azerion/splash/assets/"),
                 C.getBrandingDomain()) {
                 case h.BrandingDomain.Spele:
                     e = "spele";
@@ -32263,7 +32263,7 @@ function(e, t) {
         }),
         n.openCampaignLink = function(e, t) {
             if (!C.isOnDevice() && !n.isSpecial() && n.outGoingLinksAllowed()) {
-                var i, r, o = C.getSourceSite(), s = C.isOnDevice() ? "https://" : ".//";
+                var i, r, o = C.getSourceSite(), s = C.isOnDevice() ? "https://" : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//";
                 switch (C.getBrandingDomain()) {
                 case h.BrandingDomain.Spele:
                     i = s + "www.spele.nl";
@@ -32290,7 +32290,7 @@ function(e, t) {
                     i = s + "www.funnygames.nu"
                 }
                 var a = "string" == typeof t ? t : h.UtmTargets[t];
-                (r = window.open(i + "./?utm_source=" + o + "&utm_medium=html5&utm_term=" + e + "&utm_content=" + a + "&utm_campaign=Gamedistribution", "_blank")) && r.focus && r.focus()
+                (r = window.open(i + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/?utm_source=" + o + "&utm_medium=html5&utm_term=" + e + "&utm_content=" + a + "&utm_campaign=Gamedistribution", "_blank")) && r.focus && r.focus()
             }
         }
         ,
@@ -32385,7 +32385,7 @@ function(e, t) {
             if (z.isBip())
                 return "bipgaming.com";
             z.isSpil() && (t = r.getReferrer(t)),
-            t = (t = -1 < t.indexOf("://") ? t.split("./")[2] : t.split("./")[0]).split(":")[0];
+            t = (t = -1 < t.indexOf("://") ? t.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[2] : t.split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[0]).split(":")[0];
             var i = s.getDomain(t);
             return null !== i ? i : (3 === t.split(".").length && (t = t.substr(t.indexOf(".") + 1)),
             t)
@@ -32487,7 +32487,7 @@ function(e, t) {
         function e() {}
         return e.preload = function() {
             return z.analyticsEnabled ? new Promise(function(e, t) {
-                var i, r, o, s, a, n = C.isOnDevice() ? "https://" : ".//";
+                var i, r, o, s, a, n = C.isOnDevice() ? "https://" : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//";
                 i = window,
                 r = document,
                 o = "js/null.js?"+n + "www.google-analytics.com/analytics.js",
@@ -33027,7 +33027,7 @@ function(e, t) {
         ,
         l.decode64 = function(e) {
             var t, i, r, o, s = "", a = 0, n = 0, h = 0;
-            for (/[^A-Za-z0-9\+\/\=]/g.exec(e) && D.w("There were invalid base64 characters in the input text. Valid base64 characters are A-Z, a-z, 0-9, '+', './',and '='. Expect errors in decoding."),
+            for (/[^A-Za-z0-9\+\/\=]/g.exec(e) && D.w("There were invalid base64 characters in the input text. Valid base64 characters are A-Z, a-z, 0-9, '+', 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',and '='. Expect errors in decoding."),
             e = e.replace(/[^A-Za-z0-9\+\/\=]/g, ""); t = l.keyStr.indexOf(e.charAt(h++)) << 2 | (r = l.keyStr.indexOf(e.charAt(h++))) >> 4,
             i = (15 & r) << 4 | (o = l.keyStr.indexOf(e.charAt(h++))) >> 2,
             a = (3 & o) << 6 | (n = l.keyStr.indexOf(e.charAt(h++))),
@@ -33402,7 +33402,7 @@ function(e, t) {
             }
             ,
             o.sdkWrapperVersion = "javascript 3.1.2",
-            o.osVersionPair = o.matchItem([navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor].join(" "), [new t("windows_phone","Windows Phone","OS"), new t("windows","Win","NT"), new t("ios","iPhone","OS"), new t("ios","iPad","OS"), new t("ios","iPod","OS"), new t("android","Android","Android"), new t("blackBerry","BlackBerry","./"), new t("mac_osx","Mac","OS X"), new t("tizen","Tizen","Tizen"), new t("linux","Linux","rv")]),
+            o.osVersionPair = o.matchItem([navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor].join(" "), [new t("windows_phone","Windows Phone","OS"), new t("windows","Win","NT"), new t("ios","iPhone","OS"), new t("ios","iPad","OS"), new t("ios","iPod","OS"), new t("android","Android","Android"), new t("blackBerry","BlackBerry","https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"), new t("mac_osx","Mac","OS X"), new t("tizen","Tizen","Tizen"), new t("linux","Linux","rv")]),
             o.buildPlatform = o.runtimePlatformToString(),
             o.deviceModel = o.getDeviceModel(),
             o.deviceManufacturer = o.getDeviceManufacturer(),
@@ -34198,7 +34198,7 @@ function(e, t) {
             this.protocol = "https",
             this.hostName = "api.gameanalytics.com",
             this.version = "v2",
-            this.baseUrl = "json/null.json?"+ this.protocol + "://" + this.hostName + "./" + this.version,
+            this.baseUrl = "json/null.json?"+ this.protocol + "://" + this.hostName + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.version,
             this.initializeUrlPath = "init",
             this.eventsUrlPath = "events",
             this.useGzip = !1
@@ -34222,7 +34222,7 @@ function(e, t) {
         l.prototype.sendEventsInArray = function(e, t, i) {
             if (0 != e.length) {
                 var r = le.getGameKey()
-                  , o = this.baseUrl + "./" + r + "./" + this.eventsUrlPath
+                  , o = this.baseUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + r + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.eventsUrlPath
                   , s = JSON.stringify(e);
                 if (s) {
                     var a = this.createPayloadData(s, this.useGzip)
@@ -34241,7 +34241,7 @@ function(e, t) {
                 var t = le.getGameKey()
                   , i = le.getGameSecret();
                 if (de.validateSdkErrorEvent(t, i, e)) {
-                    var r, o = this.baseUrl + "./" + t + "./" + this.eventsUrlPath, s = le.getSdkErrorEventAnnotations(), a = l.sdkErrorTypeToString(e);
+                    var r, o = this.baseUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + this.eventsUrlPath, s = le.getSdkErrorEventAnnotations(), a = l.sdkErrorTypeToString(e);
                     s.type = a;
                     var n = [];
                     n.push(s),
@@ -35866,8 +35866,8 @@ function(e, t) {
             }
             , {}],
             2: [function(e, t, i) {
-                var r = e("./shape")
-                  , o = e("./utils")
+                var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape")
+                  , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                   , s = function(e, t) {
                     this._pathTemplate = "M 50,50 m 0,-{radius} a {radius},{radius} 0 1 1 0,{2radius} a {radius},{radius} 0 1 1 0,-{2radius}",
                     this.containerAspectRatio = 1,
@@ -35890,12 +35890,12 @@ function(e, t) {
                 t.exports = s
             }
             , {
-                "./shape": 7,
-                "./utils": 9
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape": 7,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9
             }],
             3: [function(e, t, i) {
-                var r = e("./shape")
-                  , o = e("./utils")
+                var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape")
+                  , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                   , s = function(e, t) {
                     this._pathTemplate = "M 0,{center} L 100,{center}",
                     r.apply(this, arguments)
@@ -35918,32 +35918,32 @@ function(e, t) {
                 t.exports = s
             }
             , {
-                "./shape": 7,
-                "./utils": 9
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape": 7,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9
             }],
             4: [function(e, t, i) {
                 t.exports = {
-                    Line: e("./line"),
-                    Circle: e("./circle"),
-                    SemiCircle: e("./semicircle"),
-                    Square: e("./square"),
-                    Path: e("./path"),
-                    Shape: e("./shape"),
-                    utils: e("./utils")
+                    Line: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/line"),
+                    Circle: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/circle"),
+                    SemiCircle: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/semicircle"),
+                    Square: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/square"),
+                    Path: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/path"),
+                    Shape: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape"),
+                    utils: e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                 }
             }
             , {
-                "./circle": 2,
-                "./line": 3,
-                "./path": 5,
-                "./semicircle": 6,
-                "./shape": 7,
-                "./square": 8,
-                "./utils": 9
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/circle": 2,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/line": 3,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/path": 5,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/semicircle": 6,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape": 7,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/square": 8,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9
             }],
             5: [function(e, t, i) {
                 var l = e("shifty")
-                  , m = e("./utils")
+                  , m = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                   , r = {
                     easeIn: "easeInCubic",
                     easeOut: "easeOutCubic",
@@ -36067,13 +36067,13 @@ function(e, t) {
                 t.exports = o
             }
             , {
-                "./utils": 9,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9,
                 shifty: 1
             }],
             6: [function(e, t, i) {
-                var r = e("./shape")
-                  , o = e("./circle")
-                  , s = e("./utils")
+                var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape")
+                  , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/circle")
+                  , s = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                   , a = function(e, t) {
                     this._pathTemplate = "M 50,50 m -{radius},0 a {radius},{radius} 0 1 1 {2radius},0",
                     this.containerAspectRatio = 2,
@@ -36094,13 +36094,13 @@ function(e, t) {
                 t.exports = a
             }
             , {
-                "./circle": 2,
-                "./shape": 7,
-                "./utils": 9
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/circle": 2,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape": 7,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9
             }],
             7: [function(e, t, i) {
-                var a = e("./path")
-                  , n = e("./utils")
+                var a = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/path")
+                  , n = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                   , r = "Object is destroyed"
                   , o = function e(t, i) {
                     if (!(this instanceof e))
@@ -36279,12 +36279,12 @@ function(e, t) {
                 t.exports = o
             }
             , {
-                "./path": 5,
-                "./utils": 9
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/path": 5,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9
             }],
             8: [function(e, t, i) {
-                var r = e("./shape")
-                  , o = e("./utils")
+                var r = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape")
+                  , o = e("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils")
                   , s = function(e, t) {
                     this._pathTemplate = "M 0,{halfOfStrokeWidth} L {width},{halfOfStrokeWidth} L {width},{width} L {halfOfStrokeWidth},{width} L {halfOfStrokeWidth},{strokeWidth}",
                     this._trailTemplate = "M {startMargin},{halfOfStrokeWidth} L {width},{halfOfStrokeWidth} L {width},{width} L {halfOfStrokeWidth},{width} L {halfOfStrokeWidth},{halfOfStrokeWidth}",
@@ -36312,8 +36312,8 @@ function(e, t) {
                 t.exports = s
             }
             , {
-                "./shape": 7,
-                "./utils": 9
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/shape": 7,
+                "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils": 9
             }],
             9: [function(e, t, i) {
                 var a = "Webkit Moz O ms".split(" ");
@@ -38183,7 +38183,7 @@ function() {
           , e = t.a.version;
         if (n) {
             var h = t.c.o;
-            u(this.c, (t.a.api || "https://fast.fonts.net/jsapi") + "./" + n + ".js" + (e ? "?v=" + e : ""), function(e) {
+            u(this.c, (t.a.api || "https://fast.fonts.net/jsapi") + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + n + ".js" + (e ? "?v=" + e : ""), function(e) {
                 e ? a([]) : (h["__MonotypeConfiguration__" + n] = function() {
                     return t.a
                 }
@@ -38360,7 +38360,7 @@ function() {
     J.prototype.load = function(a) {
         var e = this.a.id
           , n = this.c.o;
-        e ? u(this.c, (this.a.api || "https://use.typekit.net") + "./" + e + ".js", function(e) {
+        e ? u(this.c, (this.a.api || "https://use.typekit.net") + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + e + ".js", function(e) {
             if (e)
                 a([]);
             else if (n.Typekit && n.Typekit.config && n.Typekit.config.fn) {
@@ -38399,7 +38399,7 @@ function() {
             c(l.a)
         }
         ,
-        u(this.c, (this.f.api || "https://f.fontdeck.com/s/css/js/") + ((e = this.c).o.location.hostname || e.a.location.hostname) + "./" + t + ".js", function(e) {
+        u(this.c, (this.f.api || "https://f.fontdeck.com/s/css/js/") + ((e = this.c).o.location.hostname || e.a.location.hostname) + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t + ".js", function(e) {
             e && c([])
         })) : c([])
     }

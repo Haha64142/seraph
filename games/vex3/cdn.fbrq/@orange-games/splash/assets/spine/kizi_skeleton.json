@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "7V0mu5W1Pvp5nTgsfWKfD+zyIMg", "spine": "3.6.50", "width": 360.11, "height": 549.98, "images": "./ASSETS/" },
+"skeleton": { "hash": "7V0mu5W1Pvp5nTgsfWKfD+zyIMg", "spine": "3.6.50", "width": 360.11, "height": 549.98, "images": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/ASSETS/" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "kizi_body", "parent": "root", "length": 189.43, "rotation": 90.22, "x": 3.13, "y": 2.18 },

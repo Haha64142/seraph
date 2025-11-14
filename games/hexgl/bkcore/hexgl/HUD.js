@@ -65,7 +65,7 @@ bkcore.hexgl.HUD = function(opts)
 
 	this.lapMarginRatio = 14;
 	this.lap = "";
-	this.lapSeparator = "./";
+	this.lapSeparator = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
 
 	this.timeSeparators = ["","'", "''",""];
 

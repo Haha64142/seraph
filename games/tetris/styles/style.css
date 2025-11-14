@@ -1,9 +1,9 @@
-@import './reset.css';
-@import './sidepanel.css';
-@import './playground.css';
-@import './tetromino.css';
-@import './menu.css';
-@import './touch.css';
+@import 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/reset.css';
+@import 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/sidepanel.css';
+@import 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/playground.css';
+@import 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/tetromino.css';
+@import 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/menu.css';
+@import 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/touch.css';
 
 html {
 	--columns: 10;

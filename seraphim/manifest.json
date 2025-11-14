@@ -1,7 +1,7 @@
 {
     "name": "seraphim",
     "short_name": "seraphim",
-    "start_url": "./",
+    "start_url": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#000000",

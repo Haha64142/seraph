@@ -1,26 +1,26 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-vol-slider"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/vol-slider/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/vol-slider/userstyle.css":
 /*!******************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/vol-slider/userstyle.css ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".sa-vol-slider {\n  /* Same lateral padding as .clone-container-container */\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n  display: flex;\n  align-items: center;\n}\n\n.sa-vol-slider-icon {\n  width: 20px;\n  height: 20px;\n  background-repeat: no-repeat;\n}\n.sa-vol-slider-icon[data-icon=\"mute\"] {\n  background-image: url(" + escape(__webpack_require__(/*! ./mute.svg */ "./src/addons/addons/vol-slider/mute.svg")) + ");\n}\n.sa-vol-slider-icon[data-icon=\"quiet\"] {\n  background-image: url(" + escape(__webpack_require__(/*! ./quiet.svg */ "./src/addons/addons/vol-slider/quiet.svg")) + ");\n}\n.sa-vol-slider-icon[data-icon=\"loud\"] {\n  background-image: url(" + escape(__webpack_require__(/*! ./loud.svg */ "./src/addons/addons/vol-slider/loud.svg")) + ");\n}\n\n.sa-vol-slider-small .sa-vol-slider-input,\n.sa-vol-slider-small .sa-vol-slider-icon:not([data-icon=\"mute\"]) {\n  display: none;\n}\n\n.sa-vol-slider-input {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 50px;\n  height: 6px;\n  border-radius: 3px;\n  background-color: #de91de;\n  margin-left: 3px;\n}\n\n.sa-vol-slider-input::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background-color: #cf63cf;\n}\n\n.sa-vol-slider-input::-moz-range-thumb {\n  width: 12px;\n  height: 12px;\n  border: none;\n  border-radius: 50%;\n  background-color: #cf63cf;\n}\n\n/* TW: Hide mute-project icon. Upstream this is a conditional stylesheet in mute-project but those don't work well for us. */\n.sa-mute-project-icon {\n  display: none !important;\n}\n", ""]);
+exports.push([module.i, ".sa-vol-slider {\n  /* Same lateral padding as .clone-container-container */\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n  display: flex;\n  align-items: center;\n}\n\n.sa-vol-slider-icon {\n  width: 20px;\n  height: 20px;\n  background-repeat: no-repeat;\n}\n.sa-vol-slider-icon[data-icon=\"mute\"] {\n  background-image: url(" + escape(__webpack_require__(/*! ./mute.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/mute.svg")) + ");\n}\n.sa-vol-slider-icon[data-icon=\"quiet\"] {\n  background-image: url(" + escape(__webpack_require__(/*! ./quiet.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/quiet.svg")) + ");\n}\n.sa-vol-slider-icon[data-icon=\"loud\"] {\n  background-image: url(" + escape(__webpack_require__(/*! ./loud.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/loud.svg")) + ");\n}\n\n.sa-vol-slider-small .sa-vol-slider-input,\n.sa-vol-slider-small .sa-vol-slider-icon:not([data-icon=\"mute\"]) {\n  display: none;\n}\n\n.sa-vol-slider-input {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 50px;\n  height: 6px;\n  border-radius: 3px;\n  background-color: #de91de;\n  margin-left: 3px;\n}\n\n.sa-vol-slider-input::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background-color: #cf63cf;\n}\n\n.sa-vol-slider-input::-moz-range-thumb {\n  width: 12px;\n  height: 12px;\n  border: none;\n  border-radius: 50%;\n  background-color: #cf63cf;\n}\n\n/* TW: Hide mute-project icon. Upstream this is a conditional stylesheet in mute-project but those don't work well for us. */\n.sa-mute-project-icon {\n  display: none !important;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/loud.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/loud.svg":
 /*!*************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/loud.svg ***!
   \*************************************************************************************/
@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/mute.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/mute.svg":
 /*!*************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/mute.svg ***!
   \*************************************************************************************/
@@ -46,7 +46,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/quiet.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/quiet.svg":
 /*!**************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/quiet.svg ***!
   \**************************************************************************************/
@@ -59,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/vol-slider/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/_runtime_entry.js":
 /*!********************************************************!*\
   !*** ./src/addons/addons/vol-slider/_runtime_entry.js ***!
   \********************************************************/
@@ -69,12 +69,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/vol-slider/userscript.js");
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/vol-slider/userstyle.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/userscript.js");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/vol-slider/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_loud_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./loud.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/loud.svg");
-/* harmony import */ var _url_loader_mute_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./mute.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/mute.svg");
-/* harmony import */ var _url_loader_quiet_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./quiet.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/quiet.svg");
+/* harmony import */ var _url_loader_loud_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./loud.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/loud.svg");
+/* harmony import */ var _url_loader_mute_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./mute.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/mute.svg");
+/* harmony import */ var _url_loader_quiet_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./quiet.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/vol-slider/quiet.svg");
 /* generated by pull.js */
 
 
@@ -91,7 +91,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/vol-slider/loud.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/loud.svg":
 /*!***********************************************!*\
   !*** ./src/addons/addons/vol-slider/loud.svg ***!
   \***********************************************/
@@ -102,7 +102,7 @@ module.exports = __webpack_require__.p + "static/assets/b2c44c738c9cbc1a99cd6edf
 
 /***/ }),
 
-/***/ "./src/addons/addons/vol-slider/mute.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/mute.svg":
 /*!***********************************************!*\
   !*** ./src/addons/addons/vol-slider/mute.svg ***!
   \***********************************************/
@@ -113,7 +113,7 @@ module.exports = __webpack_require__.p + "static/assets/e21225ab4b675bc61eed30cf
 
 /***/ }),
 
-/***/ "./src/addons/addons/vol-slider/quiet.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/quiet.svg":
 /*!************************************************!*\
   !*** ./src/addons/addons/vol-slider/quiet.svg ***!
   \************************************************/
@@ -124,7 +124,7 @@ module.exports = __webpack_require__.p + "static/assets/3547fa1f2678a483a19f4685
 
 /***/ }),
 
-/***/ "./src/addons/addons/vol-slider/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/userscript.js":
 /*!****************************************************!*\
   !*** ./src/addons/addons/vol-slider/userscript.js ***!
   \****************************************************/
@@ -133,7 +133,7 @@ module.exports = __webpack_require__.p + "static/assets/3547fa1f2678a483a19f4685
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "./src/addons/addons/vol-slider/module.js");
+/* harmony import */ var _module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/module.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,

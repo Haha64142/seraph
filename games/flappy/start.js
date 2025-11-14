@@ -39,7 +39,7 @@
         }
 
         // css media query for aspect ratio changes
-        var css  = "@media screen and (min-aspect-ratio: " + width + "./" + height + ") {";
+        var css  = "@media screen and (min-aspect-ratio: " + width + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + height + ") {";
         css += "    #application-canvas.fill-mode-KEEP_ASPECT {";
         css += "        width: auto;";
         css += "        height: 100%;";

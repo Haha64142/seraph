@@ -40113,9 +40113,9 @@ class LoaderUtils {
 
 	static extractUrlBase( url ) {
 
-		const index = url.lastIndexOf( './' );
+		const index = url.lastIndexOf( 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' );
 
-		if ( index === - 1 ) return './';
+		if ( index === - 1 ) return 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
 
 		return url.substr( 0, index + 1 );
 
@@ -43346,7 +43346,7 @@ const _reservedRe = new RegExp( '[' + _RESERVED_CHARS_RE + ']', 'g' );
 const _wordChar = '[^' + _RESERVED_CHARS_RE + ']';
 const _wordCharOrDot = '[^' + _RESERVED_CHARS_RE.replace( '\\.', '' ) + ']';
 
-// Parent directories, delimited by './' or ':'. Currently unused, but must
+// Parent directories, delimited by 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' or ':'. Currently unused, but must
 // be matched to parse the rest of the track name.
 const _directoryRe = /((?:WC+[\/:])*)/.source.replace( 'WC', _wordChar );
 

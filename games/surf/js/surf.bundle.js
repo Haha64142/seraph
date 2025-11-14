@@ -5397,7 +5397,7 @@
                     }
                     loadNewTheme(e) {
                         const t = pe.allThemes[e];
-                        this.objectsTemp = new Image, this.objectsTemp.src = t.folder + "./objects.png", this.playerTemp = new Image, this.playerTemp.src = t.folder + "./player.png", this.bgTemp = new Image, this.bgTemp.src = t.folder + "./bg.png"
+                        this.objectsTemp = new Image, this.objectsTemp.src = t.folder + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/objects.png", this.playerTemp = new Image, this.playerTemp.src = t.folder + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/player.png", this.bgTemp = new Image, this.bgTemp.src = t.folder + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/bg.png"
                     }
                     setNewTheme(e) {
                         const t = pe.allThemes[e];

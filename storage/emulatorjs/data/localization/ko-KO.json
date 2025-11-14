@@ -274,7 +274,7 @@
     ".": ".",
     "<": "<",
     ">": ">",
-    "./": "./",
+    "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/": "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/",
     "?": "?",
     "LEFT_STICK_X": "왼쪽_스틱_X",
     "LEFT_STICK_Y": "왼쪽_스틱_Y",

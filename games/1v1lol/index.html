@@ -61,9 +61,9 @@
         s.async = true;
         s.onerror = failCpmstarAPI;
         var proto = document.location.protocol;
-        var host = proto == "https:" || proto == "file:" ? "https://server" : ".//cdn";
-        if (window.location.hash == "#cpmstarDev") host = ".//dev.server";
-        if (window.location.hash == "#cpmstarStaging") host = ".//staging.server";
+        var host = proto == "https:" || proto == "file:" ? "https://server" : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//cdn";
+        if (window.location.hash == "#cpmstarDev") host = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//dev.server";
+        if (window.location.hash == "#cpmstarStaging") host = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//staging.server";
         s.src = host + ".cpmstar.com/cached/zonefiles/" + zonefile + ".js?rnd=" + rnd;
         var s2 = document.getElementsByTagName("script")[0];
         s2.parentNode.insertBefore(s, s2);
@@ -345,6 +345,6 @@
 
       fixMacUserAgent();
     </script>
-    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/js/main.js"></script>
   </body>
 </html>

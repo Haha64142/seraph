@@ -1,13 +1,13 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addons"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/pause/style.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/pause/style.css":
 /*!*********************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/pause/style.css ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -19,14 +19,14 @@ exports.push([module.i, ".pause-btn {\n  width: 2rem;\n  height: 2rem;\n  paddin
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/modal.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/modal.css":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/addons/modal.css ***!
   \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -41,7 +41,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/mute-project/mute.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/mute-project/mute.svg":
 /*!***************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/mute-project/mute.svg ***!
   \***************************************************************************************/
@@ -54,7 +54,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/pause.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/pause.svg":
 /*!*********************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/pause.svg ***!
   \*********************************************************************************/
@@ -67,7 +67,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/play.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/play.svg":
 /*!********************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/play.svg ***!
   \********************************************************************************/
@@ -80,7 +80,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addon-precedence.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addon-precedence.js":
 /*!****************************************!*\
   !*** ./src/addons/addon-precedence.js ***!
   \****************************************/
@@ -104,18 +104,18 @@ const getPrecedence = addonId => addonPrecedence.indexOf(addonId) + 1;
 
 /***/ }),
 
-/***/ "./src/addons/addons-l10n/en.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/en.json":
 /*!****************************************!*\
   !*** ./src/addons/addons-l10n/en.json ***!
   \****************************************/
 /*! exports provided: editor-devtools/clean-plus, editor-devtools/copy-all, editor-devtools/copy-block, editor-devtools/cut-block, editor-devtools/lists, editor-devtools/make-space, editor-devtools/orphaned, editor-devtools/paste, editor-devtools/replace, editor-devtools/swap, editor-devtools/unused-list, editor-devtools/unused-var, editor-devtools/var-not-exist, editor-devtools/variables, find-bar/complex-broadcast, find-bar/find-placeholder, middle-click-popup/start-typing, editor-searchable-dropdowns/createBroadcast, editor-searchable-dropdowns/createGlobalList, editor-searchable-dropdowns/createGlobalVariable, editor-searchable-dropdowns/createLocalList, editor-searchable-dropdowns/createLocalVariable, data-category-tweaks-v2/for-all-sprites, data-category-tweaks-v2/for-this-sprite-only, data-category-tweaks-v2/list-category, hide-flyout/lock, hide-flyout/unlock, mediarecorder/cancel, mediarecorder/click-flag, mediarecorder/click-flag-description, mediarecorder/option-title, mediarecorder/record, mediarecorder/record-after-flag, mediarecorder/record-audio, mediarecorder/record-audio-description, mediarecorder/record-description, mediarecorder/record-duration, mediarecorder/record-mic, mediarecorder/record-until-stop, mediarecorder/record-until-stop-disabled, mediarecorder/start, mediarecorder/start-delay, mediarecorder/starting-in, mediarecorder/stop, debugger/block-breakpoint, debugger/block-error, debugger/block-log, debugger/block-warn, debugger/cannot-pause-player, debugger/clear, debugger/clone-of, debugger/close, debugger/console, debugger/debug, debugger/empty-string, debugger/enter-format, debugger/export, debugger/export-desc, debugger/icon-error, debugger/icon-warn, debugger/log-msg-broadcasted, debugger/log-msg-clone-cap, debugger/log-msg-clone-created, debugger/log-msg-flag-clicked, debugger/no-logs, debugger/no-threads-running, debugger/step, debugger/step-desc, debugger/tab-logs, debugger/tab-threads, debugger/thread, debugger/unknown-sprite, debugger/unpause, pause/pause, clones/clones, color-picker/hex, remove-sprite-confirm/confirm, block-count/blocks, onion-skinning/behind, onion-skinning/front, onion-skinning/layering, onion-skinning/merge, onion-skinning/mode, onion-skinning/next, onion-skinning/opacity, onion-skinning/opacityStep, onion-skinning/previous, onion-skinning/settings, onion-skinning/tint, onion-skinning/toggle, paint-snap/boxCenter, paint-snap/boxCorners, paint-snap/boxEdgeMids, paint-snap/objectCenters, paint-snap/objectCorners, paint-snap/objectEdges, paint-snap/objectMidlines, paint-snap/off, paint-snap/on, paint-snap/pageAxes, paint-snap/pageCenter, paint-snap/pageCorners, paint-snap/pageEdges, paint-snap/settings, paint-snap/snapFrom, paint-snap/snapTo, paint-snap/threshold, paint-snap/toggle, 2d-color-picker/shade, better-img-uploads/upload, variable-manager/for-all-sprites, variable-manager/for-this-sprite, variable-manager/search, variable-manager/too-big, variable-manager/variables, search-sprites/placeholder, sprite-properties/close-properties-panel-tooltip, sprite-properties/open-properties-panel-tooltip, gamepad/axes-a-b, gamepad/axis-arrows, gamepad/axis-cursor, gamepad/axis-custom, gamepad/axis-none, gamepad/browser-support, gamepad/button-n, gamepad/clear, gamepad/config-header, gamepad/key-click, gamepad/key-down, gamepad/key-enter, gamepad/key-left, gamepad/key-none, gamepad/key-right, gamepad/key-space, gamepad/key-up, gamepad/keyinput-title, gamepad/no-controllers, gamepad/reset, gamepad/settings, gamepad/store-in-project, folders/add-to-folder, folders/closed-folder, folders/confirm-backpack-folder, folders/create-folder, folders/name-not-allowed, folders/name-prompt, folders/name-prompt-title, folders/open-folder, folders/remove-folder, folders/remove-from-folder, folders/rename-folder, folders/rename-folder-prompt, folders/rename-folder-prompt-title, block-switching/control_forever, block-switching/control_if, block-switching/control_if_else, block-switching/control_repeat_until, block-switching/control_wait_until, block-switching/data_changevariableby, block-switching/data_deletealloflist, block-switching/data_deleteoflist, block-switching/data_hidelist, block-switching/data_hidevariable, block-switching/data_insertatlist, block-switching/data_replaceitemoflist, block-switching/data_setvariableto, block-switching/data_showlist, block-switching/data_showvariable, block-switching/debugger_error, block-switching/debugger_log, block-switching/debugger_warn, block-switching/event_broadcast, block-switching/event_broadcastandwait, block-switching/looks_backdropnumbername, block-switching/looks_changeeffectby, block-switching/looks_changesizeby, block-switching/looks_costumenumbername, block-switching/looks_goforwardbackwardlayers, block-switching/looks_gotofrontback, block-switching/looks_hide, block-switching/looks_nextbackdrop, block-switching/looks_nextcostume, block-switching/looks_say, block-switching/looks_sayforsecs, block-switching/looks_seteffectto, block-switching/looks_setsizeto, block-switching/looks_show, block-switching/looks_switchbackdropto, block-switching/looks_switchbackdroptoandwait, block-switching/looks_think, block-switching/looks_thinkforsecs, block-switching/motion_changexby, block-switching/motion_changeyby, block-switching/motion_setx, block-switching/motion_sety, block-switching/motion_turnleft, block-switching/motion_turnright, block-switching/motion_xposition, block-switching/motion_yposition, block-switching/music_changeTempo, block-switching/music_setTempo, block-switching/operator_add, block-switching/operator_and, block-switching/operator_divide, block-switching/operator_equals, block-switching/operator_gt, block-switching/operator_lt, block-switching/operator_mod, block-switching/operator_multiply, block-switching/operator_or, block-switching/operator_subtract, block-switching/pen_changePenColorParamBy, block-switching/pen_changePenHueBy, block-switching/pen_changePenShadeBy, block-switching/pen_changePenSizeBy, block-switching/pen_penDown, block-switching/pen_penUp, block-switching/pen_setPenColorParamTo, block-switching/pen_setPenHueToNumber, block-switching/pen_setPenShadeToNumber, block-switching/pen_setPenSizeTo, block-switching/sensing_coloristouchingcolor, block-switching/sensing_mousex, block-switching/sensing_mousey, block-switching/sensing_touchingcolor, block-switching/sound_changeeffectby, block-switching/sound_changevolumeby, block-switching/sound_play, block-switching/sound_playuntildone, block-switching/sound_seteffectto, block-switching/sound_setvolumeto, blocks2image/error_blocks_not_added, blocks2image/export_all_to_PNG, blocks2image/export_all_to_SVG, blocks2image/export_selected_to_PNG, blocks2image/export_selected_to_SVG, editor-extra-keys/enter-key, move-to-top-bottom/bottom, move-to-top-bottom/top, rename-broadcasts/RENAME_BROADCAST, rename-broadcasts/RENAME_BROADCAST_MODAL_TITLE, rename-broadcasts/RENAME_BROADCAST_TITLE, swap-local-global/cant-convert-cloud, swap-local-global/cant-convert-conflict, swap-local-global/cant-convert-stage, swap-local-global/cant-convert-to-local, swap-local-global/cant-convert-used-elsewhere, swap-local-global/edit, swap-local-global/edit-list-header, swap-local-global/edit-list-option, swap-local-global/edit-variable-header, swap-local-global/edit-variable-option, swap-local-global/to-global, swap-local-global/to-local, hide-stage/hide-stage, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"editor-devtools/clean-plus\":\"Clean up Blocks +\",\"editor-devtools/copy-all\":\"Copy All\",\"editor-devtools/copy-block\":\"Copy Block\",\"editor-devtools/cut-block\":\"Cut Block\",\"editor-devtools/lists\":\"lists\",\"editor-devtools/make-space\":\"Make Space\",\"editor-devtools/orphaned\":\"{count, plural, one {Developer tools: Delete 1 orphaned reporter block?} other {Developer tools: Delete # orphaned reporter blocks?} }\",\"editor-devtools/paste\":\"Paste\",\"editor-devtools/replace\":\"Developer tools: Switch all {name} in this sprite for the variable named:\",\"editor-devtools/swap\":\"Swap {var} in Sprite\",\"editor-devtools/unused-list\":\"{count, plural, one {Developer tools: Delete 1 unused local list? Here it is:\\n} other {Developer tools: Delete # unused local lists? Here they are:\\n} }\",\"editor-devtools/unused-var\":\"{count, plural, one {Developer tools: Delete 1 unused local variable? Here it is:\\n} other {Developer tools: Delete # unused local variables? Here they are:\\n} }\",\"editor-devtools/var-not-exist\":\"That variable does not exist...\",\"editor-devtools/variables\":\"variables\",\"find-bar/complex-broadcast\":\"(expression)\",\"find-bar/find-placeholder\":\"Find (Ctrl+F)\",\"middle-click-popup/start-typing\":\"Start Typing...\",\"editor-searchable-dropdowns/createBroadcast\":\"Create message \\\"{name}\\\"\",\"editor-searchable-dropdowns/createGlobalList\":\"Create list \\\"{name}\\\" for all sprites\",\"editor-searchable-dropdowns/createGlobalVariable\":\"Create variable \\\"{name}\\\" for all sprites\",\"editor-searchable-dropdowns/createLocalList\":\"Create list \\\"{name}\\\" for this sprite only\",\"editor-searchable-dropdowns/createLocalVariable\":\"Create variable \\\"{name}\\\" for this sprite only\",\"data-category-tweaks-v2/for-all-sprites\":\"For all sprites:\",\"data-category-tweaks-v2/for-this-sprite-only\":\"For this sprite only:\",\"data-category-tweaks-v2/list-category\":\"Lists\",\"hide-flyout/lock\":\"Lock Palette\",\"hide-flyout/unlock\":\"Unlock Palette\",\"mediarecorder/cancel\":\"Cancel\",\"mediarecorder/click-flag\":\"Waiting...\",\"mediarecorder/click-flag-description\":\"Click the green flag to start recording. Click this button to stop.\",\"mediarecorder/option-title\":\"Record Options\",\"mediarecorder/record\":\"Record\",\"mediarecorder/record-after-flag\":\"Do not start recording until the Green Flag is clicked\",\"mediarecorder/record-audio\":\"Include project sounds\",\"mediarecorder/record-audio-description\":\"This does not include Text-to-Speech.\",\"mediarecorder/record-description\":\"Record the stage as a WebM file. You can save it to your computer after the recording is finished.\\nNote: variable and list monitors will not be visible.\",\"mediarecorder/record-duration\":\"Record Duration (in seconds)\",\"mediarecorder/record-mic\":\"Include sounds from microphone\",\"mediarecorder/record-until-stop\":\"Stop recording after the project has stopped\",\"mediarecorder/record-until-stop-disabled\":\"You need to enable \\\"{afterFlagOption}\\\" to use this option.\",\"mediarecorder/start\":\"Start\",\"mediarecorder/start-delay\":\"Start Delay (in seconds)\",\"mediarecorder/starting-in\":\"Starting in {secs}...\",\"mediarecorder/stop\":\"Stop Recording\",\"debugger/block-breakpoint\":\"breakpoint\",\"debugger/block-error\":\"error %s\",\"debugger/block-log\":\"log %s\",\"debugger/block-warn\":\"warn %s\",\"debugger/cannot-pause-player\":\"Breakpoint block can only be used while on the editor.\",\"debugger/clear\":\"Clear\",\"debugger/clone-of\":\"Clone of {sprite}\",\"debugger/close\":\"Close\",\"debugger/console\":\"Logs\",\"debugger/debug\":\"Debug\",\"debugger/empty-string\":\"(empty string)\",\"debugger/enter-format\":\"Enter export format:\",\"debugger/export\":\"Export\",\"debugger/export-desc\":\"Click while holding Shift to customize export format.\",\"debugger/icon-error\":\"Error\",\"debugger/icon-warn\":\"Warning\",\"debugger/log-msg-broadcasted\":\"Broadcasted '{broadcast}'.\",\"debugger/log-msg-clone-cap\":\"Failed to create clone of '{sprite}', cannot create over 300 clones.\",\"debugger/log-msg-clone-created\":\"Created clone of '{sprite}'.\",\"debugger/log-msg-flag-clicked\":\"Green flag clicked.\",\"debugger/no-logs\":\"There are no logs to display.\",\"debugger/no-threads-running\":\"No threads running.\",\"debugger/step\":\"Step\",\"debugger/step-desc\":\"Executes one block.\",\"debugger/tab-logs\":\"Logs\",\"debugger/tab-threads\":\"Threads\",\"debugger/thread\":\"Thread {id}\",\"debugger/unknown-sprite\":\"(unknown sprite)\",\"debugger/unpause\":\"Resume\",\"pause/pause\":\"Pause\",\"clones/clones\":\"clones: {cloneCount}\",\"color-picker/hex\":\"hex color\",\"remove-sprite-confirm/confirm\":\"Do you want to delete the sprite?\",\"block-count/blocks\":\"{num, plural, one {1 block} other {# blocks}}\",\"onion-skinning/behind\":\"Behind\",\"onion-skinning/front\":\"Front\",\"onion-skinning/layering\":\"Layering\",\"onion-skinning/merge\":\"Merge\",\"onion-skinning/mode\":\"Mode\",\"onion-skinning/next\":\"Next costumes\",\"onion-skinning/opacity\":\"Opacity (%)\",\"onion-skinning/opacityStep\":\"Opacity step (%)\",\"onion-skinning/previous\":\"Previous costumes\",\"onion-skinning/settings\":\"Onion Skinning Settings\",\"onion-skinning/tint\":\"Tint\",\"onion-skinning/toggle\":\"Toggle Onion Skinning\",\"paint-snap/boxCenter\":\"Center of selection\",\"paint-snap/boxCorners\":\"Corners of selection\",\"paint-snap/boxEdgeMids\":\"Selection edge midpoints\",\"paint-snap/objectCenters\":\"Centers of objects\",\"paint-snap/objectCorners\":\"Corners of objects\",\"paint-snap/objectEdges\":\"Edges of objects\",\"paint-snap/objectMidlines\":\"Midlines of objects\",\"paint-snap/off\":\"Off\",\"paint-snap/on\":\"On\",\"paint-snap/pageAxes\":\"Page x and y axes\",\"paint-snap/pageCenter\":\"Center of the page\",\"paint-snap/pageCorners\":\"Corners of the page\",\"paint-snap/pageEdges\":\"Edges of the page\",\"paint-snap/settings\":\"Snap Settings\",\"paint-snap/snapFrom\":\"Snap from:\",\"paint-snap/snapTo\":\"Snap to:\",\"paint-snap/threshold\":\"Snapping distance\",\"paint-snap/toggle\":\"Toggle Snapping\",\"2d-color-picker/shade\":\"Shade\",\"better-img-uploads/upload\":\"HD Upload\",\"variable-manager/for-all-sprites\":\"Variables for all sprites\",\"variable-manager/for-this-sprite\":\"Variables for this sprite\",\"variable-manager/search\":\"Search\",\"variable-manager/too-big\":\"Click to display very large value.\",\"variable-manager/variables\":\"Variables\",\"search-sprites/placeholder\":\"Search sprites...\",\"sprite-properties/close-properties-panel-tooltip\":\"Collapse properties panel\",\"sprite-properties/open-properties-panel-tooltip\":\"Open properties panel\",\"gamepad/axes-a-b\":\"Axes {a} & {b}\",\"gamepad/axis-arrows\":\"Arrow Keys\",\"gamepad/axis-cursor\":\"Cursor\",\"gamepad/axis-custom\":\"Custom\",\"gamepad/axis-none\":\"None\",\"gamepad/browser-support\":\"This browser and operating system have known bugs that may make this addon difficult to use. Try another browser if you encounter problems.\",\"gamepad/button-n\":\"Button {n}\",\"gamepad/clear\":\"Clear all controls\",\"gamepad/config-header\":\"This comment contains configuration for gamepad support in third-party tools or websites such as https://turbowarp.org/\\nDo not edit by hand\",\"gamepad/key-click\":\"Click\",\"gamepad/key-down\":\"Down\",\"gamepad/key-enter\":\"Enter\",\"gamepad/key-left\":\"Left\",\"gamepad/key-none\":\"(none)\",\"gamepad/key-right\":\"Right\",\"gamepad/key-space\":\"Space\",\"gamepad/key-up\":\"Up\",\"gamepad/keyinput-title\":\"Click and press a key or click to change button. Escape to cancel. Backspace or delete to clear.\",\"gamepad/no-controllers\":\"No controllers detected. Try plugging one in and pressing a button on it.\",\"gamepad/reset\":\"Reset all controls to project defaults\",\"gamepad/settings\":\"Gamepad Settings\",\"gamepad/store-in-project\":\"Store these settings in the project to override the default configuration (Experimental tool for project creators)\",\"folders/add-to-folder\":\"add to folder: {folder}\",\"folders/closed-folder\":\"Folder\",\"folders/confirm-backpack-folder\":\"Save entire folder to backpack?\",\"folders/create-folder\":\"create folder\",\"folders/name-not-allowed\":\"Invalid folder name\",\"folders/name-prompt\":\"Name of folder:\",\"folders/name-prompt-title\":\"Create Folder\",\"folders/open-folder\":\"Opened\",\"folders/remove-folder\":\"remove folder\",\"folders/remove-from-folder\":\"remove from folder\",\"folders/rename-folder\":\"rename folder\",\"folders/rename-folder-prompt\":\"Rename folder to:\",\"folders/rename-folder-prompt-title\":\"Rename Folder\",\"block-switching/control_forever\":\"forever\",\"block-switching/control_if\":\"if\",\"block-switching/control_if_else\":\"if... else\",\"block-switching/control_repeat_until\":\"repeat until\",\"block-switching/control_wait_until\":\"wait until\",\"block-switching/data_changevariableby\":\"change variable\",\"block-switching/data_deletealloflist\":\"delete all\",\"block-switching/data_deleteoflist\":\"delete item\",\"block-switching/data_hidelist\":\"hide list\",\"block-switching/data_hidevariable\":\"hide variable\",\"block-switching/data_insertatlist\":\"insert item\",\"block-switching/data_replaceitemoflist\":\"replace item\",\"block-switching/data_setvariableto\":\"set variable\",\"block-switching/data_showlist\":\"show list\",\"block-switching/data_showvariable\":\"show variable\",\"block-switching/debugger_error\":\"error\",\"block-switching/debugger_log\":\"log\",\"block-switching/debugger_warn\":\"warn\",\"block-switching/event_broadcast\":\"broadcast\",\"block-switching/event_broadcastandwait\":\"broadcast and wait\",\"block-switching/looks_backdropnumbername\":\"backdrop number or name\",\"block-switching/looks_changeeffectby\":\"change effect\",\"block-switching/looks_changesizeby\":\"change size\",\"block-switching/looks_costumenumbername\":\"costume number or name\",\"block-switching/looks_goforwardbackwardlayers\":\"go forward or backward layers\",\"block-switching/looks_gotofrontback\":\"go to front or back layer\",\"block-switching/looks_hide\":\"hide\",\"block-switching/looks_nextbackdrop\":\"next backdrop\",\"block-switching/looks_nextcostume\":\"next costume\",\"block-switching/looks_say\":\"say\",\"block-switching/looks_sayforsecs\":\"say for seconds\",\"block-switching/looks_seteffectto\":\"set effect\",\"block-switching/looks_setsizeto\":\"set size\",\"block-switching/looks_show\":\"show\",\"block-switching/looks_switchbackdropto\":\"switch backdrop\",\"block-switching/looks_switchbackdroptoandwait\":\"switch backdrop and wait\",\"block-switching/looks_think\":\"think\",\"block-switching/looks_thinkforsecs\":\"think for seconds\",\"block-switching/motion_changexby\":\"change x\",\"block-switching/motion_changeyby\":\"change y\",\"block-switching/motion_setx\":\"set x\",\"block-switching/motion_sety\":\"set y\",\"block-switching/motion_turnleft\":\"turn left\",\"block-switching/motion_turnright\":\"turn right\",\"block-switching/motion_xposition\":\"x position\",\"block-switching/motion_yposition\":\"y position\",\"block-switching/music_changeTempo\":\"change tempo\",\"block-switching/music_setTempo\":\"set tempo\",\"block-switching/operator_add\":\"+\",\"block-switching/operator_and\":\"and\",\"block-switching/operator_divide\":\"./\",\"block-switching/operator_equals\":\"=\",\"block-switching/operator_gt\":\">\",\"block-switching/operator_lt\":\"<\",\"block-switching/operator_mod\":\"mod\",\"block-switching/operator_multiply\":\"*\",\"block-switching/operator_or\":\"or\",\"block-switching/operator_subtract\":\"-\",\"block-switching/pen_changePenColorParamBy\":\"change parameter\",\"block-switching/pen_changePenHueBy\":\"change hue\",\"block-switching/pen_changePenShadeBy\":\"change shade\",\"block-switching/pen_changePenSizeBy\":\"change size\",\"block-switching/pen_penDown\":\"pen down\",\"block-switching/pen_penUp\":\"pen up\",\"block-switching/pen_setPenColorParamTo\":\"set parameter\",\"block-switching/pen_setPenHueToNumber\":\"set hue\",\"block-switching/pen_setPenShadeToNumber\":\"set shade\",\"block-switching/pen_setPenSizeTo\":\"set size\",\"block-switching/sensing_coloristouchingcolor\":\"color touching color\",\"block-switching/sensing_mousex\":\"mouse x\",\"block-switching/sensing_mousey\":\"mouse y\",\"block-switching/sensing_touchingcolor\":\"touching color\",\"block-switching/sound_changeeffectby\":\"change effect\",\"block-switching/sound_changevolumeby\":\"change volume\",\"block-switching/sound_play\":\"start\",\"block-switching/sound_playuntildone\":\"play until done\",\"block-switching/sound_seteffectto\":\"set effect\",\"block-switching/sound_setvolumeto\":\"set volume\",\"blocks2image/error_blocks_not_added\":\"Add blocks to workspace!\",\"blocks2image/export_all_to_PNG\":\"Export all as PNG\",\"blocks2image/export_all_to_SVG\":\"Export all as SVG\",\"blocks2image/export_selected_to_PNG\":\"Export block as PNG\",\"blocks2image/export_selected_to_SVG\":\"Export block as SVG\",\"editor-extra-keys/enter-key\":\"enter\",\"move-to-top-bottom/bottom\":\"move to bottom\",\"move-to-top-bottom/top\":\"move to top\",\"rename-broadcasts/RENAME_BROADCAST\":\"Rename message\",\"rename-broadcasts/RENAME_BROADCAST_MODAL_TITLE\":\"Rename Message\",\"rename-broadcasts/RENAME_BROADCAST_TITLE\":\"Rename all \\\"{name}\\\" messages to:\",\"swap-local-global/cant-convert-cloud\":\"Cloud variables can't be converted to this sprite only.\",\"swap-local-global/cant-convert-conflict\":\"Can't convert because it would conflict with variables in another sprite: {sprites}\",\"swap-local-global/cant-convert-stage\":\"The stage can't have variables for this sprite only.\",\"swap-local-global/cant-convert-to-local\":\"Can't convert because it's used by multiple sprites: {sprites}\",\"swap-local-global/cant-convert-used-elsewhere\":\"Can't convert because it's used by another sprite: {sprite}\",\"swap-local-global/edit\":\"Edit properties:\",\"swap-local-global/edit-list-header\":\"Edit List\",\"swap-local-global/edit-list-option\":\"Rename or edit list\",\"swap-local-global/edit-variable-header\":\"Edit Variable\",\"swap-local-global/edit-variable-option\":\"Rename or edit variable\",\"swap-local-global/to-global\":\"Convert to \\\"For all sprites\\\"\",\"swap-local-global/to-local\":\"Convert to \\\"For this sprite only\\\"\",\"hide-stage/hide-stage\":\"Hide stage\"}");
+module.exports = JSON.parse("{\"editor-devtools/clean-plus\":\"Clean up Blocks +\",\"editor-devtools/copy-all\":\"Copy All\",\"editor-devtools/copy-block\":\"Copy Block\",\"editor-devtools/cut-block\":\"Cut Block\",\"editor-devtools/lists\":\"lists\",\"editor-devtools/make-space\":\"Make Space\",\"editor-devtools/orphaned\":\"{count, plural, one {Developer tools: Delete 1 orphaned reporter block?} other {Developer tools: Delete # orphaned reporter blocks?} }\",\"editor-devtools/paste\":\"Paste\",\"editor-devtools/replace\":\"Developer tools: Switch all {name} in this sprite for the variable named:\",\"editor-devtools/swap\":\"Swap {var} in Sprite\",\"editor-devtools/unused-list\":\"{count, plural, one {Developer tools: Delete 1 unused local list? Here it is:\\n} other {Developer tools: Delete # unused local lists? Here they are:\\n} }\",\"editor-devtools/unused-var\":\"{count, plural, one {Developer tools: Delete 1 unused local variable? Here it is:\\n} other {Developer tools: Delete # unused local variables? Here they are:\\n} }\",\"editor-devtools/var-not-exist\":\"That variable does not exist...\",\"editor-devtools/variables\":\"variables\",\"find-bar/complex-broadcast\":\"(expression)\",\"find-bar/find-placeholder\":\"Find (Ctrl+F)\",\"middle-click-popup/start-typing\":\"Start Typing...\",\"editor-searchable-dropdowns/createBroadcast\":\"Create message \\\"{name}\\\"\",\"editor-searchable-dropdowns/createGlobalList\":\"Create list \\\"{name}\\\" for all sprites\",\"editor-searchable-dropdowns/createGlobalVariable\":\"Create variable \\\"{name}\\\" for all sprites\",\"editor-searchable-dropdowns/createLocalList\":\"Create list \\\"{name}\\\" for this sprite only\",\"editor-searchable-dropdowns/createLocalVariable\":\"Create variable \\\"{name}\\\" for this sprite only\",\"data-category-tweaks-v2/for-all-sprites\":\"For all sprites:\",\"data-category-tweaks-v2/for-this-sprite-only\":\"For this sprite only:\",\"data-category-tweaks-v2/list-category\":\"Lists\",\"hide-flyout/lock\":\"Lock Palette\",\"hide-flyout/unlock\":\"Unlock Palette\",\"mediarecorder/cancel\":\"Cancel\",\"mediarecorder/click-flag\":\"Waiting...\",\"mediarecorder/click-flag-description\":\"Click the green flag to start recording. Click this button to stop.\",\"mediarecorder/option-title\":\"Record Options\",\"mediarecorder/record\":\"Record\",\"mediarecorder/record-after-flag\":\"Do not start recording until the Green Flag is clicked\",\"mediarecorder/record-audio\":\"Include project sounds\",\"mediarecorder/record-audio-description\":\"This does not include Text-to-Speech.\",\"mediarecorder/record-description\":\"Record the stage as a WebM file. You can save it to your computer after the recording is finished.\\nNote: variable and list monitors will not be visible.\",\"mediarecorder/record-duration\":\"Record Duration (in seconds)\",\"mediarecorder/record-mic\":\"Include sounds from microphone\",\"mediarecorder/record-until-stop\":\"Stop recording after the project has stopped\",\"mediarecorder/record-until-stop-disabled\":\"You need to enable \\\"{afterFlagOption}\\\" to use this option.\",\"mediarecorder/start\":\"Start\",\"mediarecorder/start-delay\":\"Start Delay (in seconds)\",\"mediarecorder/starting-in\":\"Starting in {secs}...\",\"mediarecorder/stop\":\"Stop Recording\",\"debugger/block-breakpoint\":\"breakpoint\",\"debugger/block-error\":\"error %s\",\"debugger/block-log\":\"log %s\",\"debugger/block-warn\":\"warn %s\",\"debugger/cannot-pause-player\":\"Breakpoint block can only be used while on the editor.\",\"debugger/clear\":\"Clear\",\"debugger/clone-of\":\"Clone of {sprite}\",\"debugger/close\":\"Close\",\"debugger/console\":\"Logs\",\"debugger/debug\":\"Debug\",\"debugger/empty-string\":\"(empty string)\",\"debugger/enter-format\":\"Enter export format:\",\"debugger/export\":\"Export\",\"debugger/export-desc\":\"Click while holding Shift to customize export format.\",\"debugger/icon-error\":\"Error\",\"debugger/icon-warn\":\"Warning\",\"debugger/log-msg-broadcasted\":\"Broadcasted '{broadcast}'.\",\"debugger/log-msg-clone-cap\":\"Failed to create clone of '{sprite}', cannot create over 300 clones.\",\"debugger/log-msg-clone-created\":\"Created clone of '{sprite}'.\",\"debugger/log-msg-flag-clicked\":\"Green flag clicked.\",\"debugger/no-logs\":\"There are no logs to display.\",\"debugger/no-threads-running\":\"No threads running.\",\"debugger/step\":\"Step\",\"debugger/step-desc\":\"Executes one block.\",\"debugger/tab-logs\":\"Logs\",\"debugger/tab-threads\":\"Threads\",\"debugger/thread\":\"Thread {id}\",\"debugger/unknown-sprite\":\"(unknown sprite)\",\"debugger/unpause\":\"Resume\",\"pause/pause\":\"Pause\",\"clones/clones\":\"clones: {cloneCount}\",\"color-picker/hex\":\"hex color\",\"remove-sprite-confirm/confirm\":\"Do you want to delete the sprite?\",\"block-count/blocks\":\"{num, plural, one {1 block} other {# blocks}}\",\"onion-skinning/behind\":\"Behind\",\"onion-skinning/front\":\"Front\",\"onion-skinning/layering\":\"Layering\",\"onion-skinning/merge\":\"Merge\",\"onion-skinning/mode\":\"Mode\",\"onion-skinning/next\":\"Next costumes\",\"onion-skinning/opacity\":\"Opacity (%)\",\"onion-skinning/opacityStep\":\"Opacity step (%)\",\"onion-skinning/previous\":\"Previous costumes\",\"onion-skinning/settings\":\"Onion Skinning Settings\",\"onion-skinning/tint\":\"Tint\",\"onion-skinning/toggle\":\"Toggle Onion Skinning\",\"paint-snap/boxCenter\":\"Center of selection\",\"paint-snap/boxCorners\":\"Corners of selection\",\"paint-snap/boxEdgeMids\":\"Selection edge midpoints\",\"paint-snap/objectCenters\":\"Centers of objects\",\"paint-snap/objectCorners\":\"Corners of objects\",\"paint-snap/objectEdges\":\"Edges of objects\",\"paint-snap/objectMidlines\":\"Midlines of objects\",\"paint-snap/off\":\"Off\",\"paint-snap/on\":\"On\",\"paint-snap/pageAxes\":\"Page x and y axes\",\"paint-snap/pageCenter\":\"Center of the page\",\"paint-snap/pageCorners\":\"Corners of the page\",\"paint-snap/pageEdges\":\"Edges of the page\",\"paint-snap/settings\":\"Snap Settings\",\"paint-snap/snapFrom\":\"Snap from:\",\"paint-snap/snapTo\":\"Snap to:\",\"paint-snap/threshold\":\"Snapping distance\",\"paint-snap/toggle\":\"Toggle Snapping\",\"2d-color-picker/shade\":\"Shade\",\"better-img-uploads/upload\":\"HD Upload\",\"variable-manager/for-all-sprites\":\"Variables for all sprites\",\"variable-manager/for-this-sprite\":\"Variables for this sprite\",\"variable-manager/search\":\"Search\",\"variable-manager/too-big\":\"Click to display very large value.\",\"variable-manager/variables\":\"Variables\",\"search-sprites/placeholder\":\"Search sprites...\",\"sprite-properties/close-properties-panel-tooltip\":\"Collapse properties panel\",\"sprite-properties/open-properties-panel-tooltip\":\"Open properties panel\",\"gamepad/axes-a-b\":\"Axes {a} & {b}\",\"gamepad/axis-arrows\":\"Arrow Keys\",\"gamepad/axis-cursor\":\"Cursor\",\"gamepad/axis-custom\":\"Custom\",\"gamepad/axis-none\":\"None\",\"gamepad/browser-support\":\"This browser and operating system have known bugs that may make this addon difficult to use. Try another browser if you encounter problems.\",\"gamepad/button-n\":\"Button {n}\",\"gamepad/clear\":\"Clear all controls\",\"gamepad/config-header\":\"This comment contains configuration for gamepad support in third-party tools or websites such as https://turbowarp.org/\\nDo not edit by hand\",\"gamepad/key-click\":\"Click\",\"gamepad/key-down\":\"Down\",\"gamepad/key-enter\":\"Enter\",\"gamepad/key-left\":\"Left\",\"gamepad/key-none\":\"(none)\",\"gamepad/key-right\":\"Right\",\"gamepad/key-space\":\"Space\",\"gamepad/key-up\":\"Up\",\"gamepad/keyinput-title\":\"Click and press a key or click to change button. Escape to cancel. Backspace or delete to clear.\",\"gamepad/no-controllers\":\"No controllers detected. Try plugging one in and pressing a button on it.\",\"gamepad/reset\":\"Reset all controls to project defaults\",\"gamepad/settings\":\"Gamepad Settings\",\"gamepad/store-in-project\":\"Store these settings in the project to override the default configuration (Experimental tool for project creators)\",\"folders/add-to-folder\":\"add to folder: {folder}\",\"folders/closed-folder\":\"Folder\",\"folders/confirm-backpack-folder\":\"Save entire folder to backpack?\",\"folders/create-folder\":\"create folder\",\"folders/name-not-allowed\":\"Invalid folder name\",\"folders/name-prompt\":\"Name of folder:\",\"folders/name-prompt-title\":\"Create Folder\",\"folders/open-folder\":\"Opened\",\"folders/remove-folder\":\"remove folder\",\"folders/remove-from-folder\":\"remove from folder\",\"folders/rename-folder\":\"rename folder\",\"folders/rename-folder-prompt\":\"Rename folder to:\",\"folders/rename-folder-prompt-title\":\"Rename Folder\",\"block-switching/control_forever\":\"forever\",\"block-switching/control_if\":\"if\",\"block-switching/control_if_else\":\"if... else\",\"block-switching/control_repeat_until\":\"repeat until\",\"block-switching/control_wait_until\":\"wait until\",\"block-switching/data_changevariableby\":\"change variable\",\"block-switching/data_deletealloflist\":\"delete all\",\"block-switching/data_deleteoflist\":\"delete item\",\"block-switching/data_hidelist\":\"hide list\",\"block-switching/data_hidevariable\":\"hide variable\",\"block-switching/data_insertatlist\":\"insert item\",\"block-switching/data_replaceitemoflist\":\"replace item\",\"block-switching/data_setvariableto\":\"set variable\",\"block-switching/data_showlist\":\"show list\",\"block-switching/data_showvariable\":\"show variable\",\"block-switching/debugger_error\":\"error\",\"block-switching/debugger_log\":\"log\",\"block-switching/debugger_warn\":\"warn\",\"block-switching/event_broadcast\":\"broadcast\",\"block-switching/event_broadcastandwait\":\"broadcast and wait\",\"block-switching/looks_backdropnumbername\":\"backdrop number or name\",\"block-switching/looks_changeeffectby\":\"change effect\",\"block-switching/looks_changesizeby\":\"change size\",\"block-switching/looks_costumenumbername\":\"costume number or name\",\"block-switching/looks_goforwardbackwardlayers\":\"go forward or backward layers\",\"block-switching/looks_gotofrontback\":\"go to front or back layer\",\"block-switching/looks_hide\":\"hide\",\"block-switching/looks_nextbackdrop\":\"next backdrop\",\"block-switching/looks_nextcostume\":\"next costume\",\"block-switching/looks_say\":\"say\",\"block-switching/looks_sayforsecs\":\"say for seconds\",\"block-switching/looks_seteffectto\":\"set effect\",\"block-switching/looks_setsizeto\":\"set size\",\"block-switching/looks_show\":\"show\",\"block-switching/looks_switchbackdropto\":\"switch backdrop\",\"block-switching/looks_switchbackdroptoandwait\":\"switch backdrop and wait\",\"block-switching/looks_think\":\"think\",\"block-switching/looks_thinkforsecs\":\"think for seconds\",\"block-switching/motion_changexby\":\"change x\",\"block-switching/motion_changeyby\":\"change y\",\"block-switching/motion_setx\":\"set x\",\"block-switching/motion_sety\":\"set y\",\"block-switching/motion_turnleft\":\"turn left\",\"block-switching/motion_turnright\":\"turn right\",\"block-switching/motion_xposition\":\"x position\",\"block-switching/motion_yposition\":\"y position\",\"block-switching/music_changeTempo\":\"change tempo\",\"block-switching/music_setTempo\":\"set tempo\",\"block-switching/operator_add\":\"+\",\"block-switching/operator_and\":\"and\",\"block-switching/operator_divide\":\"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/\",\"block-switching/operator_equals\":\"=\",\"block-switching/operator_gt\":\">\",\"block-switching/operator_lt\":\"<\",\"block-switching/operator_mod\":\"mod\",\"block-switching/operator_multiply\":\"*\",\"block-switching/operator_or\":\"or\",\"block-switching/operator_subtract\":\"-\",\"block-switching/pen_changePenColorParamBy\":\"change parameter\",\"block-switching/pen_changePenHueBy\":\"change hue\",\"block-switching/pen_changePenShadeBy\":\"change shade\",\"block-switching/pen_changePenSizeBy\":\"change size\",\"block-switching/pen_penDown\":\"pen down\",\"block-switching/pen_penUp\":\"pen up\",\"block-switching/pen_setPenColorParamTo\":\"set parameter\",\"block-switching/pen_setPenHueToNumber\":\"set hue\",\"block-switching/pen_setPenShadeToNumber\":\"set shade\",\"block-switching/pen_setPenSizeTo\":\"set size\",\"block-switching/sensing_coloristouchingcolor\":\"color touching color\",\"block-switching/sensing_mousex\":\"mouse x\",\"block-switching/sensing_mousey\":\"mouse y\",\"block-switching/sensing_touchingcolor\":\"touching color\",\"block-switching/sound_changeeffectby\":\"change effect\",\"block-switching/sound_changevolumeby\":\"change volume\",\"block-switching/sound_play\":\"start\",\"block-switching/sound_playuntildone\":\"play until done\",\"block-switching/sound_seteffectto\":\"set effect\",\"block-switching/sound_setvolumeto\":\"set volume\",\"blocks2image/error_blocks_not_added\":\"Add blocks to workspace!\",\"blocks2image/export_all_to_PNG\":\"Export all as PNG\",\"blocks2image/export_all_to_SVG\":\"Export all as SVG\",\"blocks2image/export_selected_to_PNG\":\"Export block as PNG\",\"blocks2image/export_selected_to_SVG\":\"Export block as SVG\",\"editor-extra-keys/enter-key\":\"enter\",\"move-to-top-bottom/bottom\":\"move to bottom\",\"move-to-top-bottom/top\":\"move to top\",\"rename-broadcasts/RENAME_BROADCAST\":\"Rename message\",\"rename-broadcasts/RENAME_BROADCAST_MODAL_TITLE\":\"Rename Message\",\"rename-broadcasts/RENAME_BROADCAST_TITLE\":\"Rename all \\\"{name}\\\" messages to:\",\"swap-local-global/cant-convert-cloud\":\"Cloud variables can't be converted to this sprite only.\",\"swap-local-global/cant-convert-conflict\":\"Can't convert because it would conflict with variables in another sprite: {sprites}\",\"swap-local-global/cant-convert-stage\":\"The stage can't have variables for this sprite only.\",\"swap-local-global/cant-convert-to-local\":\"Can't convert because it's used by multiple sprites: {sprites}\",\"swap-local-global/cant-convert-used-elsewhere\":\"Can't convert because it's used by another sprite: {sprite}\",\"swap-local-global/edit\":\"Edit properties:\",\"swap-local-global/edit-list-header\":\"Edit List\",\"swap-local-global/edit-list-option\":\"Rename or edit list\",\"swap-local-global/edit-variable-header\":\"Edit Variable\",\"swap-local-global/edit-variable-option\":\"Rename or edit variable\",\"swap-local-global/to-global\":\"Convert to \\\"For all sprites\\\"\",\"swap-local-global/to-local\":\"Convert to \\\"For this sprite only\\\"\",\"hide-stage/hide-stage\":\"Hide stage\"}");
 
 /***/ }),
 
-/***/ "./src/addons/addons/debugger/module.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/module.js":
 /*!**********************************************!*\
   !*** ./src/addons/addons/debugger/module.js ***!
   \**********************************************/
@@ -131,7 +131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRunningThread", function() { return getRunningThread; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "singleStep", function() { return singleStep; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setup", function() { return setup; });
-/* harmony import */ var _event_target_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../event-target.js */ "./src/addons/event-target.js");
+/* harmony import */ var _event_target_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../event-target.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/event-target.js");
 
 /* inserted by pull.js */
 // https://github.com/LLK/scratch-vm/blob/bb352913b57991713a5ccf0b611fda91056e14ec/src/engine/thread.js#L198
@@ -572,7 +572,7 @@ const setup = _vm => {
 
 /***/ }),
 
-/***/ "./src/addons/addons/drag-drop/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/drag-drop/_runtime_entry.js":
 /*!*******************************************************!*\
   !*** ./src/addons/addons/drag-drop/_runtime_entry.js ***!
   \*******************************************************/
@@ -582,7 +582,7 @@ const setup = _vm => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/drag-drop/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/drag-drop/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -591,7 +591,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/drag-drop/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/drag-drop/userscript.js":
 /*!***************************************************!*\
   !*** ./src/addons/addons/drag-drop/userscript.js ***!
   \***************************************************/
@@ -790,7 +790,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/find-bar/blockly/BlockFlasher.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockFlasher.js":
 /*!************************************************************!*\
   !*** ./src/addons/addons/find-bar/blockly/BlockFlasher.js ***!
   \************************************************************/
@@ -852,7 +852,7 @@ const myFlash = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/find-bar/blockly/BlockInstance.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockInstance.js":
 /*!*************************************************************!*\
   !*** ./src/addons/addons/find-bar/blockly/BlockInstance.js ***!
   \*************************************************************/
@@ -875,7 +875,7 @@ class BlockInstance {
 
 /***/ }),
 
-/***/ "./src/addons/addons/find-bar/blockly/Utils.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/Utils.js":
 /*!*****************************************************!*\
   !*** ./src/addons/addons/find-bar/blockly/Utils.js ***!
   \*****************************************************/
@@ -885,8 +885,8 @@ class BlockInstance {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Utils; });
-/* harmony import */ var _BlockInstance_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BlockInstance.js */ "./src/addons/addons/find-bar/blockly/BlockInstance.js");
-/* harmony import */ var _BlockFlasher_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BlockFlasher.js */ "./src/addons/addons/find-bar/blockly/BlockFlasher.js");
+/* harmony import */ var _BlockInstance_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BlockInstance.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockInstance.js");
+/* harmony import */ var _BlockFlasher_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BlockFlasher.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/BlockFlasher.js");
 
  // Make these global so that every addon uses the same arrays.
 
@@ -1123,7 +1123,7 @@ function distance(pos, next) {
 
 /***/ }),
 
-/***/ "./src/addons/addons/jump-to-def/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/jump-to-def/_runtime_entry.js":
 /*!*********************************************************!*\
   !*** ./src/addons/addons/jump-to-def/_runtime_entry.js ***!
   \*********************************************************/
@@ -1133,7 +1133,7 @@ function distance(pos, next) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/jump-to-def/userscript.js");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/jump-to-def/userscript.js");
 /* generated by pull.js */
 
 const resources = {
@@ -1142,7 +1142,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/jump-to-def/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/jump-to-def/userscript.js":
 /*!*****************************************************!*\
   !*** ./src/addons/addons/jump-to-def/userscript.js ***!
   \*****************************************************/
@@ -1151,7 +1151,7 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _find_bar_blockly_Utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../find-bar/blockly/Utils.js */ "./src/addons/addons/find-bar/blockly/Utils.js");
+/* harmony import */ var _find_bar_blockly_Utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../find-bar/blockly/Utils.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/blockly/Utils.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,
@@ -1201,7 +1201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/mute-project/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/mute-project/_runtime_entry.js":
 /*!**********************************************************!*\
   !*** ./src/addons/addons/mute-project/_runtime_entry.js ***!
   \**********************************************************/
@@ -1211,8 +1211,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/mute-project/userscript.js");
-/* harmony import */ var _url_loader_mute_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./mute.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/mute-project/mute.svg");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/mute-project/userscript.js");
+/* harmony import */ var _url_loader_mute_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./mute.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/mute-project/mute.svg");
 /* generated by pull.js */
 
 
@@ -1223,7 +1223,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/mute-project/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/mute-project/userscript.js":
 /*!******************************************************!*\
   !*** ./src/addons/addons/mute-project/userscript.js ***!
   \******************************************************/
@@ -1232,7 +1232,7 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vol_slider_module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../vol-slider/module.js */ "./src/addons/addons/vol-slider/module.js");
+/* harmony import */ var _vol_slider_module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../vol-slider/module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/module.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,
@@ -1242,7 +1242,7 @@ __webpack_require__.r(__webpack_exports__);
   Object(_vol_slider_module_js__WEBPACK_IMPORTED_MODULE_0__["setup"])(vm);
   const icon = document.createElement("img");
   icon.loading = "lazy";
-  icon.src = addon.self.getResource("./mute.svg")
+  icon.src = addon.self.getResource("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/mute.svg")
   /* rewritten by pull.js */
   ;
   icon.className = "sa-mute-project-icon";
@@ -1287,7 +1287,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/pause/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pause/_runtime_entry.js":
 /*!***************************************************!*\
   !*** ./src/addons/addons/pause/_runtime_entry.js ***!
   \***************************************************/
@@ -1297,11 +1297,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/pause/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/pause/style.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pause/userscript.js");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/pause/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_pause_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./pause.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/pause.svg");
-/* harmony import */ var _url_loader_play_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./play.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/play.svg");
+/* harmony import */ var _url_loader_pause_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./pause.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/pause.svg");
+/* harmony import */ var _url_loader_play_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./play.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/pause/play.svg");
 /* generated by pull.js */
 
 
@@ -1316,7 +1316,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/pause/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pause/userscript.js":
 /*!***********************************************!*\
   !*** ./src/addons/addons/pause/userscript.js ***!
   \***********************************************/
@@ -1325,7 +1325,7 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _debugger_module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../debugger/module.js */ "./src/addons/addons/debugger/module.js");
+/* harmony import */ var _debugger_module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../debugger/module.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/module.js");
 
 /* harmony default export */ __webpack_exports__["default"] = (async function ({
   addon,
@@ -1338,7 +1338,7 @@ __webpack_require__.r(__webpack_exports__);
   img.draggable = false;
   img.title = msg("pause");
 
-  const setSrc = () => img.src = addon.self.getResource(Object(_debugger_module_js__WEBPACK_IMPORTED_MODULE_0__["isPaused"])() ? "./play.svg" : "./pause.svg")
+  const setSrc = () => img.src = addon.self.getResource(Object(_debugger_module_js__WEBPACK_IMPORTED_MODULE_0__["isPaused"])() ? "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/play.svg" : "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/pause.svg")
   /* rewritten by pull.js */
   ;
 
@@ -1363,7 +1363,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/vol-slider/module.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/module.js":
 /*!************************************************!*\
   !*** ./src/addons/addons/vol-slider/module.js ***!
   \************************************************/
@@ -1445,7 +1445,7 @@ const setup = vm => {
 
 /***/ }),
 
-/***/ "./src/addons/api.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/api.js":
 /*!***************************!*\
   !*** ./src/addons/api.js ***!
   \***************************/
@@ -1454,24 +1454,24 @@ const setup = vm => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var intl_messageformat__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! intl-messageformat */ "./node_modules/intl-messageformat/index.js");
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var intl_messageformat__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! intl-messageformat */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/intl-messageformat/index.js");
 /* harmony import */ var intl_messageformat__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(intl_messageformat__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _settings_store_singleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./settings-store-singleton */ "./src/addons/settings-store-singleton.js");
-/* harmony import */ var _lib_data_uri_to_blob__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/data-uri-to-blob */ "./src/lib/data-uri-to-blob.js");
-/* harmony import */ var _event_target__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./event-target */ "./src/addons/event-target.js");
-/* harmony import */ var _hooks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./hooks */ "./src/addons/hooks.js");
-/* harmony import */ var _generated_addon_manifests__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./generated/addon-manifests */ "./src/addons/generated/addon-manifests.js");
-/* harmony import */ var _addons_l10n_en_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./addons-l10n/en.json */ "./src/addons/addons-l10n/en.json");
-var _addons_l10n_en_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./addons-l10n/en.json */ "./src/addons/addons-l10n/en.json", 1);
-/* harmony import */ var _generated_l10n_entries__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./generated/l10n-entries */ "./src/addons/generated/l10n-entries.js");
-/* harmony import */ var _generated_addon_entries__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./generated/addon-entries */ "./src/addons/generated/addon-entries.js");
-/* harmony import */ var _contextmenu__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contextmenu */ "./src/addons/contextmenu.js");
-/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modal */ "./src/addons/modal.js");
-/* harmony import */ var _libraries_common_cs_text_color_esm_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./libraries/common/cs/text-color.esm.js */ "./src/addons/libraries/common/cs/text-color.esm.js");
-/* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./polyfill */ "./src/addons/polyfill.js");
+/* harmony import */ var _settings_store_singleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./settings-store-singleton */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/settings-store-singleton.js");
+/* harmony import */ var _lib_data_uri_to_blob__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/data-uri-to-blob */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/lib/data-uri-to-blob.js");
+/* harmony import */ var _event_target__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./event-target */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/event-target.js");
+/* harmony import */ var _hooks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./hooks */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/hooks.js");
+/* harmony import */ var _generated_addon_manifests__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./generated/addon-manifests */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/addon-manifests.js");
+/* harmony import */ var _addons_l10n_en_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./addons-l10n/en.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/en.json");
+var _addons_l10n_en_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./addons-l10n/en.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/en.json", 1);
+/* harmony import */ var _generated_l10n_entries__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./generated/l10n-entries */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/l10n-entries.js");
+/* harmony import */ var _generated_addon_entries__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./generated/addon-entries */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/addon-entries.js");
+/* harmony import */ var _contextmenu__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contextmenu */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/contextmenu.js");
+/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modal */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/modal.js");
+/* harmony import */ var _libraries_common_cs_text_color_esm_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./libraries/common/cs/text-color.esm.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/text-color.esm.js");
+/* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./polyfill */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/polyfill.js");
 /* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_polyfill__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _conditional_style__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./conditional-style */ "./src/addons/conditional-style.js");
-/* harmony import */ var _addon_precedence__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./addon-precedence */ "./src/addons/addon-precedence.js");
+/* harmony import */ var _conditional_style__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./conditional-style */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/conditional-style.js");
+/* harmony import */ var _addon_precedence__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./addon-precedence */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addon-precedence.js");
 /**
  * Copyright (C) 2021 Thomas Weber
  *
@@ -1516,7 +1516,7 @@ const getScratchClassNames = () => {
   }
 
   const cssRules = Array.from(document.styleSheets) // Ignore some scratch-paint stylesheets
-  .filter(styleSheet => !(styleSheet.ownerNode.textContent.startsWith('./* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.') && (styleSheet.ownerNode.textContent.includes('input_input-form') || styleSheet.ownerNode.textContent.includes('label_input-group_')))).map(e => {
+  .filter(styleSheet => !(styleSheet.ownerNode.textContent.startsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.') && (styleSheet.ownerNode.textContent.includes('input_input-form') || styleSheet.ownerNode.textContent.includes('label_input-group_')))).map(e => {
     try {
       return [...e.cssRules];
     } catch (_e) {
@@ -2213,7 +2213,7 @@ class AddonRunner {
   }
 
   _msg(key, vars, handler) {
-    const namespacedKey = "".concat(this.id, "./").concat(key);
+    const namespacedKey = "".concat(this.id, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").concat(key);
 
     if (this.messageCache[namespacedKey]) {
       return this.messageCache[namespacedKey].format(vars);
@@ -2504,11 +2504,11 @@ for (const id of Object.keys(_generated_addon_manifests__WEBPACK_IMPORTED_MODULE
 
   runAddon(id);
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/global.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./src/addons/conditional-style.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/conditional-style.js":
 /*!*****************************************!*\
   !*** ./src/addons/conditional-style.js ***!
   \*****************************************/
@@ -2691,7 +2691,7 @@ const create = (moduleId, styleText) => {
 
 /***/ }),
 
-/***/ "./src/addons/contextmenu.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/contextmenu.js":
 /*!***********************************!*\
   !*** ./src/addons/contextmenu.js ***!
   \***********************************/
@@ -2806,7 +2806,7 @@ const addContextMenu = (tab, callback, opts) => {
 
 /***/ }),
 
-/***/ "./src/addons/generated/addon-entries.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/addon-entries.js":
 /*!***********************************************!*\
   !*** ./src/addons/generated/addon-entries.js ***!
   \***********************************************/
@@ -2817,82 +2817,82 @@ const addContextMenu = (tab, callback, opts) => {
 __webpack_require__.r(__webpack_exports__);
 /* generated by pull.js */
 /* harmony default export */ __webpack_exports__["default"] = ({
-  "cat-blocks": () => __webpack_require__.e(/*! import() | addon-entry-cat-blocks */ "addon-entry-cat-blocks").then(__webpack_require__.bind(null, /*! ../addons/cat-blocks/_runtime_entry.js */ "./src/addons/addons/cat-blocks/_runtime_entry.js")),
-  "editor-devtools": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/editor-devtools/_runtime_entry.js */ "./src/addons/addons/editor-devtools/_runtime_entry.js")),
-  "find-bar": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/find-bar/_runtime_entry.js */ "./src/addons/addons/find-bar/_runtime_entry.js")),
-  "middle-click-popup": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/middle-click-popup/_runtime_entry.js */ "./src/addons/addons/middle-click-popup/_runtime_entry.js")),
-  "jump-to-def": () => __webpack_require__(/*! ../addons/jump-to-def/_runtime_entry.js */ "./src/addons/addons/jump-to-def/_runtime_entry.js"),
-  "editor-searchable-dropdowns": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/editor-searchable-dropdowns/_runtime_entry.js */ "./src/addons/addons/editor-searchable-dropdowns/_runtime_entry.js")),
-  "data-category-tweaks-v2": () => __webpack_require__.e(/*! import() | addon-entry-data-category-tweaks-v2 */ "addon-entry-data-category-tweaks-v2").then(__webpack_require__.bind(null, /*! ../addons/data-category-tweaks-v2/_runtime_entry.js */ "./src/addons/addons/data-category-tweaks-v2/_runtime_entry.js")),
-  "block-palette-icons": () => __webpack_require__.e(/*! import() | addon-entry-block-palette-icons */ "addon-entry-block-palette-icons").then(__webpack_require__.bind(null, /*! ../addons/block-palette-icons/_runtime_entry.js */ "./src/addons/addons/block-palette-icons/_runtime_entry.js")),
-  "hide-flyout": () => __webpack_require__.e(/*! import() | addon-entry-hide-flyout */ "addon-entry-hide-flyout").then(__webpack_require__.bind(null, /*! ../addons/hide-flyout/_runtime_entry.js */ "./src/addons/addons/hide-flyout/_runtime_entry.js")),
-  "mediarecorder": () => __webpack_require__.e(/*! import() | addon-entry-mediarecorder */ "addon-entry-mediarecorder").then(__webpack_require__.bind(null, /*! ../addons/mediarecorder/_runtime_entry.js */ "./src/addons/addons/mediarecorder/_runtime_entry.js")),
-  "drag-drop": () => __webpack_require__(/*! ../addons/drag-drop/_runtime_entry.js */ "./src/addons/addons/drag-drop/_runtime_entry.js"),
-  "debugger": () => __webpack_require__.e(/*! import() | addon-entry-debugger */ "addon-entry-debugger").then(__webpack_require__.bind(null, /*! ../addons/debugger/_runtime_entry.js */ "./src/addons/addons/debugger/_runtime_entry.js")),
-  "pause": () => __webpack_require__(/*! ../addons/pause/_runtime_entry.js */ "./src/addons/addons/pause/_runtime_entry.js"),
-  "mute-project": () => __webpack_require__(/*! ../addons/mute-project/_runtime_entry.js */ "./src/addons/addons/mute-project/_runtime_entry.js"),
-  "vol-slider": () => __webpack_require__.e(/*! import() | addon-entry-vol-slider */ "addon-entry-vol-slider").then(__webpack_require__.bind(null, /*! ../addons/vol-slider/_runtime_entry.js */ "./src/addons/addons/vol-slider/_runtime_entry.js")),
-  "clones": () => __webpack_require__.e(/*! import() | addon-entry-clones */ "addon-entry-clones").then(__webpack_require__.bind(null, /*! ../addons/clones/_runtime_entry.js */ "./src/addons/addons/clones/_runtime_entry.js")),
-  "mouse-pos": () => __webpack_require__.e(/*! import() | addon-entry-mouse-pos */ "addon-entry-mouse-pos").then(__webpack_require__.bind(null, /*! ../addons/mouse-pos/_runtime_entry.js */ "./src/addons/addons/mouse-pos/_runtime_entry.js")),
-  "color-picker": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/color-picker/_runtime_entry.js */ "./src/addons/addons/color-picker/_runtime_entry.js")),
-  "remove-sprite-confirm": () => __webpack_require__.e(/*! import() | addon-entry-remove-sprite-confirm */ "addon-entry-remove-sprite-confirm").then(__webpack_require__.bind(null, /*! ../addons/remove-sprite-confirm/_runtime_entry.js */ "./src/addons/addons/remove-sprite-confirm/_runtime_entry.js")),
-  "block-count": () => __webpack_require__.e(/*! import() | addon-entry-block-count */ "addon-entry-block-count").then(__webpack_require__.bind(null, /*! ../addons/block-count/_runtime_entry.js */ "./src/addons/addons/block-count/_runtime_entry.js")),
-  "onion-skinning": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/onion-skinning/_runtime_entry.js */ "./src/addons/addons/onion-skinning/_runtime_entry.js")),
-  "paint-snap": () => __webpack_require__.e(/*! import() | addon-entry-paint-snap */ "addon-entry-paint-snap").then(__webpack_require__.bind(null, /*! ../addons/paint-snap/_runtime_entry.js */ "./src/addons/addons/paint-snap/_runtime_entry.js")),
-  "default-costume-editor-color": () => __webpack_require__.e(/*! import() | addon-entry-default-costume-editor-color */ "addon-entry-default-costume-editor-color").then(__webpack_require__.bind(null, /*! ../addons/default-costume-editor-color/_runtime_entry.js */ "./src/addons/addons/default-costume-editor-color/_runtime_entry.js")),
-  "bitmap-copy": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/bitmap-copy/_runtime_entry.js */ "./src/addons/addons/bitmap-copy/_runtime_entry.js")),
-  "2d-color-picker": () => __webpack_require__.e(/*! import() | addon-entry-2d-color-picker */ "addon-entry-2d-color-picker").then(__webpack_require__.bind(null, /*! ../addons/2d-color-picker/_runtime_entry.js */ "./src/addons/addons/2d-color-picker/_runtime_entry.js")),
-  "better-img-uploads": () => __webpack_require__.e(/*! import() | addon-entry-better-img-uploads */ "addon-entry-better-img-uploads").then(__webpack_require__.bind(null, /*! ../addons/better-img-uploads/_runtime_entry.js */ "./src/addons/addons/better-img-uploads/_runtime_entry.js")),
-  "pick-colors-from-stage": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/pick-colors-from-stage/_runtime_entry.js */ "./src/addons/addons/pick-colors-from-stage/_runtime_entry.js")),
-  "custom-block-shape": () => __webpack_require__.e(/*! import() | addon-entry-custom-block-shape */ "addon-entry-custom-block-shape").then(__webpack_require__.bind(null, /*! ../addons/custom-block-shape/_runtime_entry.js */ "./src/addons/addons/custom-block-shape/_runtime_entry.js")),
-  "zebra-striping": () => __webpack_require__.e(/*! import() | addon-entry-zebra-striping */ "addon-entry-zebra-striping").then(__webpack_require__.bind(null, /*! ../addons/zebra-striping/_runtime_entry.js */ "./src/addons/addons/zebra-striping/_runtime_entry.js")),
-  "editor-theme3": () => __webpack_require__.e(/*! import() | addon-entry-editor-theme3 */ "addon-entry-editor-theme3").then(__webpack_require__.bind(null, /*! ../addons/editor-theme3/_runtime_entry.js */ "./src/addons/addons/editor-theme3/_runtime_entry.js")),
-  "custom-block-text": () => __webpack_require__.e(/*! import() | addon-entry-custom-block-text */ "addon-entry-custom-block-text").then(__webpack_require__.bind(null, /*! ../addons/custom-block-text/_runtime_entry.js */ "./src/addons/addons/custom-block-text/_runtime_entry.js")),
-  "editor-colored-context-menus": () => __webpack_require__.e(/*! import() | addon-entry-editor-colored-context-menus */ "addon-entry-editor-colored-context-menus").then(__webpack_require__.bind(null, /*! ../addons/editor-colored-context-menus/_runtime_entry.js */ "./src/addons/addons/editor-colored-context-menus/_runtime_entry.js")),
-  "editor-stage-left": () => __webpack_require__.e(/*! import() | addon-entry-editor-stage-left */ "addon-entry-editor-stage-left").then(__webpack_require__.bind(null, /*! ../addons/editor-stage-left/_runtime_entry.js */ "./src/addons/addons/editor-stage-left/_runtime_entry.js")),
-  "editor-buttons-reverse-order": () => __webpack_require__.e(/*! import() | addon-entry-editor-buttons-reverse-order */ "addon-entry-editor-buttons-reverse-order").then(__webpack_require__.bind(null, /*! ../addons/editor-buttons-reverse-order/_runtime_entry.js */ "./src/addons/addons/editor-buttons-reverse-order/_runtime_entry.js")),
-  "variable-manager": () => __webpack_require__.e(/*! import() | addon-entry-variable-manager */ "addon-entry-variable-manager").then(__webpack_require__.bind(null, /*! ../addons/variable-manager/_runtime_entry.js */ "./src/addons/addons/variable-manager/_runtime_entry.js")),
-  "search-sprites": () => __webpack_require__.e(/*! import() | addon-entry-search-sprites */ "addon-entry-search-sprites").then(__webpack_require__.bind(null, /*! ../addons/search-sprites/_runtime_entry.js */ "./src/addons/addons/search-sprites/_runtime_entry.js")),
-  "sprite-properties": () => __webpack_require__.e(/*! import() | addon-entry-sprite-properties */ "addon-entry-sprite-properties").then(__webpack_require__.bind(null, /*! ../addons/sprite-properties/_runtime_entry.js */ "./src/addons/addons/sprite-properties/_runtime_entry.js")),
-  "gamepad": () => __webpack_require__.e(/*! import() | addon-entry-gamepad */ "addon-entry-gamepad").then(__webpack_require__.bind(null, /*! ../addons/gamepad/_runtime_entry.js */ "./src/addons/addons/gamepad/_runtime_entry.js")),
-  "editor-sounds": () => __webpack_require__.e(/*! import() | addon-entry-editor-sounds */ "addon-entry-editor-sounds").then(__webpack_require__.bind(null, /*! ../addons/editor-sounds/_runtime_entry.js */ "./src/addons/addons/editor-sounds/_runtime_entry.js")),
-  "folders": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/folders/_runtime_entry.js */ "./src/addons/addons/folders/_runtime_entry.js")),
-  "block-switching": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/block-switching/_runtime_entry.js */ "./src/addons/addons/block-switching/_runtime_entry.js")),
-  "load-extensions": () => __webpack_require__.e(/*! import() | addon-entry-load-extensions */ "addon-entry-load-extensions").then(__webpack_require__.bind(null, /*! ../addons/load-extensions/_runtime_entry.js */ "./src/addons/addons/load-extensions/_runtime_entry.js")),
-  "custom-zoom": () => __webpack_require__.e(/*! import() | addon-entry-custom-zoom */ "addon-entry-custom-zoom").then(__webpack_require__.bind(null, /*! ../addons/custom-zoom/_runtime_entry.js */ "./src/addons/addons/custom-zoom/_runtime_entry.js")),
-  "initialise-sprite-position": () => __webpack_require__.e(/*! import() | addon-entry-initialise-sprite-position */ "addon-entry-initialise-sprite-position").then(__webpack_require__.bind(null, /*! ../addons/initialise-sprite-position/_runtime_entry.js */ "./src/addons/addons/initialise-sprite-position/_runtime_entry.js")),
-  "blocks2image": () => __webpack_require__.e(/*! import() | addon-entry-blocks2image */ "addon-entry-blocks2image").then(__webpack_require__.bind(null, /*! ../addons/blocks2image/_runtime_entry.js */ "./src/addons/addons/blocks2image/_runtime_entry.js")),
-  "remove-curved-stage-border": () => __webpack_require__.e(/*! import() | addon-entry-remove-curved-stage-border */ "addon-entry-remove-curved-stage-border").then(__webpack_require__.bind(null, /*! ../addons/remove-curved-stage-border/_runtime_entry.js */ "./src/addons/addons/remove-curved-stage-border/_runtime_entry.js")),
-  "transparent-orphans": () => __webpack_require__.e(/*! import() | addon-entry-transparent-orphans */ "addon-entry-transparent-orphans").then(__webpack_require__.bind(null, /*! ../addons/transparent-orphans/_runtime_entry.js */ "./src/addons/addons/transparent-orphans/_runtime_entry.js")),
-  "paint-by-default": () => __webpack_require__.e(/*! import() | addon-entry-paint-by-default */ "addon-entry-paint-by-default").then(__webpack_require__.bind(null, /*! ../addons/paint-by-default/_runtime_entry.js */ "./src/addons/addons/paint-by-default/_runtime_entry.js")),
-  "block-cherry-picking": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/block-cherry-picking/_runtime_entry.js */ "./src/addons/addons/block-cherry-picking/_runtime_entry.js")),
-  "hide-new-variables": () => __webpack_require__.e(/*! import() | addon-entry-hide-new-variables */ "addon-entry-hide-new-variables").then(__webpack_require__.bind(null, /*! ../addons/hide-new-variables/_runtime_entry.js */ "./src/addons/addons/hide-new-variables/_runtime_entry.js")),
-  "editor-extra-keys": () => __webpack_require__.e(/*! import() | addon-entry-editor-extra-keys */ "addon-entry-editor-extra-keys").then(__webpack_require__.bind(null, /*! ../addons/editor-extra-keys/_runtime_entry.js */ "./src/addons/addons/editor-extra-keys/_runtime_entry.js")),
-  "hide-delete-button": () => __webpack_require__.e(/*! import() | addon-entry-hide-delete-button */ "addon-entry-hide-delete-button").then(__webpack_require__.bind(null, /*! ../addons/hide-delete-button/_runtime_entry.js */ "./src/addons/addons/hide-delete-button/_runtime_entry.js")),
-  "no-script-bumping": () => __webpack_require__.e(/*! import() | addon-entry-no-script-bumping */ "addon-entry-no-script-bumping").then(__webpack_require__.bind(null, /*! ../addons/no-script-bumping/_runtime_entry.js */ "./src/addons/addons/no-script-bumping/_runtime_entry.js")),
-  "disable-stage-drag-select": () => __webpack_require__.e(/*! import() | addon-entry-disable-stage-drag-select */ "addon-entry-disable-stage-drag-select").then(__webpack_require__.bind(null, /*! ../addons/disable-stage-drag-select/_runtime_entry.js */ "./src/addons/addons/disable-stage-drag-select/_runtime_entry.js")),
-  "move-to-top-bottom": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/move-to-top-bottom/_runtime_entry.js */ "./src/addons/addons/move-to-top-bottom/_runtime_entry.js")),
-  "disable-paste-offset": () => __webpack_require__.e(/*! import() | addon-entry-disable-paste-offset */ "addon-entry-disable-paste-offset").then(__webpack_require__.bind(null, /*! ../addons/disable-paste-offset/_runtime_entry.js */ "./src/addons/addons/disable-paste-offset/_runtime_entry.js")),
-  "block-duplicate": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/block-duplicate/_runtime_entry.js */ "./src/addons/addons/block-duplicate/_runtime_entry.js")),
-  "rename-broadcasts": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/rename-broadcasts/_runtime_entry.js */ "./src/addons/addons/rename-broadcasts/_runtime_entry.js")),
-  "swap-local-global": () => __webpack_require__.e(/*! import() | addon-entry-swap-local-global */ "addon-entry-swap-local-global").then(__webpack_require__.bind(null, /*! ../addons/swap-local-global/_runtime_entry.js */ "./src/addons/addons/swap-local-global/_runtime_entry.js")),
-  "editor-comment-previews": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/editor-comment-previews/_runtime_entry.js */ "./src/addons/addons/editor-comment-previews/_runtime_entry.js")),
-  "columns": () => __webpack_require__.e(/*! import() | addon-entry-columns */ "addon-entry-columns").then(__webpack_require__.bind(null, /*! ../addons/columns/_runtime_entry.js */ "./src/addons/addons/columns/_runtime_entry.js")),
-  "number-pad": () => __webpack_require__.e(/*! import() | addon-entry-number-pad */ "addon-entry-number-pad").then(__webpack_require__.bind(null, /*! ../addons/number-pad/_runtime_entry.js */ "./src/addons/addons/number-pad/_runtime_entry.js")),
-  "script-snap": () => __webpack_require__.e(/*! import() | addon-entry-script-snap */ "addon-entry-script-snap").then(__webpack_require__.bind(null, /*! ../addons/script-snap/_runtime_entry.js */ "./src/addons/addons/script-snap/_runtime_entry.js")),
-  "fullscreen": () => __webpack_require__.e(/*! import() | addon-entry-fullscreen */ "addon-entry-fullscreen").then(__webpack_require__.bind(null, /*! ../addons/fullscreen/_runtime_entry.js */ "./src/addons/addons/fullscreen/_runtime_entry.js")),
-  "hide-stage": () => __webpack_require__.e(/*! import() | addon-entry-hide-stage */ "addon-entry-hide-stage").then(__webpack_require__.bind(null, /*! ../addons/hide-stage/_runtime_entry.js */ "./src/addons/addons/hide-stage/_runtime_entry.js")),
-  "tw-straighten-comments": () => __webpack_require__.e(/*! import() | addon-entry-tw-straighten-comments */ "addon-entry-tw-straighten-comments").then(__webpack_require__.bind(null, /*! ../addons/tw-straighten-comments/_runtime_entry.js */ "./src/addons/addons/tw-straighten-comments/_runtime_entry.js")),
-  "tw-remove-backpack": () => __webpack_require__.e(/*! import() | addon-entry-tw-remove-backpack */ "addon-entry-tw-remove-backpack").then(__webpack_require__.bind(null, /*! ../addons/tw-remove-backpack/_runtime_entry.js */ "./src/addons/addons/tw-remove-backpack/_runtime_entry.js")),
-  "tw-remove-feedback": () => __webpack_require__.e(/*! import() | addon-entry-tw-remove-feedback */ "addon-entry-tw-remove-feedback").then(__webpack_require__.bind(null, /*! ../addons/tw-remove-feedback/_runtime_entry.js */ "./src/addons/addons/tw-remove-feedback/_runtime_entry.js")),
-  "tw-disable-cloud-variables": () => __webpack_require__.e(/*! import() | addon-entry-tw-disable-cloud-variables */ "addon-entry-tw-disable-cloud-variables").then(__webpack_require__.bind(null, /*! ../addons/tw-disable-cloud-variables/_runtime_entry.js */ "./src/addons/addons/tw-disable-cloud-variables/_runtime_entry.js")),
-  "tw-disable-compiler": () => __webpack_require__.e(/*! import() | addon-entry-tw-disable-compiler */ "addon-entry-tw-disable-compiler").then(__webpack_require__.bind(null, /*! ../addons/tw-disable-compiler/_runtime_entry.js */ "./src/addons/addons/tw-disable-compiler/_runtime_entry.js")),
-  "editor-stepping": () => __webpack_require__.e(/*! import() | addon-entry-editor-stepping */ "addon-entry-editor-stepping").then(__webpack_require__.bind(null, /*! ../addons/editor-stepping/_runtime_entry.js */ "./src/addons/addons/editor-stepping/_runtime_entry.js"))
+  "cat-blocks": () => __webpack_require__.e(/*! import() | addon-entry-cat-blocks */ "addon-entry-cat-blocks").then(__webpack_require__.bind(null, /*! ../addons/cat-blocks/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/cat-blocks/_runtime_entry.js")),
+  "editor-devtools": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/editor-devtools/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-devtools/_runtime_entry.js")),
+  "find-bar": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/find-bar/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/find-bar/_runtime_entry.js")),
+  "middle-click-popup": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/middle-click-popup/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/middle-click-popup/_runtime_entry.js")),
+  "jump-to-def": () => __webpack_require__(/*! ../addons/jump-to-def/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/jump-to-def/_runtime_entry.js"),
+  "editor-searchable-dropdowns": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/editor-searchable-dropdowns/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-searchable-dropdowns/_runtime_entry.js")),
+  "data-category-tweaks-v2": () => __webpack_require__.e(/*! import() | addon-entry-data-category-tweaks-v2 */ "addon-entry-data-category-tweaks-v2").then(__webpack_require__.bind(null, /*! ../addons/data-category-tweaks-v2/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/data-category-tweaks-v2/_runtime_entry.js")),
+  "block-palette-icons": () => __webpack_require__.e(/*! import() | addon-entry-block-palette-icons */ "addon-entry-block-palette-icons").then(__webpack_require__.bind(null, /*! ../addons/block-palette-icons/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-palette-icons/_runtime_entry.js")),
+  "hide-flyout": () => __webpack_require__.e(/*! import() | addon-entry-hide-flyout */ "addon-entry-hide-flyout").then(__webpack_require__.bind(null, /*! ../addons/hide-flyout/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/hide-flyout/_runtime_entry.js")),
+  "mediarecorder": () => __webpack_require__.e(/*! import() | addon-entry-mediarecorder */ "addon-entry-mediarecorder").then(__webpack_require__.bind(null, /*! ../addons/mediarecorder/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/mediarecorder/_runtime_entry.js")),
+  "drag-drop": () => __webpack_require__(/*! ../addons/drag-drop/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/drag-drop/_runtime_entry.js"),
+  "debugger": () => __webpack_require__.e(/*! import() | addon-entry-debugger */ "addon-entry-debugger").then(__webpack_require__.bind(null, /*! ../addons/debugger/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/debugger/_runtime_entry.js")),
+  "pause": () => __webpack_require__(/*! ../addons/pause/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pause/_runtime_entry.js"),
+  "mute-project": () => __webpack_require__(/*! ../addons/mute-project/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/mute-project/_runtime_entry.js"),
+  "vol-slider": () => __webpack_require__.e(/*! import() | addon-entry-vol-slider */ "addon-entry-vol-slider").then(__webpack_require__.bind(null, /*! ../addons/vol-slider/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/vol-slider/_runtime_entry.js")),
+  "clones": () => __webpack_require__.e(/*! import() | addon-entry-clones */ "addon-entry-clones").then(__webpack_require__.bind(null, /*! ../addons/clones/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/clones/_runtime_entry.js")),
+  "mouse-pos": () => __webpack_require__.e(/*! import() | addon-entry-mouse-pos */ "addon-entry-mouse-pos").then(__webpack_require__.bind(null, /*! ../addons/mouse-pos/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/mouse-pos/_runtime_entry.js")),
+  "color-picker": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/color-picker/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/color-picker/_runtime_entry.js")),
+  "remove-sprite-confirm": () => __webpack_require__.e(/*! import() | addon-entry-remove-sprite-confirm */ "addon-entry-remove-sprite-confirm").then(__webpack_require__.bind(null, /*! ../addons/remove-sprite-confirm/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/remove-sprite-confirm/_runtime_entry.js")),
+  "block-count": () => __webpack_require__.e(/*! import() | addon-entry-block-count */ "addon-entry-block-count").then(__webpack_require__.bind(null, /*! ../addons/block-count/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-count/_runtime_entry.js")),
+  "onion-skinning": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/onion-skinning/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/onion-skinning/_runtime_entry.js")),
+  "paint-snap": () => __webpack_require__.e(/*! import() | addon-entry-paint-snap */ "addon-entry-paint-snap").then(__webpack_require__.bind(null, /*! ../addons/paint-snap/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-snap/_runtime_entry.js")),
+  "default-costume-editor-color": () => __webpack_require__.e(/*! import() | addon-entry-default-costume-editor-color */ "addon-entry-default-costume-editor-color").then(__webpack_require__.bind(null, /*! ../addons/default-costume-editor-color/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/default-costume-editor-color/_runtime_entry.js")),
+  "bitmap-copy": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/bitmap-copy/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/bitmap-copy/_runtime_entry.js")),
+  "2d-color-picker": () => __webpack_require__.e(/*! import() | addon-entry-2d-color-picker */ "addon-entry-2d-color-picker").then(__webpack_require__.bind(null, /*! ../addons/2d-color-picker/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/2d-color-picker/_runtime_entry.js")),
+  "better-img-uploads": () => __webpack_require__.e(/*! import() | addon-entry-better-img-uploads */ "addon-entry-better-img-uploads").then(__webpack_require__.bind(null, /*! ../addons/better-img-uploads/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/better-img-uploads/_runtime_entry.js")),
+  "pick-colors-from-stage": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/pick-colors-from-stage/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/pick-colors-from-stage/_runtime_entry.js")),
+  "custom-block-shape": () => __webpack_require__.e(/*! import() | addon-entry-custom-block-shape */ "addon-entry-custom-block-shape").then(__webpack_require__.bind(null, /*! ../addons/custom-block-shape/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/custom-block-shape/_runtime_entry.js")),
+  "zebra-striping": () => __webpack_require__.e(/*! import() | addon-entry-zebra-striping */ "addon-entry-zebra-striping").then(__webpack_require__.bind(null, /*! ../addons/zebra-striping/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/zebra-striping/_runtime_entry.js")),
+  "editor-theme3": () => __webpack_require__.e(/*! import() | addon-entry-editor-theme3 */ "addon-entry-editor-theme3").then(__webpack_require__.bind(null, /*! ../addons/editor-theme3/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-theme3/_runtime_entry.js")),
+  "custom-block-text": () => __webpack_require__.e(/*! import() | addon-entry-custom-block-text */ "addon-entry-custom-block-text").then(__webpack_require__.bind(null, /*! ../addons/custom-block-text/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/custom-block-text/_runtime_entry.js")),
+  "editor-colored-context-menus": () => __webpack_require__.e(/*! import() | addon-entry-editor-colored-context-menus */ "addon-entry-editor-colored-context-menus").then(__webpack_require__.bind(null, /*! ../addons/editor-colored-context-menus/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-colored-context-menus/_runtime_entry.js")),
+  "editor-stage-left": () => __webpack_require__.e(/*! import() | addon-entry-editor-stage-left */ "addon-entry-editor-stage-left").then(__webpack_require__.bind(null, /*! ../addons/editor-stage-left/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-stage-left/_runtime_entry.js")),
+  "editor-buttons-reverse-order": () => __webpack_require__.e(/*! import() | addon-entry-editor-buttons-reverse-order */ "addon-entry-editor-buttons-reverse-order").then(__webpack_require__.bind(null, /*! ../addons/editor-buttons-reverse-order/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-buttons-reverse-order/_runtime_entry.js")),
+  "variable-manager": () => __webpack_require__.e(/*! import() | addon-entry-variable-manager */ "addon-entry-variable-manager").then(__webpack_require__.bind(null, /*! ../addons/variable-manager/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/variable-manager/_runtime_entry.js")),
+  "search-sprites": () => __webpack_require__.e(/*! import() | addon-entry-search-sprites */ "addon-entry-search-sprites").then(__webpack_require__.bind(null, /*! ../addons/search-sprites/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/search-sprites/_runtime_entry.js")),
+  "sprite-properties": () => __webpack_require__.e(/*! import() | addon-entry-sprite-properties */ "addon-entry-sprite-properties").then(__webpack_require__.bind(null, /*! ../addons/sprite-properties/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/sprite-properties/_runtime_entry.js")),
+  "gamepad": () => __webpack_require__.e(/*! import() | addon-entry-gamepad */ "addon-entry-gamepad").then(__webpack_require__.bind(null, /*! ../addons/gamepad/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/gamepad/_runtime_entry.js")),
+  "editor-sounds": () => __webpack_require__.e(/*! import() | addon-entry-editor-sounds */ "addon-entry-editor-sounds").then(__webpack_require__.bind(null, /*! ../addons/editor-sounds/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-sounds/_runtime_entry.js")),
+  "folders": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/folders/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/folders/_runtime_entry.js")),
+  "block-switching": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/block-switching/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-switching/_runtime_entry.js")),
+  "load-extensions": () => __webpack_require__.e(/*! import() | addon-entry-load-extensions */ "addon-entry-load-extensions").then(__webpack_require__.bind(null, /*! ../addons/load-extensions/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/load-extensions/_runtime_entry.js")),
+  "custom-zoom": () => __webpack_require__.e(/*! import() | addon-entry-custom-zoom */ "addon-entry-custom-zoom").then(__webpack_require__.bind(null, /*! ../addons/custom-zoom/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/custom-zoom/_runtime_entry.js")),
+  "initialise-sprite-position": () => __webpack_require__.e(/*! import() | addon-entry-initialise-sprite-position */ "addon-entry-initialise-sprite-position").then(__webpack_require__.bind(null, /*! ../addons/initialise-sprite-position/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/initialise-sprite-position/_runtime_entry.js")),
+  "blocks2image": () => __webpack_require__.e(/*! import() | addon-entry-blocks2image */ "addon-entry-blocks2image").then(__webpack_require__.bind(null, /*! ../addons/blocks2image/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/blocks2image/_runtime_entry.js")),
+  "remove-curved-stage-border": () => __webpack_require__.e(/*! import() | addon-entry-remove-curved-stage-border */ "addon-entry-remove-curved-stage-border").then(__webpack_require__.bind(null, /*! ../addons/remove-curved-stage-border/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/remove-curved-stage-border/_runtime_entry.js")),
+  "transparent-orphans": () => __webpack_require__.e(/*! import() | addon-entry-transparent-orphans */ "addon-entry-transparent-orphans").then(__webpack_require__.bind(null, /*! ../addons/transparent-orphans/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/transparent-orphans/_runtime_entry.js")),
+  "paint-by-default": () => __webpack_require__.e(/*! import() | addon-entry-paint-by-default */ "addon-entry-paint-by-default").then(__webpack_require__.bind(null, /*! ../addons/paint-by-default/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/paint-by-default/_runtime_entry.js")),
+  "block-cherry-picking": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/block-cherry-picking/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-cherry-picking/_runtime_entry.js")),
+  "hide-new-variables": () => __webpack_require__.e(/*! import() | addon-entry-hide-new-variables */ "addon-entry-hide-new-variables").then(__webpack_require__.bind(null, /*! ../addons/hide-new-variables/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/hide-new-variables/_runtime_entry.js")),
+  "editor-extra-keys": () => __webpack_require__.e(/*! import() | addon-entry-editor-extra-keys */ "addon-entry-editor-extra-keys").then(__webpack_require__.bind(null, /*! ../addons/editor-extra-keys/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-extra-keys/_runtime_entry.js")),
+  "hide-delete-button": () => __webpack_require__.e(/*! import() | addon-entry-hide-delete-button */ "addon-entry-hide-delete-button").then(__webpack_require__.bind(null, /*! ../addons/hide-delete-button/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/hide-delete-button/_runtime_entry.js")),
+  "no-script-bumping": () => __webpack_require__.e(/*! import() | addon-entry-no-script-bumping */ "addon-entry-no-script-bumping").then(__webpack_require__.bind(null, /*! ../addons/no-script-bumping/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/no-script-bumping/_runtime_entry.js")),
+  "disable-stage-drag-select": () => __webpack_require__.e(/*! import() | addon-entry-disable-stage-drag-select */ "addon-entry-disable-stage-drag-select").then(__webpack_require__.bind(null, /*! ../addons/disable-stage-drag-select/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/disable-stage-drag-select/_runtime_entry.js")),
+  "move-to-top-bottom": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/move-to-top-bottom/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/move-to-top-bottom/_runtime_entry.js")),
+  "disable-paste-offset": () => __webpack_require__.e(/*! import() | addon-entry-disable-paste-offset */ "addon-entry-disable-paste-offset").then(__webpack_require__.bind(null, /*! ../addons/disable-paste-offset/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/disable-paste-offset/_runtime_entry.js")),
+  "block-duplicate": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/block-duplicate/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/block-duplicate/_runtime_entry.js")),
+  "rename-broadcasts": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/rename-broadcasts/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/rename-broadcasts/_runtime_entry.js")),
+  "swap-local-global": () => __webpack_require__.e(/*! import() | addon-entry-swap-local-global */ "addon-entry-swap-local-global").then(__webpack_require__.bind(null, /*! ../addons/swap-local-global/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/swap-local-global/_runtime_entry.js")),
+  "editor-comment-previews": () => __webpack_require__.e(/*! import() | addon-default-entry */ "addon-default-entry").then(__webpack_require__.bind(null, /*! ../addons/editor-comment-previews/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-comment-previews/_runtime_entry.js")),
+  "columns": () => __webpack_require__.e(/*! import() | addon-entry-columns */ "addon-entry-columns").then(__webpack_require__.bind(null, /*! ../addons/columns/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/columns/_runtime_entry.js")),
+  "number-pad": () => __webpack_require__.e(/*! import() | addon-entry-number-pad */ "addon-entry-number-pad").then(__webpack_require__.bind(null, /*! ../addons/number-pad/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/number-pad/_runtime_entry.js")),
+  "script-snap": () => __webpack_require__.e(/*! import() | addon-entry-script-snap */ "addon-entry-script-snap").then(__webpack_require__.bind(null, /*! ../addons/script-snap/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/script-snap/_runtime_entry.js")),
+  "fullscreen": () => __webpack_require__.e(/*! import() | addon-entry-fullscreen */ "addon-entry-fullscreen").then(__webpack_require__.bind(null, /*! ../addons/fullscreen/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/fullscreen/_runtime_entry.js")),
+  "hide-stage": () => __webpack_require__.e(/*! import() | addon-entry-hide-stage */ "addon-entry-hide-stage").then(__webpack_require__.bind(null, /*! ../addons/hide-stage/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/hide-stage/_runtime_entry.js")),
+  "tw-straighten-comments": () => __webpack_require__.e(/*! import() | addon-entry-tw-straighten-comments */ "addon-entry-tw-straighten-comments").then(__webpack_require__.bind(null, /*! ../addons/tw-straighten-comments/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/tw-straighten-comments/_runtime_entry.js")),
+  "tw-remove-backpack": () => __webpack_require__.e(/*! import() | addon-entry-tw-remove-backpack */ "addon-entry-tw-remove-backpack").then(__webpack_require__.bind(null, /*! ../addons/tw-remove-backpack/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/tw-remove-backpack/_runtime_entry.js")),
+  "tw-remove-feedback": () => __webpack_require__.e(/*! import() | addon-entry-tw-remove-feedback */ "addon-entry-tw-remove-feedback").then(__webpack_require__.bind(null, /*! ../addons/tw-remove-feedback/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/tw-remove-feedback/_runtime_entry.js")),
+  "tw-disable-cloud-variables": () => __webpack_require__.e(/*! import() | addon-entry-tw-disable-cloud-variables */ "addon-entry-tw-disable-cloud-variables").then(__webpack_require__.bind(null, /*! ../addons/tw-disable-cloud-variables/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/tw-disable-cloud-variables/_runtime_entry.js")),
+  "tw-disable-compiler": () => __webpack_require__.e(/*! import() | addon-entry-tw-disable-compiler */ "addon-entry-tw-disable-compiler").then(__webpack_require__.bind(null, /*! ../addons/tw-disable-compiler/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/tw-disable-compiler/_runtime_entry.js")),
+  "editor-stepping": () => __webpack_require__.e(/*! import() | addon-entry-editor-stepping */ "addon-entry-editor-stepping").then(__webpack_require__.bind(null, /*! ../addons/editor-stepping/_runtime_entry.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/editor-stepping/_runtime_entry.js"))
 });
 
 /***/ }),
 
-/***/ "./src/addons/generated/l10n-entries.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/generated/l10n-entries.js":
 /*!**********************************************!*\
   !*** ./src/addons/generated/l10n-entries.js ***!
   \**********************************************/
@@ -2903,26 +2903,26 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* generated by pull.js */
 /* harmony default export */ __webpack_exports__["default"] = ({
-  "de": () => __webpack_require__.e(/*! import() | addon-l10n-de */ "addon-l10n-de").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/de.json */ "./src/addons/addons-l10n/de.json", 3)),
-  "es": () => __webpack_require__.e(/*! import() | addon-l10n-es */ "addon-l10n-es").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/es.json */ "./src/addons/addons-l10n/es.json", 3)),
-  "fr": () => __webpack_require__.e(/*! import() | addon-l10n-fr */ "addon-l10n-fr").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/fr.json */ "./src/addons/addons-l10n/fr.json", 3)),
-  "hu": () => __webpack_require__.e(/*! import() | addon-l10n-hu */ "addon-l10n-hu").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/hu.json */ "./src/addons/addons-l10n/hu.json", 3)),
-  "it": () => __webpack_require__.e(/*! import() | addon-l10n-it */ "addon-l10n-it").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/it.json */ "./src/addons/addons-l10n/it.json", 3)),
-  "ja": () => __webpack_require__.e(/*! import() | addon-l10n-ja */ "addon-l10n-ja").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ja.json */ "./src/addons/addons-l10n/ja.json", 3)),
-  "ko": () => __webpack_require__.e(/*! import() | addon-l10n-ko */ "addon-l10n-ko").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ko.json */ "./src/addons/addons-l10n/ko.json", 3)),
-  "nl": () => __webpack_require__.e(/*! import() | addon-l10n-nl */ "addon-l10n-nl").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/nl.json */ "./src/addons/addons-l10n/nl.json", 3)),
-  "pl": () => __webpack_require__.e(/*! import() | addon-l10n-pl */ "addon-l10n-pl").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/pl.json */ "./src/addons/addons-l10n/pl.json", 3)),
-  "pt": () => __webpack_require__.e(/*! import() | addon-l10n-pt */ "addon-l10n-pt").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/pt.json */ "./src/addons/addons-l10n/pt.json", 3)),
-  "ro": () => __webpack_require__.e(/*! import() | addon-l10n-ro */ "addon-l10n-ro").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ro.json */ "./src/addons/addons-l10n/ro.json", 3)),
-  "ru": () => __webpack_require__.e(/*! import() | addon-l10n-ru */ "addon-l10n-ru").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ru.json */ "./src/addons/addons-l10n/ru.json", 3)),
-  "sl": () => __webpack_require__.e(/*! import() | addon-l10n-sl */ "addon-l10n-sl").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/sl.json */ "./src/addons/addons-l10n/sl.json", 3)),
-  "tr": () => __webpack_require__.e(/*! import() | addon-l10n-tr */ "addon-l10n-tr").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/tr.json */ "./src/addons/addons-l10n/tr.json", 3)),
-  "zh-tw": () => __webpack_require__.e(/*! import() | addon-l10n-zh-tw */ "addon-l10n-zh-tw").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/zh-tw.json */ "./src/addons/addons-l10n/zh-tw.json", 3))
+  "de": () => __webpack_require__.e(/*! import() | addon-l10n-de */ "addon-l10n-de").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/de.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/de.json", 3)),
+  "es": () => __webpack_require__.e(/*! import() | addon-l10n-es */ "addon-l10n-es").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/es.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/es.json", 3)),
+  "fr": () => __webpack_require__.e(/*! import() | addon-l10n-fr */ "addon-l10n-fr").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/fr.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/fr.json", 3)),
+  "hu": () => __webpack_require__.e(/*! import() | addon-l10n-hu */ "addon-l10n-hu").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/hu.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/hu.json", 3)),
+  "it": () => __webpack_require__.e(/*! import() | addon-l10n-it */ "addon-l10n-it").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/it.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/it.json", 3)),
+  "ja": () => __webpack_require__.e(/*! import() | addon-l10n-ja */ "addon-l10n-ja").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ja.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/ja.json", 3)),
+  "ko": () => __webpack_require__.e(/*! import() | addon-l10n-ko */ "addon-l10n-ko").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ko.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/ko.json", 3)),
+  "nl": () => __webpack_require__.e(/*! import() | addon-l10n-nl */ "addon-l10n-nl").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/nl.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/nl.json", 3)),
+  "pl": () => __webpack_require__.e(/*! import() | addon-l10n-pl */ "addon-l10n-pl").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/pl.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/pl.json", 3)),
+  "pt": () => __webpack_require__.e(/*! import() | addon-l10n-pt */ "addon-l10n-pt").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/pt.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/pt.json", 3)),
+  "ro": () => __webpack_require__.e(/*! import() | addon-l10n-ro */ "addon-l10n-ro").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ro.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/ro.json", 3)),
+  "ru": () => __webpack_require__.e(/*! import() | addon-l10n-ru */ "addon-l10n-ru").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/ru.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/ru.json", 3)),
+  "sl": () => __webpack_require__.e(/*! import() | addon-l10n-sl */ "addon-l10n-sl").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/sl.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/sl.json", 3)),
+  "tr": () => __webpack_require__.e(/*! import() | addon-l10n-tr */ "addon-l10n-tr").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/tr.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/tr.json", 3)),
+  "zh-tw": () => __webpack_require__.e(/*! import() | addon-l10n-zh-tw */ "addon-l10n-zh-tw").then(__webpack_require__.t.bind(null, /*! ../addons-l10n/zh-tw.json */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/zh-tw.json", 3))
 });
 
 /***/ }),
 
-/***/ "./src/addons/libraries/common/cs/text-color.esm.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/libraries/common/cs/text-color.esm.js":
 /*!**********************************************************!*\
   !*** ./src/addons/libraries/common/cs/text-color.esm.js ***!
   \**********************************************************/
@@ -3165,7 +3165,7 @@ function recolorFilter(hex) {
 
 /***/ }),
 
-/***/ "./src/addons/modal.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/modal.css":
 /*!******************************!*\
   !*** ./src/addons/modal.css ***!
   \******************************/
@@ -3173,7 +3173,7 @@ function recolorFilter(hex) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!../../node_modules/postcss-loader/src??postcss!./modal.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/modal.css");
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!../../node_modules/postcss-loader/src??postcss!./modal.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/addons/modal.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -3187,7 +3187,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -3195,7 +3195,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/addons/modal.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/modal.js":
 /*!*****************************!*\
   !*** ./src/addons/modal.js ***!
   \*****************************/
@@ -3207,9 +3207,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createEditorModal", function() { return createEditorModal; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "confirm", function() { return confirm; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "prompt", function() { return prompt; });
-/* harmony import */ var _components_close_button_icon_close_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/close-button/icon--close.svg */ "./src/components/close-button/icon--close.svg");
+/* harmony import */ var _components_close_button_icon_close_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/close-button/icon--close.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/components/close-button/icon--close.svg");
 /* harmony import */ var _components_close_button_icon_close_svg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_close_button_icon_close_svg__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modal_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modal.css */ "./src/addons/modal.css");
+/* harmony import */ var _modal_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modal.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/modal.css");
 /* harmony import */ var _modal_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modal_css__WEBPACK_IMPORTED_MODULE_1__);
 // Based on
 // https://github.com/ScratchAddons/ScratchAddons/blob/master/addon-api/content-script/modal.js
@@ -3399,7 +3399,7 @@ const prompt = (tab, title, message, defaultValue = '', {
 
 /***/ }),
 
-/***/ "./src/addons/polyfill.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/polyfill.js":
 /*!********************************!*\
   !*** ./src/addons/polyfill.js ***!
   \********************************/

@@ -66,11 +66,11 @@ function ToggleFullScreen() {
 		var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
 		
 		var buildUrl = "Build";
-		var loaderUrl = buildUrl + "./Balloon_Run.loader.js";
+		var loaderUrl = buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Balloon_Run.loader.js";
 		var config = {
-        dataUrl: buildUrl + "./Balloon_Run.data",
-        frameworkUrl: buildUrl + "./Balloon_Run.framework.js",
-        codeUrl: buildUrl + "./Balloon_Run.wasm",
+        dataUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Balloon_Run.data",
+        frameworkUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Balloon_Run.framework.js",
+        codeUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Balloon_Run.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Gamebol",
         productName: "Balloon Run",

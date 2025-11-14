@@ -1,13 +1,13 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-sprite-properties"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/sprite-properties/userstyle.css":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/sprite-properties/userstyle.css":
 /*!*************************************************************************************!*\
   !*** ./node_modules/css-loader!./src/addons/addons/sprite-properties/userstyle.css ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -19,7 +19,7 @@ exports.push([module.i, "[class^=\"sprite-info_sprite-info_\"] {\n  height: 0;\n
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/collapse.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/collapse.svg":
 /*!************************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/collapse.svg ***!
   \************************************************************************************************/
@@ -32,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/info.svg":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/info.svg":
 /*!********************************************************************************************!*\
   !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/info.svg ***!
   \********************************************************************************************/
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/addons/addons/sprite-properties/_runtime_entry.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/sprite-properties/_runtime_entry.js":
 /*!***************************************************************!*\
   !*** ./src/addons/addons/sprite-properties/_runtime_entry.js ***!
   \***************************************************************/
@@ -55,11 +55,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/sprite-properties/userscript.js");
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/sprite-properties/userstyle.css");
+/* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/sprite-properties/userscript.js");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./userstyle.css */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/index.js!./src/addons/addons/sprite-properties/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_collapse_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./collapse.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/collapse.svg");
-/* harmony import */ var _url_loader_info_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./info.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/info.svg");
+/* harmony import */ var _url_loader_collapse_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./collapse.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/collapse.svg");
+/* harmony import */ var _url_loader_info_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./info.svg */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/url-loader/dist/cjs.js!./src/addons/addons/sprite-properties/info.svg");
 /* generated by pull.js */
 
 
@@ -74,7 +74,7 @@ const resources = {
 
 /***/ }),
 
-/***/ "./src/addons/addons/sprite-properties/userscript.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons/sprite-properties/userscript.js":
 /*!***********************************************************!*\
   !*** ./src/addons/addons/sprite-properties/userscript.js ***!
   \***********************************************************/
@@ -170,7 +170,7 @@ __webpack_require__.r(__webpack_exports__);
 
   function injectInfoButton() {
     if (!infoButton) {
-      infoButton = createButton(PROPS_INFO_BTN_CLASS, "./info.svg", msg("open-properties-panel-tooltip"));
+      infoButton = createButton(PROPS_INFO_BTN_CLASS, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/info.svg", msg("open-properties-panel-tooltip"));
     }
 
     const selectedSprite = propertiesPanel.parentNode.querySelector('[class*="sprite-selector-item_is-selected"]');
@@ -186,7 +186,7 @@ __webpack_require__.r(__webpack_exports__);
 
   function injectCloseButton() {
     if (!closeButton) {
-      closeButton = createButton(PROPS_CLOSE_BTN_CLASS, "./collapse.svg", msg("close-properties-panel-tooltip"));
+      closeButton = createButton(PROPS_CLOSE_BTN_CLASS, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/collapse.svg", msg("close-properties-panel-tooltip"));
     }
 
     propertiesPanel.appendChild(closeButton);

@@ -81,12 +81,12 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/extension-worker.js":
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4!./node_modules/scratch-vm/src/extension-support/extension-worker.js ***!
   \*******************************************************************************************************************/
@@ -94,19 +94,19 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/* eslint-env worker */
-const ScratchCommon = __webpack_require__(/*! ./tw-extension-api-common */ "./node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js");
+const ScratchCommon = __webpack_require__(/*! ./tw-extension-api-common */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js");
 
-const createScratchX = __webpack_require__(/*! ./tw-scratchx-compatibility-layer */ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js");
+const createScratchX = __webpack_require__(/*! ./tw-scratchx-compatibility-layer */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js");
 
-const dispatch = __webpack_require__(/*! ../dispatch/worker-dispatch */ "./node_modules/scratch-vm/src/dispatch/worker-dispatch.js");
+const dispatch = __webpack_require__(/*! ../dispatch/worker-dispatch */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/dispatch/worker-dispatch.js");
 
-const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+const log = __webpack_require__(/*! ../util/log */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/log.js");
 
 const {
   isWorker
-} = __webpack_require__(/*! ./tw-extension-worker-context */ "./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
+} = __webpack_require__(/*! ./tw-extension-worker-context */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
 
-const createTranslate = __webpack_require__(/*! ./tw-l10n */ "./node_modules/scratch-vm/src/extension-support/tw-l10n.js");
+const createTranslate = __webpack_require__(/*! ./tw-l10n */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-l10n.js");
 
 const translate = createTranslate(null);
 
@@ -207,11 +207,11 @@ global.Scratch.extensions = {
   register: extensionWorker.register.bind(extensionWorker)
 };
 global.ScratchExtensions = createScratchX(global.Scratch);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/format-message-formats/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-formats/index.js":
 /*!******************************************************!*\
   !*** ./node_modules/format-message-formats/index.js ***!
   \******************************************************/
@@ -415,7 +415,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/format-message-interpret/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-interpret/index.js":
 /*!********************************************************!*\
   !*** ./node_modules/format-message-interpret/index.js ***!
   \********************************************************/
@@ -425,9 +425,9 @@ module.exports = {
 "use strict";
 // @flow
 
-var formats = __webpack_require__(/*! format-message-formats */ "./node_modules/format-message-formats/index.js")
-var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/lookup-closest-locale/index.js")
-var plurals = __webpack_require__(/*! ./plurals */ "./node_modules/format-message-interpret/plurals.js")
+var formats = __webpack_require__(/*! format-message-formats */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-formats/index.js")
+var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lookup-closest-locale/index.js")
+var plurals = __webpack_require__(/*! ./plurals */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-interpret/plurals.js")
 
 /*::
 import type {
@@ -630,7 +630,7 @@ exports.types = defaults
 
 /***/ }),
 
-/***/ "./node_modules/format-message-interpret/plurals.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-interpret/plurals.js":
 /*!**********************************************************!*\
   !*** ./node_modules/format-message-interpret/plurals.js ***!
   \**********************************************************/
@@ -1201,7 +1201,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/format-message-parse/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-parse/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/format-message-parse/index.js ***!
   \****************************************************/
@@ -1549,7 +1549,7 @@ function parseId (current/*: Context */, isTag/*:: ?: boolean */)/*: string */ {
     if (
       char === ARG_OPN || char === ARG_CLS || char === ARG_SEP ||
       char === NUM_ARG || char === ESC || isWhitespace(char.charCodeAt(0)) ||
-      (isTag && (char === TAG_OPN || char === TAG_CLS || char === './'))
+      (isTag && (char === TAG_OPN || char === TAG_CLS || char === 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'))
     ) break
     id += char
     ++current.index
@@ -1657,7 +1657,7 @@ exports.SyntaxError = SyntaxError
 
 /***/ }),
 
-/***/ "./node_modules/format-message/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message/index.js":
 /*!**********************************************!*\
   !*** ./node_modules/format-message/index.js ***!
   \**********************************************/
@@ -1667,11 +1667,11 @@ exports.SyntaxError = SyntaxError
 "use strict";
 // @flow
 
-var parse = __webpack_require__(/*! format-message-parse */ "./node_modules/format-message-parse/index.js")
-var interpret = __webpack_require__(/*! format-message-interpret */ "./node_modules/format-message-interpret/index.js")
-var plurals = __webpack_require__(/*! format-message-interpret/plurals */ "./node_modules/format-message-interpret/plurals.js")
-var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/lookup-closest-locale/index.js")
-var origFormats = __webpack_require__(/*! format-message-formats */ "./node_modules/format-message-formats/index.js")
+var parse = __webpack_require__(/*! format-message-parse */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-parse/index.js")
+var interpret = __webpack_require__(/*! format-message-interpret */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-interpret/index.js")
+var plurals = __webpack_require__(/*! format-message-interpret/plurals */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-interpret/plurals.js")
+var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lookup-closest-locale/index.js")
+var origFormats = __webpack_require__(/*! format-message-formats */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message-formats/index.js")
 
 /*::
 import type { Types } from 'format-message-interpret'
@@ -1894,7 +1894,7 @@ module.exports = exports = namespace()
 
 /***/ }),
 
-/***/ "./node_modules/lookup-closest-locale/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/lookup-closest-locale/index.js":
 /*!*****************************************************!*\
   !*** ./node_modules/lookup-closest-locale/index.js ***!
   \*****************************************************/
@@ -1920,7 +1920,7 @@ module.exports = function lookupClosestLocale (locale/*: string | string[] | voi
 
 /***/ }),
 
-/***/ "./node_modules/microee/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/microee/index.js":
 /*!***************************************!*\
   !*** ./node_modules/microee/index.js ***!
   \***************************************/
@@ -1981,7 +1981,7 @@ module.exports = M;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/common/filter.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/filter.js":
 /*!***************************************************!*\
   !*** ./node_modules/minilog/lib/common/filter.js ***!
   \***************************************************/
@@ -1989,7 +1989,7 @@ module.exports = M;
 /***/ (function(module, exports, __webpack_require__) {
 
 // default filter
-var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/minilog/lib/common/transform.js");
+var Transform = __webpack_require__(/*! ./transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js");
 
 var levelMap = { debug: 1, info: 2, warn: 3, error: 4 };
 
@@ -2048,15 +2048,15 @@ module.exports = Filter;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/common/minilog.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/minilog.js":
 /*!****************************************************!*\
   !*** ./node_modules/minilog/lib/common/minilog.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/minilog/lib/common/transform.js"),
-    Filter = __webpack_require__(/*! ./filter.js */ "./node_modules/minilog/lib/common/filter.js");
+var Transform = __webpack_require__(/*! ./transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js"),
+    Filter = __webpack_require__(/*! ./filter.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/filter.js");
 
 var log = new Transform(),
     slice = Array.prototype.slice;
@@ -2104,14 +2104,14 @@ exports.enable = function() {
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/common/transform.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js":
 /*!******************************************************!*\
   !*** ./node_modules/minilog/lib/common/transform.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var microee = __webpack_require__(/*! microee */ "./node_modules/microee/index.js");
+var microee = __webpack_require__(/*! microee */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/microee/index.js");
 
 // Implements a subset of Node's stream.Transform - in a cross-platform manner.
 function Transform() {}
@@ -2187,14 +2187,14 @@ module.exports = Transform;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/array.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/array.js":
 /*!***********************************************!*\
   !*** ./node_modules/minilog/lib/web/array.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
+var Transform = __webpack_require__(/*! ../common/transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js"),
     cache = [ ];
 
 var logger = new Transform();
@@ -2212,14 +2212,14 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/console.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/console.js":
 /*!*************************************************!*\
   !*** ./node_modules/minilog/lib/web/console.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js");
+var Transform = __webpack_require__(/*! ../common/transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js");
 
 var newlines = /\n+$/,
     logger = new Transform();
@@ -2247,23 +2247,23 @@ logger.write = function(name, level, args) {
 };
 
 logger.formatters = ['color', 'minilog'];
-logger.color = __webpack_require__(/*! ./formatters/color.js */ "./node_modules/minilog/lib/web/formatters/color.js");
-logger.minilog = __webpack_require__(/*! ./formatters/minilog.js */ "./node_modules/minilog/lib/web/formatters/minilog.js");
+logger.color = __webpack_require__(/*! ./formatters/color.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/color.js");
+logger.minilog = __webpack_require__(/*! ./formatters/minilog.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/minilog.js");
 
 module.exports = logger;
 
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/formatters/color.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/color.js":
 /*!**********************************************************!*\
   !*** ./node_modules/minilog/lib/web/formatters/color.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
-    color = __webpack_require__(/*! ./util.js */ "./node_modules/minilog/lib/web/formatters/util.js");
+var Transform = __webpack_require__(/*! ../../common/transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js"),
+    color = __webpack_require__(/*! ./util.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/util.js");
 
 var colors = { debug: ['cyan'], info: ['purple' ], warn: [ 'yellow', true ], error: [ 'red', true ] },
     logger = new Transform();
@@ -2284,15 +2284,15 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/formatters/minilog.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/minilog.js":
 /*!************************************************************!*\
   !*** ./node_modules/minilog/lib/web/formatters/minilog.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
-    color = __webpack_require__(/*! ./util.js */ "./node_modules/minilog/lib/web/formatters/util.js"),
+var Transform = __webpack_require__(/*! ../../common/transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js"),
+    color = __webpack_require__(/*! ./util.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/util.js"),
     colors = { debug: ['gray'], info: ['purple' ], warn: [ 'yellow', true ], error: [ 'red', true ] },
     logger = new Transform();
 
@@ -2321,7 +2321,7 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/formatters/util.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/formatters/util.js":
 /*!*********************************************************!*\
   !*** ./node_modules/minilog/lib/web/formatters/util.js ***!
   \*********************************************************/
@@ -2352,19 +2352,19 @@ module.exports = color;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/index.js":
 /*!***********************************************!*\
   !*** ./node_modules/minilog/lib/web/index.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Minilog = __webpack_require__(/*! ../common/minilog.js */ "./node_modules/minilog/lib/common/minilog.js");
+var Minilog = __webpack_require__(/*! ../common/minilog.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/minilog.js");
 
 var oldEnable = Minilog.enable,
     oldDisable = Minilog.disable,
     isChrome = (typeof navigator != 'undefined' && /chrome/i.test(navigator.userAgent)),
-    console = __webpack_require__(/*! ./console.js */ "./node_modules/minilog/lib/web/console.js");
+    console = __webpack_require__(/*! ./console.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/console.js");
 
 // Use a more capable logging backend if on Chrome
 Minilog.defaultBackend = (isChrome ? console.minilog : console);
@@ -2396,23 +2396,23 @@ Minilog.disable = function() {
 exports = module.exports = Minilog;
 
 exports.backends = {
-  array: __webpack_require__(/*! ./array.js */ "./node_modules/minilog/lib/web/array.js"),
+  array: __webpack_require__(/*! ./array.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/array.js"),
   browser: Minilog.defaultBackend,
-  localStorage: __webpack_require__(/*! ./localstorage.js */ "./node_modules/minilog/lib/web/localstorage.js"),
-  jQuery: __webpack_require__(/*! ./jquery_simple.js */ "./node_modules/minilog/lib/web/jquery_simple.js")
+  localStorage: __webpack_require__(/*! ./localstorage.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/localstorage.js"),
+  jQuery: __webpack_require__(/*! ./jquery_simple.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/jquery_simple.js")
 };
 
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/jquery_simple.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/jquery_simple.js":
 /*!*******************************************************!*\
   !*** ./node_modules/minilog/lib/web/jquery_simple.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js");
+var Transform = __webpack_require__(/*! ../common/transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js");
 
 var cid = new Date().valueOf().toString(36);
 
@@ -2490,14 +2490,14 @@ module.exports = AjaxLogger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/localstorage.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/localstorage.js":
 /*!******************************************************!*\
   !*** ./node_modules/minilog/lib/web/localstorage.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
+var Transform = __webpack_require__(/*! ../common/transform.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/common/transform.js"),
     cache = false;
 
 var logger = new Transform();
@@ -2515,14 +2515,14 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/dispatch/shared-dispatch.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/dispatch/shared-dispatch.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/scratch-vm/src/dispatch/shared-dispatch.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+const log = __webpack_require__(/*! ../util/log */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/log.js");
 /**
  * @typedef {object} DispatchCallMessage - a message to the dispatch system representing a service method call
  * @property {*} responseId - send a response message with this response ID. See {@link DispatchResponseMessage}
@@ -2796,20 +2796,20 @@ module.exports = SharedDispatch;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/dispatch/worker-dispatch.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/dispatch/worker-dispatch.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/scratch-vm/src/dispatch/worker-dispatch.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const SharedDispatch = __webpack_require__(/*! ./shared-dispatch */ "./node_modules/scratch-vm/src/dispatch/shared-dispatch.js");
+const SharedDispatch = __webpack_require__(/*! ./shared-dispatch */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/dispatch/shared-dispatch.js");
 
-const log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/util/log.js");
+const log = __webpack_require__(/*! ../util/log */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/log.js");
 
 const {
   centralDispatchService
-} = __webpack_require__(/*! ../extension-support/tw-extension-worker-context */ "./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
+} = __webpack_require__(/*! ../extension-support/tw-extension-worker-context */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js");
 /**
  * This class provides a Worker with the means to participate in the message dispatch system managed by CentralDispatch.
  * From any context in the messaging system, the dispatcher's "call" method can call any method on any "service"
@@ -2931,7 +2931,7 @@ module.exports = new WorkerDispatch();
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/argument-type.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/argument-type.js":
 /*!************************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/argument-type.js ***!
   \************************************************************************/
@@ -2997,7 +2997,7 @@ module.exports = ArgumentType;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/block-type.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/block-type.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/block-type.js ***!
   \*********************************************************************/
@@ -3066,7 +3066,7 @@ module.exports = BlockType;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/target-type.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/target-type.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/target-type.js ***!
   \**********************************************************************/
@@ -3092,20 +3092,20 @@ module.exports = TargetType;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/tw-extension-api-common.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const ArgumentType = __webpack_require__(/*! ./argument-type */ "./node_modules/scratch-vm/src/extension-support/argument-type.js");
+const ArgumentType = __webpack_require__(/*! ./argument-type */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/argument-type.js");
 
-const BlockType = __webpack_require__(/*! ./block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
+const BlockType = __webpack_require__(/*! ./block-type */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/block-type.js");
 
-const TargetType = __webpack_require__(/*! ./target-type */ "./node_modules/scratch-vm/src/extension-support/target-type.js");
+const TargetType = __webpack_require__(/*! ./target-type */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/target-type.js");
 
-const Cast = __webpack_require__(/*! ../util/cast */ "./node_modules/scratch-vm/src/util/cast.js");
+const Cast = __webpack_require__(/*! ../util/cast */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/cast.js");
 
 const Scratch = {
   ArgumentType,
@@ -3117,7 +3117,7 @@ module.exports = Scratch;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js":
 /*!**************************************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/tw-extension-worker-context.js ***!
   \**************************************************************************************/
@@ -3132,14 +3132,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/tw-l10n.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-l10n.js":
 /*!******************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/tw-l10n.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const formatMessage = __webpack_require__(/*! format-message */ "./node_modules/format-message/index.js");
+const formatMessage = __webpack_require__(/*! format-message */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/format-message/index.js");
 /**
  * @param {VM|null} vm
  * @returns {object}
@@ -3200,7 +3200,7 @@ module.exports = createTranslate;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js":
 /*!******************************************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js ***!
   \******************************************************************************************/
@@ -3208,14 +3208,14 @@ module.exports = createTranslate;
 /***/ (function(module, exports, __webpack_require__) {
 
 // ScratchX API Documentation: https://github.com/LLK/scratchx/wiki/
-const ArgumentType = __webpack_require__(/*! ./argument-type */ "./node_modules/scratch-vm/src/extension-support/argument-type.js");
+const ArgumentType = __webpack_require__(/*! ./argument-type */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/argument-type.js");
 
-const BlockType = __webpack_require__(/*! ./block-type */ "./node_modules/scratch-vm/src/extension-support/block-type.js");
+const BlockType = __webpack_require__(/*! ./block-type */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/block-type.js");
 
 const {
   argumentIndexToId,
   generateExtensionId
-} = __webpack_require__(/*! ./tw-scratchx-utilities */ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-utilities.js");
+} = __webpack_require__(/*! ./tw-scratchx-utilities */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-scratchx-utilities.js");
 /**
  * @typedef ScratchXDescriptor
  * @property {unknown[][]} blocks
@@ -3450,7 +3450,7 @@ module.exports = createScratchX;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-utilities.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/extension-support/tw-scratchx-utilities.js":
 /*!********************************************************************************!*\
   !*** ./node_modules/scratch-vm/src/extension-support/tw-scratchx-utilities.js ***!
   \********************************************************************************/
@@ -3486,14 +3486,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/util/cast.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/cast.js":
 /*!**************************************************!*\
   !*** ./node_modules/scratch-vm/src/util/cast.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const Color = __webpack_require__(/*! ../util/color */ "./node_modules/scratch-vm/src/util/color.js");
+const Color = __webpack_require__(/*! ../util/color */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/color.js");
 /**
  * @fileoverview
  * Utilities for casting and comparing Scratch data-types.
@@ -3770,7 +3770,7 @@ module.exports = Cast;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/util/color.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/color.js":
 /*!***************************************************!*\
   !*** ./node_modules/scratch-vm/src/util/color.js ***!
   \***************************************************/
@@ -4034,21 +4034,21 @@ module.exports = Color;
 
 /***/ }),
 
-/***/ "./node_modules/scratch-vm/src/util/log.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-vm/src/util/log.js":
 /*!*************************************************!*\
   !*** ./node_modules/scratch-vm/src/util/log.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const minilog = __webpack_require__(/*! minilog */ "./node_modules/minilog/lib/web/index.js");
+const minilog = __webpack_require__(/*! minilog */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/minilog/lib/web/index.js");
 
 minilog.enable();
 module.exports = minilog('vm');
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/global.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/

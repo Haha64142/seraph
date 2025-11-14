@@ -7,10 +7,10 @@ var scripts = document.getElementsByTagName("script")
     "unity-beta": "unity-beta.js",
     "unity-2020": "unity-2020.js"
 };
-if (0 <= window.location.href.indexOf("pokiForceLocalLoader") && (loaders.unity = "./unity/dist/unity.js",
-loaders["unity-beta"] = "./unity-beta/dist/unity-beta.js",
-loaders["unity-2020"] = "./unity-2020/dist/unity-2020.js",
-root = "./loaders"),
+if (0 <= window.location.href.indexOf("pokiForceLocalLoader") && (loaders.unity = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/unity/dist/unity.js",
+loaders["unity-beta"] = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/unity-beta/dist/unity-beta.js",
+loaders["unity-2020"] = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/unity-2020/dist/unity-2020.js",
+root = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/loaders"),
 !window.config)
     throw Error("window.config not found");
 var loader = loaders[window.config.loader];

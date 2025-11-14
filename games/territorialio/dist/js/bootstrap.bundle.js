@@ -1840,7 +1840,7 @@
 
     if (uaData != null && uaData.brands && Array.isArray(uaData.brands)) {
       return uaData.brands.map(function (item) {
-        return item.brand + "./" + item.version;
+        return item.brand + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + item.version;
       }).join(' ');
     }
 

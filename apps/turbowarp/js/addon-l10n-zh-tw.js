@@ -1,6 +1,6 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-l10n-zh-tw"],{
 
-/***/ "./src/addons/addons-l10n/zh-tw.json":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/src/addons/addons-l10n/zh-tw.json":
 /*!*******************************************!*\
   !*** ./src/addons/addons-l10n/zh-tw.json ***!
   \*******************************************/

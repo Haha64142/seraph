@@ -72,7 +72,7 @@
           t[r - 1] = arguments[r];
         for (
           var n = t[0] || {},
-            o = this.service + "./" + e,
+            o = this.service + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + e,
             i = this.errors[e],
             a = i
               ? (function(e, n) {

@@ -22,7 +22,7 @@
                 if ('undefined' != typeof EJS_paths && typeof EJS_paths[file] == 'string') {
                     return EJS_paths[file];
                 } else if ('undefined' != typeof EJS_pathtodata) {
-                    if (!EJS_pathtodata.endsWith('./')) EJS_pathtodata+='./';
+                    if (!EJS_pathtodata.endsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) EJS_pathtodata+='https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
                     return EJS_pathtodata+file+'?v='+VERSION;
                 } else {
                     return file+'?v='+VERSION;
@@ -39,7 +39,7 @@
                 if ('undefined' != typeof EJS_paths && typeof EJS_paths[file] == 'string') {
                     return EJS_paths[file];
                 } else if ('undefined' != typeof EJS_pathtodata) {
-                    if (!EJS_pathtodata.endsWith('./')) EJS_pathtodata+='./';
+                    if (!EJS_pathtodata.endsWith('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) EJS_pathtodata+='https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
                     return EJS_pathtodata+file+'?v='+VERSION;
                 } else {
                     return file+'?v='+VERSION;

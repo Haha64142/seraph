@@ -3,7 +3,7 @@
      if(enablePWA) {
          // SERVICE WORKER
          if('serviceWorker' in navigator) {
-             navigator.serviceWorker.register('./js/sw.js');
+             navigator.serviceWorker.register('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/js/sw.js');
          };
          // NOTIFICATIONS TEMPLATE
          Notification.requestPermission().then(function(result) {

@@ -1978,7 +1978,7 @@
       payloadType: parseInt(parts.shift(), 10) // was: id
     };
   
-    parts = parts[0].split('./');
+    parts = parts[0].split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');
   
     parsed.name = parts[0];
     parsed.clockRate = parseInt(parts[1], 10); // was: clockrate
@@ -1996,8 +1996,8 @@
       pt = codec.preferredPayloadType;
     }
     var channels = codec.channels || codec.numChannels || 1;
-    return 'a=rtpmap:' + pt + ' ' + codec.name + './' + codec.clockRate +
-        (channels !== 1 ? './' + channels : '') + '\r\n';
+    return 'a=rtpmap:' + pt + ' ' + codec.name + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + codec.clockRate +
+        (channels !== 1 ? 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + channels : '') + '\r\n';
   };
   
   // Parses an a=extmap line (headerextension from RFC 5285). Sample input:
@@ -2007,7 +2007,7 @@
     var parts = line.substr(9).split(' ');
     return {
       id: parseInt(parts[0], 10),
-      direction: parts[0].indexOf('./') > 0 ? parts[0].split('./')[1] : 'sendrecv',
+      direction: parts[0].indexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') > 0 ? parts[0].split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')[1] : 'sendrecv',
       uri: parts[1]
     };
   };
@@ -2017,7 +2017,7 @@
   SDPUtils.writeExtmap = function(headerExtension) {
     return 'a=extmap:' + (headerExtension.id || headerExtension.preferredId) +
         (headerExtension.direction && headerExtension.direction !== 'sendrecv'
-            ? './' + headerExtension.direction
+            ? 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + headerExtension.direction
             : '') +
         ' ' + headerExtension.uri + '\r\n';
   };
@@ -2560,11 +2560,11 @@
   
   'use strict';
   
-  var adapterFactory = require('./adapter_factory.js');
+  var adapterFactory = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/adapter_factory.js');
   module.exports = adapterFactory({window: global.window});
   
   }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-  },{"./adapter_factory.js":4}],4:[function(require,module,exports){
+  },{"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/adapter_factory.js":4}],4:[function(require,module,exports){
   /*
    *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
    *
@@ -2576,7 +2576,7 @@
   
   'use strict';
   
-  var utils = require('./utils');
+  var utils = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils');
   // Shimming starts here.
   module.exports = function(dependencies, opts) {
     var window = dependencies && dependencies.window;
@@ -2602,14 +2602,14 @@
     // for the switch statement below. Can also be turned on in the browser via
     // adapter.disableLog(false), but then logging from the switch statement below
     // will not appear.
-    // require('./utils').disableLog(false);
+    // require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils').disableLog(false);
   
     // Browser shims.
-    var chromeShim = require('./chrome/chrome_shim') || null;
-    var edgeShim = require('./edge/edge_shim') || null;
-    var firefoxShim = require('./firefox/firefox_shim') || null;
-    var safariShim = require('./safari/safari_shim') || null;
-    var commonShim = require('./common_shim') || null;
+    var chromeShim = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/chrome/chrome_shim') || null;
+    var edgeShim = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/edge/edge_shim') || null;
+    var firefoxShim = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/firefox/firefox_shim') || null;
+    var safariShim = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/safari/safari_shim') || null;
+    var commonShim = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/common_shim') || null;
   
     // Export to the adapter global object visible in the browser.
     var adapter = {
@@ -2720,7 +2720,7 @@
     return adapter;
   };
   
-  },{"./chrome/chrome_shim":5,"./common_shim":7,"./edge/edge_shim":8,"./firefox/firefox_shim":11,"./safari/safari_shim":13,"./utils":14}],5:[function(require,module,exports){
+  },{"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/chrome/chrome_shim":5,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/common_shim":7,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/edge/edge_shim":8,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/firefox/firefox_shim":11,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/safari/safari_shim":13,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils":14}],5:[function(require,module,exports){
   
   /*
    *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
@@ -2776,7 +2776,7 @@
   }
   
   module.exports = {
-    shimGetUserMedia: require('./getusermedia'),
+    shimGetUserMedia: require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/getusermedia'),
     shimMediaStream: function(window) {
       window.MediaStream = window.MediaStream || window.webkitMediaStream;
     },
@@ -3662,7 +3662,7 @@
     }
   };
   
-  },{"../utils.js":14,"./getusermedia":6}],6:[function(require,module,exports){
+  },{"../utils.js":14,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/getusermedia":6}],6:[function(require,module,exports){
   /*
    *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
    *
@@ -3923,7 +3923,7 @@
   'use strict';
   
   var SDPUtils = require('sdp');
-  var utils = require('./utils');
+  var utils = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils');
   
   module.exports = {
     shimRTCIceCandidate: function(window) {
@@ -4203,7 +4203,7 @@
     }
   };
   
-  },{"./utils":14,"sdp":2}],8:[function(require,module,exports){
+  },{"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/utils":14,"sdp":2}],8:[function(require,module,exports){
   /*
    *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
    *
@@ -4215,11 +4215,11 @@
   'use strict';
   
   var utils = require('../utils');
-  var filterIceServers = require('./filtericeservers');
+  var filterIceServers = require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/filtericeservers');
   var shimRTCPeerConnection = require('rtcpeerconnection-shim');
   
   module.exports = {
-    shimGetUserMedia: require('./getusermedia'),
+    shimGetUserMedia: require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/getusermedia'),
     shimPeerConnection: function(window) {
       var browserDetails = utils.detectBrowser(window);
   
@@ -4293,7 +4293,7 @@
     }
   };
   
-  },{"../utils":14,"./filtericeservers":9,"./getusermedia":10,"rtcpeerconnection-shim":1}],9:[function(require,module,exports){
+  },{"../utils":14,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/filtericeservers":9,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/getusermedia":10,"rtcpeerconnection-shim":1}],9:[function(require,module,exports){
   /*
    *  Copyright (c) 2018 The WebRTC project authors. All Rights Reserved.
    *
@@ -4394,7 +4394,7 @@
   var utils = require('../utils');
   
   module.exports = {
-    shimGetUserMedia: require('./getusermedia'),
+    shimGetUserMedia: require('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/getusermedia'),
     shimOnTrack: function(window) {
       if (typeof window === 'object' && window.RTCPeerConnection && !('ontrack' in
           window.RTCPeerConnection.prototype)) {
@@ -4693,7 +4693,7 @@
     }
   };
   
-  },{"../utils":14,"./getusermedia":12}],12:[function(require,module,exports){
+  },{"../utils":14,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/getusermedia":12}],12:[function(require,module,exports){
   /*
    *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
    *

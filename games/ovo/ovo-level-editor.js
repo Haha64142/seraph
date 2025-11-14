@@ -32,7 +32,7 @@
             x.name === "Solid" ||
             (x.plugin instanceof cr.plugins_.TiledBg &&
               x.texture_file &&
-              x.texture_file.includes("./solid.png") &&
+              x.texture_file.includes("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/solid.png") &&
               x.behs_count === 2)
         ),
         Spike: sdk_runtime.types_by_index.find(

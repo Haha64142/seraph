@@ -19,4 +19,4 @@ function fbrqFixUrl(url) {
 }
 
 // loadFile: if (fbrqUrlCheck(t.url)) fbrqFixUrl(t.url);
-// "https://cdn.fbrq.io/@azerion/splash/assets/" => "./fbrq/"
+// "https://cdn.fbrq.io/@azerion/splash/assets/" => "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/fbrq/"

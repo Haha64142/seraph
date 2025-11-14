@@ -81,12 +81,12 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-storage/src/FetchWorkerTool.worker.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/babel-loader/lib/index.js?!./node_modules/scratch-storage/src/FetchWorkerTool.worker.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-storage/src/FetchWorkerTool.worker.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/babel-loader/lib/index.js?!./node_modules/scratch-storage/src/FetchWorkerTool.worker.js":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4!./node_modules/scratch-storage/src/FetchWorkerTool.worker.js ***!
   \************************************************************************************************************/
@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 /* eslint-env worker */
-const saferFetchAsArrayBuffer = __webpack_require__(/*! ./safer-fetch */ "./node_modules/scratch-storage/src/safer-fetch.js");
+const saferFetchAsArrayBuffer = __webpack_require__(/*! ./safer-fetch */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-storage/src/safer-fetch.js");
 
 const complete = [];
 let timeoutId = null;
@@ -162,7 +162,7 @@ if (self.fetch) {
 
 /***/ }),
 
-/***/ "./node_modules/scratch-storage/src/safer-fetch.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/scratch-storage/src/safer-fetch.js":
 /*!*********************************************************!*\
   !*** ./node_modules/scratch-storage/src/safer-fetch.js ***!
   \*********************************************************/

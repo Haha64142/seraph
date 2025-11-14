@@ -17121,7 +17121,7 @@ cr.plugins_.Audio = function(runtime)
 		if (api === API_CORDOVA)
 		{
 			appPath = location.href;
-			var i = appPath.lastIndexOf("./");
+			var i = appPath.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
 			if (i > -1)
 				appPath = appPath.substr(0, i + 1);
 			appPath = appPath.replace("file://", "");
@@ -19211,7 +19211,7 @@ cr.plugins_.GD_SDK = function(runtime) {
         if (d.getElementById(id)) return;
         js = d.createElement(s);
         js.id = id;
-        js.src = "./main.min.js";
+        js.src = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/main.min.js";
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "gamedistribution-jssdk");
     };
@@ -19514,7 +19514,7 @@ cr.plugins_.Keyboard = function(runtime)
 		case 188:	return ",";
 		case 189:	return "-";
 		case 190:	return ".";
-		case 191:	return "./";
+		case 191:	return "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/";
 		case 192:	return "'";
 		case 219:	return "[";
 		case 220:	return "\\";
@@ -24263,10 +24263,10 @@ cr.behaviors.Fade = function(runtime)
 }());
 var Box2D = (function () {
 function c(a){throw a;}var d=void 0,aa=!0,ba=null,ca=!1,e;e||(e=eval("(function() { try { return Module || {} } catch(e) { return {} } })()"));var da={},ea;for(ea in e)e.hasOwnProperty(ea)&&(da[ea]=e[ea]);var fa="object"===typeof process&&"function"===typeof require,ga="object"===typeof window,ia="function"===typeof importScripts,ja=!ga&&!fa&&!ia;
-if(fa){e.print||(e.print=function(a){process.stdout.write(a+"\n")});e.printErr||(e.printErr=function(a){process.stderr.write(a+"\n")});var ka=require("fs"),la=require("path");e.read=function(a,b){var a=la.normalize(a),f=ka.readFileSync(a);!f&&a!=la.resolve(a)&&(a=path.join(__dirname,"..","src",a),f=ka.readFileSync(a));f&&!b&&(f=f.toString());return f};e.readBinary=function(a){return e.read(a,aa)};e.load=function(a){ma(read(a))};e.thisProgram=1<process.argv.length?process.argv[1].replace(/\\/g,"./"):
+if(fa){e.print||(e.print=function(a){process.stdout.write(a+"\n")});e.printErr||(e.printErr=function(a){process.stderr.write(a+"\n")});var ka=require("fs"),la=require("path");e.read=function(a,b){var a=la.normalize(a),f=ka.readFileSync(a);!f&&a!=la.resolve(a)&&(a=path.join(__dirname,"..","src",a),f=ka.readFileSync(a));f&&!b&&(f=f.toString());return f};e.readBinary=function(a){return e.read(a,aa)};e.load=function(a){ma(read(a))};e.thisProgram=1<process.argv.length?process.argv[1].replace(/\\/g,"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/"):
 "unknown-program";e.arguments=process.argv.slice(2);"undefined"!==typeof module&&(module.exports=e);process.on("uncaughtException",function(a){a instanceof na||c(a)})}else ja?(e.print||(e.print=print),"undefined"!=typeof printErr&&(e.printErr=printErr),e.read="undefined"!=typeof read?read:function(){c("no read() available (jsc?)")},e.readBinary=function(a){if("function"===typeof readbuffer)return new Uint8Array(readbuffer(a));a=read(a,"binary");oa("object"===typeof a);return a},"undefined"!=typeof scriptArgs?
 e.arguments=scriptArgs:"undefined"!=typeof arguments&&(e.arguments=arguments),this.Module=e,eval("if (typeof gc === 'function' && gc.toString().indexOf('[native code]') > 0) var gc = undefined")):ga||ia?(e.read=function(a){var b=new XMLHttpRequest;b.open("GET",a,ca);b.send(ba);return b.responseText},"undefined"!=typeof arguments&&(e.arguments=arguments),"undefined"!==typeof console?(e.print||(e.print=function(a){console.log(a)}),e.printErr||(e.printErr=function(a){console.log(a)})):e.print||(e.print=
-function(){}),ga?window.Module=e:e.load=importScripts):c("Unknown runtime environment. Where are we?");function ma(a){eval.call(ba,a)}!e.load&&e.read&&(e.load=function(a){ma(e.read(a))});e.print||(e.print=function(){});e.printErr||(e.printErr=e.print);e.arguments||(e.arguments=[]);e.thisProgram||(e.thisProgram="./this.program");e.print=e.print;e.n=e.printErr;e.preRun=[];e.postRun=[];for(ea in da)da.hasOwnProperty(ea)&&(e[ea]=da[ea]);
+function(){}),ga?window.Module=e:e.load=importScripts):c("Unknown runtime environment. Where are we?");function ma(a){eval.call(ba,a)}!e.load&&e.read&&(e.load=function(a){ma(e.read(a))});e.print||(e.print=function(){});e.printErr||(e.printErr=e.print);e.arguments||(e.arguments=[]);e.thisProgram||(e.thisProgram="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/this.program");e.print=e.print;e.n=e.printErr;e.preRun=[];e.postRun=[];for(ea in da)da.hasOwnProperty(ea)&&(e[ea]=da[ea]);
 var h={ga:function(a){qa=a},aa:function(){return qa},A:function(){return ra},J:function(a){ra=a},Q:function(a){switch(a){case "i1":case "i8":return 1;case "i16":return 2;case "i32":return 4;case "i64":return 8;case "float":return 4;case "double":return 8;default:return"*"===a[a.length-1]?h.B:"i"===a[0]?(a=parseInt(a.substr(1)),oa(0===a%8),a/8):0}},P:function(a){return Math.max(h.Q(a),h.B)},ha:16,ua:function(a,b,f){return!f&&("i64"==a||"double"==a)?8:!a?Math.min(b,8):Math.min(b||(a?h.P(a):0),h.B)},
 r:function(a,b,f){return f&&f.length?(f.splice||(f=Array.prototype.slice.call(f)),f.splice(0,0,b),e["dynCall_"+a].apply(ba,f)):e["dynCall_"+a].call(ba,b)},p:[ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba,ba],V:function(a){for(var b=0;b<h.p.length;b++)if(!h.p[b])return h.p[b]=a,2*(1+b);c("Finished up all reserved function pointers. Use a higher value for RESERVED_FUNCTION_POINTERS.")},fa:function(a){h.p[(a-2)/2]=ba},O:function(a,b){h.F||(h.F={});var f=h.F[a];if(f)return f;for(var f=[],g=
 0;g<b;g++)f.push(String.fromCharCode(36)+g);g=sa(a);'"'===g[0]&&(g.indexOf('"',1)===g.length-1?g=g.substr(1,g.length-2):ua("invalid EM_ASM input |"+g+"|. Please use EM_ASM(..code..) (no quotes) or EM_ASM({ ..code($0).. }, input) (to input values)"));try{var k=eval("(function(Module, FS) { return function("+f.join(",")+"){ "+g+" } })")(e,"undefined"!==typeof va?va:ba)}catch(n){e.n("error in executing inline EM_ASM code: "+n+" on: \n\n"+g+"\n\nwith args |"+f+"| (make sure to use the right one out of EM_ASM, EM_ASM_ARGS, etc.)"),

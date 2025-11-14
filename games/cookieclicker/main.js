@@ -594,7 +594,7 @@ Game.Launch=function()
 {
 	Game.version=VERSION;
 	Game.beta=BETA;
-	if (window.location.href.indexOf('./beta')>-1) Game.beta=1;
+	if (window.location.href.indexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/beta')>-1) Game.beta=1;
 	Game.https=(location.protocol!='https:')?false:true;
 	Game.mobile=0;
 	Game.touchEvents=0;
@@ -629,7 +629,7 @@ Game.Launch=function()
 	'<div class="section">Info</div>'+
 	'<div class="subsection">'+
 	'<div class="title">About</div>'+
-	'<div class="listing">Cookie Clicker is a javascript game by <a href=".//orteil.dashnet.org" target="_blank">Orteil</a> and <a href=".//dashnet.org" target="_blank">Opti</a>.</div>'+
+	'<div class="listing">Cookie Clicker is a javascript game by <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org" target="_blank">Orteil</a> and <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//dashnet.org" target="_blank">Opti</a>.</div>'+
 	//'<div class="listing">We have an <a href="https://discordapp.com/invite/cookie" target="_blank">official Discord</a>, as well as a <a href="http://forum.dashnet.org" target="_blank">forum</a>; '+
 	'<div class="listing">We have an <a href="https://discordapp.com/invite/cookie" target="_blank">official Discord</a>; '+
 		'if you\'re looking for help, you may also want to visit the <a href="http://www.reddit.com/r/CookieClicker" target="_blank">subreddit</a> '+
@@ -703,7 +703,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; went back in time and invented cookies and computer mice, ensuring Cookie Clicker would one day come to exist</div>'+
 	'<div class="listing">&bull; game now fully compliant with Geneva Conventions</div>'+
 	'<div class="listing">&bull; dropped support for TI-84 version</div>'+
-	'<div class="listing">&bull; released a low-res retro version of the game, playable here : <a href=".//orteil.dashnet.org/experiments/cookie/" target="_blank">orteil.dashnet.org/experiments/cookie</a></div>'+
+	'<div class="listing">&bull; released a low-res retro version of the game, playable here : <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/experiments/cookie/" target="_blank">orteil.dashnet.org/experiments/cookie</a></div>'+
 	'<div class="listing">&bull; updated version number</div>'+
 	
 	'</div><div class="subsection update small">'+
@@ -857,7 +857,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; quality-of-life improvements : better bulk-buy, better switches etc</div>'+
 	'<div class="listing">&bull; added some <a href="http://en.wikipedia.org/wiki/'+choose(['Krzysztof_Arciszewski','Eustachy_Sanguszko','Maurycy_Hauke','Karol_Turno','Tadeusz_Kutrzeba','Kazimierz_Fabrycy','Florian_Siwicki'])+'" target="_blank">general polish</a></div>'+/* i liked this dumb pun too much to let it go unnoticed */
 	'<div class="listing">&bull; tons of other little things we can\'t even remember right now</div>'+
-	'<div class="listing">Miss the old version? Your old save was automatically exported <a href=".//orteil.dashnet.org/cookieclicker/v10466/" target="_blank">here</a>!</div>'+
+	'<div class="listing">Miss the old version? Your old save was automatically exported <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/cookieclicker/v10466/" target="_blank">here</a>!</div>'+
 	
 	'</div><div class="subsection update small">'+
 	'<div class="title">05/02/2016 - legacy beta, more fixes</div>'+
@@ -938,7 +938,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; prompts now have keyboard shortcuts like system prompts would</div>'+
 	'<div class="listing">&bull; naming your bakery? you betcha</div>'+
 	'<div class="listing">&bull; "Fast notes" option to make all notifications close faster; new button to close all notifications</div>'+
-	'<div class="listing">&bull; the dungeons beta is now available on <a href=".//orteil.dashnet.org/cookieclicker/betadungeons" target="_blank">/betadungeons</a></div>'+
+	'<div class="listing">&bull; the dungeons beta is now available on <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/cookieclicker/betadungeons" target="_blank">/betadungeons</a></div>'+
 	
 	'</div><div class="subsection update small">'+
 	'<div class="title">09/04/2014 - nightmare in heaven</div>'+
@@ -954,7 +954,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; implemented a simplified version of the <a href="https://github.com/Icehawk78/FrozenCookies" target="_blank">Frozen Cookies</a> add-on\'s short number formatting</div>'+
 	'<div class="listing">&bull; you can now buy 10 and sell all of a building at a time</div>'+
 	'<div class="listing">&bull; tons of optimizations and subtler changes</div>'+
-	'<div class="listing">&bull; you can now <a href=".//orteil.dashnet.org/cookies2cash/" target="_blank">convert your cookies to cash</a>!</div>'+
+	'<div class="listing">&bull; you can now <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/cookies2cash/" target="_blank">convert your cookies to cash</a>!</div>'+
 	
 	'</div><div class="subsection update small">'+
 	'<div class="title">05/04/2014 - pity the fool</div>'+
@@ -963,7 +963,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; miscellaneous fixes and tiny additions</div>'+
 	'<div class="listing">&bull; added a few very rudimentary mod hooks</div>'+
 	'<div class="listing">&bull; the game should work again in Opera</div>'+
-	'<div class="listing">&bull; don\'t forget to check out <a href=".//orteil.dashnet.org/randomgen/" target="_blank">RandomGen</a>, our all-purpose random generator maker!</div>'+
+	'<div class="listing">&bull; don\'t forget to check out <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/randomgen/" target="_blank">RandomGen</a>, our all-purpose random generator maker!</div>'+
 	
 	'</div><div class="subsection update small">'+
 	'<div class="title">01/04/2014 - fooling around</div>'+
@@ -1039,11 +1039,11 @@ Game.Launch=function()
 	'<div class="listing">&bull; antimatter condensers are back to their previous price</div>'+
 	'<div class="listing">&bull; heavenly chips now give +2% CpS again (they will be extensively reworked in the future)</div>'+
 	'<div class="listing">&bull; farms have been buffed a bit (to popular demand)</div>'+
-	'<div class="listing">&bull; dungeons still need a bit more work and will be released soon - we want them to be just right! (you can test an unfinished version in <a href=".//orteil.dashnet.org/cookieclicker/betadungeons/" target="_blank">the beta</a>)</div>'+
+	'<div class="listing">&bull; dungeons still need a bit more work and will be released soon - we want them to be just right! (you can test an unfinished version in <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/cookieclicker/betadungeons/" target="_blank">the beta</a>)</div>'+
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">28/09/2013 - dungeon beta</div>'+
-	'<div class="listing">&bull; from now on, big updates will come through a beta stage first (you can <a href=".//orteil.dashnet.org/cookieclicker/betadungeons/" target="_blank">try it here</a>)</div>'+
+	'<div class="listing">&bull; from now on, big updates will come through a beta stage first (you can <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/cookieclicker/betadungeons/" target="_blank">try it here</a>)</div>'+
 	'<div class="listing">&bull; first dungeons! (you need 50 factories to unlock them!)</div>'+
 	'<div class="listing">&bull; cookie chains can be longer</div>'+
 	'<div class="listing">&bull; antimatter condensers are a bit more expensive</div>'+
@@ -1175,7 +1175,7 @@ Game.Launch=function()
 		l('javascriptError').innerHTML=
 		'<div class="title">Oops. Wrong address!</div>'+
 		'<div>It looks like you\'re accessing Cookie Clicker from another URL than the official one.<br>'+
-		'You can <a href=".//orteil.dashnet.org/cookieclicker/" target="_blank">play Cookie Clicker over here</a>!<br>'+
+		'You can <a href="https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//orteil.dashnet.org/cookieclicker/" target="_blank">play Cookie Clicker over here</a>!<br>'+
 		'<small>(If for any reason, you are unable to access the game on the official URL, we are currently working on a second domain.)</small></div>';
 	}
 	Game.timedout=false;
@@ -1571,7 +1571,7 @@ Game.Launch=function()
 		Game.LoadMod=function(url)//this loads the mod at the given URL and gives the script an automatic id (URL "http://example.com/my_mod.js" gives the id "modscript_my_mod")
 		{
 			var js=document.createElement('script');
-			var id=url.split('./');id=id[id.length-1].split('.')[0];
+			var id=url.split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/');id=id[id.length-1].split('.')[0];
 			js.setAttribute('type','text/javascript');
 			js.setAttribute('id','modscript_'+id);
 			js.setAttribute('src',url);
@@ -1880,7 +1880,7 @@ Game.Launch=function()
 		
 		Game.GrabData=function()
 		{
-			ajax('./patreon/grab.php',Game.GrabDataResponse);
+			ajax('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/patreon/grab.php',Game.GrabDataResponse);
 		}
 		Game.GrabDataResponse=function(response)
 		{
@@ -3876,7 +3876,7 @@ Game.Launch=function()
 		}
 		Game.computeLumpType=function()
 		{
-			Math.seedrandom(Game.seed+'./'+Game.lumpT);
+			Math.seedrandom(Game.seed+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.lumpT);
 			var types=[0];
 			var loop=1;
 			//if (Game.hasAura('Dragon\'s Curve')) loop=2;
@@ -5596,7 +5596,7 @@ Game.Launch=function()
 				else
 				{
 					if (typeof options[i]=='string') options[i]=[options[i],'Game.ClosePrompt();'];
-					options[i][1]=options[i][1].replace(/'./g,'&#39;').replace(/"./g,'&#34;');
+					options[i][1]=options[i][1].replace(/'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g,'&#39;').replace(/"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/g,'&#34;');
 					opts+='<a id="promptOption'+i+'" class="option" '+Game.clickStr+'="PlaySound(\'snd/tick.mp3\');'+options[i][1]+'">'+options[i][0]+'</a>';
 				}
 			}
@@ -6068,7 +6068,7 @@ Game.Launch=function()
 					'<div style="margin-top:8px;"><span class="title" style="font-size:22px;">Prestige level : '+Beautify(Game.prestige)+'</span> at '+Beautify(heavenlyMult*100,1)+'% of its potential <b>(+'+Beautify(parseFloat(Game.prestige)*Game.heavenlyPower*heavenlyMult,1)+'% CpS)</b><br>Heavenly chips : <b>'+Beautify(Game.heavenlyChips)+'</b></div>'+
 				'</div>'+
 				(prestigeUpgrades!=''?(
-				'<div class="listing" style="clear:left;"><b>Prestige upgrades unlocked :</b> '+prestigeUpgradesOwned+'./'+prestigeUpgradesTotal+' ('+Math.floor((prestigeUpgradesOwned/prestigeUpgradesTotal)*100)+'%)</div>'+
+				'<div class="listing" style="clear:left;"><b>Prestige upgrades unlocked :</b> '+prestigeUpgradesOwned+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+prestigeUpgradesTotal+' ('+Math.floor((prestigeUpgradesOwned/prestigeUpgradesTotal)*100)+'%)</div>'+
 				'<div class="listing crateBox">'+prestigeUpgrades+'</div>'):'')+
 				''):'')+
 
@@ -6076,13 +6076,13 @@ Game.Launch=function()
 				'<div class="title">Upgrades</div>'+
 				(hiddenUpgrades!=''?('<div class="listing"><b>Debug</b></div>'+
 				'<div class="listing crateBox">'+hiddenUpgrades+'</div>'):'')+
-				'<div class="listing"><b>Upgrades unlocked :</b> '+upgradesOwned+'./'+upgradesTotal+' ('+Math.floor((upgradesOwned/upgradesTotal)*100)+'%)</div>'+
+				'<div class="listing"><b>Upgrades unlocked :</b> '+upgradesOwned+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+upgradesTotal+' ('+Math.floor((upgradesOwned/upgradesTotal)*100)+'%)</div>'+
 				'<div class="listing crateBox">'+upgrades+'</div>'+
 				(cookieUpgrades!=''?('<div class="listing"><b>Cookies</b></div>'+
 				'<div class="listing crateBox">'+cookieUpgrades+'</div>'):'')+
 				'</div><div class="subsection">'+
 				'<div class="title">Achievements</div>'+
-				'<div class="listing"><b>Achievements unlocked :</b> '+achievementsOwned+'./'+achievementsTotal+' ('+Math.floor((achievementsOwned/achievementsTotal)*100)+'%)'+(achievementsOwnedOther>0?('<span style="font-weight:bold;font-size:10px;color:#70a;"> (+'+achievementsOwnedOther+')</span>'):'')+'</div>'+
+				'<div class="listing"><b>Achievements unlocked :</b> '+achievementsOwned+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+achievementsTotal+' ('+Math.floor((achievementsOwned/achievementsTotal)*100)+'%)'+(achievementsOwnedOther>0?('<span style="font-weight:bold;font-size:10px;color:#70a;"> (+'+achievementsOwnedOther+')</span>'):'')+'</div>'+
 				(Game.cookiesMultByType['kittens']>1?('<div class="listing"><b>Kitten multiplier :</b> '+Beautify((Game.cookiesMultByType['kittens'])*100)+'%</div>'):'')+
 				'<div class="listing"><b>Milk :</b> '+milkName+'</div>'+
 				(milkStr!=''?'<div class="listing"><b>Milk flavors unlocked :</b></div><div>'+milkStr+'</div>':'')+
@@ -8920,7 +8920,7 @@ Game.Launch=function()
 		}
 		/*for (var i in Game.halloweenDrops)
 		{
-			Game.Upgrades[Game.halloweenDrops[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManyHalloweenDrops()+'./'+Game.halloweenDrops.length+'</b> halloween cookies.</div><div class="line"></div>'+this.desc;};
+			Game.Upgrades[Game.halloweenDrops[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManyHalloweenDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.halloweenDrops.length+'</b> halloween cookies.</div><div class="line"></div>'+this.desc;};
 		}*/
 		
 		order=0;
@@ -9004,7 +9004,7 @@ Game.Launch=function()
 		}
 		/*for (var i in Game.heartDrops)
 		{
-			Game.Upgrades[Game.heartDrops[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManyHeartDrops()+'./'+Game.heartDrops.length+'</b> heart biscuits.</div><div class="line"></div>'+this.desc;};
+			Game.Upgrades[Game.heartDrops[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManyHeartDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.heartDrops.length+'</b> heart biscuits.</div><div class="line"></div>'+this.desc;};
 		}*/
 		
 		order=1100;
@@ -9122,7 +9122,7 @@ Game.Launch=function()
 		
 		/*for (var i in Game.easterEggs)
 		{
-			Game.Upgrades[Game.easterEggs[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManyEggs()+'./'+Game.easterEggs.length+'</b> eggs.</div><div class="line"></div>'+this.desc;};
+			Game.Upgrades[Game.easterEggs[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManyEggs()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.easterEggs.length+'</b> eggs.</div><div class="line"></div>'+this.desc;};
 		}*/
 		
 		Game.DropEgg=function(failRate)
@@ -10004,8 +10004,8 @@ Game.Launch=function()
 			if (!Game.Has('Shimmering veil [off]') && Game.Has('Shimmering veil [on]')) return false;
 			if (Game.Has('Reinforced membrane'))
 			{
-				if (context=='shimmer') Math.seedrandom(Game.seed+'./'+(Game.goldenClicks+Game.reindeerClicked));
-				else if (context=='click') Math.seedrandom(Game.seed+'./'+Game.cookieClicks);
+				if (context=='shimmer') Math.seedrandom(Game.seed+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+(Game.goldenClicks+Game.reindeerClicked));
+				else if (context=='click') Math.seedrandom(Game.seed+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.cookieClicks);
 				if (Math.random()<0.1)
 				{
 					Game.Notify('The reinforced membrane protects the shimmering veil.','',[7,10]);
@@ -10332,7 +10332,7 @@ Game.Launch=function()
 		}
 		/*for (var i in Game.santaDrops)
 		{
-			Game.Upgrades[Game.santaDrops[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManySantaDrops()+'./'+Game.santaDrops.length+'</b> of Santa\'s gifts.</div><div class="line"></div>'+this.desc;};
+			Game.Upgrades[Game.santaDrops[i]].descFunc=function(){return '<div style="text-align:center;">You currently own <b>'+Game.GetHowManySantaDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.santaDrops.length+'</b> of Santa\'s gifts.</div><div class="line"></div>'+this.desc;};
 		}*/
 		
 		Game.seasonDrops=Game.heartDrops.concat(Game.halloweenDrops).concat(Game.easterEggs).concat(Game.santaDrops).concat(Game.reindeerDrops);
@@ -10342,10 +10342,10 @@ Game.Launch=function()
 			if (Game.seasonUses==0) return 'You haven\'t switched seasons this ascension yet.';
 			return 'You\'ve switched seasons <b>'+(Game.seasonUses==1?'once':Game.seasonUses==2?'twice':(Game.seasonUses+' times'))+'</b> this ascension.';
 		}
-		Game.Upgrades['Festive biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.santaDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManySantaDrops()+'./'+Game.santaDrops.length+'</b> of Santa\'s gifts.<div class="line"></div>'+Game.listTinyOwnedUpgrades(Game.reindeerDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyReindeerDrops()+'./'+Game.reindeerDrops.length+'</b> reindeer cookies.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
-		Game.Upgrades['Bunny biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.easterEggs)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyEggs()+'./'+Game.easterEggs.length+'</b> eggs.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
-		Game.Upgrades['Ghostly biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.halloweenDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyHalloweenDrops()+'./'+Game.halloweenDrops.length+'</b> halloween cookies.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
-		Game.Upgrades['Lovesick biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.heartDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyHeartDrops()+'./'+Game.heartDrops.length+'</b> heart biscuits.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
+		Game.Upgrades['Festive biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.santaDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManySantaDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.santaDrops.length+'</b> of Santa\'s gifts.<div class="line"></div>'+Game.listTinyOwnedUpgrades(Game.reindeerDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyReindeerDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.reindeerDrops.length+'</b> reindeer cookies.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
+		Game.Upgrades['Bunny biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.easterEggs)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyEggs()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.easterEggs.length+'</b> eggs.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
+		Game.Upgrades['Ghostly biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.halloweenDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyHalloweenDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.halloweenDrops.length+'</b> halloween cookies.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
+		Game.Upgrades['Lovesick biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.listTinyOwnedUpgrades(Game.heartDrops)+'<br><br>You\'ve purchased <b>'+Game.GetHowManyHeartDrops()+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+Game.heartDrops.length+'</b> heart biscuits.<div class="line"></div>'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
 		Game.Upgrades['Fool\'s biscuit'].descFunc=function(){return '<div style="text-align:center;">'+Game.saySeasonSwitchUses()+'<div class="line"></div></div>'+this.desc;};
 		
 		Game.computeSeasonPrices=function()
@@ -12667,7 +12667,7 @@ Game.Launch=function()
 				}
 				if (Game.dragonLevel>=8 && Math.random()<1/20)
 				{
-					Math.seedrandom(Game.seed+'./dragonTime');
+					Math.seedrandom(Game.seed+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/dragonTime');
 					var drops=['Dragon scale','Dragon claw','Dragon fang','Dragon teddy bear'];
 					drops=shuffle(drops);
 					var drop=drops[Math.floor((new Date().getMinutes()/60)*drops.length)];

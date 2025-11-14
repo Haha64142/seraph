@@ -1,6 +1,6 @@
 
 // Import any other script files here, e.g.:
-// import * as myModule from "./mymodule.js";
+// import * as myModule from "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/mymodule.js";
 
 runOnStartup(async runtime =>
 {

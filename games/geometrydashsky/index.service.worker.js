@@ -47,7 +47,7 @@ self.addEventListener("fetch", (event) => {
 	const isNavigate = event.request.mode === "navigate";
 	const url = event.request.url || "";
 	const referrer = event.request.referrer || "";
-	const base = referrer.slice(0, referrer.lastIndexOf("./") + 1);
+	const base = referrer.slice(0, referrer.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") + 1);
 	const local = url.startsWith(base) ? url.replace(base, "") : "";
 	const isCachable = FULL_CACHE.some(v => v === local) || (base === referrer && base.endsWith(CACHED_FILES[0]));
 	if (isNavigate || isCachable) {

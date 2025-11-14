@@ -117,7 +117,7 @@
       var t = o.canPlayType("audio/mpeg;").replace(/^no$/, ""),
         r = e._navigator ? e._navigator.userAgent : "",
         a = r.match(/OPR\/([0-6].)/g),
-        u = a && parseInt(a[0].split("./")[1], 10) < 33,
+        u = a && parseInt(a[0].split("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/")[1], 10) < 33,
         d = -1 !== r.indexOf("Safari") && -1 === r.indexOf("Chrome"),
         i = r.match(/Version\/(.*?) /),
         _ = d && i && parseInt(i[1], 10) < 15;

@@ -425,7 +425,7 @@ M.launch=function()
 		//output cannot use ",", ";" or "|"
 		var str='';
 		for (var i in M.slot)
-		{str+=parseFloat(M.slot[i])+'./';}
+		{str+=parseFloat(M.slot[i])+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';}
 		str=str.slice(0,-1);
 		str+=' '+parseFloat(M.swaps)+' '+parseFloat(M.swapT);
 		str+=' '+parseInt(M.parent.onMinigame?'1':'0');
@@ -438,7 +438,7 @@ M.launch=function()
 		if (!str) return false;
 		var i=0;
 		var spl=str.split(' ');
-			var bit=spl[i++].split('./')||[];
+			var bit=spl[i++].split('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')||[];
 			for (var ii in M.slot)
 			{
 				if (parseFloat(bit[ii])!=-1)
@@ -496,7 +496,7 @@ M.launch=function()
 		if (M.swaps==0) t=1000*60*60*16;
 		else if (M.swaps==1) t=1000*60*60*4;
 		var t2=M.swapT+t-Date.now();
-		M.swapsL.innerHTML='Worship swaps : <span class="titleFont" style="color:'+(M.swaps>0?'#fff':'#c00')+';">'+M.swaps+'./'+(3)+'</span>'+((M.swaps<3)?' (next in '+Game.sayTime((t2/1000+1)*Game.fps,-1)+')':'');
+		M.swapsL.innerHTML='Worship swaps : <span class="titleFont" style="color:'+(M.swaps>0?'#fff':'#c00')+';">'+M.swaps+'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'+(3)+'</span>'+((M.swaps<3)?' (next in '+Game.sayTime((t2/1000+1)*Game.fps,-1)+')':'');
 	}
 	M.init(l('rowSpecial'+M.parent.id));
 }

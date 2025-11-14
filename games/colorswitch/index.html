@@ -138,7 +138,7 @@
         this.totalDependencies = Math.max(this.totalDependencies, left);
         //console.log('Downloading...', (100*(this.totalDependencies-left)/this.totalDependencies) + '%');
         //console.log(Module);
-        // console.log('monitorRunDependencies', left ? 'Preparing... (' + (this.totalDependencies-left) + './' + this.totalDependencies + ')' : 'All downloads complete.');
+        // console.log('monitorRunDependencies', left ? 'Preparing... (' + (this.totalDependencies-left) + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + this.totalDependencies + ')' : 'All downloads complete.');
       }
     }
 
@@ -200,7 +200,7 @@
     var interval = setInterval(function () {
       if (Module.dataFileDownloads && Module.dataFileDownloads["game.data"]) {
         var data = Module.dataFileDownloads["game.data"];
-        //console.log(data.loaded, './', data.total)
+        //console.log(data.loaded, 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', data.total)
         var percent = Math.round(data.loaded * 100 / data.total);
         progressBar.style.width = percent + '%';
         progressBar.innerHTML = percent + '%';

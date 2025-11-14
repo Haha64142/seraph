@@ -66,11 +66,11 @@ function ToggleFullScreen() {
 		var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
 		
 		var buildUrl = "Build";
-		var loaderUrl = buildUrl + "./Gun_Fest.loader.js";
+		var loaderUrl = buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Gun_Fest.loader.js";
 		var config = {
-        dataUrl: buildUrl + "./Gun_Fest.data",
-        frameworkUrl: buildUrl + "./Gun_Fest.framework.js",
-        codeUrl: buildUrl + "./Gun_Fest.wasm",
+        dataUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Gun_Fest.data",
+        frameworkUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Gun_Fest.framework.js",
+        codeUrl: buildUrl + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/Gun_Fest.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Gamebol",
         productName: "Gun Fest",

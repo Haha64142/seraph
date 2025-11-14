@@ -151,7 +151,7 @@
 				i = "poki-sdk-core-".concat(e, ".js");
 			n && (i = "poki-sdk-kids-".concat(e, ".js")), o && (i = "poki-sdk-playground-".concat(e, ".js")), r && (i = "poki-sdk-hoist-".concat(e, ".js"));
 			new URL(document.currentScript.src);
-			return "".concat(e, "./").concat(i);
+			return "".concat(e, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/").concat(i);
 		})(),
 		c = document.createElement("script");
 	c.setAttribute("src", a),

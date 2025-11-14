@@ -11655,7 +11655,7 @@ var _Y = {
 				{ _82: 44, _92: ',', x: 52, y: 121, _a2: 6, _b2: 15, shift: 15, offset: 2 },
 				{ _82: 45, _92: '-', x: 60, y: 121, _a2: 11, _b2: 15, shift: 15, offset: 2 },
 				{ _82: 46, _92: '.', x: 73, y: 121, _a2: 4, _b2: 15, shift: 15, offset: 4 },
-				{ _82: 47, _92: './', x: 79, y: 121, _a2: 13, _b2: 15, shift: 15, offset: 0 },
+				{ _82: 47, _92: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', x: 79, y: 121, _a2: 13, _b2: 15, shift: 15, offset: 0 },
 				{ _82: 48, _92: '0', x: 94, y: 121, _a2: 13, _b2: 15, shift: 15, offset: 0 },
 				{ _82: 49, _92: '1', x: 109, y: 121, _a2: 11, _b2: 15, shift: 15, offset: 2 },
 				{ _82: 50, _92: '2', x: 122, y: 121, _a2: 13, _b2: 15, shift: 15, offset: 0 },
@@ -11864,7 +11864,7 @@ var _Y = {
 				{ _82: 44, _92: ',', x: 219, y: 50, _a2: 3, _b2: 14, shift: 5, offset: 1 },
 				{ _82: 45, _92: '-', x: 224, y: 50, _a2: 4, _b2: 14, shift: 6, offset: 1 },
 				{ _82: 46, _92: '.', x: 230, y: 50, _a2: 2, _b2: 14, shift: 4, offset: 1 },
-				{ _82: 47, _92: './', x: 234, y: 50, _a2: 5, _b2: 14, shift: 7, offset: 1 },
+				{ _82: 47, _92: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', x: 234, y: 50, _a2: 5, _b2: 14, shift: 7, offset: 1 },
 				{ _82: 48, _92: '0', x: 241, y: 50, _a2: 6, _b2: 14, shift: 8, offset: 1 },
 				{ _82: 49, _92: '1', x: 249, y: 50, _a2: 4, _b2: 14, shift: 6, offset: 1 },
 				{ _82: 50, _92: '2', x: 2, y: 66, _a2: 6, _b2: 14, shift: 8, offset: 1 },
@@ -12069,7 +12069,7 @@ var _Y = {
 				{ _82: 44, _92: ',', x: 48, y: 65, _a2: 5, _b2: 19, shift: 15, offset: 4 },
 				{ _82: 45, _92: '-', x: 37, y: 65, _a2: 9, _b2: 19, shift: 15, offset: 4 },
 				{ _82: 46, _92: '.', x: 32, y: 65, _a2: 3, _b2: 19, shift: 15, offset: 6 },
-				{ _82: 47, _92: './', x: 17, y: 65, _a2: 13, _b2: 19, shift: 15, offset: 2 },
+				{ _82: 47, _92: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', x: 17, y: 65, _a2: 13, _b2: 19, shift: 15, offset: 2 },
 				{ _82: 48, _92: '0', x: 2, y: 65, _a2: 13, _b2: 19, shift: 15, offset: 2 },
 				{ _82: 49, _92: '1', x: 240, y: 44, _a2: 11, _b2: 19, shift: 15, offset: 4 },
 				{ _82: 50, _92: '2', x: 225, y: 44, _a2: 13, _b2: 19, shift: 15, offset: 2 },
@@ -12189,7 +12189,7 @@ var _Y = {
 				{ _82: 44, _92: ',', x: 205, y: 66, _a2: 6, _b2: 30, shift: 10, offset: 2 },
 				{ _82: 45, _92: '-', x: 196, y: 66, _a2: 7, _b2: 30, shift: 11, offset: 2 },
 				{ _82: 46, _92: '.', x: 190, y: 66, _a2: 4, _b2: 30, shift: 8, offset: 2 },
-				{ _82: 47, _92: './', x: 180, y: 66, _a2: 8, _b2: 30, shift: 12, offset: 2 },
+				{ _82: 47, _92: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', x: 180, y: 66, _a2: 8, _b2: 30, shift: 12, offset: 2 },
 				{ _82: 48, _92: '0', x: 167, y: 66, _a2: 11, _b2: 30, shift: 15, offset: 2 },
 				{ _82: 49, _92: '1', x: 158, y: 66, _a2: 7, _b2: 30, shift: 11, offset: 2 },
 				{ _82: 50, _92: '2', x: 145, y: 66, _a2: 11, _b2: 30, shift: 15, offset: 2 },
@@ -12301,7 +12301,7 @@ var _Y = {
 				{ _82: 44, _92: ',', x: 93, y: 42, _a2: 3, _b2: 8, shift: 8, offset: 1 },
 				{ _82: 45, _92: '-', x: 98, y: 42, _a2: 6, _b2: 8, shift: 8, offset: 1 },
 				{ _82: 46, _92: '.', x: 106, y: 42, _a2: 2, _b2: 8, shift: 8, offset: 2 },
-				{ _82: 47, _92: './', x: 110, y: 42, _a2: 7, _b2: 8, shift: 8, offset: 0 },
+				{ _82: 47, _92: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/', x: 110, y: 42, _a2: 7, _b2: 8, shift: 8, offset: 0 },
 				{ _82: 48, _92: '0', x: 119, y: 42, _a2: 7, _b2: 8, shift: 8, offset: 0 },
 				{ _82: 49, _92: '1', x: 128, y: 42, _a2: 6, _b2: 8, shift: 8, offset: 1 },
 				{ _82: 50, _92: '2', x: 136, y: 42, _a2: 7, _b2: 8, shift: 8, offset: 0 },
@@ -38888,7 +38888,7 @@ function _Gx(_bi, _ci) {
 		var _HI = yyfplus(
 			yyfplus(
 				yyfplus(yyfplus(_Ri(_Xi(_bi, _ci, 'ui_Page')), ' '), _Ri(_9p(_jj(_bi, _ci, 64)._4u))),
-				'./'
+				'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'
 			),
 			_Ri(_9p(_bi._Fx))
 		);
@@ -44756,14 +44756,14 @@ function _3U(_bi, _ci, _ii, _ji) {
 							case 0: {
 								_oU = '-';
 								_pU = yyfplus(
-									yyfplus(_Ri(_9p(_Ai(_7j, 'stat_int'))), './'),
+									yyfplus(_Ri(_9p(_Ai(_7j, 'stat_int'))), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'),
 									_Ri(_9p(_Ai(_7j, 'stat_sacks')))
 								);
 								break;
 							}
 							case 1: {
 								_pU = yyfplus(
-									yyfplus(_Ri(_9p(_Ai(_7j, 'stat_int'))), './'),
+									yyfplus(_Ri(_9p(_Ai(_7j, 'stat_int'))), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'),
 									_Ri(_9p(_Ai(_7j, 'stat_sacks')))
 								);
 								break;
@@ -44934,7 +44934,7 @@ function _BU(_bi, _ci) {
 		_jj(_bi, _ci, 100194)._dk = yyfplus(
 			yyfplus(
 				yyfplus(yyfplus(_Ri(_Xi(_bi, _ci, 'ui_Page')), ' '), _Ri(_9p(_jj(_bi, _ci, 64)._Un))),
-				'./'
+				'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'
 			),
 			_Ri(_9p(_DU))
 		);
@@ -60752,7 +60752,7 @@ function _qh1(_bi, _ci) {
 																				'  ',
 																				_Ri(_9p(_Ai(_jj(_bi, _ci, _1b1)._7j, 'stat_complete')))
 																			),
-																			'./'
+																			'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'
 																		),
 																		_Ri(_9p(_Ai(_jj(_bi, _ci, _1b1)._7j, 'stat_attempts')))
 																	),
@@ -71989,7 +71989,7 @@ function _tC1(_bi, _ci, _ii) {
 		if (yyfequal(_st, 10)) {
 			_Dm = 'KK ';
 		}
-		_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('G', _Ri(_uC1)), './'), _Ri(_vC1)));
+		_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('G', _Ri(_uC1)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_vC1)));
 		var _GC1 = _st;
 		var _HC1 = -1;
 		if (yyCompareVal(_GC1, 1, g_GMLMathEpsilon, false) == 0) {
@@ -72008,17 +72008,17 @@ function _tC1(_bi, _ci, _ii) {
 		}
 		switch (_HC1) {
 			case 0: {
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  AC:', _Ri(_kU)), './'), _Ri(_wC1)));
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  Y:', _Ri(_lU)), './'), _Ri(_CC1)));
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TD:', _Ri(_mU)), './'), _Ri(_FC1)));
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TO:', _Ri(_zC1)), './'), _Ri(_nU)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  AC:', _Ri(_kU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_wC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  Y:', _Ri(_lU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_CC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TD:', _Ri(_mU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_FC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TO:', _Ri(_zC1)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_nU)));
 				_Dm = yyfplus(_Dm, yyfplus('  SK:', _Ri(_AC1)));
 				break;
 			}
 			case 1: {
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TC:', _Ri(_kU)), './'), _Ri(_BC1)));
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  Y:', _Ri(_lU)), './'), _Ri(_CC1)));
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TD:', _Ri(_mU)), './'), _Ri(_FC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TC:', _Ri(_kU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_BC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  Y:', _Ri(_lU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_CC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  TD:', _Ri(_mU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_FC1)));
 				_Dm = yyfplus(_Dm, yyfplus('  FM:', _Ri(_nU)));
 				break;
 			}
@@ -72031,7 +72031,7 @@ function _tC1(_bi, _ci, _ii) {
 				break;
 			}
 			case 3: {
-				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  AC:', _Ri(_kU)), './'), _Ri(_wC1)));
+				_Dm = yyfplus(_Dm, yyfplus(yyfplus(yyfplus('  AC:', _Ri(_kU)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_wC1)));
 				_Dm = yyfplus(_Dm, yyfplus('  YD:', _Ri(_lU)));
 				break;
 			}
@@ -79569,7 +79569,7 @@ function _b6(_bi, _ci) {
 		_Dm = _hT(yyfdivide(_Ri(_SH1), _Ri(_uH)), 0, 3);
 	}
 	_8j(_bi._OH1, _Dm);
-	_8j(_bi._OH1, yyfplus(yyfplus(_Ri(_9p(_VH1)), './'), _Ri(_9p(yyfminus(_Ri(_UH1), 1)))));
+	_8j(_bi._OH1, yyfplus(yyfplus(_Ri(_9p(_VH1)), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'), _Ri(_9p(yyfminus(_Ri(_UH1), 1)))));
 	var _vi = 0;
 	for (
 		;
@@ -85920,7 +85920,7 @@ function _c9(_bi, _ci) {
 					_mv(
 						yyfplus(
 							yyfplus(
-								yyfplus(yyfplus('Salary: ', _Ri(_9p(_Uu(_tN1, _bi)))), './'),
+								yyfplus(yyfplus('Salary: ', _Ri(_9p(_Uu(_tN1, _bi)))), 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'),
 								_Ri(_9p(yyfplus(_Ri(_tN1._7t), _Ri(_tN1._Vu))))
 							),
 							'#'
@@ -97192,7 +97192,7 @@ _Rg2.prototype._ah2 = function (_bh2, _ch2, _dh2, _eh2, _fh2) {
 	var _gh2 = _eh2;
 	var _hh2 = _fh2;
 	var _ih2 = 0;
-	var _jh2 = _bh2 + './';
+	var _jh2 = _bh2 + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
 	var _kh2 = this;
 	var _lh2 = function (_mh2) {
 		var _nh2 = new _7e2();
@@ -111110,15 +111110,15 @@ function _z13(e) {
 	debug(
 		'Audio_SoundReadyStateChange:targetid/readyState/status:' +
 			targetid +
-			'./' +
+			'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' +
 			e.target.readyState +
-			'./' +
+			'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' +
 			e.target.status
 	);
 }
 function _A13(e) {
 	var targetid = e.target.targetid;
-	debug('Audio_SoundProgress:targetid/loaded/total:' + targetid + './' + e._B13 + './' + e._C13);
+	debug('Audio_SoundProgress:targetid/loaded/total:' + targetid + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + e._B13 + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + e._C13);
 }
 function _D13(_2L2, _x13) {
 	_2L2 = _B_2(_2L2);
@@ -111950,7 +111950,7 @@ var _C33 = function (_Vs2, _Kf2) {
 		('https:' != location.protocol
 			? 'http://jsd.supersonicads.com'
 			: 'https://a248.e.akamai.net/ssastatic.s3.amazonaws.com') +
-		'./inlineDelivery/delivery.min.gz.js';
+		'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/inlineDelivery/delivery.min.gz.js';
 	_pD2.parentNode.insertBefore(_zd2, _pD2);
 };
 var _E33 = ads_engagement_launch;
@@ -135207,7 +135207,7 @@ var spine;
 			if (error === void 0) {
 				error = null;
 			}
-			var parent = path.lastIndexOf('./') >= 0 ? path.substring(0, path.lastIndexOf('./')) : '';
+			var parent = path.lastIndexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/') >= 0 ? path.substring(0, path.lastIndexOf('https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/')) : '';
 			path = this._O14 + path;
 			this._Q14++;
 			_M14._R14(
@@ -135217,7 +135217,7 @@ var spine;
 					var _024 = new Array();
 					try {
 						var _ne2 = new spine._oe2(_Z14, function (path) {
-							_024.push(parent + './' + path);
+							_024.push(parent + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + path);
 							var _8e2 = document.createElement('img');
 							_8e2.width = 16;
 							_8e2.height = 16;
@@ -135241,7 +135241,7 @@ var spine;
 									if (!_324) {
 										try {
 											var _ne2 = new spine._oe2(_Z14, function (path) {
-												return _lZ3.get(parent + './' + path);
+												return _lZ3.get(parent + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' + path);
 											});
 											_lZ3._LQ2[path] = _ne2;
 											if (_S14) _S14(path, _ne2);
@@ -145107,7 +145107,7 @@ function _uu4() {
 		_qh2 = g_GameMakerHTML5Dir;
 	} else {
 		if (_VC2._vh && _VC2._vh._Uh) {
-			_qh2 = _VC2._vh._Uh + './';
+			_qh2 = _VC2._vh._Uh + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
 		}
 	}
 	_r73 = [];
@@ -149389,9 +149389,9 @@ function _3E4(_u43) {
 	this._gE4 = 0;
 	this._hE4 = 100;
 	this._5w4 = 0;
-	this._aw4 = './';
-	this._iE4 = './';
-	this._jE4 = './';
+	this._aw4 = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
+	this._iE4 = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
+	this._jE4 = 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
 	this._kE4 = 0;
 	this._lE4 = 0;
 	this._RI = 0;
@@ -153904,7 +153904,7 @@ var _4N4 = {
 	107: '+',
 	109: '-',
 	110: '.',
-	111: './',
+	111: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',
 	112: 0,
 	113: 0,
 	114: 0,
@@ -153925,7 +153925,7 @@ var _4N4 = {
 	188: ',',
 	189: '-',
 	190: '.',
-	191: './',
+	191: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',
 	192: "'",
 	219: '[',
 	220: '\\',
@@ -154011,7 +154011,7 @@ var _5N4 = {
 	107: '+',
 	109: '-',
 	110: '.',
-	111: './',
+	111: 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/',
 	112: 0,
 	113: 0,
 	114: 0,
@@ -173389,7 +173389,7 @@ function _yi5(_2L2) {
 	_4t4 = [];
 	_Lt4 = 0;
 	var _bB2 = _2L2.search;
-	var _z_2 = _2L2.protocol + './/' + _2L2.host + _2L2.pathname;
+	var _z_2 = _2L2.protocol + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//' + _2L2.host + _2L2.pathname;
 	_3t4[0] = _z_2;
 	_4t4[0] = null;
 	if (_bB2[0] == '?') _bB2 = _bB2.substring(1, _bB2.length);

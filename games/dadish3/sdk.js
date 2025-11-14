@@ -1129,7 +1129,7 @@
             v(t.data)
         },
         E = function(t) {
-            a.postMessage(t + "", m.protocol + ".//" + m.host)
+            a.postMessage(t + "", m.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + m.host)
         };
     p && f || (p = function(t) {
         for (var n = [], e = 1; arguments.length > e;) n.push(arguments[e++]);
@@ -2586,7 +2586,7 @@
             }, t.debug = !1, t
         }(),
         h = {
-            adTagUrl: ".//pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}",
+            adTagUrl: "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}",
             adTiming: {
                 preroll: !1,
                 timeBetweenAds: 12e4,
@@ -3499,8 +3499,8 @@
         };
     var tt = function() {
             var t = window.location.pathname;
-            "./" !== t[0] && (t = "./" + t);
-            var n = encodeURIComponent(window.location.protocol + ".//" + window.location.host + t + window.location.search),
+            "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== t[0] && (t = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + t);
+            var n = encodeURIComponent(window.location.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + window.location.host + t + window.location.search),
                 e = encodeURIComponent(document.referrer);
             return fetch("" + e, {
                 method: "GET",
@@ -3536,7 +3536,7 @@
                         return $(this, (function(m) {
                             switch (m.label) {
                                 case 0:
-                                    return m.trys.push([0, 3, , 4]), "./" !== (n = window.location.pathname)[0] && (n = "./" + n), r = (i = JSON).stringify, o = {
+                                    return m.trys.push([0, 3, , 4]), "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" !== (n = window.location.pathname)[0] && (n = "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + n), r = (i = JSON).stringify, o = {
                                         c: "sdk-p4d-error",
                                         ve: 7
                                     }, a = {
@@ -3548,7 +3548,7 @@
                                     u = m.sent(), m.label = 2;
                                 case 2:
                                     if (e = r.apply(i, [(o.d = [(a.v = d.apply(s, [(c.json = u, c.body = JSON.stringify({
-                                            href: window.location.protocol + ".//" + window.location.host + n + window.location.search
+                                            href: window.location.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + window.location.host + n + window.location.search
                                         }), c.name = t.name, c.message = t.message, c)]), a)], o)]), l = "https://t.poki.iossss/l", navigator.sendBeacon) navigator.sendBeacon(l, e);
                                     else try {
                                         (A = new XMLHttpRequest).open("POST", l, !0), A.send(e)
@@ -3804,7 +3804,7 @@
                             if (st) return [2];
                             i.label = 1;
                         case 1:
-                            return i.trys.push([1, 4, , 5]), [4, fetch("./touchControllerConfig.json")];
+                            return i.trys.push([1, 4, , 5]), [4, fetch("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/touchControllerConfig.json")];
                         case 2:
                             return [4, i.sent().json()];
                         case 3:
@@ -3853,7 +3853,7 @@
                     console.error("The Poki SDK has not yet been initialized")
                 }, this.defineSlot = function(t) {
                     var e = At(t.size),
-                        i = n.googletag.defineSlot("./21682198607/" + t.id, t.size, e);
+                        i = n.googletag.defineSlot("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/21682198607/" + t.id, t.size, e);
                     return i.addService(n.googletag.pubads()), ut[e] = i, n.googletag.enableServices(), i
                 }
             }
@@ -4055,7 +4055,7 @@
                                             v() && (i = "mobile"), b() && (i = "tablet");
                                             var r = parseInt(S("site_id"), 10) || 0;
                                             return {
-                                                id: mt.GetIsPokiIFrame() ? i + "_ingame_" + t + "./" + r + "_" + i + "_ingame_" + t : "external_" + i + "_display_ingame/external_" + i + "_ingame_" + t,
+                                                id: mt.GetIsPokiIFrame() ? i + "_ingame_" + t + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/" + r + "_" + i + "_ingame_" + t : "external_" + i + "_display_ingame/external_" + i + "_ingame_" + t,
                                                 size: e
                                             }
                                         }

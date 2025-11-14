@@ -389,7 +389,7 @@
             else {
                 const origin = location.origin;
                 this._baseUrl = (origin === "null" ? "file:///" : origin) + location.pathname;
-                const i = this._baseUrl.lastIndexOf("./");
+                const i = this._baseUrl.lastIndexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
                 if (i !== -1)
                     this._baseUrl = this._baseUrl.substr(0, i + 1)
             }
@@ -416,7 +416,7 @@
         _GetWorkerURL(url) {
             if (this._workerScriptBlobURLs.hasOwnProperty(url))
                 return this._workerScriptBlobURLs[url];
-            else if (url.endsWith("./workermain.js") && this._workerScriptBlobURLs.hasOwnProperty("workermain.js"))
+            else if (url.endsWith("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/workermain.js") && this._workerScriptBlobURLs.hasOwnProperty("workermain.js"))
                 return this._workerScriptBlobURLs["workermain.js"];
             else if (this._exportType === "playable-ad" && this._localFileBlobs.hasOwnProperty(url.toLowerCase()))
                 return URL.createObjectURL(this._localFileBlobs[url.toLowerCase()]);

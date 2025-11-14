@@ -81,7 +81,7 @@ var charToCodeMap = {
 "'": {code: "Quote"},
 ",": {code: "Comma"},
 ".": {code: "Period"},
-"./": {code: "Slash"},
+"https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/": {code: "Slash"},
 "~": {code: "Backquote", shift: true},
 "_": {code: "Minus", shift: true},
 "+": {code: "Equal", shift: true},

@@ -2859,7 +2859,7 @@
         b.showingReplayThumbnail(true);
         b.isReplay(true);
         $.ajax({
-          url: "http://weavesilk.s3.amazonaws.com/v" + urlParams.v + "./uploads/replay/" + urlParams.id + ".json",
+          url: "http://weavesilk.s3.amazonaws.com/v" + urlParams.v + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/uploads/replay/" + urlParams.id + ".json",
           type: 'GET',
           dataType: 'json',
           success: function(data) {

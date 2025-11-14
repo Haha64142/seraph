@@ -1,6 +1,6 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["vendors~addon-settings~credits~editor~embed~fullscreen~player"],{
 
-/***/ "./node_modules/css-loader/lib/css-base.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/css-loader/lib/css-base.js":
 /*!*************************************************!*\
   !*** ./node_modules/css-loader/lib/css-base.js ***!
   \*************************************************/
@@ -66,7 +66,7 @@ function cssWithMappingToString(item, useSourceMap) {
 	if (useSourceMap && typeof btoa === 'function') {
 		var sourceMapping = toComment(cssMapping);
 		var sourceURLs = cssMapping.sources.map(function (source) {
-			return './*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+			return 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
 		});
 
 		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
@@ -81,13 +81,13 @@ function toComment(sourceMap) {
 	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
-	return './*# ' + data + ' */';
+	return 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/*# ' + data + ' */';
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/EventListener.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/EventListener.js":
 /*!************************************************!*\
   !*** ./node_modules/fbjs/lib/EventListener.js ***!
   \************************************************/
@@ -106,7 +106,7 @@ function toComment(sourceMap) {
  * @typechecks
  */
 
-var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "./node_modules/fbjs/lib/emptyFunction.js");
+var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyFunction.js");
 
 /**
  * Upstream version of event listener. Does not take into account specific
@@ -172,7 +172,7 @@ module.exports = EventListener;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/ExecutionEnvironment.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/ExecutionEnvironment.js":
 /*!*******************************************************!*\
   !*** ./node_modules/fbjs/lib/ExecutionEnvironment.js ***!
   \*******************************************************/
@@ -216,7 +216,7 @@ module.exports = ExecutionEnvironment;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/camelize.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/camelize.js":
 /*!*******************************************!*\
   !*** ./node_modules/fbjs/lib/camelize.js ***!
   \*******************************************/
@@ -256,7 +256,7 @@ module.exports = camelize;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/camelizeStyleName.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/camelizeStyleName.js":
 /*!****************************************************!*\
   !*** ./node_modules/fbjs/lib/camelizeStyleName.js ***!
   \****************************************************/
@@ -275,7 +275,7 @@ module.exports = camelize;
 
 
 
-var camelize = __webpack_require__(/*! ./camelize */ "./node_modules/fbjs/lib/camelize.js");
+var camelize = __webpack_require__(/*! ./camelize */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/camelize.js");
 
 var msPattern = /^-ms-/;
 
@@ -304,7 +304,7 @@ module.exports = camelizeStyleName;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/containsNode.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/containsNode.js":
 /*!***********************************************!*\
   !*** ./node_modules/fbjs/lib/containsNode.js ***!
   \***********************************************/
@@ -323,7 +323,7 @@ module.exports = camelizeStyleName;
  * 
  */
 
-var isTextNode = __webpack_require__(/*! ./isTextNode */ "./node_modules/fbjs/lib/isTextNode.js");
+var isTextNode = __webpack_require__(/*! ./isTextNode */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/isTextNode.js");
 
 /*eslint-disable no-bitwise */
 
@@ -352,7 +352,7 @@ module.exports = containsNode;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/emptyFunction.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyFunction.js":
 /*!************************************************!*\
   !*** ./node_modules/fbjs/lib/emptyFunction.js ***!
   \************************************************/
@@ -399,7 +399,7 @@ module.exports = emptyFunction;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/emptyObject.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyObject.js":
 /*!**********************************************!*\
   !*** ./node_modules/fbjs/lib/emptyObject.js ***!
   \**********************************************/
@@ -427,7 +427,7 @@ module.exports = emptyObject;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/focusNode.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/focusNode.js":
 /*!********************************************!*\
   !*** ./node_modules/fbjs/lib/focusNode.js ***!
   \********************************************/
@@ -462,7 +462,7 @@ module.exports = focusNode;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/getActiveElement.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/getActiveElement.js":
 /*!***************************************************!*\
   !*** ./node_modules/fbjs/lib/getActiveElement.js ***!
   \***************************************************/
@@ -509,7 +509,7 @@ module.exports = getActiveElement;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/hyphenate.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/hyphenate.js":
 /*!********************************************!*\
   !*** ./node_modules/fbjs/lib/hyphenate.js ***!
   \********************************************/
@@ -550,7 +550,7 @@ module.exports = hyphenate;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/hyphenateStyleName.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/hyphenateStyleName.js":
 /*!*****************************************************!*\
   !*** ./node_modules/fbjs/lib/hyphenateStyleName.js ***!
   \*****************************************************/
@@ -569,7 +569,7 @@ module.exports = hyphenate;
 
 
 
-var hyphenate = __webpack_require__(/*! ./hyphenate */ "./node_modules/fbjs/lib/hyphenate.js");
+var hyphenate = __webpack_require__(/*! ./hyphenate */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/hyphenate.js");
 
 var msPattern = /^ms-/;
 
@@ -597,7 +597,7 @@ module.exports = hyphenateStyleName;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/invariant.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/invariant.js":
 /*!********************************************!*\
   !*** ./node_modules/fbjs/lib/invariant.js ***!
   \********************************************/
@@ -661,7 +661,7 @@ module.exports = invariant;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/isNode.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/isNode.js":
 /*!*****************************************!*\
   !*** ./node_modules/fbjs/lib/isNode.js ***!
   \*****************************************/
@@ -694,7 +694,7 @@ module.exports = isNode;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/isTextNode.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/isTextNode.js":
 /*!*********************************************!*\
   !*** ./node_modules/fbjs/lib/isTextNode.js ***!
   \*********************************************/
@@ -713,7 +713,7 @@ module.exports = isNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(/*! ./isNode */ "./node_modules/fbjs/lib/isNode.js");
+var isNode = __webpack_require__(/*! ./isNode */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/isNode.js");
 
 /**
  * @param {*} object The object to check.
@@ -727,7 +727,7 @@ module.exports = isTextNode;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/shallowEqual.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/shallowEqual.js":
 /*!***********************************************!*\
   !*** ./node_modules/fbjs/lib/shallowEqual.js ***!
   \***********************************************/
@@ -803,7 +803,7 @@ module.exports = shallowEqual;
 
 /***/ }),
 
-/***/ "./node_modules/fbjs/lib/warning.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/warning.js":
 /*!******************************************!*\
   !*** ./node_modules/fbjs/lib/warning.js ***!
   \******************************************/
@@ -821,7 +821,7 @@ module.exports = shallowEqual;
 
 
 
-var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "./node_modules/fbjs/lib/emptyFunction.js");
+var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyFunction.js");
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -876,7 +876,7 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "./node_modules/object-assign/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
   \*********************************************/
@@ -978,7 +978,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/checkPropTypes.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************!*\
   !*** ./node_modules/prop-types/checkPropTypes.js ***!
   \***************************************************/
@@ -998,7 +998,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 var printWarning = function() {};
 
 if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
   var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
@@ -1092,7 +1092,7 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/factoryWithTypeCheckers.js":
 /*!************************************************************!*\
   !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
   \************************************************************/
@@ -1109,11 +1109,11 @@ module.exports = checkPropTypes;
 
 
 
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+var ReactIs = __webpack_require__(/*! react-is */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-is/index.js");
+var assign = __webpack_require__(/*! object-assign */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/object-assign/index.js");
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/checkPropTypes.js");
 
 var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
@@ -1695,7 +1695,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/index.js":
 /*!******************************************!*\
   !*** ./node_modules/prop-types/index.js ***!
   \******************************************/
@@ -1710,18 +1710,18 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
  */
 
 if (true) {
-  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+  var ReactIs = __webpack_require__(/*! react-is */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}
 
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************!*\
   !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
   \*************************************************************/
@@ -1745,7 +1745,7 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/react-dom/cjs/react-dom.development.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
   \*************************************************************/
@@ -1770,21 +1770,21 @@ if (true) {
   (function() {
 'use strict';
 
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/fbjs/lib/invariant.js");
-var warning = __webpack_require__(/*! fbjs/lib/warning */ "./node_modules/fbjs/lib/warning.js");
-var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ "./node_modules/fbjs/lib/ExecutionEnvironment.js");
-var _assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "./node_modules/fbjs/lib/emptyFunction.js");
-var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ "./node_modules/fbjs/lib/EventListener.js");
-var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ "./node_modules/fbjs/lib/getActiveElement.js");
-var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ "./node_modules/fbjs/lib/shallowEqual.js");
-var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ "./node_modules/fbjs/lib/containsNode.js");
-var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ "./node_modules/fbjs/lib/focusNode.js");
-var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "./node_modules/fbjs/lib/emptyObject.js");
-var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
-var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ "./node_modules/fbjs/lib/hyphenateStyleName.js");
-var camelizeStyleName = __webpack_require__(/*! fbjs/lib/camelizeStyleName */ "./node_modules/fbjs/lib/camelizeStyleName.js");
+var React = __webpack_require__(/*! react */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js");
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/invariant.js");
+var warning = __webpack_require__(/*! fbjs/lib/warning */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/warning.js");
+var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/ExecutionEnvironment.js");
+var _assign = __webpack_require__(/*! object-assign */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/object-assign/index.js");
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyFunction.js");
+var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/EventListener.js");
+var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/getActiveElement.js");
+var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/shallowEqual.js");
+var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/containsNode.js");
+var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/focusNode.js");
+var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyObject.js");
+var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/checkPropTypes.js");
+var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/hyphenateStyleName.js");
+var camelizeStyleName = __webpack_require__(/*! fbjs/lib/camelizeStyleName */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/camelizeStyleName.js");
 
 /**
  * WARNING: DO NOT manually require this module.
@@ -15622,7 +15622,7 @@ function createElement$1(type, props, rootContainerElement, parentNamespace) {
       // Create the script via .innerHTML so its "parser-inserted" flag is
       // set to true and it does not execute
       var div = ownerDocument.createElement('div');
-      div.innerHTML = '<script><' + './script>'; // eslint-disable-line
+      div.innerHTML = '<script><' + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/script>'; // eslint-disable-line
       // This is guaranteed to yield a script element.
       var firstChild = div.firstChild;
       domElement = div.removeChild(firstChild);
@@ -17151,7 +17151,7 @@ module.exports = reactDom;
 
 /***/ }),
 
-/***/ "./node_modules/react-dom/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-dom/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
   \*****************************************/
@@ -17190,13 +17190,13 @@ function checkDCE() {
 }
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "./node_modules/react-dom/cjs/react-dom.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-dom/cjs/react-dom.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
   \***********************************************************/
@@ -17444,7 +17444,7 @@ exports.isSuspense = isSuspense;
 
 /***/ }),
 
-/***/ "./node_modules/react-is/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-is/index.js":
 /*!****************************************!*\
   !*** ./node_modules/react-is/index.js ***!
   \****************************************/
@@ -17455,13 +17455,13 @@ exports.isSuspense = isSuspense;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react-is/cjs/react-is.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/react/cjs/react.development.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/cjs/react.development.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
@@ -17486,12 +17486,12 @@ if (true) {
   (function() {
 'use strict';
 
-var _assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
-var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "./node_modules/fbjs/lib/emptyObject.js");
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/fbjs/lib/invariant.js");
-var warning = __webpack_require__(/*! fbjs/lib/warning */ "./node_modules/fbjs/lib/warning.js");
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "./node_modules/fbjs/lib/emptyFunction.js");
-var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+var _assign = __webpack_require__(/*! object-assign */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/object-assign/index.js");
+var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyObject.js");
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/invariant.js");
+var warning = __webpack_require__(/*! fbjs/lib/warning */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/warning.js");
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/fbjs/lib/emptyFunction.js");
+var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/prop-types/checkPropTypes.js");
 
 // TODO: this is special because it gets imported during build.
 
@@ -18365,7 +18365,7 @@ function mapSingleChildIntoContext(bookKeeping, child, childKey) {
       mappedChild = cloneAndReplaceKey(mappedChild,
       // Keep both the (mapped) and old keys if they differ, just as
       // traverseAllChildren used to do for objects as children
-      keyPrefix + (mappedChild.key && (!child || child.key !== mappedChild.key) ? escapeUserProvidedKey(mappedChild.key) + './' : '') + childKey);
+      keyPrefix + (mappedChild.key && (!child || child.key !== mappedChild.key) ? escapeUserProvidedKey(mappedChild.key) + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/' : '') + childKey);
     }
     result.push(mappedChild);
   }
@@ -18374,7 +18374,7 @@ function mapSingleChildIntoContext(bookKeeping, child, childKey) {
 function mapIntoWithKeyPrefixInternal(children, array, prefix, func, context) {
   var escapedPrefix = '';
   if (prefix != null) {
-    escapedPrefix = escapeUserProvidedKey(prefix) + './';
+    escapedPrefix = escapeUserProvidedKey(prefix) + 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/';
   }
   var traverseContext = getPooledTraverseContext(array, escapedPrefix, func, context);
   traverseAllChildren(children, mapSingleChildIntoContext, traverseContext);
@@ -18830,7 +18830,7 @@ module.exports = react;
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/index.js":
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
@@ -18841,13 +18841,13 @@ module.exports = react;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "./node_modules/react/cjs/react.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/react/cjs/react.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/lib/addStyles.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
   \****************************************************/
@@ -18920,7 +18920,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+var	fixUrls = __webpack_require__(/*! ./urls */ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/urls.js");
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -19265,7 +19265,7 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/lib/urls.js":
+/***/ "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/node_modules/style-loader/lib/urls.js":
 /*!***********************************************!*\
   !*** ./node_modules/style-loader/lib/urls.js ***!
   \***********************************************/
@@ -19299,8 +19299,8 @@ module.exports = function (css) {
 	  return css;
   }
 
-  var baseUrl = location.protocol + ".//" + location.host;
-  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "./");
+  var baseUrl = location.protocol + "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/");
 
 	// convert each url(...)
 	/*
@@ -19343,15 +19343,15 @@ module.exports = function (css) {
 		// convert the url to a full url
 		var newUrl;
 
-		if (unquotedOrigUrl.indexOf(".//") === 0) {
+		if (unquotedOrigUrl.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main//") === 0) {
 		  	//TODO: should we add protocol?
 			newUrl = unquotedOrigUrl;
-		} else if (unquotedOrigUrl.indexOf("./") === 0) {
+		} else if (unquotedOrigUrl.indexOf("https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/") === 0) {
 			// path should be relative to the base url
-			newUrl = baseUrl + unquotedOrigUrl; // already starts with './'
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'
 		} else {
 			// path should be relative to current directory
-			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/'
 		}
 
 		// send back the fixed url(...)

@@ -9,7 +9,7 @@ import Input from '../framework/input.class.js';
 import ModelManager from '../framework/modelmanager.class.js';
 import Time from '../framework/time.class.js';
 
-import Context from './context.class.js';
+import Context from 'https://cdn.jsdelivr.net/gh/Haha64142/seraph@main/context.class.js';
 
 import * as THREE from '../lib/three.js/three.module.js';
 
